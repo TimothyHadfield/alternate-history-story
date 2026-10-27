@@ -94,6 +94,10 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
 .leaflet-popup-content{font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;margin:10px 12px}
 .leaflet-popup-content b{font-family:Georgia,serif;font-size:16px;display:block}
 .leaflet-popup-content .f{color:#7a6f62;font-size:12px}
+.chips .sep{flex:none;width:1px;background:var(--line);margin:2px 4px}
+.civlbl{background:none;border:0;box-shadow:none;padding:0;font-size:11px;font-weight:600;color:#3a2f25;text-shadow:0 0 3px #fff,0 0 3px #fff}
+.civlbl:before{display:none}
+#leaf.z-lo .civlbl,#leaf.z-mid .civlbl:not(.big){display:none}
 
 /* Phone */
 .tabbar{display:none}
@@ -145,7 +149,7 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
       </div>
     </section>
     <section class="view" id="map">
-      <div class="top"><div class="chips" id="mapchips"></div></div>
+      <div class="top"><div class="chips" id="mapmode"></div><div class="chips" id="mapchips"></div></div>
       <div id="leaf"></div>
     </section>
     <section class="view" id="notes">
@@ -299,7 +303,19 @@ document.querySelectorAll(".tabbtn").forEach(b => b.onclick = () => {
 // Map
 const PLACE_COLORS = {Homeland:"#8a4b16",Gold:"#e0b000",Silver:"#8e9aa6",Iron:"#9c3d2e",Coal:"#2b2b2b",Copper:"#d07a3a",
   Tin:"#6b8fa3",Chemicals:"#7aa83a",Oil:"#5a3f8c",Spice:"#c2185b",Goods:"#2e8b7a",Chokepoint:"#1f6fd1"};
+// State religion codes used in data/civs.json
+const RELIGIONS = {C:["Catholic","#3b6fb6"],O:["Orthodox","#8a63c9"],E:["Eastern Christian","#c06aa8"],S:["Sunni Islam","#2e8b57"],
+  I:["Ibadi Islam","#a6a23f"],D:["Hindu","#e07b39"],B:["Buddhist","#e8b923"],Z:["Chinese","#d0574f"],T:["Steppe (Tengri)","#8c6d4f"],L:["Local / traditional","#a7adb2"]};
+const POP_BINS = [[0.5,"<0.5M","#e3ecf6"],[2,"0.5–2M","#b6cde6"],[5,"2–5M","#7fa8d4"],[15,"5–15M","#4a7fbd"],[40,"15–40M","#2a5a9a"],[Infinity,"40M+","#163a6e"]];
+const RES_BINS = [[1,"1 site","#efd27f"],[2,"2","#e3a64a"],[4,"3–4","#cc6f22"],[Infinity,"5+","#8f3a12"]];
+const RES_TYPES = ["Gold","Silver","Iron","Coal","Copper","Tin","Chemicals","Oil","Spice","Goods"];
+const CIV_PAL = ["#c7a46b","#9bb37a","#7fa6c4","#c48f8f","#a99ac9","#d1b25a","#86b8a8","#c9a0b8","#b3a58a","#8fa0b5"];
+const MAP_MODES = [["places","Places"],["civs","Civilizations"],["religion","Religion"],["pop","Population"],["res","Resources"]];
+const YEARLY = ["civs","religion","pop"];
 let leaf = null, places = [], markers = [], mapType = null;
+let mapMode = "places", mapYear = "1200", relSel = null, civs = null, borders = {}, borderLayer = null, resLayer = null;
+function civInfo(name){ const c = civs[mapYear][name] || ["L", null]; return {r:c[0], p:c[1], n:c[2] || name}; }
+function civColor(s){ let h = 0; for (const ch of s) h = (h * 31 + ch.charCodeAt(0)) >>> 0; return CIV_PAL[h % CIV_PAL.length]; }
 function showMap(){
   if (leaf){ leaf.invalidateSize(); return; }
   const phone = matchMedia("(max-width:860px)").matches;
@@ -309,6 +325,8 @@ function showMap(){
     maxZoom: 10, maxNativeZoom: 8,
     attribution: "Tiles &copy; Esri &mdash; US National Park Service"
   }).addTo(leaf);
+  const zcls = () => { const z = leaf.getZoom(); $("#leaf").classList.toggle("z-lo", z < 3); $("#leaf").classList.toggle("z-mid", z >= 3 && z < 4); };
+  leaf.on("zoomend", zcls); zcls();
   fetch("data/places.json", {cache:"no-cache"}).then(r => r.json()).then(data => {
     places = data;
     markers = places.map(p => {
@@ -322,13 +340,75 @@ function showMap(){
   });
 }
 function drawMap(){
-  const types = Object.keys(PLACE_COLORS);
-  $("#mapchips").innerHTML = `<button class="chip${mapType == null ? " on" : ""}" data-t="">All</button>` +
-    types.map(t => `<button class="chip${mapType === t ? " on" : ""}" data-t="${t}"><i style="background:${PLACE_COLORS[t]}"></i>${t === "Homeland" ? "Homelands" : t}</button>`).join("");
-  markers.forEach(m => (mapType == null || m._t === mapType) ? m.addTo(leaf) : m.remove());
+  const yearly = YEARLY.includes(mapMode);
+  $("#mapmode").innerHTML = MAP_MODES.map(([k, t]) => `<button class="chip${mapMode === k ? " on" : ""}" data-m="${k}">${t}</button>`).join("") +
+    (yearly ? `<span class="sep"></span>` + ["1200","1279"].map(y => `<button class="chip${mapYear === y ? " on" : ""}" data-y="${y}">${y}</button>`).join("") : "");
+  let legend;
+  if (mapMode === "places") legend = `<button class="chip${mapType == null ? " on" : ""}" data-t="">All</button>` +
+    Object.keys(PLACE_COLORS).map(t => `<button class="chip${mapType === t ? " on" : ""}" data-t="${t}"><i style="background:${PLACE_COLORS[t]}"></i>${t === "Homeland" ? "Homelands" : t}</button>`).join("");
+  else if (mapMode === "civs") legend = `<span class="chip">${mapYear === "1200" ? "Before the Mongol conquests" : "After the Mongol conquests"}</span>`;
+  else if (mapMode === "religion") legend = Object.entries(RELIGIONS).map(([k, [t, c]]) => `<button class="chip${relSel === k ? " on" : ""}" data-r="${k}"><i style="background:${c}"></i>${t}</button>`).join("");
+  else if (mapMode === "pop") legend = POP_BINS.map(b => `<span class="chip"><i style="background:${b[2]}"></i>${b[1]}</span>`).join("") +
+    `<span class="chip"><i style="background:#e6e6e6"></i>Unknown</span>`;
+  else legend = RES_BINS.map(b => `<span class="chip"><i style="background:${b[2]}"></i>${b[1]}</span>`).join("") + `<span class="chip">per 5° square</span>`;
+  $("#mapchips").innerHTML = legend;
+  markers.forEach(m => (mapMode === "places" && (mapType == null || m._t === mapType)) ? m.addTo(leaf) : m.remove());
   markers.filter(m => m._t === "Homeland").forEach(m => m.bringToFront && leaf.hasLayer(m) && m.bringToFront());
+  if (yearly) drawBorders(); else if (borderLayer){ borderLayer.remove(); borderLayer = null; }
+  if (mapMode === "res") drawRes(); else if (resLayer){ resLayer.remove(); resLayer = null; }
 }
-$("#mapchips").onclick = e => { const c = e.target.closest(".chip"); if (!c) return; mapType = c.dataset.t || null; drawMap(); };
+function drawBorders(){
+  if (borderLayer){ borderLayer.remove(); borderLayer = null; }
+  if (!civs || !borders[mapYear]){
+    const y = mapYear;
+    Promise.all([civs || fetch("data/civs.json", {cache:"no-cache"}).then(r => r.json()), fetch(`data/borders-${y}.json`).then(r => r.json())])
+      .then(([c, b]) => { civs = c; borders[y] = b; if (YEARLY.includes(mapMode) && mapYear === y) drawBorders(); });
+    return;
+  }
+  borderLayer = L.geoJSON(borders[mapYear], {
+    attribution: 'Borders: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a>',
+    style: f => {
+      const c = civInfo(f.properties.NAME);
+      const fill = mapMode === "civs" ? civColor(f.properties.SUBJECTO || f.properties.NAME)
+        : mapMode === "religion" ? RELIGIONS[c.r][1]
+        : c.p == null ? "#e6e6e6" : POP_BINS.find(b => c.p < b[0])[2];
+      const dim = mapMode === "religion" && relSel && c.r !== relSel;
+      return {color:"#5a4a3a", weight:.6, fillColor:fill, fillOpacity: dim ? .08 : .6};
+    },
+    onEachFeature: (f, l) => {
+      const c = civInfo(f.properties.NAME), sub = f.properties.SUBJECTO;
+      l.bindPopup(`<b>${esc(c.n)}</b><span class="f">${RELIGIONS[c.r][0]} · ${c.p == null ? "population unknown" : "~" + c.p + "M people"}` +
+        `${sub && sub !== f.properties.NAME ? " · part of " + esc(sub) : ""}</span>`);
+      if (c.p >= 1) l.bindTooltip(esc(c.n.replace(/ \(.*\)$/, "")), {permanent:true, direction:"center", className:"civlbl" + (c.p >= 5 ? " big" : "")});
+    }
+  }).addTo(leaf);
+}
+function drawRes(){
+  if (resLayer) resLayer.remove();
+  const cells = {};
+  places.filter(p => RES_TYPES.includes(p.t)).forEach(p => {
+    const k = Math.floor(p.la / 5) + "," + Math.floor(p.lo / 5);
+    (cells[k] = cells[k] || []).push(p);
+  });
+  resLayer = L.layerGroup(Object.entries(cells).map(([k, ps]) => {
+    const [a, o] = k.split(",").map(Number), b = RES_BINS.find(x => ps.length <= x[0]);
+    return L.rectangle([[a * 5, o * 5], [a * 5 + 5, o * 5 + 5]], {weight:0, fillColor:b[2], fillOpacity:.75})
+      .bindPopup(`<b>${ps.length} resource site${ps.length > 1 ? "s" : ""}</b><div>${ps.map(p => esc(p.n) + " (" + p.t + ")").join("<br>")}</div>`);
+  })).addTo(leaf);
+}
+$("#mapmode").onclick = e => {
+  const c = e.target.closest(".chip"); if (!c) return;
+  if (c.dataset.m){ mapMode = c.dataset.m; relSel = null; }
+  if (c.dataset.y) mapYear = c.dataset.y;
+  drawMap();
+};
+$("#mapchips").onclick = e => {
+  const c = e.target.closest(".chip"); if (!c) return;
+  if (c.dataset.t != null) mapType = c.dataset.t || null;
+  else if (c.dataset.r) relSel = relSel === c.dataset.r ? null : c.dataset.r;
+  else return;
+  drawMap();
+};
 
 // Notes
 $("#notelist").innerHTML = NOTES.map(([f, t]) => `<button data-f="${f}">${t}</button>`).join("");

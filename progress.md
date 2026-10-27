@@ -28,6 +28,7 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 | Government | [brainstorm/government.md](brainstorm/government.md) | Tim's model: total founder authority + built-in local feedback, bad-news reporting, trained successor / power-sharing fallback. Claude agreed. |
 | Population | [brainstorm/population.md](brainstorm/population.md) | Max births + max immigration, never letting food/housing per person fall |
 | Rising to power | [brainstorm/rise-to-power.md](brainstorm/rise-to-power.md) | 10 routes, proofs, by-society table. Prophecy only as one secret proof to one patron |
+| Map modes | [index.html](index.html), [data/civs.json](data/civs.json), data/borders-1200.json, data/borders-1279.json | Map tab: Places · Civilizations · Religion · Population · Resources, year 1200/1279. Borders from aourednik/historical-basemaps (GPL-3.0), simplified with mapshaper to 30%. Religion = state religion of the rulers; populations are rough guesses from memory |
 | Two-stage start | [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md) | Rise-difficulty table, 4 combined plans, plan A timeline |
 | Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
 | Framing / plot / characters | — | Not started ("figure it out later") |
@@ -51,6 +52,9 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 - The site fetches files, so test it through a local server (`python -m http.server <port>`), not file://. Port 8765 is used by another project on this laptop.
 - New brainstorm files need adding to the `NOTES` list in index.html to show on the site.
 - Map tiles: CARTO now shows "API KEY REQUIRED"; using Esri World_Physical_Map (no key, no modern borders, native max zoom 8).
+- The historical-basemaps borders have errors for 1200 (Fatimids, Buyids, Ghaznavids, Liao, Huari and Tiwanaku are shown although they were gone by then). [data/civs.json](data/civs.json) fixes the display names; the shapes are left as they are. Polities not listed in civs.json default to "Local / traditional, population unknown".
+- Map labels: shown at zoom 3 only for populations of 5M or more, and at zoom 4+ for 1M or more (to avoid overlap in Europe).
+- PowerShell 5.1 `Invoke-WebRequest` stalls on big downloads here; use `curl` in Bash.
 - phone-view's WebKit engine crashed at launch on 2026-10-27 ("browserContext.newPage: Target page ... closed"); Map/Trade checks that day used `--engine chrome`.
 
 ## Decisions
@@ -64,6 +68,7 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 - All time estimates are story estimates, not research numbers.
 - Site not yet checked on Tim's real iPhone (Ideas/Notes checked in WebKit 393px; Map only in Chrome engine).
 - Place coordinates and "found" dates are approximate, from memory.
+- Civilization populations and religions in civs.json are from memory. "Resources" density counts only the ~110 sites in places.json, not a real survey.
 
 ## Rejected / parked
 - ~~Heresy/Church risk markers in pure-knowledge.md~~: removed 2026-10-27, Tim said it's getting ahead of ourselves.
