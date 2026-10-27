@@ -19,6 +19,12 @@ Calculus, fundamentals of electricity, astrophysics, medicine, powerful technolo
 ## The framing idea (low priority — "let's figure it out later")
 "maybe have the story start in a dystopian future and then the person is sent back in time to save the world from being destroyed but they have to develop our technology as fast as they can so they don't get destroyed."
 
+## Settled in later messages (2026-10-27)
+- The leader lives a long time but still plans for his death.
+- Government: total power for him, with systems for local needs, bad-news reporting, and a trained successor or power-sharing after him.
+- Population: maximum births + maximum immigration while growth stays positive.
+- Prophecy is a cliché he dislikes; at most a single proof to one secret patron.
+
 ## His chosen first steps
 1. Organize the things a society could develop relatively quickly.
 2. Figure out what the time traveler would have to know to pull it off.

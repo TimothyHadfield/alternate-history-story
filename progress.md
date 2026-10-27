@@ -25,7 +25,9 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 | Resources + who got rich | [brainstorm/resources.md](brainstorm/resources.md) + [data/places.json](data/places.json) | First draft; ~110 places on the site's Map tab |
 | Trade & wealth | [brainstorm/trade-and-wealth.md](brainstorm/trade-and-wealth.md) | First draft; `t` field in ideas.json = trade value (💰 filter) |
 | Long-term tech (10–100 yrs) | [brainstorm/long-term-tech.md](brainstorm/long-term-tech.md) | First draft; 30 long-term items added to ideas.json (141 total) |
-| Government | [brainstorm/government.md](brainstorm/government.md) | First draft. Tim leans total power + socialism; Claude suggested 3 phases (founder → developmental state → institutions that outlast him). NOT decided |
+| Government | [brainstorm/government.md](brainstorm/government.md) | Tim's model: total founder authority + built-in local feedback, bad-news reporting, trained successor / power-sharing fallback. Claude agreed. |
+| Population | [brainstorm/population.md](brainstorm/population.md) | Max births + max immigration, never letting food/housing per person fall |
+| Rising to power | [brainstorm/rise-to-power.md](brainstorm/rise-to-power.md) | 10 routes, proofs, by-society table. Prophecy only as one secret proof to one patron |
 | Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
 | Framing / plot / characters | — | Not started ("figure it out later") |
 
@@ -37,6 +39,9 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 - "the best improvements are simple things that nobody thought about but have massive implications."
 - How he got sent back: "this part doesn't really matter much so let's figure it out later."
 - On heresy/Church talk: "That's getting ahead of ourselves. We don't even know for sure what location we're being dropped off in ... Let's focus on the inventions and procedures first." → No religion/politics/plot risks for now.
+- The leader "isn't going to die for a long time, but the leader will still be considering it as a possibility in their plan."
+- Population: "maximum population growth as well as maximum immigration while maintaining positive growth."
+- Predicting events: "I don't love the predicting events thing; it's kind of a cliche ... not repeatable." OK only as one proof to a single powerful person he reveals the truth to.
 
 ## Traps
 - `Alternate_history.html` in the root is an empty 0-byte file Tim created. Left untouched (not the site; the site is `index.html`).

@@ -2,6 +2,11 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (seventh message)
+- Problems with total power are mostly poor leadership: fix with a system connected to local needs, encouraged bad-news reporting, a trained successor or power distributed after death. Leader lives long but plans for death. → [government.md](government.md) "Tim's model"
+- Maximum population growth + maximum immigration while keeping growth positive. → [population.md](population.md)
+- How a modern person rises to power in different 1200s societies: math proofs, technology, influence. Dislikes prediction (cliché, god-like, not repeatable) except as a single proof to one powerful person. → [rise-to-power.md](rise-to-power.md)
+
 ## 2026-10-27 (sixth message)
 - Best government to speedrun growth (population, technology, every metric) with him in charge. Leans: "complete power to me would be best because I know best"; some socialism (food, healthcare, education for all); "essentially everyone would work for the government"; spend the surplus on research and exploration. → [government.md](government.md)
 
