@@ -17,6 +17,9 @@ Brainstorm and organize. Tim's three first steps: (1) list what a society could 
 | Time periods | [brainstorm/time-periods.md](brainstorm/time-periods.md) | First draft; recommended High Middle Ages ~1200–1230, runner-up late Roman Republic |
 | Prior art | [brainstorm/prior-art.md](brainstorm/prior-art.md) | First draft (from memory, not web-checked) |
 | Protagonist knowledge | [brainstorm/protagonist-knowledge.md](brainstorm/protagonist-knowledge.md) | First draft |
+| Chemistry recipes | [brainstorm/chemistry.md](brainstorm/chemistry.md) | First draft (gunpowder, nitrogen fixation incl. arc process, acids, medicine) |
+| Enabler tools | [brainstorm/tools-that-make-tools.md](brainstorm/tools-that-make-tools.md) | First draft (measurement, three-plate flatness, machine tools, lasers = late) |
+| Pure knowledge | [brainstorm/pure-knowledge.md](brainstorm/pure-knowledge.md) | First draft (bio, chem, math, earth, astronomy, light, others; Claim → Demonstration → Adoption mechanic) |
 | Framing / plot / characters | — | Not started ("figure it out later") |
 
 ## Authorized next steps

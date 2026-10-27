@@ -6,3 +6,4 @@
 - **Built:** direction.md, progress.md, chat.md, brainstorm/ (ideas-inbox, tech-tree, time-periods, prior-art, protagonist-knowledge). Git repo + private GitHub repo.
 - **Verified:** files written; prior art from memory only.
 - **Open:** time period choice, protagonist type, how he gains power, framing story.
+- **Same session, msg 2:** Tim asked about chemistry ("hard to know, easy to make"), enabler tools (precision, lasers), and pure knowledge across fields. Wrote chemistry.md, tools-that-make-tools.md, pure-knowledge.md. Read "Astrology" as astronomy (told him). Flagged Haber-Bosch as the exception (pressure is hard) and suggested the electric-arc nitrogen process for an EE hero.

@@ -2,6 +2,11 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (second message)
+- Chemistry may be the best angle: "so difficult to find and know what to do with, but actually making them might be very simple mixing of ingredients, heating/pressure." Gunpowder, nitrogen-from-air fertilizer. → [chemistry.md](chemistry.md)
+- Enabler tools that make other things: precision cutting, lasers. → [tools-that-make-tools.md](tools-that-make-tools.md)
+- Pure knowledge centuries early: biology, chemistry, math, earth science, astronomy, light, "any other topics". → [pure-knowledge.md](pure-knowledge.md)
+
 ## 2026-10-27 (first session)
 - Main character goes back to an ancient/old world with modern knowledge. How much impact could he make — diplomatic, technological, other?
 - He gets into a position of power and tells people to do things that confuse them but change the world.
