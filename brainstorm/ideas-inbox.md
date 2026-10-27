@@ -2,6 +2,12 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (eighth and ninth messages)
+- Where were Frederick II and Fibonacci? (Frederick: Palermo, Foggia, Naples; Fibonacci: Pisa, raised partly in Béjaïa; they met around 1225.)
+- Location choice should include **difficulty of rising to power**.
+- Explore **starting in one place, then travelling to the long-term place** to grow influence.
+- Likes **people escaping the Mongols** and **interacting with Fibonacci**, but other location factors may outweigh them. → [two-stage-start.md](two-stage-start.md)
+
 ## 2026-10-27 (seventh message)
 - Problems with total power are mostly poor leadership: fix with a system connected to local needs, encouraged bad-news reporting, a trained successor or power distributed after death. Leader lives long but plans for death. → [government.md](government.md) "Tim's model"
 - Maximum population growth + maximum immigration while keeping growth positive. → [population.md](population.md)

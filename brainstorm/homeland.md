@@ -55,4 +55,6 @@ Scores 1–5, higher is better. "Head start" = years before a strong outside pow
 ## Claude's recommendation
 **Southern Africa highveld, starting at the Mapungubwe kingdom (~1220s).** It's the best balance: hidden for ~260 years, absurdly resource-dense, an existing kingdom with iron, cattle and a gold trade route to sell through, and it's almost unused in fiction. Runners-up: **Japan** (best people, less hidden) and **North America** (best resources and isolation, slowest start).
 
+**Update (2026-10-27):** with a two-stage start (climb at a rich court first, then lead refugees to the homeland), **North America moves up**, because the refugee fleet brings the animals, wheat, iron skills and people it lacks. See [two-stage-start.md](two-stage-start.md).
+
 *This is Tim's call. Changing the location also means the "1230 Europe" assumptions in the time estimates shift a bit.*

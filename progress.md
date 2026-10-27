@@ -7,7 +7,7 @@ A **writing project** with one small static website (GitHub Pages) that shows th
 Live site: https://timothyhadfield.github.io/alternate-history-story/
 
 ## Goal right now
-Brainstorm and organize **inventions and procedures**, plus resources, trade and where to build. Location and time period not chosen yet. Tim floated a **hidden, protected homeland** (Americas, Indonesia, Africa, Australia); Claude recommended **southern Africa highveld (Mapungubwe, ~1220s)** with a "walled garden with one gate" trade strategy, runners-up Japan and North America. NOT chosen by Tim.
+Brainstorm and organize **inventions and procedures**, plus resources, trade and where to build. Location and time period not chosen yet. Tim floated a **hidden, protected homeland** (Americas, Indonesia, Africa, Australia); Claude recommended **southern Africa highveld (Mapungubwe, ~1220s)** with a "walled garden with one gate" trade strategy, runners-up Japan and North America. NOT chosen by Tim. Tim then proposed a **two-stage start** (rise somewhere, then move); he likes Mongol refugees and Fibonacci. Claude now leans toward **plan A: Frederick II's court and Pisa (~1220–1241) → lead the Mongol refugees (Cumans, Hungarians) by fleet → North America**, with plan B (around Africa to the highveld) as the alternative. See [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md). NOT chosen.
 
 ## Status
 | Piece | File | State |
@@ -28,6 +28,7 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 | Government | [brainstorm/government.md](brainstorm/government.md) | Tim's model: total founder authority + built-in local feedback, bad-news reporting, trained successor / power-sharing fallback. Claude agreed. |
 | Population | [brainstorm/population.md](brainstorm/population.md) | Max births + max immigration, never letting food/housing per person fall |
 | Rising to power | [brainstorm/rise-to-power.md](brainstorm/rise-to-power.md) | 10 routes, proofs, by-society table. Prophecy only as one secret proof to one patron |
+| Two-stage start | [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md) | Rise-difficulty table, 4 combined plans, plan A timeline |
 | Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
 | Framing / plot / characters | — | Not started ("figure it out later") |
 
