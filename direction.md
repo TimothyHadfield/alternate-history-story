@@ -1,0 +1,25 @@
+# Direction (Tim's intent — overrules everything else)
+
+Last updated: 2026-10-27
+
+## What this folder is
+"I want this folder dedicated to the creation, building, and writing of a fictional story."
+Right now: "just help me brainstorm and write down my thoughts and organize them with me."
+
+## The core fantasy (Tim's words)
+"I go back in time to an ancient or old world and knowing what I know now (or maybe what's possible to know now), how much of an impact could I make, diplomatically, technologically, and in any other ways."
+
+"I'm imagining myself being in a position of power and telling people to do all sorts of things that they are confused by but would change the world and their lives in extreme ways. **the best improvements are simple things that nobody thought about but have massive implications.**"
+
+"If I got in a position of power, I could allocate immense resources into science and recreating many of the impactful more modern inventions as well as going and finding natural resources to grow the wealth of my people and eventually leading my group of people into a industrial society in a medieval time period."
+
+## Things he named
+Calculus, fundamentals of electricity, astrophysics, medicine, powerful technology, hygiene and health, steam engine, simple electricity components, telescopes/glassware, chemical procedures.
+
+## The framing idea (low priority — "let's figure it out later")
+"maybe have the story start in a dystopian future and then the person is sent back in time to save the world from being destroyed but they have to develop our technology as fast as they can so they don't get destroyed."
+
+## His chosen first steps
+1. Organize the things a society could develop relatively quickly.
+2. Figure out what the time traveler would have to know to pull it off.
+3. Pick the best time period: "a time where the inventions/processes are relatively simple but put the people extremely far ahead of the rest of the world."
