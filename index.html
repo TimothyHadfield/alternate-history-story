@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Alternate History Story</title>
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
 :root{
   --bg:#f6f1e7; --panel:#fffdf8; --ink:#2b2620; --muted:#7a6f62; --line:#e4dccd;
@@ -85,6 +87,14 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
 .doc a{color:var(--accent)}
 .doc blockquote{border-left:3px solid var(--line);margin:0;padding-left:12px;color:var(--muted)}
 
+/* Map */
+#map{flex-direction:column}
+#map .top{border-bottom:1px solid var(--line)}
+#leaf{flex:1;min-height:0;background:var(--bg)}
+.leaflet-popup-content{font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;margin:10px 12px}
+.leaflet-popup-content b{font-family:Georgia,serif;font-size:16px;display:block}
+.leaflet-popup-content .f{color:#7a6f62;font-size:12px}
+
 /* Phone */
 .tabbar{display:none}
 .sheetbg{display:none}
@@ -120,6 +130,7 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
   <nav class="side">
     <h1>Alternate History Story</h1>
     <button class="tabbtn on" data-tab="ideas">Ideas</button>
+    <button class="tabbtn" data-tab="map">Map</button>
     <button class="tabbtn" data-tab="notes">Notes</button>
   </nav>
   <main>
@@ -133,6 +144,10 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
         <aside class="detail" id="detail"></aside>
       </div>
     </section>
+    <section class="view" id="map">
+      <div class="top"><div class="chips" id="mapchips"></div></div>
+      <div id="leaf"></div>
+    </section>
     <section class="view" id="notes">
       <div class="notelist" id="notelist"></div>
       <select class="notesel" id="notesel"></select>
@@ -141,6 +156,7 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
   </main>
   <div class="tabbar">
     <button class="tabbtn on" data-tab="ideas">Ideas</button>
+    <button class="tabbtn" data-tab="map">Map</button>
     <button class="tabbtn" data-tab="notes">Notes</button>
   </div>
 </div>
@@ -154,20 +170,23 @@ const BUCKETS = [
   {label:"3–5 years", short:"3–5 yr", max:60},
   {label:"6–10 years", short:"6–10 yr", max:120},
   {label:"11–20 years", short:"11–20 yr", max:240},
-  {label:"20+ years", short:"20+ yr", max:Infinity},
+  {label:"21–50 years", short:"21–50 yr", max:600},
+  {label:"50+ years", short:"50+ yr", max:Infinity},
 ];
 // green (fast) → red (slow)
-const BUCKET_COLORS = ["#7cc47a","#a6cf6f","#cdd46a","#e9c45f","#eda25a","#e6805a","#d9665f"];
+const BUCKET_COLORS = ["#7cc47a","#a6cf6f","#cdd46a","#e9c45f","#eda25a","#e6805a","#d9665f","#c0504f"];
 const CAT_COLORS = {Health:"#d0574f",Food:"#6aa84f",Math:"#4f7fc7",Society:"#9b6bc4",Communication:"#3fa7a3",
   Military:"#7d6a5a",Chemistry:"#d08b2c",Tools:"#5e6f80",Industry:"#a0522d",Electricity:"#c9b02a",Exploration:"#2f8fd0",Knowledge:"#b0569a"};
 const NOTES = [
   ["direction.md","The idea"],["brainstorm/ideas-inbox.md","Ideas inbox"],["brainstorm/timeline.md","How long things take"],
   ["brainstorm/tech-tree.md","Tech tree"],["brainstorm/chemistry.md","Chemistry"],["brainstorm/tools-that-make-tools.md","Tools that make tools"],
-  ["brainstorm/pure-knowledge.md","Pure knowledge"],["brainstorm/world-1200s.md","The world in 1230"],["brainstorm/time-periods.md","Time periods"],
+  ["brainstorm/pure-knowledge.md","Pure knowledge"],["brainstorm/long-term-tech.md","Long-term tech"],
+  ["brainstorm/trade-and-wealth.md","Trade & wealth"],["brainstorm/homeland.md","Where to build"],["brainstorm/resources.md","Resources"],
+  ["brainstorm/world-1200s.md","The world in 1230"],["brainstorm/events-1200s.md","Events 1200–1350"],["brainstorm/time-periods.md","Time periods"],
   ["brainstorm/protagonist-knowledge.md","The hero's knowledge"],["brainstorm/prior-art.md","Has it been done?"],
 ];
 
-let ideas = [], byName = {}, state = {bucket:null, cat:null, simple:false, sel:null};
+let ideas = [], byName = {}, state = {bucket:null, cat:null, simple:false, trade:false, sel:null};
 const $ = s => document.querySelector(s);
 const bucketOf = m => BUCKETS.findIndex(b => m <= b.max);
 const fmt = m => m === 0 ? "Instant" : m < 12 ? m + " mo" : (m % 12 ? (m/12).toFixed(1) : m/12) + " yr";
@@ -182,7 +201,7 @@ function fromZero(it, seen = new Set()){
 }
 
 function visible(){
-  return ideas.filter(it => (state.cat == null || it.c === state.cat) && (!state.simple || it.s));
+  return ideas.filter(it => (state.cat == null || it.c === state.cat) && (!state.simple || it.s) && (!state.trade || it.t));
 }
 
 function renderStrip(){
@@ -197,6 +216,7 @@ function renderChips(){
   const cats = Object.keys(CAT_COLORS);
   $("#chips").innerHTML =
     `<button class="chip${state.simple ? " on" : ""}" data-simple="1">⭐ Simple wins</button>` +
+    `<button class="chip${state.trade ? " on" : ""}" data-trade="1">💰 Trade</button>` +
     `<button class="chip${state.cat == null ? " on" : ""}" data-cat="">All</button>` +
     cats.map(c => `<button class="chip${state.cat === c ? " on" : ""}" data-cat="${c}"><i style="background:${CAT_COLORS[c]}"></i>${c}</button>`).join("");
 }
@@ -226,6 +246,7 @@ function renderDetail(){
     <h2>${esc(it.n)}</h2>
     <p class="desc">${esc(it.d)}</p>
     ${it.w ? `<div class="then"><b>In 1230</b>${esc(it.w)}</div>` : ""}
+    ${it.t ? `<div class="then"><b>💰 Trade</b>${esc(it.t)}</div>` : ""}
     <div class="facts">
       <span>Time</span><span><span class="tm" style="background:${BUCKET_COLORS[bi]}">${fmt(it.m)}</span></span>
       <span>From zero<button class="q" data-tip="z">?</button></span><span>${fmt(z)}</span>
@@ -255,11 +276,14 @@ function renderAll(){ renderStrip(); renderChips(); renderList(); renderDetail()
 
 $("#strip").onclick = e => { const b = e.target.closest(".seg"); if (!b) return; const i = +b.dataset.b; state.bucket = state.bucket === i ? null : i; renderAll(); };
 $("#chips").onclick = e => { const c = e.target.closest(".chip"); if (!c) return;
-  if (c.dataset.simple) state.simple = !state.simple; else state.cat = c.dataset.cat || null; renderAll(); };
+  if (c.dataset.simple) state.simple = !state.simple;
+  else if (c.dataset.trade) state.trade = !state.trade;
+  else state.cat = c.dataset.cat || null;
+  renderAll(); };
 $("#list").onclick = e => { const r = e.target.closest(".row"); if (r) select(r.dataset.n); };
 $("#detail").onclick = e => {
   const q = e.target.closest(".q"); if (q){ $("#tip-" + q.dataset.tip).classList.toggle("on"); return; }
-  const b = e.target.closest(".links button"); if (b && byName[b.dataset.n]){ state.bucket = null; state.cat = null; state.simple = false; renderStrip(); renderChips(); select(b.dataset.n); }
+  const b = e.target.closest(".links button"); if (b && byName[b.dataset.n]){ state.bucket = null; state.cat = null; state.simple = false; state.trade = false; renderStrip(); renderChips(); select(b.dataset.n); }
 };
 $("#sheetbg").onclick = closeSheet;
 
@@ -269,7 +293,42 @@ document.querySelectorAll(".tabbtn").forEach(b => b.onclick = () => {
   document.querySelectorAll(".view").forEach(v => v.classList.toggle("on", v.id === b.dataset.tab));
   closeSheet();
   if (b.dataset.tab === "notes" && !$("#doc").innerHTML) openNote(NOTES[0][0]);
+  if (b.dataset.tab === "map") showMap();
 });
+
+// Map
+const PLACE_COLORS = {Homeland:"#8a4b16",Gold:"#e0b000",Silver:"#8e9aa6",Iron:"#9c3d2e",Coal:"#2b2b2b",Copper:"#d07a3a",
+  Tin:"#6b8fa3",Chemicals:"#7aa83a",Oil:"#5a3f8c",Spice:"#c2185b",Goods:"#2e8b7a",Chokepoint:"#1f6fd1"};
+let leaf = null, places = [], markers = [], mapType = null;
+function showMap(){
+  if (leaf){ leaf.invalidateSize(); return; }
+  const phone = matchMedia("(max-width:860px)").matches;
+  leaf = L.map("leaf", {worldCopyJump:true, zoomControl:!phone, zoomSnap:0.5}).setView([10, phone ? 20 : 40], phone ? 1 : 2);
+  // Physical terrain map: no modern borders or cities, which suits a 1230 story
+  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 10, maxNativeZoom: 8,
+    attribution: "Tiles &copy; Esri &mdash; US National Park Service"
+  }).addTo(leaf);
+  fetch("data/places.json", {cache:"no-cache"}).then(r => r.json()).then(data => {
+    places = data;
+    markers = places.map(p => {
+      const home = p.t === "Homeland";
+      const m = L.circleMarker([p.la, p.lo], {radius: home ? 10 : 6, weight: home ? 3 : 1, color: home ? "#fff" : "#fff",
+        fillColor: PLACE_COLORS[p.t], fillOpacity: .9});
+      m.bindPopup(`<b>${esc(p.n)}</b><span class="f">${esc(p.t)}${p.f ? " · " + esc(p.f) : ""}</span><div>${esc(p.d)}</div>`);
+      m._t = p.t; return m;
+    });
+    drawMap();
+  });
+}
+function drawMap(){
+  const types = Object.keys(PLACE_COLORS);
+  $("#mapchips").innerHTML = `<button class="chip${mapType == null ? " on" : ""}" data-t="">All</button>` +
+    types.map(t => `<button class="chip${mapType === t ? " on" : ""}" data-t="${t}"><i style="background:${PLACE_COLORS[t]}"></i>${t === "Homeland" ? "Homelands" : t}</button>`).join("");
+  markers.forEach(m => (mapType == null || m._t === mapType) ? m.addTo(leaf) : m.remove());
+  markers.filter(m => m._t === "Homeland").forEach(m => m.bringToFront && leaf.hasLayer(m) && m.bringToFront());
+}
+$("#mapchips").onclick = e => { const c = e.target.closest(".chip"); if (!c) return; mapType = c.dataset.t || null; drawMap(); };
 
 // Notes
 $("#notelist").innerHTML = NOTES.map(([f, t]) => `<button data-f="${f}">${t}</button>`).join("");

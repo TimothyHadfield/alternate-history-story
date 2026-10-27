@@ -2,6 +2,13 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (fifth message)
+- Major events of the period; specific resource locations (iron/coal/silver/gold mines, spices, foods) where people grew rich. → [events-1200s.md](events-1200s.md), [resources.md](resources.md), website Map tab
+- Shipping might be very important. → [trade-and-wealth.md](trade-and-wealth.md)
+- Things that take 10–100 years. → [long-term-tech.md](long-term-tech.md)
+- Which inventions let the society trade and grow extremely rich. → 💰 Trade filter on the site
+- Start somewhere **hidden and protected** so powerful nations don't demolish it or steal inventions: Americas, Indonesia, parts of Africa, Australia? "Somewhere isolated enough for me to become their core leader and facilitate unrestricted growth." Resource density matters. "Maybe the benefits of trade don't compensate the risk of war." → [homeland.md](homeland.md)
+
 ## 2026-10-27 (third message)
 - Sort every invention/procedure by how long it takes to develop or implement ("washing hands = 6 months, gunpowder = 2 years", example numbers). → [timeline.md](timeline.md) + website Ideas tab
 - Wants a website on his GitHub showing everything organized.
