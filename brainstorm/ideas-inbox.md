@@ -2,6 +2,12 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (third message)
+- Sort every invention/procedure by how long it takes to develop or implement ("washing hands = 6 months, gunpowder = 2 years", example numbers). → [timeline.md](timeline.md) + website Ideas tab
+- Wants a website on his GitHub showing everything organized.
+- "You talked about what ideas the church might call heresy. That's getting ahead of ourselves. We don't even know for sure what location we're being dropped off in." Focus on inventions and procedures first.
+- What people in the 1200s knew and what technology they had. → [world-1200s.md](world-1200s.md) + "In 1230" line on every idea
+
 ## 2026-10-27 (second message)
 - Chemistry may be the best angle: "so difficult to find and know what to do with, but actually making them might be very simple mixing of ingredients, heating/pressure." Gunpowder, nitrogen-from-air fertilizer. → [chemistry.md](chemistry.md)
 - Enabler tools that make other things: precision cutting, lasers. → [tools-that-make-tools.md](tools-that-make-tools.md)

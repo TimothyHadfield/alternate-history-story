@@ -81,5 +81,4 @@ Legend: ⭐ = huge impact for very little effort.
 2. **Material quality:** steel, clear glass, pure chemicals.
 3. **Measurement:** no standard units, no thermometer, no accurate clock.
 4. **Resources:** coal, iron, copper, tin, sulfur, saltpeter. He needs to know *where* they are (geology knowledge is a superpower).
-5. **People:** skilled craftsmen, literacy, guild resistance, religious resistance.
-6. **Politics:** rivals, kings and churches who see him as a threat or a witch.
+5. **People:** skilled craftsmen, literacy, training enough workers.

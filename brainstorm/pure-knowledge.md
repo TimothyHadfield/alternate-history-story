@@ -13,7 +13,6 @@ History is full of ideas that were right and ignored: Aristarchus put the Sun at
 **Story mechanic:** every knowledge drop goes **Claim → Demonstration → Adoption**, and the demonstration is the scene.
 
 Payoff speed: ⚡ fast (years) · ⏳ medium (a generation) · 🌌 mostly awe/credibility.
-Danger: ☠️ = heresy risk with the medieval Church.
 
 ---
 
@@ -27,7 +26,7 @@ Danger: ☠️ = heresy risk with the medieval Church.
 | **Nutrition & vitamins** | Scurvy, rickets, goiter, beriberi solved; healthier soldiers and sailors | ⚡ |
 | **Blood circulation, blood types** | Safe transfusions (blood types can be tested by mixing drops on a plate) | ⏳ |
 | **Ecology: populations, invasive species** | Sustainable fishing and forests; don't release rabbits or rats on islands; animals as pest control | ⏳ |
-| **Evolution** ☠️ | Explains breeding and resistance; huge philosophical bomb | ⏳ / ☠️ |
+| **Evolution** | Explains breeding, and why germs and pests become resistant | ⏳ |
 | **Human anatomy, the brain, hormones** | Better surgery and medicine | ⏳ |
 
 ## Chemistry & physics of matter
@@ -66,16 +65,16 @@ Danger: ☠️ = heresy risk with the medieval Church.
 | **Plate tectonics** | Explains where earthquakes, volcanoes and ores are | ⏳ |
 | ⭐ **Climate history he can "prophesy"**: the **Samalas volcano** (Indonesia) erupts **1257** → cold years in Europe; the **Great Famine 1315–17**; the **Little Ice Age** starting ~1300 | Store grain early. A fulfilled prophecy = enormous power | ⚡ |
 | **Weather fronts + barometer forecasting** | Farming, sailing, battles | ⚡ |
-| **Deep time (Earth is billions of years old)** ☠️ | Philosophy; geology makes sense | 🌌 / ☠️ |
+| **Deep time (Earth is billions of years old)** | Geology makes sense; predicts where layers and fossils are | 🌌 |
 
 ## Astronomy
 *(Tim wrote "Astrology"; I read it as astronomy. Astrology is horoscopes — though a hero who uses real astronomy to look like a great astrologer is a fun angle.)*
 | Idea | What it changes | Speed |
 |---|---|---|
 | **Eclipse and comet predictions** (Halley's comet: 1222, 1301) | Prophet power. *Needs exact dates from memory or his device* | ⚡ |
-| **Fixing the calendar** (Julian calendar drift, Gregorian fix) | Accurate seasons, Easter dates. Gains the Church's interest | ⚡ |
+| **Fixing the calendar** (Julian calendar drift, Gregorian fix) | Accurate seasons and festival dates | ⚡ |
 | **Longitude from Jupiter's moons** (Galileo) | Navigation at sea (on land at least; ships are hard) | ⏳ |
-| **Sun-centered solar system, gravity, Kepler's laws** ☠️ | Physics unifies; orbits predictable | ⏳ / ☠️ |
+| **Sun-centered solar system, gravity, Kepler's laws** | Physics unifies; orbits predictable | ⏳ |
 | **Stars are suns, galaxies, light speed** | Awe, philosophy | 🌌 |
 | **Supernovae, black holes** | Pure wonder. **Tycho's supernova (1572)** and **Kepler's (1604)** are future "signs" he could predict | 🌌 |
 
@@ -100,5 +99,4 @@ Danger: ☠️ = heresy risk with the medieval Church.
 ## Story ideas from this file
 - **The prophet strategy**: the hero earns power first by predicting famines, eclipses and the 1257 eruption, then spends that credibility on stranger ideas.
 - **The plague arc**: he knows the Black Death is coming in 1347 and exactly how it spreads.
-- **The heresy line**: some knowledge (Sun-centered sky, evolution, deep time) he keeps secret or hides inside religious language.
 - **The codebreaker**: unbreakable codes give his kingdom a huge diplomatic and military edge.
