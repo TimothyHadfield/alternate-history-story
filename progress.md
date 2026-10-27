@@ -25,6 +25,7 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 | Resources + who got rich | [brainstorm/resources.md](brainstorm/resources.md) + [data/places.json](data/places.json) | First draft; ~110 places on the site's Map tab |
 | Trade & wealth | [brainstorm/trade-and-wealth.md](brainstorm/trade-and-wealth.md) | First draft; `t` field in ideas.json = trade value (💰 filter) |
 | Long-term tech (10–100 yrs) | [brainstorm/long-term-tech.md](brainstorm/long-term-tech.md) | First draft; 30 long-term items added to ideas.json (141 total) |
+| Government | [brainstorm/government.md](brainstorm/government.md) | First draft. Tim leans total power + socialism; Claude suggested 3 phases (founder → developmental state → institutions that outlast him). NOT decided |
 | Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
 | Framing / plot / characters | — | Not started ("figure it out later") |
 

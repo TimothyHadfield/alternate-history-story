@@ -2,6 +2,9 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (sixth message)
+- Best government to speedrun growth (population, technology, every metric) with him in charge. Leans: "complete power to me would be best because I know best"; some socialism (food, healthcare, education for all); "essentially everyone would work for the government"; spend the surplus on research and exploration. → [government.md](government.md)
+
 ## 2026-10-27 (fifth message)
 - Major events of the period; specific resource locations (iron/coal/silver/gold mines, spices, foods) where people grew rich. → [events-1200s.md](events-1200s.md), [resources.md](resources.md), website Map tab
 - Shipping might be very important. → [trade-and-wealth.md](trade-and-wealth.md)
