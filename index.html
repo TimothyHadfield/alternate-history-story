@@ -316,6 +316,13 @@ let leaf = null, places = [], markers = [], mapType = null;
 let mapMode = "places", mapYear = "1200", relSel = null, civs = null, borders = {}, borderLayer = null, resLayer = null;
 function civInfo(name){ const c = civs[mapYear][name] || ["L", null]; return {r:c[0], p:c[1], n:c[2] || name}; }
 function civColor(s){ let h = 0; for (const ch of s) h = (h * 31 + ch.charCodeAt(0)) >>> 0; return CIV_PAL[h % CIV_PAL.length]; }
+// Popups open on hover where there is a mouse; phones still tap
+const canHover = matchMedia("(hover:hover)").matches;
+function pop(l, html){
+  l.bindPopup(html, {autoPan:!canHover, closeButton:!canHover});
+  if (canHover) l.on("mouseover", e => l.openPopup(e.latlng)).on("mousemove", e => l.getPopup().setLatLng(e.latlng)).on("mouseout", () => l.closePopup());
+  return l;
+}
 function showMap(){
   if (leaf){ leaf.invalidateSize(); return; }
   const phone = matchMedia("(max-width:860px)").matches;
@@ -333,7 +340,7 @@ function showMap(){
       const home = p.t === "Homeland";
       const m = L.circleMarker([p.la, p.lo], {radius: home ? 10 : 6, weight: home ? 3 : 1, color: home ? "#fff" : "#fff",
         fillColor: PLACE_COLORS[p.t], fillOpacity: .9});
-      m.bindPopup(`<b>${esc(p.n)}</b><span class="f">${esc(p.t)}${p.f ? " · " + esc(p.f) : ""}</span><div>${esc(p.d)}</div>`);
+      pop(m, `<b>${esc(p.n)}</b><span class="f">${esc(p.t)}${p.f ? " · " + esc(p.f) : ""}</span><div>${esc(p.d)}</div>`);
       m._t = p.t; return m;
     });
     drawMap();
@@ -377,7 +384,7 @@ function drawBorders(){
     },
     onEachFeature: (f, l) => {
       const c = civInfo(f.properties.NAME), sub = f.properties.SUBJECTO;
-      l.bindPopup(`<b>${esc(c.n)}</b><span class="f">${RELIGIONS[c.r][0]} · ${c.p == null ? "population unknown" : "~" + c.p + "M people"}` +
+      pop(l, `<b>${esc(c.n)}</b><span class="f">${RELIGIONS[c.r][0]} · ${c.p == null ? "population unknown" : "~" + c.p + "M people"}` +
         `${sub && sub !== f.properties.NAME ? " · part of " + esc(sub) : ""}</span>`);
       if (c.p >= 1) l.bindTooltip(esc(c.n.replace(/ \(.*\)$/, "")), {permanent:true, direction:"center", className:"civlbl" + (c.p >= 5 ? " big" : "")});
     }
@@ -392,8 +399,8 @@ function drawRes(){
   });
   resLayer = L.layerGroup(Object.entries(cells).map(([k, ps]) => {
     const [a, o] = k.split(",").map(Number), b = RES_BINS.find(x => ps.length <= x[0]);
-    return L.rectangle([[a * 5, o * 5], [a * 5 + 5, o * 5 + 5]], {weight:0, fillColor:b[2], fillOpacity:.75})
-      .bindPopup(`<b>${ps.length} resource site${ps.length > 1 ? "s" : ""}</b><div>${ps.map(p => esc(p.n) + " (" + p.t + ")").join("<br>")}</div>`);
+    return pop(L.rectangle([[a * 5, o * 5], [a * 5 + 5, o * 5 + 5]], {weight:0, fillColor:b[2], fillOpacity:.75}),
+      `<b>${ps.length} resource site${ps.length > 1 ? "s" : ""}</b><div>${ps.map(p => esc(p.n) + " (" + p.t + ")").join("<br>")}</div>`);
   })).addTo(leaf);
 }
 $("#mapmode").onclick = e => {
