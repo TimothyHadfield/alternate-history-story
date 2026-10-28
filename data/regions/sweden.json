@@ -5,133 +5,1040 @@
   "pitch": "Tell Birger the truth, then build an iron, copper and water-power country behind him.",
   "score": 5.7,
   "year": 1240,
-  "view": {"center": [59.6, 16.8], "zoom": 6},
-  "core": {"n": "Stockholm and Lake Mälaren (Norrström outlet)", "la": 59.33, "lo": 18.07, "d": "The one narrow outlet of Lake Mälaren, through which all Uppland, Bergslagen iron and Falun copper must pass. In 1240 it is an island with at most a watch post; Stockholm is first written of in 1252. The rushing current at Norrström is the town's water-wheel site and toll gate."},
-  "start": {"n": "Bjälbo, Östergötland (Folkung home estate)", "la": 58.37, "lo": 15.03, "d": "Birger Magnusson's family seat on the Östergötland plain, ~200 km southwest of the core. He arrives in spring 1240, works on a farm or at a forge, and is noticed by Birger's steward in 1241."},
+  "view": {
+    "center": [
+      59.6,
+      16.8
+    ],
+    "zoom": 6
+  },
+  "core": {
+    "n": "Stockholm and Lake Mälaren (Norrström outlet)",
+    "la": 59.33,
+    "lo": 18.07,
+    "d": "The one narrow outlet of Lake Mälaren, through which all Uppland, Bergslagen iron and Falun copper must pass. In 1240 it is an island with at most a watch post; Stockholm is first written of in 1252. The rushing current at Norrström is the town's water-wheel site and toll gate.",
+    "img": {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Helgeandshusets_kvarn_V%C3%A4dersolstavlan_1535.jpg/500px-Helgeandshusets_kvarn_V%C3%A4dersolstavlan_1535.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Helgeandshusets_kvarn_V%C3%A4dersolstavlan_1535.jpg",
+      "c": "Painting: Urban målare (Vädersolstavlan), public domain",
+      "cap": "Norrström mills and water wheels, painted 1535"
+    }
+  },
+  "start": {
+    "n": "Bjälbo, Östergötland (Folkung home estate)",
+    "la": 58.37,
+    "lo": 15.03,
+    "d": "Birger Magnusson's family seat on the Östergötland plain, ~200 km southwest of the core. He arrives in spring 1240, works on a farm or at a forge, and is noticed by Birger's steward in 1241.",
+    "img": {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bj%C3%A4lbo_kyrka_view01.jpg/500px-Bj%C3%A4lbo_kyrka_view01.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Bj%C3%A4lbo_kyrka_view01.jpg",
+      "c": "Photo: Xauxa Håkan Svensson, CC BY-SA 3.0",
+      "cap": "Bjälbo church, the Folkungs' 12th-century family church"
+    }
+  },
   "facts": [
-    ["Population (Sweden)", "~500,000–750,000 (guess). One careful estimate gives ~500,000 just before the 1350 plague; the 1571 tax rolls give ~430,000–530,000"],
-    ["Population (Finland)", "~50,000 around 1300 (guess, Simola), mostly on the southwest coast and the Tavastian lakes"],
-    ["Ruler", "King Erik Eriksson (weak, childless); jarl Ulf Fase. Birger becomes jarl in 1248 and regent in 1250"],
-    ["Climate", "Cold continental-maritime. Mälaren January ~-3 °C, July ~16 °C; lakes freeze Dec–Apr. Little Ice Age from ~1300"],
-    ["Rain", "~500–700 mm a year around Mälaren and Östergötland, more in the west; snow cover 3–5 months"],
-    ["Growing season", "~150–180 days on the Mälaren and Östergötland plains, ~120 days in Dalarna and Norrland"],
-    ["Language", "Old Swedish (Old East Norse); Finnish and Karelian in the east, Sámi in the north; Low German is the trade tongue"],
-    ["Writing", "Runes still carved by farmers; Latin letters used by clergy. Provincial laws are only starting to be written down (Västgöta law ~1220s)"],
-    ["Religion", "Catholic, archbishop at Uppsala since 1164. Tavastians, Karelians and Sámi still largely pagan"],
-    ["Money", "Silver pennies (penningar) plus osmund iron lumps used as barter money; coal none"]
+    [
+      "Population (Sweden)",
+      "~500,000–750,000 (guess). One careful estimate gives ~500,000 just before the 1350 plague; the 1571 tax rolls give ~430,000–530,000"
+    ],
+    [
+      "Population (Finland)",
+      "~50,000 around 1300 (guess, Simola), mostly on the southwest coast and the Tavastian lakes"
+    ],
+    [
+      "Ruler",
+      "King Erik Eriksson (weak, childless); jarl Ulf Fase. Birger becomes jarl in 1248 and regent in 1250"
+    ],
+    [
+      "Climate",
+      "Cold continental-maritime. Mälaren January ~-3 °C, July ~16 °C; lakes freeze Dec–Apr. Little Ice Age from ~1300"
+    ],
+    [
+      "Rain",
+      "~500–700 mm a year around Mälaren and Östergötland, more in the west; snow cover 3–5 months"
+    ],
+    [
+      "Growing season",
+      "~150–180 days on the Mälaren and Östergötland plains, ~120 days in Dalarna and Norrland"
+    ],
+    [
+      "Language",
+      "Old Swedish (Old East Norse); Finnish and Karelian in the east, Sámi in the north; Low German is the trade tongue"
+    ],
+    [
+      "Writing",
+      "Runes still carved by farmers; Latin letters used by clergy. Provincial laws are only starting to be written down (Västgöta law ~1220s)"
+    ],
+    [
+      "Religion",
+      "Catholic, archbishop at Uppsala since 1164. Tavastians, Karelians and Sámi still largely pagan"
+    ],
+    [
+      "Money",
+      "Silver pennies (penningar) plus osmund iron lumps used as barter money; coal none"
+    ]
   ],
   "land": [
-    {"n": "Lake Mälaren basin", "la": 59.45, "lo": 17.0, "r": 70, "elev": "0–60 m", "rain": "~550 mm, summer peak", "d": "Flat clay plains and a maze of lake bays that were sea inlets not long before. Land is rising ~5 mm a year, so shores and harbors creep outward (Sigtuna's harbor is silting). Best farmland in Svealand."},
-    {"n": "Uppland plain and coast", "la": 60.0, "lo": 17.9, "r": 70, "elev": "0–50 m", "rain": "~550 mm", "d": "Low farmland, meadows and skerries around Uppsala, the old royal and church center. Good cattle and grain land by Swedish standards."},
-    {"n": "Bergslagen ore hills", "la": 60.0, "lo": 15.3, "r": 80, "elev": "100–400 m", "rain": "~650 mm", "d": "Rolling forest, lakes and streams packed with small iron ore bodies. Thin, stony soil; people live by mining, charcoal and smelting. Every stream can turn a bellows wheel."},
-    {"n": "Dalarna (Dalecarlia) valleys", "la": 60.8, "lo": 14.8, "r": 90, "elev": "150–600 m", "rain": "~600–700 mm", "d": "The Dalälven river valleys and Lake Siljan, with Falun's copper mountain at the southeast edge. Free, armed, independent-minded farmer-miners. Short growing season."},
-    {"n": "Östergötland plain", "la": 58.4, "lo": 15.5, "r": 60, "elev": "50–150 m", "rain": "~550 mm", "d": "Rich limestone-clay plain between Lake Vättern and the Baltic, with Linköping (bishop) and Bjälbo. Second-best farmland; Folkung power base."},
-    {"n": "Västergötland plain", "la": 58.3, "lo": 13.3, "r": 70, "elev": "50–300 m", "rain": "~650–750 mm", "d": "Between Lakes Vänern and Vättern, with Skara (bishop) and the flat-topped limestone hills (Kinnekulle, Billingen). Many people, many churches, Sweden's oldest written law."},
-    {"n": "Småland highlands", "la": 57.1, "lo": 14.8, "r": 110, "elev": "100–350 m", "rain": "~600–800 mm", "d": "Stony, forested upland of small farms, bogs and lakes. Poor soil but lots of bog iron, timber and cattle. Danish Skåne lies just south."},
-    {"n": "Gotland and Öland", "la": 57.45, "lo": 18.45, "r": 120, "elev": "0–80 m", "rain": "~450–550 mm, the driest in Sweden", "d": "Flat limestone islands with thin soil, sheep and grain. Gotland is rich from trade and semi-independent; Öland has alvar grassland and limestone."},
-    {"n": "Norrland coast (Hälsingland to Ångermanland)", "la": 62.3, "lo": 17.3, "r": 150, "elev": "0–500 m", "rain": "~600 mm", "d": "Long river valleys running down to the Gulf of Bothnia, almost empty, with endless timber, salmon rivers and steep falls. Settled thinly along the coast and river mouths only."},
-    {"n": "Finland Proper and Tavastia lakes", "la": 60.9, "lo": 23.0, "r": 140, "elev": "0–200 m", "rain": "~600 mm", "d": "Southwest Finnish coast around Åbo (Turku) and the lake country of Tavastia inland. Clay fields on the coast, forest and lakes inside; Swedish crusade and settlement are underway."}
+    {
+      "n": "Lake Mälaren basin",
+      "la": 59.45,
+      "lo": 17,
+      "r": 70,
+      "elev": "0–60 m",
+      "rain": "~550 mm, summer peak",
+      "d": "Flat clay plains and a maze of lake bays that were sea inlets not long before. Land is rising ~5 mm a year, so shores and harbors creep outward (Sigtuna's harbor is silting). Best farmland in Svealand.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Summer_-_Lake_M%C3%A4laren_%2837062041966%29.jpg/500px-Summer_-_Lake_M%C3%A4laren_%2837062041966%29.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Summer_-_Lake_M%C3%A4laren_(37062041966).jpg",
+        "c": "Photo: One Trick Pony from Stockholm, CC BY-SA 2.0",
+        "cap": "Lake Mälaren in summer, near Stockholm"
+      }
+    },
+    {
+      "n": "Uppland plain and coast",
+      "la": 60,
+      "lo": 17.9,
+      "r": 70,
+      "elev": "0–50 m",
+      "rain": "~550 mm",
+      "d": "Low farmland, meadows and skerries around Uppsala, the old royal and church center. Good cattle and grain land by Swedish standards.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/View_to_the_south_from_H%C3%A5gah%C3%B6gen_in_H%C3%A5gadalen_nature_reserve%2C_Uppsala%2C_Sweden_01.jpg/500px-View_to_the_south_from_H%C3%A5gah%C3%B6gen_in_H%C3%A5gadalen_nature_reserve%2C_Uppsala%2C_Sweden_01.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:View_to_the_south_from_H%C3%A5gah%C3%B6gen_in_H%C3%A5gadalen_nature_reserve,_Uppsala,_Sweden_01.jpg",
+        "c": "Photo: Europrobe, CC BY-SA 4.0",
+        "cap": "Uppland pasture and fields, Hågadalen near Uppsala"
+      }
+    },
+    {
+      "n": "Bergslagen ore hills",
+      "la": 60,
+      "lo": 15.3,
+      "r": 80,
+      "elev": "100–400 m",
+      "rain": "~650 mm",
+      "d": "Rolling forest, lakes and streams packed with small iron ore bodies. Thin, stony soil; people live by mining, charcoal and smelting. Every stream can turn a bellows wheel.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/%C3%84lvh%C3%B6jden.jpg/500px-%C3%84lvh%C3%B6jden.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:%C3%84lvh%C3%B6jden.jpg",
+        "c": "Photo: Unknown author, public domain",
+        "cap": "Forested hills of Bergslagen at Ljusnarsberg (old postcard)"
+      }
+    },
+    {
+      "n": "Dalarna (Dalecarlia) valleys",
+      "la": 60.8,
+      "lo": 14.8,
+      "r": 90,
+      "elev": "150–600 m",
+      "rain": "~600–700 mm",
+      "d": "The Dalälven river valleys and Lake Siljan, with Falun's copper mountain at the southeast edge. Free, armed, independent-minded farmer-miners. Short growing season.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Siljan_p%C3%A5_v%C3%A4g_in_mot_R%C3%A4ttvik_01.jpg/500px-Siljan_p%C3%A5_v%C3%A4g_in_mot_R%C3%A4ttvik_01.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Siljan_p%C3%A5_v%C3%A4g_in_mot_R%C3%A4ttvik_01.jpg",
+        "c": "Photo: Johan Jönsson (Julle), CC BY-SA 4.0",
+        "cap": "Lake Siljan and the Dalarna hills near Rättvik"
+      }
+    },
+    {
+      "n": "Östergötland plain",
+      "la": 58.4,
+      "lo": 15.5,
+      "r": 60,
+      "elev": "50–150 m",
+      "rain": "~550 mm",
+      "d": "Rich limestone-clay plain between Lake Vättern and the Baltic, with Linköping (bishop) and Bjälbo. Second-best farmland; Folkung power base.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%96stg%C3%B6tasl%C3%A4tten_vid_Ljung.jpg/500px-%C3%96stg%C3%B6tasl%C3%A4tten_vid_Ljung.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:%C3%96stg%C3%B6tasl%C3%A4tten_vid_Ljung.jpg",
+        "c": "Photo: Artifex, public domain",
+        "cap": "Flax field on the Östergötland plain at Ljung"
+      }
+    },
+    {
+      "n": "Västergötland plain",
+      "la": 58.3,
+      "lo": 13.3,
+      "r": 70,
+      "elev": "50–300 m",
+      "rain": "~650–750 mm",
+      "d": "Between Lakes Vänern and Vättern, with Skara (bishop) and the flat-topped limestone hills (Kinnekulle, Billingen). Many people, many churches, Sweden's oldest written law.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Gisseberget_Sweden_from_%C3%96stra_Gerum.jpg/500px-Gisseberget_Sweden_from_%C3%96stra_Gerum.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Gisseberget_Sweden_from_%C3%96stra_Gerum.jpg",
+        "c": "Photo: Nasko, CC0",
+        "cap": "Gisseberget, a flat-topped hill on the Västergötland plain"
+      }
+    },
+    {
+      "n": "Småland highlands",
+      "la": 57.1,
+      "lo": 14.8,
+      "r": 110,
+      "elev": "100–350 m",
+      "rain": "~600–800 mm",
+      "d": "Stony, forested upland of small farms, bogs and lakes. Poor soil but lots of bog iron, timber and cattle. Danish Skåne lies just south.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Panorama_%C3%85snen_-_panoramio.jpg/500px-Panorama_%C3%85snen_-_panoramio.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Panorama_%C3%85snen_-_panoramio.jpg",
+        "c": "Photo: Jacek Lesniowski, CC BY-SA 3.0",
+        "cap": "Forest and lake country at Åsnen, Småland"
+      }
+    },
+    {
+      "n": "Gotland and Öland",
+      "la": 57.45,
+      "lo": 18.45,
+      "r": 120,
+      "elev": "0–80 m",
+      "rain": "~450–550 mm, the driest in Sweden",
+      "d": "Flat limestone islands with thin soil, sheep and grain. Gotland is rich from trade and semi-independent; Öland has alvar grassland and limestone.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Alvaret.JPG/500px-Alvaret.JPG",
+        "p": "https://commons.wikimedia.org/wiki/File:Alvaret.JPG",
+        "c": "Photo: Sten Porse, CC BY-SA 3.0",
+        "cap": "Stora Alvaret limestone grassland on Öland"
+      }
+    },
+    {
+      "n": "Norrland coast (Hälsingland to Ångermanland)",
+      "la": 62.3,
+      "lo": 17.3,
+      "r": 150,
+      "elev": "0–500 m",
+      "rain": "~600 mm",
+      "d": "Long river valleys running down to the Gulf of Bothnia, almost empty, with endless timber, salmon rivers and steep falls. Settled thinly along the coast and river mouths only.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/H%C3%B6ga_kusten_-_20240619_-_02.jpg/500px-H%C3%B6ga_kusten_-_20240619_-_02.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:H%C3%B6ga_kusten_-_20240619_-_02.jpg",
+        "c": "Photo: AleWi, CC BY-SA 4.0",
+        "cap": "Bays and forested islands of the High Coast, Ångermanland"
+      }
+    },
+    {
+      "n": "Finland Proper and Tavastia lakes",
+      "la": 60.9,
+      "lo": 23,
+      "r": 140,
+      "elev": "0–200 m",
+      "rain": "~600 mm",
+      "d": "Southwest Finnish coast around Åbo (Turku) and the lake country of Tavastia inland. Clay fields on the coast, forest and lakes inside; Swedish crusade and settlement are underway.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/H%C3%A4me_Tower_on_Aulanko_Hill_10.jpg/500px-H%C3%A4me_Tower_on_Aulanko_Hill_10.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:H%C3%A4me_Tower_on_Aulanko_Hill_10.jpg",
+        "c": "Photo: Axel Cotón Gutiérrez, CC BY-SA 4.0",
+        "cap": "Tavastian lakes and forest from Aulanko, Hämeenlinna"
+      }
+    }
   ],
   "peoples": [
-    {"n": "Svear of Uppland and Mälaren", "la": 59.8, "lo": 17.5, "pop": 150000, "popText": "~120,000–180,000 (guess)", "culture": "Free farmers in villages, Old Swedish, Catholic with old customs. Uppland law, ting assemblies, lawspeakers; magnates and the Uppsala church hold much land. Some thralls.", "d": "The core people around the gate. They respect law and skill and vote at the ting, so new rules must be argued, not imposed."},
-    {"n": "Västmanland, Närke and Södermanland folk", "la": 59.3, "lo": 16.2, "pop": 70000, "popText": "~50,000–90,000 (guess)", "culture": "Like the Svear: farmer villages on the Mälaren and Hjälmaren shores, each province with its own law. Västerås and Strängnäs are bishops' seats.", "d": "The farms nearest Bergslagen. They feed the miners and carry ore to the lake."},
-    {"n": "Bergslagen miners and charcoal burners", "la": 60.05, "lo": 15.6, "pop": 8000, "popText": "~5,000–10,000 (guess)", "culture": "Farmer-miners (bergsmän) who mine, burn charcoal and run small blast furnaces like Lapphyttan alongside farming. The bergslag mining-district bodies are forming from the 1200s.", "d": "The skilled workforce for the iron plan already exists. They are proud and organized, so shares in a works fit them well."},
-    {"n": "Dalecarlians (Dalarna and Falun)", "la": 60.7, "lo": 15.2, "pop": 25000, "popText": "~15,000–30,000 (guess)", "culture": "Armed, independent farmers and copper miners. The Falun mine is run by a cooperative of miner-owners (oldest known share deed, 1288).", "d": "The copper mountain's people. Famous later for rising against kings, so they must be partners, not subjects."},
-    {"n": "Östgötar (Östergötland)", "la": 58.4, "lo": 15.6, "pop": 80000, "popText": "~60,000–100,000 (guess)", "culture": "Rich farming province, Östgöta law, bishop at Linköping. Home of the Folkung clan; strong magnate families.", "d": "Birger's home ground and the start point. The first proofs and the first patron come from here."},
-    {"n": "Västgötar (Västergötland)", "la": 58.4, "lo": 13.4, "pop": 120000, "popText": "~90,000–140,000 (guess), probably the most populous province", "culture": "Farmers, many churches and monasteries (Varnhem), the Västgöta law written ~1220s. Faces Norway and Denmark across the west.", "d": "The big farming base and route to the west coast at Lödöse. Birger is buried at Varnhem."},
-    {"n": "Smålanders", "la": 57.0, "lo": 14.8, "pop": 60000, "popText": "~40,000–70,000 (guess)", "culture": "Several small 'lands' (Värend, Finnveden...) of poor-soil farmers, cattle and bog iron smelters. Bishop at Växjö. Border folk next to Danish Skåne.", "d": "Hardy, thrifty people; source of bog iron and settlers. The border with Denmark runs here."},
-    {"n": "Värmlanders and Dalsland folk", "la": 59.6, "lo": 13.3, "pop": 25000, "popText": "~15,000–30,000 (guess)", "culture": "Forest farmers north and west of Lake Vänern, close to Norway.", "d": "Forest and iron frontier; later a home for Finnish slash-and-burn settlers."},
-    {"n": "Gotlanders (Gutes) and Visby", "la": 57.5, "lo": 18.5, "pop": 30000, "popText": "~25,000–40,000 on the island (guess), of whom ~5,000–8,000 in Visby (guess)", "culture": "Rich farmer-merchants with their own law (Gutalag) and assembly; Visby's German, Danish and Russian merchants form a separate town community. Tension between town and countryside (civil war 1288).", "d": "Pays tribute to the Swedish king but runs itself. The key trade partner and the Baltic's biggest market before Lübeck takes over."},
-    {"n": "Ölanders", "la": 56.7, "lo": 16.6, "pop": 8000, "popText": "~5,000–10,000 (guess)", "culture": "Small farming island with sheep, horses and limestone; ruled from Kalmar.", "d": "Lime and stone source and a stepping stone to Kalmar."},
-    {"n": "Norrland coast settlers (Hälsingar, Medelpad, Ångermanland)", "la": 62.3, "lo": 17.3, "pop": 25000, "popText": "~15,000–30,000 along 400 km of coast (guess)", "culture": "Swedish-speaking farmers, fishers, seal hunters and fur traders at river mouths; Hälsinge law. Thinly Christianized.", "d": "The edge of settlement. Behind them lie empty valleys with timber and water power, room for immigrants."},
-    {"n": "Finns of Finland Proper (Varsinais-Suomi)", "la": 60.5, "lo": 22.3, "pop": 25000, "popText": "~20,000–30,000 (guess)", "culture": "Finnish-speaking farmers on the southwest coast, Christianized and under the bishop at Åbo (Turku) and the Swedish crown. Swedish settlers arrive on the coasts and Åland.", "d": "Already partly Swedish subjects. Forest-clearing and tar skills make them ideal frontier settlers."},
-    {"n": "Swedish settlers in Finland and Åland", "la": 60.2, "lo": 20.0, "pop": 8000, "popText": "~5,000–10,000 (guess), growing from the 1200s", "culture": "Swedish-speaking farmers and fishers on Åland and the Nyland coast.", "d": "The bridge across the Gulf of Bothnia; Åland sits halfway to Finland."},
-    {"n": "Tavastians (Hämäläiset)", "la": 61.0, "lo": 24.4, "pop": 15000, "popText": "~10,000–20,000 (guess)", "culture": "Finnish lake-country farmers, hunters and fur traders; still mostly pagan. Rebelled against the church in the 1230s; Birger's 'Second Crusade' (~1249–50) brings them under Sweden.", "d": "A conquest target in real history. In this story better won by trade and fair law than by crusade."},
-    {"n": "Karelians", "la": 61.0, "lo": 29.5, "pop": 20000, "popText": "~15,000–25,000 (guess)", "culture": "Finnic farmers, hunters and traders around Lake Ladoga, tied to Novgorod and turning Orthodox. Raid Swedish and Finnish coasts and are raided back.", "d": "The contested border with Novgorod. Fighting goes on until the Nöteborg peace of 1323."},
-    {"n": "Sámi", "la": 66.5, "lo": 19.5, "pop": 8000, "popText": "~5,000–10,000 in what is now Swedish and Finnish Lapland (guess; nobody knows)", "culture": "Hunters, fishers and early reindeer herders in family groups (siida), with their own language and religion (noaidi shamans). Pay fur tribute to Norwegians, Birkarls and Karelians.", "d": "Far north, few and mobile. Fur trade partners; their land holds Kiruna's ore but no one will go there for centuries."},
-    {"n": "German merchants and craftsmen", "la": 57.64, "lo": 18.3, "pop": 2000, "popText": "~1,000–3,000 in Visby and the few Swedish towns (guess)", "culture": "Low German speakers from Lübeck and Westphalia; merchant guilds, written contracts, town law.", "d": "Already here and rising. The 1252 Lübeck treaty lets settlers become Swedes; they bring capital, miners and literacy."}
+    {
+      "n": "Svear of Uppland and Mälaren",
+      "la": 59.8,
+      "lo": 17.5,
+      "pop": 150000,
+      "popText": "~120,000–180,000 (guess)",
+      "culture": "Free farmers in villages, Old Swedish, Catholic with old customs. Uppland law, ting assemblies, lawspeakers; magnates and the Uppsala church hold much land. Some thralls.",
+      "d": "The core people around the gate. They respect law and skill and vote at the ting, so new rules must be argued, not imposed."
+    },
+    {
+      "n": "Västmanland, Närke and Södermanland folk",
+      "la": 59.3,
+      "lo": 16.2,
+      "pop": 70000,
+      "popText": "~50,000–90,000 (guess)",
+      "culture": "Like the Svear: farmer villages on the Mälaren and Hjälmaren shores, each province with its own law. Västerås and Strängnäs are bishops' seats.",
+      "d": "The farms nearest Bergslagen. They feed the miners and carry ore to the lake."
+    },
+    {
+      "n": "Bergslagen miners and charcoal burners",
+      "la": 60.05,
+      "lo": 15.6,
+      "pop": 8000,
+      "popText": "~5,000–10,000 (guess)",
+      "culture": "Farmer-miners (bergsmän) who mine, burn charcoal and run small blast furnaces like Lapphyttan alongside farming. The bergslag mining-district bodies are forming from the 1200s.",
+      "d": "The skilled workforce for the iron plan already exists. They are proud and organized, so shares in a works fit them well."
+    },
+    {
+      "n": "Dalecarlians (Dalarna and Falun)",
+      "la": 60.7,
+      "lo": 15.2,
+      "pop": 25000,
+      "popText": "~15,000–30,000 (guess)",
+      "culture": "Armed, independent farmers and copper miners. The Falun mine is run by a cooperative of miner-owners (oldest known share deed, 1288).",
+      "d": "The copper mountain's people. Famous later for rising against kings, so they must be partners, not subjects.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Stora_st%C3%B6ten_Falu_koppargruva_03.jpg/500px-Stora_st%C3%B6ten_Falu_koppargruva_03.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Stora_st%C3%B6ten_Falu_koppargruva_03.jpg",
+        "c": "Photo: Helen Simonsson, CC BY-SA 4.0",
+        "cap": "Falun copper mine, the heart of Dalarna mining"
+      }
+    },
+    {
+      "n": "Östgötar (Östergötland)",
+      "la": 58.4,
+      "lo": 15.6,
+      "pop": 80000,
+      "popText": "~60,000–100,000 (guess)",
+      "culture": "Rich farming province, Östgöta law, bishop at Linköping. Home of the Folkung clan; strong magnate families.",
+      "d": "Birger's home ground and the start point. The first proofs and the first patron come from here."
+    },
+    {
+      "n": "Västgötar (Västergötland)",
+      "la": 58.4,
+      "lo": 13.4,
+      "pop": 120000,
+      "popText": "~90,000–140,000 (guess), probably the most populous province",
+      "culture": "Farmers, many churches and monasteries (Varnhem), the Västgöta law written ~1220s. Faces Norway and Denmark across the west.",
+      "d": "The big farming base and route to the west coast at Lödöse. Birger is buried at Varnhem."
+    },
+    {
+      "n": "Smålanders",
+      "la": 57,
+      "lo": 14.8,
+      "pop": 60000,
+      "popText": "~40,000–70,000 (guess)",
+      "culture": "Several small 'lands' (Värend, Finnveden...) of poor-soil farmers, cattle and bog iron smelters. Bishop at Växjö. Border folk next to Danish Skåne.",
+      "d": "Hardy, thrifty people; source of bog iron and settlers. The border with Denmark runs here."
+    },
+    {
+      "n": "Värmlanders and Dalsland folk",
+      "la": 59.6,
+      "lo": 13.3,
+      "pop": 25000,
+      "popText": "~15,000–30,000 (guess)",
+      "culture": "Forest farmers north and west of Lake Vänern, close to Norway.",
+      "d": "Forest and iron frontier; later a home for Finnish slash-and-burn settlers."
+    },
+    {
+      "n": "Gotlanders (Gutes) and Visby",
+      "la": 57.5,
+      "lo": 18.5,
+      "pop": 30000,
+      "popText": "~25,000–40,000 on the island (guess), of whom ~5,000–8,000 in Visby (guess)",
+      "culture": "Rich farmer-merchants with their own law (Gutalag) and assembly; Visby's German, Danish and Russian merchants form a separate town community. Tension between town and countryside (civil war 1288).",
+      "d": "Pays tribute to the Swedish king but runs itself. The key trade partner and the Baltic's biggest market before Lübeck takes over."
+    },
+    {
+      "n": "Ölanders",
+      "la": 56.7,
+      "lo": 16.6,
+      "pop": 8000,
+      "popText": "~5,000–10,000 (guess)",
+      "culture": "Small farming island with sheep, horses and limestone; ruled from Kalmar.",
+      "d": "Lime and stone source and a stepping stone to Kalmar."
+    },
+    {
+      "n": "Norrland coast settlers (Hälsingar, Medelpad, Ångermanland)",
+      "la": 62.3,
+      "lo": 17.3,
+      "pop": 25000,
+      "popText": "~15,000–30,000 along 400 km of coast (guess)",
+      "culture": "Swedish-speaking farmers, fishers, seal hunters and fur traders at river mouths; Hälsinge law. Thinly Christianized.",
+      "d": "The edge of settlement. Behind them lie empty valleys with timber and water power, room for immigrants."
+    },
+    {
+      "n": "Finns of Finland Proper (Varsinais-Suomi)",
+      "la": 60.5,
+      "lo": 22.3,
+      "pop": 25000,
+      "popText": "~20,000–30,000 (guess)",
+      "culture": "Finnish-speaking farmers on the southwest coast, Christianized and under the bishop at Åbo (Turku) and the Swedish crown. Swedish settlers arrive on the coasts and Åland.",
+      "d": "Already partly Swedish subjects. Forest-clearing and tar skills make them ideal frontier settlers."
+    },
+    {
+      "n": "Swedish settlers in Finland and Åland",
+      "la": 60.2,
+      "lo": 20,
+      "pop": 8000,
+      "popText": "~5,000–10,000 (guess), growing from the 1200s",
+      "culture": "Swedish-speaking farmers and fishers on Åland and the Nyland coast.",
+      "d": "The bridge across the Gulf of Bothnia; Åland sits halfway to Finland."
+    },
+    {
+      "n": "Tavastians (Hämäläiset)",
+      "la": 61,
+      "lo": 24.4,
+      "pop": 15000,
+      "popText": "~10,000–20,000 (guess)",
+      "culture": "Finnish lake-country farmers, hunters and fur traders; still mostly pagan. Rebelled against the church in the 1230s; Birger's 'Second Crusade' (~1249–50) brings them under Sweden.",
+      "d": "A conquest target in real history. In this story better won by trade and fair law than by crusade."
+    },
+    {
+      "n": "Karelians",
+      "la": 61,
+      "lo": 29.5,
+      "pop": 20000,
+      "popText": "~15,000–25,000 (guess)",
+      "culture": "Finnic farmers, hunters and traders around Lake Ladoga, tied to Novgorod and turning Orthodox. Raid Swedish and Finnish coasts and are raided back.",
+      "d": "The contested border with Novgorod. Fighting goes on until the Nöteborg peace of 1323."
+    },
+    {
+      "n": "Sámi",
+      "la": 66.5,
+      "lo": 19.5,
+      "pop": 8000,
+      "popText": "~5,000–10,000 in what is now Swedish and Finnish Lapland (guess; nobody knows)",
+      "culture": "Hunters, fishers and early reindeer herders in family groups (siida), with their own language and religion (noaidi shamans). Pay fur tribute to Norwegians, Birkarls and Karelians.",
+      "d": "Far north, few and mobile. Fur trade partners; their land holds Kiruna's ore but no one will go there for centuries."
+    },
+    {
+      "n": "German merchants and craftsmen",
+      "la": 57.64,
+      "lo": 18.3,
+      "pop": 2000,
+      "popText": "~1,000–3,000 in Visby and the few Swedish towns (guess)",
+      "culture": "Low German speakers from Lübeck and Westphalia; merchant guilds, written contracts, town law.",
+      "d": "Already here and rising. The 1252 Lübeck treaty lets settlers become Swedes; they bring capital, miners and literacy."
+    }
   ],
   "resources": [
-    {"n": "Lapphyttan and the Norberg ore field", "t": "Iron", "la": 60.07, "lo": 15.93, "qty": "modern: many small magnetite and hematite bodies around Norberg, mined into the 1970s; no single reserve figure found. Medieval output: Lapphyttan ~2–3 t of iron a year in a short campaign; all Sweden ~2,000 t a year by the 1300s", "reach": "1230: already worked. A water-powered blast furnace at Lapphyttan (c. 1150–1350) makes liquid pig iron, fined into blooms. Ore dug from open pits; ~700 small furnaces in medieval Sweden", "km": 147, "d": "Europe's earliest known blast furnaces are here. Taller stacks, better bellows and ore roasting can multiply output fast."},
-    {"n": "Grängesberg ore field (western Bergslagen)", "t": "Iron", "la": 60.08, "lo": 14.99, "qty": "modern: ~148 Mt resource at ~41% Fe, ~0.8% phosphorus", "reach": "1230: some outcrops, but the ore is high in phosphorus, which makes brittle 'cold-short' iron with medieval methods. Use it only once basic-lined steelmaking exists", "km": 195, "d": "Huge but the wrong kind for now. Keep to the low-phosphorus ores of Norberg and Dannemora first."},
-    {"n": "Dannemora mine", "t": "Iron", "la": 60.2, "lo": 17.86, "qty": "modern: ~31–34 Mt reserve at ~32–35% Fe; manganese-rich, very low phosphorus. Europe's most prized steel iron ('oregrounds iron') 1600s–1900s", "reach": "1230: probably not yet mined (first record 1481; may date to the 1200s). Outcrops 100 km north of the core, near the coast at Öregrund for shipping", "km": 98, "d": "The best steel ore in Europe, close to Stockholm. Opening it early is one of the biggest wins in this variation."},
-    {"n": "Falun Great Copper Mountain", "t": "Copper", "la": 60.6, "lo": 15.63, "qty": "modern: ~35–40 Mt of ore over its life, ~400,000–500,000 t of copper (~4%), plus zinc, lead, sulfur, silver, gold. Peak ~3,000 t of copper a year in 1650", "reach": "1230: mined since ~1000 by fire-setting at the surface; miner-owner cooperative. Rich near-surface ore; water and hoisting are the limits", "km": 198, "d": "Europe's greatest copper mine, and the base for later electric wire. Pumps and hoists on water wheels are the first upgrade."},
-    {"n": "Småland and Uppland bog iron", "t": "Iron", "la": 57.2, "lo": 14.8, "qty": "modern: not mined; bog ore regrows in decades in lakes and bogs across southern Sweden", "reach": "1230: raked from lake beds and bogs and smelted in small bloomeries by farmers", "km": 304, "d": "Poor quality but everywhere and renewable. Good for nails and tools while the mines grow."},
-    {"n": "Mälaren and Bergslagen forests", "t": "Timber", "la": 60.2, "lo": 16.0, "qty": "modern: Sweden ~28 million ha of forest, ~3 billion m³ standing (from memory)", "reach": "1230: virgin pine, spruce and birch everywhere; felled with axes, floated down rivers or sledged on winter ice", "km": 120, "d": "Fuel, charcoal, houses, ships and later paper pulp. Charcoal supply is the real limit on iron output."},
-    {"n": "Norrland river forests", "t": "Timber", "la": 62.5, "lo": 16.5, "qty": "modern: the bulk of Sweden's forest; tall old pine for masts", "reach": "1230: untouched. Rivers run straight to the coast, so logs can float down in spring floods", "km": 363, "d": "Masts, boards and charcoal for centuries, once sawmills sit at the river mouths."},
-    {"n": "Pine tar kilns", "t": "Chemicals", "la": 60.4, "lo": 16.8, "qty": "modern: none; in the 1600s Sweden-Finland was Europe's main tar supplier", "reach": "1230: tar has been made in pits since the Viking Age; covered kilns with outlet pipes come later. Any pine stump forest works", "km": 90, "d": "The Baltic's top ship supply and an easy export to the Hanse."},
-    {"n": "Norrström current (Stockholm)", "t": "Water", "la": 59.33, "lo": 18.07, "qty": "modern: Mälaren's outflow ~160 m³/s average (from memory); head under 1 m today", "reach": "1230: a strong current with a small drop (guess ~0.5–1 m, since Mälaren was just separating from the sea). Undershot wheels only", "km": 0, "d": "Low head but huge flow, at the town site itself. Fine for grinding and sawing, not for big furnaces."},
-    {"n": "Motala ström (Vättern outlet)", "t": "Water", "la": 58.54, "lo": 15.04, "qty": "modern: ~40 m³/s; ~88 m total drop from Lake Vättern to the Baltic (from memory)", "reach": "1230: a chain of rapids through Östergötland, 20 km from Bjälbo. Ideal for the first sawmill and forge", "km": 194, "d": "Steady flow regulated by a huge lake, so it never freezes solid or floods badly. The best early mill river near the start."},
-    {"n": "Dalälven falls (Älvkarleby)", "t": "Water", "la": 60.57, "lo": 17.45, "qty": "modern: ~350 m³/s mean, ~20–25 m head at the falls (from memory)", "reach": "1230: wild falls near the river mouth; the river also floats timber and ore down from Dalarna", "km": 142, "d": "The biggest water-power site near the core, and a future turbine and generator site."},
-    {"n": "Trollhättan falls (Göta älv)", "t": "Water", "la": 58.27, "lo": 12.29, "qty": "modern: ~550 m³/s, ~32 m drop (from memory)", "reach": "1230: wild falls in Västergötland, near the Norwegian and Danish borders", "km": 348, "d": "Sweden's greatest falls, on the route from Vänern to the North Sea. Later the main west-coast power and canal site."},
-    {"n": "Gotland limestone", "t": "Lime", "la": 57.5, "lo": 18.5, "qty": "modern: the whole island is limestone, ~100+ m thick; Gotland supplies most of Sweden's lime and cement today", "reach": "1230: quarried for Visby's walls and ~90 churches; burnt to lime in kilns", "km": 204, "d": "Mortar, fertilizer for sour soils, glass, and flux for iron furnaces."},
-    {"n": "Mälaren clay plains", "t": "Clay", "la": 59.7, "lo": 17.3, "qty": "modern: thick post-glacial clays across the Mälaren valley", "reach": "1230: at the surface everywhere; brick is just starting in church building", "km": 52, "d": "Bricks for stoves, furnaces and fire-safe towns."},
-    {"n": "Uppland and Östergötland cattle", "t": "Animals", "la": 59.9, "lo": 17.6, "qty": "modern: n/a; medieval farms kept a few cows, sheep and goats each (guess: several hundred thousand cattle in Sweden)", "reach": "1230: everywhere, but many starve by March for lack of hay", "km": 64, "d": "More hay (steel scythes, clover) means more cattle survive winter, which means milk, manure and meat."},
-    {"n": "Baltic herring (strömming)", "t": "Fish", "la": 59.4, "lo": 18.8, "qty": "modern: the Baltic herring stock is ~1–2 Mt (from memory)", "reach": "1230: caught with nets all along the coast and archipelago; small and lean, salted or dried", "km": 42, "d": "The everyday fish. Ice storage makes it last without imported salt."},
-    {"n": "Lake fish (Mälaren, Vättern, Vänern)", "t": "Fish", "la": 58.9, "lo": 13.6, "qty": "modern: pike, perch, char, whitefish, eel; Vänern alone is 5,650 km²", "reach": "1230: netted and speared; under-ice fishing in winter", "km": 280, "d": "A winter protein supply that needs no boat to the sea."},
-    {"n": "Norrland salmon rivers", "t": "Fish", "la": 63.1, "lo": 17.6, "qty": "modern: wild Baltic salmon runs in a dozen big rivers", "reach": "1230: caught at weirs at river mouths; smoked and dried", "km": 407, "d": "Rich seasonal food for northern settlers."},
-    {"n": "Seal hunting (Bothnian Sea)", "t": "Animals", "la": 61.5, "lo": 19.5, "qty": "modern: ~40,000+ grey seals in the Baltic (from memory)", "reach": "1230: hunted on the spring ice for oil, meat and skins", "km": 254, "d": "Lamp oil and leather; a local source of fat in winter."},
-    {"n": "Peat bogs", "t": "Fertilizer", "la": 59.0, "lo": 15.5, "qty": "modern: ~6 million ha of peatland in Sweden (from memory)", "reach": "1230: cut by hand anywhere", "km": 160, "d": "A second fuel where wood runs short, and bedding and soil-improver for fields."},
-    {"n": "Falun sulfur and red ochre", "t": "Chemicals", "la": 60.6, "lo": 15.63, "qty": "modern: the mine's waste gave the famous Falu red paint; pyrite ore is sulfur-rich", "reach": "1230: roasting the ore releases sulfur fumes; the waste heaps hold vitriol", "km": 198, "d": "Sulfur for sulfuric acid, vitriol and later batteries and chemistry."},
-    {"n": "Kiruna iron ore", "t": "Iron", "la": 67.85, "lo": 20.22, "qty": "modern: ~544 Mt reserve, ~1.1 Bt resource (LKAB 2025), magnetite >60% Fe, ~0.9% phosphorus", "reach": "1230: unreachable. ~950 km north in Sámi land with no roads, frozen half the year, and the ore is high in phosphorus (brittle iron by medieval methods). Mined only from ~1900 with railways", "km": 950, "d": "The world's richest iron mountain, but for this story it is a 20th-century resource."},
-    {"n": "Sala silver mine", "t": "Silver", "la": 59.92, "lo": 16.6, "qty": "modern: Sweden's biggest historic silver mine, ~400+ t silver over its life (from memory)", "reach": "1230: probably not yet found (worked from the late 1400s); lead-silver ore 110 km from the core", "km": 106, "d": "Coin silver and lead for printing type, if prospectors find it early."}
+    {
+      "n": "Lapphyttan and the Norberg ore field",
+      "t": "Iron",
+      "la": 60.07,
+      "lo": 15.93,
+      "qty": "modern: many small magnetite and hematite bodies around Norberg, mined into the 1970s; no single reserve figure found. Medieval output: Lapphyttan ~2–3 t of iron a year in a short campaign; all Sweden ~2,000 t a year by the 1300s",
+      "reach": "1230: already worked. A water-powered blast furnace at Lapphyttan (c. 1150–1350) makes liquid pig iron, fined into blooms. Ore dug from open pits; ~700 small furnaces in medieval Sweden",
+      "km": 147,
+      "d": "Europe's earliest known blast furnaces are here. Taller stacks, better bellows and ore roasting can multiply output fast."
+    },
+    {
+      "n": "Grängesberg ore field (western Bergslagen)",
+      "t": "Iron",
+      "la": 60.08,
+      "lo": 14.99,
+      "qty": "modern: ~148 Mt resource at ~41% Fe, ~0.8% phosphorus",
+      "reach": "1230: some outcrops, but the ore is high in phosphorus, which makes brittle 'cold-short' iron with medieval methods. Use it only once basic-lined steelmaking exists",
+      "km": 195,
+      "d": "Huge but the wrong kind for now. Keep to the low-phosphorus ores of Norberg and Dannemora first."
+    },
+    {
+      "n": "Dannemora mine",
+      "t": "Iron",
+      "la": 60.2,
+      "lo": 17.86,
+      "qty": "modern: ~31–34 Mt reserve at ~32–35% Fe; manganese-rich, very low phosphorus. Europe's most prized steel iron ('oregrounds iron') 1600s–1900s",
+      "reach": "1230: probably not yet mined (first record 1481; may date to the 1200s). Outcrops 100 km north of the core, near the coast at Öregrund for shipping",
+      "km": 98,
+      "d": "The best steel ore in Europe, close to Stockholm. Opening it early is one of the biggest wins in this variation."
+    },
+    {
+      "n": "Falun Great Copper Mountain",
+      "t": "Copper",
+      "la": 60.6,
+      "lo": 15.63,
+      "qty": "modern: ~35–40 Mt of ore over its life, ~400,000–500,000 t of copper (~4%), plus zinc, lead, sulfur, silver, gold. Peak ~3,000 t of copper a year in 1650",
+      "reach": "1230: mined since ~1000 by fire-setting at the surface; miner-owner cooperative. Rich near-surface ore; water and hoisting are the limits",
+      "km": 198,
+      "d": "Europe's greatest copper mine, and the base for later electric wire. Pumps and hoists on water wheels are the first upgrade."
+    },
+    {
+      "n": "Småland and Uppland bog iron",
+      "t": "Iron",
+      "la": 57.2,
+      "lo": 14.8,
+      "qty": "modern: not mined; bog ore regrows in decades in lakes and bogs across southern Sweden",
+      "reach": "1230: raked from lake beds and bogs and smelted in small bloomeries by farmers",
+      "km": 304,
+      "d": "Poor quality but everywhere and renewable. Good for nails and tools while the mines grow."
+    },
+    {
+      "n": "Mälaren and Bergslagen forests",
+      "t": "Timber",
+      "la": 60.2,
+      "lo": 16,
+      "qty": "modern: Sweden ~28 million ha of forest, ~3 billion m³ standing (from memory)",
+      "reach": "1230: virgin pine, spruce and birch everywhere; felled with axes, floated down rivers or sledged on winter ice",
+      "km": 120,
+      "d": "Fuel, charcoal, houses, ships and later paper pulp. Charcoal supply is the real limit on iron output."
+    },
+    {
+      "n": "Norrland river forests",
+      "t": "Timber",
+      "la": 62.5,
+      "lo": 16.5,
+      "qty": "modern: the bulk of Sweden's forest; tall old pine for masts",
+      "reach": "1230: untouched. Rivers run straight to the coast, so logs can float down in spring floods",
+      "km": 363,
+      "d": "Masts, boards and charcoal for centuries, once sawmills sit at the river mouths."
+    },
+    {
+      "n": "Pine tar kilns",
+      "t": "Chemicals",
+      "la": 60.4,
+      "lo": 16.8,
+      "qty": "modern: none; in the 1600s Sweden-Finland was Europe's main tar supplier",
+      "reach": "1230: tar has been made in pits since the Viking Age; covered kilns with outlet pipes come later. Any pine stump forest works",
+      "km": 90,
+      "d": "The Baltic's top ship supply and an easy export to the Hanse."
+    },
+    {
+      "n": "Norrström current (Stockholm)",
+      "t": "Water",
+      "la": 59.33,
+      "lo": 18.07,
+      "qty": "modern: Mälaren's outflow ~160 m³/s average (from memory); head under 1 m today",
+      "reach": "1230: a strong current with a small drop (guess ~0.5–1 m, since Mälaren was just separating from the sea). Undershot wheels only",
+      "km": 0,
+      "d": "Low head but huge flow, at the town site itself. Fine for grinding and sawing, not for big furnaces."
+    },
+    {
+      "n": "Motala ström (Vättern outlet)",
+      "t": "Water",
+      "la": 58.54,
+      "lo": 15.04,
+      "qty": "modern: ~40 m³/s; ~88 m total drop from Lake Vättern to the Baltic (from memory)",
+      "reach": "1230: a chain of rapids through Östergötland, 20 km from Bjälbo. Ideal for the first sawmill and forge",
+      "km": 194,
+      "d": "Steady flow regulated by a huge lake, so it never freezes solid or floods badly. The best early mill river near the start."
+    },
+    {
+      "n": "Dalälven falls (Älvkarleby)",
+      "t": "Water",
+      "la": 60.57,
+      "lo": 17.45,
+      "qty": "modern: ~350 m³/s mean, ~20–25 m head at the falls (from memory)",
+      "reach": "1230: wild falls near the river mouth; the river also floats timber and ore down from Dalarna",
+      "km": 142,
+      "d": "The biggest water-power site near the core, and a future turbine and generator site."
+    },
+    {
+      "n": "Trollhättan falls (Göta älv)",
+      "t": "Water",
+      "la": 58.27,
+      "lo": 12.29,
+      "qty": "modern: ~550 m³/s, ~32 m drop (from memory)",
+      "reach": "1230: wild falls in Västergötland, near the Norwegian and Danish borders",
+      "km": 348,
+      "d": "Sweden's greatest falls, on the route from Vänern to the North Sea. Later the main west-coast power and canal site."
+    },
+    {
+      "n": "Gotland limestone",
+      "t": "Lime",
+      "la": 57.5,
+      "lo": 18.5,
+      "qty": "modern: the whole island is limestone, ~100+ m thick; Gotland supplies most of Sweden's lime and cement today",
+      "reach": "1230: quarried for Visby's walls and ~90 churches; burnt to lime in kilns",
+      "km": 204,
+      "d": "Mortar, fertilizer for sour soils, glass, and flux for iron furnaces."
+    },
+    {
+      "n": "Mälaren clay plains",
+      "t": "Clay",
+      "la": 59.7,
+      "lo": 17.3,
+      "qty": "modern: thick post-glacial clays across the Mälaren valley",
+      "reach": "1230: at the surface everywhere; brick is just starting in church building",
+      "km": 52,
+      "d": "Bricks for stoves, furnaces and fire-safe towns."
+    },
+    {
+      "n": "Uppland and Östergötland cattle",
+      "t": "Animals",
+      "la": 59.9,
+      "lo": 17.6,
+      "qty": "modern: n/a; medieval farms kept a few cows, sheep and goats each (guess: several hundred thousand cattle in Sweden)",
+      "reach": "1230: everywhere, but many starve by March for lack of hay",
+      "km": 64,
+      "d": "More hay (steel scythes, clover) means more cattle survive winter, which means milk, manure and meat."
+    },
+    {
+      "n": "Baltic herring (strömming)",
+      "t": "Fish",
+      "la": 59.4,
+      "lo": 18.8,
+      "qty": "modern: the Baltic herring stock is ~1–2 Mt (from memory)",
+      "reach": "1230: caught with nets all along the coast and archipelago; small and lean, salted or dried",
+      "km": 42,
+      "d": "The everyday fish. Ice storage makes it last without imported salt."
+    },
+    {
+      "n": "Lake fish (Mälaren, Vättern, Vänern)",
+      "t": "Fish",
+      "la": 58.9,
+      "lo": 13.6,
+      "qty": "modern: pike, perch, char, whitefish, eel; Vänern alone is 5,650 km²",
+      "reach": "1230: netted and speared; under-ice fishing in winter",
+      "km": 280,
+      "d": "A winter protein supply that needs no boat to the sea."
+    },
+    {
+      "n": "Norrland salmon rivers",
+      "t": "Fish",
+      "la": 63.1,
+      "lo": 17.6,
+      "qty": "modern: wild Baltic salmon runs in a dozen big rivers",
+      "reach": "1230: caught at weirs at river mouths; smoked and dried",
+      "km": 407,
+      "d": "Rich seasonal food for northern settlers."
+    },
+    {
+      "n": "Seal hunting (Bothnian Sea)",
+      "t": "Animals",
+      "la": 61.5,
+      "lo": 19.5,
+      "qty": "modern: ~40,000+ grey seals in the Baltic (from memory)",
+      "reach": "1230: hunted on the spring ice for oil, meat and skins",
+      "km": 254,
+      "d": "Lamp oil and leather; a local source of fat in winter."
+    },
+    {
+      "n": "Peat bogs",
+      "t": "Fertilizer",
+      "la": 59,
+      "lo": 15.5,
+      "qty": "modern: ~6 million ha of peatland in Sweden (from memory)",
+      "reach": "1230: cut by hand anywhere",
+      "km": 160,
+      "d": "A second fuel where wood runs short, and bedding and soil-improver for fields."
+    },
+    {
+      "n": "Falun sulfur and red ochre",
+      "t": "Chemicals",
+      "la": 60.6,
+      "lo": 15.63,
+      "qty": "modern: the mine's waste gave the famous Falu red paint; pyrite ore is sulfur-rich",
+      "reach": "1230: roasting the ore releases sulfur fumes; the waste heaps hold vitriol",
+      "km": 198,
+      "d": "Sulfur for sulfuric acid, vitriol and later batteries and chemistry."
+    },
+    {
+      "n": "Kiruna iron ore",
+      "t": "Iron",
+      "la": 67.85,
+      "lo": 20.22,
+      "qty": "modern: ~544 Mt reserve, ~1.1 Bt resource (LKAB 2025), magnetite >60% Fe, ~0.9% phosphorus",
+      "reach": "1230: unreachable. ~950 km north in Sámi land with no roads, frozen half the year, and the ore is high in phosphorus (brittle iron by medieval methods). Mined only from ~1900 with railways",
+      "km": 950,
+      "d": "The world's richest iron mountain, but for this story it is a 20th-century resource."
+    },
+    {
+      "n": "Sala silver mine",
+      "t": "Silver",
+      "la": 59.92,
+      "lo": 16.6,
+      "qty": "modern: Sweden's biggest historic silver mine, ~400+ t silver over its life (from memory)",
+      "reach": "1230: probably not yet found (worked from the late 1400s); lead-silver ore 110 km from the core",
+      "km": 106,
+      "d": "Coin silver and lead for printing type, if prospectors find it early."
+    }
   ],
   "nearby": [
-    {"n": "Scania herring market (Skanör–Falsterbo)", "t": "Fish", "la": 55.42, "lo": 12.85, "qty": "modern: the shoals vanished ~1500. Medieval: ~300,000 barrels a year by one estimate (popular history, uncertain); tens of thousands gather each Aug–Oct", "reach": "1230: Danish territory. Swedes and Germans buy and salt herring there each autumn under the Danish king's tolls", "km": 535, "d": "The biggest food market in northern Europe, just past the Swedish border. A reason to stay friendly with Denmark."},
-    {"n": "Lüneburg salt", "t": "Salt", "la": 53.25, "lo": 10.41, "qty": "modern: brine springs worked until 1980; medieval output ~10,000–20,000 t a year (guess)", "reach": "1230: boiled from brine and shipped via Lübeck. Sweden's main salt source", "km": 825, "d": "Sweden has no salt of its own, so this is a lifeline. Ice and smoking cut how much is needed."},
-    {"n": "Bohuslän herring and coast", "t": "Fish", "la": 58.35, "lo": 11.5, "qty": "modern: the North Sea herring returned in great runs every ~100 years", "reach": "1230: Norwegian coast, reached from Lödöse on the Göta älv", "km": 390, "d": "Sweden's window west, and a saltier sea for making salt by freezing."},
-    {"n": "Skåne coal (Höganäs)", "t": "Coal", "la": 56.2, "lo": 12.55, "qty": "modern: thin Jurassic seams, ~0.5–1 m, small field; mined 1797–1960s", "reach": "1230: Danish; some seams near the coast but unknown and unused", "km": 476, "d": "The only coal near Sweden, small and Danish. Coal must come from Newcastle later."},
-    {"n": "Lofoten stockfish (cod)", "t": "Fish", "la": 68.2, "lo": 14.0, "qty": "modern: the world's biggest cod spawning ground; tens of thousands of tonnes a year", "reach": "1230: Norwegian; dried cod shipped to Bergen and sold to the Hanse", "km": 1004, "d": "A huge food store, but Norway's and Bergen's. Trade, not take."},
-    {"n": "Ostrobothnia tar and timber", "t": "Chemicals", "la": 63.5, "lo": 22.5, "qty": "modern: in the 1700s the region made most of Europe's tar", "reach": "1230: thinly settled Finnish coast across the Gulf of Bothnia; pine forests untouched", "km": 517, "d": "Future tar and ship-timber country for Finnish settlers."},
-    {"n": "Novgorod furs and wax", "t": "Animals", "la": 58.52, "lo": 31.27, "qty": "modern: n/a; medieval Novgorod shipped hundreds of thousands of squirrel pelts a year (guess) plus beeswax", "reach": "1230: traded through Visby and the German court (Peterhof) in Novgorod", "km": 757, "d": "The eastern trade. Peace on the Neva makes it Sweden's."},
-    {"n": "Prussian and Polish grain (Vistula)", "t": "Food", "la": 54.35, "lo": 18.65, "qty": "modern: n/a; by the 1400s Danzig shipped tens of thousands of tonnes of rye a year", "reach": "1230: Pomeranian and Prussian farmland, being conquered and settled by the Teutonic Order", "km": 560, "d": "The bread basket for bad years such as 1258 and 1315–17."},
-    {"n": "Baltic amber (Sambia)", "t": "Other", "la": 54.9, "lo": 20.0, "qty": "modern: ~90% of the world's amber; ~200+ t a year at Yantarny", "reach": "1230: washed up on Sambian beaches; Prussian land, soon the Order's monopoly", "km": 521, "d": "A luxury trade good, not a practical one."},
-    {"n": "Norwegian whetstones and soapstone (Eidsborg)", "t": "Stone", "la": 59.5, "lo": 8.1, "qty": "modern: quarry worked ~800–1950", "reach": "1230: exported across northern Europe by sea", "km": 565, "d": "Sharpening stones for every scythe and tool, from a friendly neighbor."},
-    {"n": "Estonian and Livonian farmland", "t": "Food", "la": 58.6, "lo": 25.5, "qty": "modern: n/a", "reach": "1230: conquered by Danes (north, 1219) and German crusaders (south); grain exported via Reval and Riga", "km": 420, "d": "Another grain source across a short sea crossing."},
-    {"n": "Mongol-ravaged Rus'", "t": "Other", "la": 56.13, "lo": 40.41, "qty": "modern: n/a", "reach": "1237–40: Vladimir, Ryazan, Kiev sacked; skilled craftsmen killed or taken east", "km": 1360, "d": "No resource to take, but a source of refugees and a warning of the 1241 news."}
+    {
+      "n": "Scania herring market (Skanör–Falsterbo)",
+      "t": "Fish",
+      "la": 55.42,
+      "lo": 12.85,
+      "qty": "modern: the shoals vanished ~1500. Medieval: ~300,000 barrels a year by one estimate (popular history, uncertain); tens of thousands gather each Aug–Oct",
+      "reach": "1230: Danish territory. Swedes and Germans buy and salt herring there each autumn under the Danish king's tolls",
+      "km": 535,
+      "d": "The biggest food market in northern Europe, just past the Swedish border. A reason to stay friendly with Denmark."
+    },
+    {
+      "n": "Lüneburg salt",
+      "t": "Salt",
+      "la": 53.25,
+      "lo": 10.41,
+      "qty": "modern: brine springs worked until 1980; medieval output ~10,000–20,000 t a year (guess)",
+      "reach": "1230: boiled from brine and shipped via Lübeck. Sweden's main salt source",
+      "km": 825,
+      "d": "Sweden has no salt of its own, so this is a lifeline. Ice and smoking cut how much is needed."
+    },
+    {
+      "n": "Bohuslän herring and coast",
+      "t": "Fish",
+      "la": 58.35,
+      "lo": 11.5,
+      "qty": "modern: the North Sea herring returned in great runs every ~100 years",
+      "reach": "1230: Norwegian coast, reached from Lödöse on the Göta älv",
+      "km": 390,
+      "d": "Sweden's window west, and a saltier sea for making salt by freezing."
+    },
+    {
+      "n": "Skåne coal (Höganäs)",
+      "t": "Coal",
+      "la": 56.2,
+      "lo": 12.55,
+      "qty": "modern: thin Jurassic seams, ~0.5–1 m, small field; mined 1797–1960s",
+      "reach": "1230: Danish; some seams near the coast but unknown and unused",
+      "km": 476,
+      "d": "The only coal near Sweden, small and Danish. Coal must come from Newcastle later."
+    },
+    {
+      "n": "Lofoten stockfish (cod)",
+      "t": "Fish",
+      "la": 68.2,
+      "lo": 14,
+      "qty": "modern: the world's biggest cod spawning ground; tens of thousands of tonnes a year",
+      "reach": "1230: Norwegian; dried cod shipped to Bergen and sold to the Hanse",
+      "km": 1004,
+      "d": "A huge food store, but Norway's and Bergen's. Trade, not take."
+    },
+    {
+      "n": "Ostrobothnia tar and timber",
+      "t": "Chemicals",
+      "la": 63.5,
+      "lo": 22.5,
+      "qty": "modern: in the 1700s the region made most of Europe's tar",
+      "reach": "1230: thinly settled Finnish coast across the Gulf of Bothnia; pine forests untouched",
+      "km": 517,
+      "d": "Future tar and ship-timber country for Finnish settlers."
+    },
+    {
+      "n": "Novgorod furs and wax",
+      "t": "Animals",
+      "la": 58.52,
+      "lo": 31.27,
+      "qty": "modern: n/a; medieval Novgorod shipped hundreds of thousands of squirrel pelts a year (guess) plus beeswax",
+      "reach": "1230: traded through Visby and the German court (Peterhof) in Novgorod",
+      "km": 757,
+      "d": "The eastern trade. Peace on the Neva makes it Sweden's."
+    },
+    {
+      "n": "Prussian and Polish grain (Vistula)",
+      "t": "Food",
+      "la": 54.35,
+      "lo": 18.65,
+      "qty": "modern: n/a; by the 1400s Danzig shipped tens of thousands of tonnes of rye a year",
+      "reach": "1230: Pomeranian and Prussian farmland, being conquered and settled by the Teutonic Order",
+      "km": 560,
+      "d": "The bread basket for bad years such as 1258 and 1315–17."
+    },
+    {
+      "n": "Baltic amber (Sambia)",
+      "t": "Other",
+      "la": 54.9,
+      "lo": 20,
+      "qty": "modern: ~90% of the world's amber; ~200+ t a year at Yantarny",
+      "reach": "1230: washed up on Sambian beaches; Prussian land, soon the Order's monopoly",
+      "km": 521,
+      "d": "A luxury trade good, not a practical one."
+    },
+    {
+      "n": "Norwegian whetstones and soapstone (Eidsborg)",
+      "t": "Stone",
+      "la": 59.5,
+      "lo": 8.1,
+      "qty": "modern: quarry worked ~800–1950",
+      "reach": "1230: exported across northern Europe by sea",
+      "km": 565,
+      "d": "Sharpening stones for every scythe and tool, from a friendly neighbor."
+    },
+    {
+      "n": "Estonian and Livonian farmland",
+      "t": "Food",
+      "la": 58.6,
+      "lo": 25.5,
+      "qty": "modern: n/a",
+      "reach": "1230: conquered by Danes (north, 1219) and German crusaders (south); grain exported via Reval and Riga",
+      "km": 420,
+      "d": "Another grain source across a short sea crossing."
+    },
+    {
+      "n": "Mongol-ravaged Rus'",
+      "t": "Other",
+      "la": 56.13,
+      "lo": 40.41,
+      "qty": "modern: n/a",
+      "reach": "1237–40: Vladimir, Ryazan, Kiev sacked; skilled craftsmen killed or taken east",
+      "km": 1360,
+      "d": "No resource to take, but a source of refugees and a warning of the 1241 news."
+    }
   ],
   "newcomers": [
-    {"n": "German miners, smiths and merchants", "la": 53.87, "lo": 10.69, "num": "~20,000–40,000 over 50 years (guess)", "when": "from 1252 (Lübeck treaty); miners mostly from the 1300s historically", "fit": 7, "d": "Pulled by land, mine shares and citizenship. Close cousins in language and religion; they already run Visby and later half of Stockholm's council. Risk: a German enclave that looks to Lübeck."},
-    {"n": "Finnish forest settlers", "la": 61.0, "lo": 24.0, "num": "~30,000–60,000 over decades (guess)", "when": "steady from the 1250s", "fit": 7, "d": "Already partly Swedish subjects. Slash-and-burn experts suited to Bergslagen and Värmland forests and to charcoal and tar. Different language, but the same church and law over time."},
-    {"n": "Old Prussian refugees", "la": 54.6, "lo": 20.5, "num": "~5,000–20,000 if ships are sent (guess); the whole people was ~170,000–220,000", "when": "1260–74 (Great Prussian Uprising) and after", "fit": 5, "d": "Fleeing the Teutonic Order's conquest; many were killed or fled to Lithuania historically. Pagan or newly Christian, farmers and warriors; spread through villages and given land."},
-    {"n": "Estonians and Livonians", "la": 58.35, "lo": 22.6, "num": "~2,000–10,000 (guess)", "when": "1240s–1340s, especially after the St George's Night Uprising (1343)", "fit": 6, "d": "Finnic like the Finns, coastal fishers and farmers, fleeing German and Danish lords. Short sea crossing via Åland and Finland."},
-    {"n": "Frisian farmers after the St Lucia's flood", "la": 53.47, "lo": 7.48, "num": "~2,000–5,000 (guess); the flood killed ~50,000–80,000", "when": "1287–90, again after 1362", "fit": 6, "d": "Free farmers with their own assemblies, like Swedes, and experts at dikes, drainage and cattle. Their skills drain Mälaren's wet meadows."},
-    {"n": "Russians fleeing the Mongols", "la": 56.13, "lo": 40.41, "num": "~1,000–5,000 if invited (guess)", "when": "1237–60", "fit": 4, "d": "Craftsmen, monks and traders from sacked Vladimir-Suzdal lands; most fled north to Novgorod. Orthodox and from Sweden's eastern rival, so they need careful welcome."},
-    {"n": "Norwegian and Danish famine refugees", "la": 59.9, "lo": 10.75, "num": "~5,000–20,000 (guess)", "when": "1258, 1315–17 famines", "fit": 8, "d": "Same tongue family, same church, same farming. The easiest newcomers if Sweden has full granaries when others don't."}
+    {
+      "n": "German miners, smiths and merchants",
+      "la": 53.87,
+      "lo": 10.69,
+      "num": "~20,000–40,000 over 50 years (guess)",
+      "when": "from 1252 (Lübeck treaty); miners mostly from the 1300s historically",
+      "fit": 7,
+      "d": "Pulled by land, mine shares and citizenship. Close cousins in language and religion; they already run Visby and later half of Stockholm's council. Risk: a German enclave that looks to Lübeck."
+    },
+    {
+      "n": "Finnish forest settlers",
+      "la": 61,
+      "lo": 24,
+      "num": "~30,000–60,000 over decades (guess)",
+      "when": "steady from the 1250s",
+      "fit": 7,
+      "d": "Already partly Swedish subjects. Slash-and-burn experts suited to Bergslagen and Värmland forests and to charcoal and tar. Different language, but the same church and law over time."
+    },
+    {
+      "n": "Old Prussian refugees",
+      "la": 54.6,
+      "lo": 20.5,
+      "num": "~5,000–20,000 if ships are sent (guess); the whole people was ~170,000–220,000",
+      "when": "1260–74 (Great Prussian Uprising) and after",
+      "fit": 5,
+      "d": "Fleeing the Teutonic Order's conquest; many were killed or fled to Lithuania historically. Pagan or newly Christian, farmers and warriors; spread through villages and given land."
+    },
+    {
+      "n": "Estonians and Livonians",
+      "la": 58.35,
+      "lo": 22.6,
+      "num": "~2,000–10,000 (guess)",
+      "when": "1240s–1340s, especially after the St George's Night Uprising (1343)",
+      "fit": 6,
+      "d": "Finnic like the Finns, coastal fishers and farmers, fleeing German and Danish lords. Short sea crossing via Åland and Finland."
+    },
+    {
+      "n": "Frisian farmers after the St Lucia's flood",
+      "la": 53.47,
+      "lo": 7.48,
+      "num": "~2,000–5,000 (guess); the flood killed ~50,000–80,000",
+      "when": "1287–90, again after 1362",
+      "fit": 6,
+      "d": "Free farmers with their own assemblies, like Swedes, and experts at dikes, drainage and cattle. Their skills drain Mälaren's wet meadows."
+    },
+    {
+      "n": "Russians fleeing the Mongols",
+      "la": 56.13,
+      "lo": 40.41,
+      "num": "~1,000–5,000 if invited (guess)",
+      "when": "1237–60",
+      "fit": 4,
+      "d": "Craftsmen, monks and traders from sacked Vladimir-Suzdal lands; most fled north to Novgorod. Orthodox and from Sweden's eastern rival, so they need careful welcome."
+    },
+    {
+      "n": "Norwegian and Danish famine refugees",
+      "la": 59.9,
+      "lo": 10.75,
+      "num": "~5,000–20,000 (guess)",
+      "when": "1258, 1315–17 famines",
+      "fit": 8,
+      "d": "Same tongue family, same church, same farming. The easiest newcomers if Sweden has full granaries when others don't."
+    }
   ],
   "neighbors": [
-    {"n": "Lübeck and the rising Hanse", "la": 53.87, "lo": 10.69, "pop": "~10,000–15,000 in the city (guess)", "d": "Imperial free city since 1226 and the hub of German Baltic trade. Its cogs can't enter Mälaren, which is why Stockholm grows as the transhipment port. Treaty with Birger in 1252. Rich, organized, willing to blockade anyone who crosses it."},
-    {"n": "Visby (Gotland)", "la": 57.64, "lo": 18.3, "pop": "~5,000–8,000 in the town (guess)", "d": "The Baltic's great market in 1240, home of the 'Community of Gotland travelers' (German merchants). Walled by ~1300. Town-country civil war in 1288; sacked by Denmark in 1361."},
-    {"n": "Kingdom of Denmark", "la": 55.64, "lo": 12.08, "pop": "~1 million incl. Skåne (guess)", "d": "The strongest Nordic kingdom. Valdemar II dies 1241, then decades of royal feuds. Holds Skåne, the herring market, the Sound tolls and north Estonia (Reval). Will take Visby in 1361."},
-    {"n": "Kingdom of Norway", "la": 60.39, "lo": 5.32, "pop": "~300,000–450,000 (guess)", "d": "Haakon IV (1217–63) brings a golden age; Bergen is the capital and Hanse cod port. Holds Bohuslän and Jämtland. Birger's daughter marries Haakon's son in 1251; peace is easy."},
-    {"n": "Novgorod Republic", "la": 58.52, "lo": 31.27, "pop": "~20,000–30,000 in the city (guess)", "d": "Fur-trading merchant republic under Prince Alexander (Nevsky), who beats the Swedes at the Neva in July 1240. Spared by the Mongols but pays them tribute. Rival for Karelia until 1323."},
-    {"n": "Teutonic Order (Prussia and Livonia)", "la": 54.16, "lo": 19.4, "pop": "~a few hundred knight-brothers plus crusaders and settlers (guess)", "d": "Conquering Prussia since 1230 (Thorn 1233, Elbing 1237) and absorbs the Livonian Sword Brothers in 1237. Beaten by Novgorod on Lake Peipus in 1242. Brutal to natives, so a source of refugees."},
-    {"n": "Old Prussians", "la": 54.6, "lo": 20.5, "pop": "~170,000–220,000 (estimates; some say up to 300,000)", "d": "Pagan Baltic tribes (Sambians, Natangians, Pomesanians...) without a state. Rise against the Order 1260–74 and are crushed; many die or flee."},
-    {"n": "Livonians, Curonians and Latvians (Riga)", "la": 56.95, "lo": 24.11, "pop": "~100,000–200,000 across Livonia and Courland (guess)", "d": "Conquered by German crusaders from Riga (founded 1201). Curonian pirates still raid Swedish coasts. Riga is a growing Hanse port."},
-    {"n": "Estonians", "la": 58.6, "lo": 25.5, "pop": "~150,000 (guess)", "d": "Conquered 1208–27 by Danes and Germans; islanders of Saaremaa rebel often. Finnic cousins of the Finns, a short sail from Åland."},
-    {"n": "The Mongols (Golden Horde)", "la": 56.13, "lo": 40.41, "pop": "armies of ~100,000+ (guess)", "d": "Sack Ryazan and Vladimir 1237–38 and Kiev in December 1240; crush the Poles at Legnica and Hungarians at Mohi in April 1241, then turn back. Never reach the Baltic; their news is the partner's one prediction."},
-    {"n": "Lithuania", "la": 54.9, "lo": 25.3, "pop": "~300,000 (guess)", "d": "Pagan and rising under Mindaugas (king 1253). Where most Prussian refugees went historically; a rival destination for them."}
+    {
+      "n": "Lübeck and the rising Hanse",
+      "la": 53.87,
+      "lo": 10.69,
+      "pop": "~10,000–15,000 in the city (guess)",
+      "d": "Imperial free city since 1226 and the hub of German Baltic trade. Its cogs can't enter Mälaren, which is why Stockholm grows as the transhipment port. Treaty with Birger in 1252. Rich, organized, willing to blockade anyone who crosses it."
+    },
+    {
+      "n": "Visby (Gotland)",
+      "la": 57.64,
+      "lo": 18.3,
+      "pop": "~5,000–8,000 in the town (guess)",
+      "d": "The Baltic's great market in 1240, home of the 'Community of Gotland travelers' (German merchants). Walled by ~1300. Town-country civil war in 1288; sacked by Denmark in 1361.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Visby_ringmur_September_2020_01.jpg/500px-Visby_ringmur_September_2020_01.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Visby_ringmur_September_2020_01.jpg",
+        "c": "Photo: Arild Vågen, CC BY-SA 4.0",
+        "cap": "Visby town wall and towers, Gotland"
+      }
+    },
+    {
+      "n": "Kingdom of Denmark",
+      "la": 55.64,
+      "lo": 12.08,
+      "pop": "~1 million incl. Skåne (guess)",
+      "d": "The strongest Nordic kingdom. Valdemar II dies 1241, then decades of royal feuds. Holds Skåne, the herring market, the Sound tolls and north Estonia (Reval). Will take Visby in 1361."
+    },
+    {
+      "n": "Kingdom of Norway",
+      "la": 60.39,
+      "lo": 5.32,
+      "pop": "~300,000–450,000 (guess)",
+      "d": "Haakon IV (1217–63) brings a golden age; Bergen is the capital and Hanse cod port. Holds Bohuslän and Jämtland. Birger's daughter marries Haakon's son in 1251; peace is easy."
+    },
+    {
+      "n": "Novgorod Republic",
+      "la": 58.52,
+      "lo": 31.27,
+      "pop": "~20,000–30,000 in the city (guess)",
+      "d": "Fur-trading merchant republic under Prince Alexander (Nevsky), who beats the Swedes at the Neva in July 1240. Spared by the Mongols but pays them tribute. Rival for Karelia until 1323.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Veliky_Novgorod._Cathedral_of_Saint_Sophia_P7201015_2350.jpg/500px-Veliky_Novgorod._Cathedral_of_Saint_Sophia_P7201015_2350.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Veliky_Novgorod._Cathedral_of_Saint_Sophia_P7201015_2350.jpg",
+        "c": "Photo: Alexxx1979, CC BY-SA 4.0",
+        "cap": "St Sophia Cathedral (1050), Novgorod"
+      }
+    },
+    {
+      "n": "Teutonic Order (Prussia and Livonia)",
+      "la": 54.16,
+      "lo": 19.4,
+      "pop": "~a few hundred knight-brothers plus crusaders and settlers (guess)",
+      "d": "Conquering Prussia since 1230 (Thorn 1233, Elbing 1237) and absorbs the Livonian Sword Brothers in 1237. Beaten by Novgorod on Lake Peipus in 1242. Brutal to natives, so a source of refugees."
+    },
+    {
+      "n": "Old Prussians",
+      "la": 54.6,
+      "lo": 20.5,
+      "pop": "~170,000–220,000 (estimates; some say up to 300,000)",
+      "d": "Pagan Baltic tribes (Sambians, Natangians, Pomesanians...) without a state. Rise against the Order 1260–74 and are crushed; many die or flee."
+    },
+    {
+      "n": "Livonians, Curonians and Latvians (Riga)",
+      "la": 56.95,
+      "lo": 24.11,
+      "pop": "~100,000–200,000 across Livonia and Courland (guess)",
+      "d": "Conquered by German crusaders from Riga (founded 1201). Curonian pirates still raid Swedish coasts. Riga is a growing Hanse port."
+    },
+    {
+      "n": "Estonians",
+      "la": 58.6,
+      "lo": 25.5,
+      "pop": "~150,000 (guess)",
+      "d": "Conquered 1208–27 by Danes and Germans; islanders of Saaremaa rebel often. Finnic cousins of the Finns, a short sail from Åland."
+    },
+    {
+      "n": "The Mongols (Golden Horde)",
+      "la": 56.13,
+      "lo": 40.41,
+      "pop": "armies of ~100,000+ (guess)",
+      "d": "Sack Ryazan and Vladimir 1237–38 and Kiev in December 1240; crush the Poles at Legnica and Hungarians at Mohi in April 1241, then turn back. Never reach the Baltic; their news is the partner's one prediction."
+    },
+    {
+      "n": "Lithuania",
+      "la": 54.9,
+      "lo": 25.3,
+      "pop": "~300,000 (guess)",
+      "d": "Pagan and rising under Mindaugas (king 1253). Where most Prussian refugees went historically; a rival destination for them."
+    }
   ],
   "sources": [
-    ["Sweden chapter, The Complete History of the Black Death (Cambridge): ~500,000 before 1350", "https://www.cambridge.org/core/books/complete-history-of-the-black-death/sweden/CBA1F46B01E15AAA9420486C927BFB04"],
-    ["Korpela, Finland's medieval population (Simola: ~50,000 in 1300)", "https://www.sgr.fi/sust/sust265/sust265_korpela.pdf"],
-    ["Lapphyttan (Wikipedia)", "https://en.wikipedia.org/wiki/Lapphyttan"],
-    ["The blast furnace in earlier times (Jernkontoret)", "https://jernkontoret.se/en/the-steel-industry/the-history-of-swedish-steel-industry/blast-furnace-in-earlier-times/"],
-    ["Iron and copper mining in the Middle Ages (Historiska museet): ~2,000 t a year in the 1300s", "https://historiska.se/en/explore-history/history-hub/iron-and-copper-mining-in-the-middle-ages/"],
-    ["Falun Mine (Wikipedia)", "https://en.wikipedia.org/wiki/Falun_Mine"],
-    ["Sweden: historical and statistical handbook, Falun ore totals (Project Runeberg)", "https://runeberg.org/sweden14/2/0322.html"],
-    ["Dannemora mine (Wikipedia)", "https://en.wikipedia.org/wiki/Dannemora_mine"],
-    ["Grängesberg Exploration reserve revision (Dannemora reserves)", "https://borsvarlden.com/artiklar/grangesberg-exploration-upwards-revision-of-reserves-accompanied-by-strong-macro-backdrop-emergers"],
-    ["LKAB mineral resources and reserves (Kiruna)", "https://lkab.com/en/press/lkab-increases-mineral-resources-and-reports-rare-earth-metals/"],
-    ["Grängesberg iron ore project (Mining Technology)", "https://www.mining-technology.com/projects/grangesberg-iron-ore-project-sweden/"],
-    ["Scania market (Wikipedia)", "https://en.wikipedia.org/wiki/Scania_market"],
-    ["The Copper Mines of Falun and the Fisheries of Skane (History of the Germans)", "https://historyofthegermans.com/111-2/"],
-    ["Early tar production in Sweden (Antiquity)", "https://doi.org/10.15184/aqy.2018.22"],
-    ["Visby (Wikipedia) and UNESCO Hanseatic Town of Visby", "https://whc.unesco.org/en/list/731"],
-    ["Prussian Crusade, population estimates", "https://military-history.fandom.com/wiki/Prussian_Crusade"],
-    ["St. Lucia's flood (Wikipedia)", "https://en.wikipedia.org/wiki/St._Lucia%27s_flood"],
-    ["Kovalev, Novgorodian fur trade (Novgorod ~25,000–30,000 later)", "https://www.medievalists.net/?p=31576"],
-    ["Sámi history overview", "https://laits.utexas.edu/sami/dieda/hist/sami-west.htm"],
-    ["Birger Jarl (Wikipedia)", "https://en.wikipedia.org/wiki/Birger_Jarl"]
+    [
+      "Sweden chapter, The Complete History of the Black Death (Cambridge): ~500,000 before 1350",
+      "https://www.cambridge.org/core/books/complete-history-of-the-black-death/sweden/CBA1F46B01E15AAA9420486C927BFB04"
+    ],
+    [
+      "Korpela, Finland's medieval population (Simola: ~50,000 in 1300)",
+      "https://www.sgr.fi/sust/sust265/sust265_korpela.pdf"
+    ],
+    [
+      "Lapphyttan (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Lapphyttan"
+    ],
+    [
+      "The blast furnace in earlier times (Jernkontoret)",
+      "https://jernkontoret.se/en/the-steel-industry/the-history-of-swedish-steel-industry/blast-furnace-in-earlier-times/"
+    ],
+    [
+      "Iron and copper mining in the Middle Ages (Historiska museet): ~2,000 t a year in the 1300s",
+      "https://historiska.se/en/explore-history/history-hub/iron-and-copper-mining-in-the-middle-ages/"
+    ],
+    [
+      "Falun Mine (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Falun_Mine"
+    ],
+    [
+      "Sweden: historical and statistical handbook, Falun ore totals (Project Runeberg)",
+      "https://runeberg.org/sweden14/2/0322.html"
+    ],
+    [
+      "Dannemora mine (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Dannemora_mine"
+    ],
+    [
+      "Grängesberg Exploration reserve revision (Dannemora reserves)",
+      "https://borsvarlden.com/artiklar/grangesberg-exploration-upwards-revision-of-reserves-accompanied-by-strong-macro-backdrop-emergers"
+    ],
+    [
+      "LKAB mineral resources and reserves (Kiruna)",
+      "https://lkab.com/en/press/lkab-increases-mineral-resources-and-reports-rare-earth-metals/"
+    ],
+    [
+      "Grängesberg iron ore project (Mining Technology)",
+      "https://www.mining-technology.com/projects/grangesberg-iron-ore-project-sweden/"
+    ],
+    [
+      "Scania market (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Scania_market"
+    ],
+    [
+      "The Copper Mines of Falun and the Fisheries of Skane (History of the Germans)",
+      "https://historyofthegermans.com/111-2/"
+    ],
+    [
+      "Early tar production in Sweden (Antiquity)",
+      "https://doi.org/10.15184/aqy.2018.22"
+    ],
+    [
+      "Visby (Wikipedia) and UNESCO Hanseatic Town of Visby",
+      "https://whc.unesco.org/en/list/731"
+    ],
+    [
+      "Prussian Crusade, population estimates",
+      "https://military-history.fandom.com/wiki/Prussian_Crusade"
+    ],
+    [
+      "St. Lucia's flood (Wikipedia)",
+      "https://en.wikipedia.org/wiki/St._Lucia%27s_flood"
+    ],
+    [
+      "Kovalev, Novgorodian fur trade (Novgorod ~25,000–30,000 later)",
+      "https://www.medievalists.net/?p=31576"
+    ],
+    [
+      "Sámi history overview",
+      "https://laits.utexas.edu/sami/dieda/hist/sami-west.htm"
+    ],
+    [
+      "Birger Jarl (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Birger_Jarl"
+    ]
+  ],
+  "gallery": [
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/V%C3%A4dersolstavlan_1535_galgen.jpg/500px-V%C3%A4dersolstavlan_1535_galgen.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:V%C3%A4dersolstavlan_1535_galgen.jpg",
+      "c": "Painting: Urban målare (Vädersolstavlan), public domain",
+      "cap": "Stockholm in 1535, the oldest picture of the town",
+      "kind": "then"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/L%C3%A5nghuset_vid_Gene_fornby_fr%C3%A5n_sydost.jpg/500px-L%C3%A5nghuset_vid_Gene_fornby_fr%C3%A5n_sydost.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:L%C3%A5nghuset_vid_Gene_fornby_fr%C3%A5n_sydost.jpg",
+      "c": "Photo: Carl L. Thunberg for Ångermanlands fornminnesförening, CC BY-SA 4.0",
+      "cap": "Reconstructed Iron Age longhouse farm, Gene fornby",
+      "kind": "then"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Visby_ringmur_August_2020_02.jpg/500px-Visby_ringmur_August_2020_02.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Visby_ringmur_August_2020_02.jpg",
+      "c": "Photo: Arild Vågen, CC BY-SA 4.0",
+      "cap": "Visby's 13th-century town wall on Gotland",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sankt_Olofs_kyrkoruin_september_2013_14.jpg/500px-Sankt_Olofs_kyrkoruin_september_2013_14.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Sankt_Olofs_kyrkoruin_september_2013_14.jpg",
+      "c": "Photo: Arild Vågen, CC BY-SA 3.0",
+      "cap": "St Olof church ruin in Sigtuna, the old Mälaren town",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lapphyttan_02.jpg/500px-Lapphyttan_02.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Lapphyttan_02.jpg",
+      "c": "Photo: Calle Eklund/V-wolf, CC BY-SA 3.0",
+      "cap": "Lapphyttan, remains of a medieval blast furnace, Bergslagen",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Stora_st%C3%B6ten_Falu_koppargruva_04.jpg/500px-Stora_st%C3%B6ten_Falu_koppargruva_04.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Stora_st%C3%B6ten_Falu_koppargruva_04.jpg",
+      "c": "Photo: Helen Simonsson, CC BY-SA 4.0",
+      "cap": "Stora Stöten, the great copper pit at Falun",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Monastery_ruin_near_H%C3%A4stholmen.jpg/500px-Monastery_ruin_near_H%C3%A4stholmen.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Monastery_ruin_near_H%C3%A4stholmen.jpg",
+      "c": "Photo: Zangerl Thomas, CC BY-SA 2.0",
+      "cap": "Alvastra Abbey ruin, 12th-century Cistercian house near Bjälbo",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Gamla_Uppsala_h%C3%B6gar_%282019%29-1.jpg/500px-Gamla_Uppsala_h%C3%B6gar_%282019%29-1.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Gamla_Uppsala_h%C3%B6gar_(2019)-1.jpg",
+      "c": "Photo: Ruthven, CC BY-SA 4.0",
+      "cap": "Royal mounds and church at Gamla Uppsala",
+      "kind": "ruins"
+    }
   ]
 }

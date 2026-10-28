@@ -5,147 +5,1177 @@
   "pitch": "A refugee fleet founds a federation on the best rivers, coal and water power on Earth.",
   "score": 7.8,
   "year": 1243,
-  "view": {"center": [41.0, -81.5], "zoom": 5},
-  "core": {"n": "Forks of the Ohio (later Pittsburgh)", "la": 40.44, "lo": -80.01, "d": "The Allegheny and Monongahela meet to form the Ohio, so boats reach the whole Mississippi basin from here. The Pittsburgh coal seam sticks out of the hill across the river, and iron ore, clay, limestone and timber are all within a few days."},
-  "start": {"n": "Head of the Hudson tide (later Albany)", "la": 42.65, "lo": -73.75, "d": "The fleet lands in April 1243 where ocean ships stop on the Hudson. Cohoes Falls and the Mohawk Valley route west are next door; the core moves to the Forks in years 6–10."},
+  "view": {
+    "center": [
+      41,
+      -81.5
+    ],
+    "zoom": 5
+  },
+  "core": {
+    "n": "Forks of the Ohio (later Pittsburgh)",
+    "la": 40.44,
+    "lo": -80.01,
+    "d": "The Allegheny and Monongahela meet to form the Ohio, so boats reach the whole Mississippi basin from here. The Pittsburgh coal seam sticks out of the hill across the river, and iron ore, clay, limestone and timber are all within a few days.",
+    "img": {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/This_engraving_is_a_rendering_by_Seth_Eastman_of_Lewis_Brantz%27s_original_watercolor_painting_of_Pittsburgh_from_1790.jpg/500px-This_engraving_is_a_rendering_by_Seth_Eastman_of_Lewis_Brantz%27s_original_watercolor_painting_of_Pittsburgh_from_1790.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:This_engraving_is_a_rendering_by_Seth_Eastman_of_Lewis_Brantz%27s_original_watercolor_painting_of_Pittsburgh_from_1790.jpg",
+      "c": "Engraving: John C. McRae after Lewis Brantz, public domain",
+      "cap": "The Forks of the Ohio in 1790, before the city grew"
+    }
+  },
+  "start": {
+    "n": "Head of the Hudson tide (later Albany)",
+    "la": 42.65,
+    "lo": -73.75,
+    "d": "The fleet lands in April 1243 where ocean ships stop on the Hudson. Cohoes Falls and the Mohawk Valley route west are next door; the core moves to the Forks in years 6–10.",
+    "img": {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/NYmohawk-PeeblesIsland.JPG/500px-NYmohawk-PeeblesIsland.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:NYmohawk-PeeblesIsland.JPG",
+      "c": "Photo: Holly Cheng, public domain",
+      "cap": "Where the Mohawk meets the Hudson, near the tide head"
+    }
+  },
   "facts": [
-    ["Population (region)", "~300,000–1,000,000 across the Ohio Valley, Great Lakes and middle Mississippi (guess; estimates for all of North America run 2–18 million)"],
-    ["Climate", "Humid continental: cold winters, hot humid summers. Pittsburgh today ~-2 °C in January, ~23 °C in July"],
-    ["Rain", "~900–1,100 mm, spread through the year; spring floods on the Ohio"],
-    ["Growing season", "~150 frost-free days in upstate New York, ~170–180 at the Forks, ~200 at Cahokia"],
-    ["Languages", "Iroquoian (New York, Ontario), Algonquian (Hudson, Great Lakes), Siouan (Oneota, probably Cahokia), others unknown"],
-    ["Writing", "none"],
-    ["Metal", "Native copper cold-hammered into ornaments; no smelting, no iron"],
-    ["Farm animals", "Dogs only. No cattle, horses, sheep, pigs or chickens anywhere in the Americas north of the Andes"],
-    ["Crops", "Maize (dominant since ~1000), squash, sunflower and native seed crops; beans spread across the Northeast only ~1300"],
-    ["Disease", "No smallpox, measles or malaria yet; that is both the opportunity and the danger"]
+    [
+      "Population (region)",
+      "~300,000–1,000,000 across the Ohio Valley, Great Lakes and middle Mississippi (guess; estimates for all of North America run 2–18 million)"
+    ],
+    [
+      "Climate",
+      "Humid continental: cold winters, hot humid summers. Pittsburgh today ~-2 °C in January, ~23 °C in July"
+    ],
+    [
+      "Rain",
+      "~900–1,100 mm, spread through the year; spring floods on the Ohio"
+    ],
+    [
+      "Growing season",
+      "~150 frost-free days in upstate New York, ~170–180 at the Forks, ~200 at Cahokia"
+    ],
+    [
+      "Languages",
+      "Iroquoian (New York, Ontario), Algonquian (Hudson, Great Lakes), Siouan (Oneota, probably Cahokia), others unknown"
+    ],
+    [
+      "Writing",
+      "none"
+    ],
+    [
+      "Metal",
+      "Native copper cold-hammered into ornaments; no smelting, no iron"
+    ],
+    [
+      "Farm animals",
+      "Dogs only. No cattle, horses, sheep, pigs or chickens anywhere in the Americas north of the Andes"
+    ],
+    [
+      "Crops",
+      "Maize (dominant since ~1000), squash, sunflower and native seed crops; beans spread across the Northeast only ~1300"
+    ],
+    [
+      "Disease",
+      "No smallpox, measles or malaria yet; that is both the opportunity and the danger"
+    ]
   ],
   "land": [
-    {"n": "Allegheny Plateau around the Forks", "la": 40.3, "lo": -80.2, "r": 150, "elev": "250–550 m (rivers ~220 m)", "rain": "~950 mm, all year", "d": "Steep wooded hills cut by deep valleys, with coal, clay and sandstone in the hillsides. Narrow but rich bottomlands; no malaria."},
-    {"n": "Ohio River valley", "la": 38.8, "lo": -84.0, "r": 250, "elev": "100–250 m", "rain": "~1,050 mm", "d": "A 1,580 km river from the Forks to Cairo, with wide terraces and floodplains. Spring floods can rise 10–15 m, so towns go on high terraces."},
-    {"n": "Till plains (central Ohio and Indiana)", "la": 40.2, "lo": -84.8, "r": 200, "elev": "250–350 m", "rain": "~950 mm", "d": "Flat glacial plains with deep fertile soils under oak-hickory and beech-maple forest, wet in spring. Later the Corn Belt."},
-    {"n": "Kentucky Bluegrass", "la": 38.1, "lo": -84.5, "r": 90, "elev": "250–300 m", "rain": "~1,150 mm", "d": "Rolling limestone country with phosphate-rich soils, open woods and cane. Excellent for cattle and horses."},
-    {"n": "Lake Erie and Lake Ontario lowlands", "la": 42.3, "lo": -80.5, "r": 220, "elev": "75–250 m", "rain": "~900 mm, lake-effect snow", "d": "Flat shore plains warmed by the lakes, good for orchards and grain. The Black Swamp west of Lake Erie is a huge wet forest."},
-    {"n": "Hudson and Mohawk valleys", "la": 42.8, "lo": -74.5, "r": 120, "elev": "0–150 m", "rain": "~1,000 mm", "d": "The landing zone and the only low gap through the Appalachians to the Great Lakes (the later Erie Canal route). Fertile flats, long cold winters."},
-    {"n": "Appalachian ridges", "la": 40.4, "lo": -78.0, "r": 120, "elev": "300–900 m", "rain": "~1,000 mm", "d": "Long parallel ridges and narrow valleys east of the core, with poor ridge soils but rich limestone valleys. A barrier to the Atlantic coast."},
-    {"n": "American Bottom", "la": 38.65, "lo": -90.1, "r": 60, "elev": "~125 m", "rain": "~1,000 mm", "d": "The wide Mississippi floodplain opposite later St. Louis, home of Cahokia. Very fertile but flood-prone."},
-    {"n": "Prairie Peninsula (Illinois)", "la": 40.5, "lo": -89.0, "r": 200, "elev": "150–250 m", "rain": "~900 mm", "d": "Tallgrass prairie with forest along the rivers and some of the deepest topsoil on Earth. Needs a steel plow to break the sod."},
-    {"n": "Upper Great Lakes forest", "la": 46.6, "lo": -87.5, "r": 280, "elev": "180–600 m", "rain": "~800 mm, heavy snow", "d": "Pine and birch on the Canadian Shield, short summers (~110–140 frost-free days). Copper and iron country, too cold for reliable maize."}
+    {
+      "n": "Allegheny Plateau around the Forks",
+      "la": 40.3,
+      "lo": -80.2,
+      "r": 150,
+      "elev": "250–550 m (rivers ~220 m)",
+      "rain": "~950 mm, all year",
+      "d": "Steep wooded hills cut by deep valleys, with coal, clay and sandstone in the hillsides. Narrow but rich bottomlands; no malaria.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Allegheny_River_Bend.jpg/500px-Allegheny_River_Bend.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Allegheny_River_Bend.jpg",
+        "c": "Photo: Nyttend, public domain",
+        "cap": "Wooded plateau hills along the Allegheny River, Pennsylvania"
+      }
+    },
+    {
+      "n": "Ohio River valley",
+      "la": 38.8,
+      "lo": -84,
+      "r": 250,
+      "elev": "100–250 m",
+      "rain": "~1,050 mm",
+      "d": "A 1,580 km river from the Forks to Cairo, with wide terraces and floodplains. Spring floods can rise 10–15 m, so towns go on high terraces.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Ohio_RiIver_136.jpg/500px-Ohio_RiIver_136.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Ohio_RiIver_136.jpg",
+        "c": "Photo: Chris Light, CC BY-SA 4.0",
+        "cap": "The Ohio winding between wooded valley walls"
+      }
+    },
+    {
+      "n": "Till plains (central Ohio and Indiana)",
+      "la": 40.2,
+      "lo": -84.8,
+      "r": 200,
+      "elev": "250–350 m",
+      "rain": "~950 mm",
+      "d": "Flat glacial plains with deep fertile soils under oak-hickory and beech-maple forest, wet in spring. Later the Corn Belt.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Fulton_County_-_Goll_Woods_State_Nature_Preserve_-_20201027163800.jpg/500px-Fulton_County_-_Goll_Woods_State_Nature_Preserve_-_20201027163800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Fulton_County_-_Goll_Woods_State_Nature_Preserve_-_20201027163800.jpg",
+        "c": "Photo: Billhoyt523, CC BY-SA 4.0",
+        "cap": "Old-growth hardwood forest at Goll Woods, northwest Ohio"
+      }
+    },
+    {
+      "n": "Kentucky Bluegrass",
+      "la": 38.1,
+      "lo": -84.5,
+      "r": 90,
+      "elev": "250–300 m",
+      "rain": "~1,150 mm",
+      "d": "Rolling limestone country with phosphate-rich soils, open woods and cane. Excellent for cattle and horses.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Raven_Run_Outlook.jpg/500px-Raven_Run_Outlook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Raven_Run_Outlook.jpg",
+        "c": "Photo: ZaBanker, CC BY-SA 4.0",
+        "cap": "Kentucky River gorge at Raven Run, in the Bluegrass"
+      }
+    },
+    {
+      "n": "Lake Erie and Lake Ontario lowlands",
+      "la": 42.3,
+      "lo": -80.5,
+      "r": 220,
+      "elev": "75–250 m",
+      "rain": "~900 mm, lake-effect snow",
+      "d": "Flat shore plains warmed by the lakes, good for orchards and grain. The Black Swamp west of Lake Erie is a huge wet forest.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gfp-pennsylvania-eerie-bluffs-state-park-lake-erie-shore.jpg/500px-Gfp-pennsylvania-eerie-bluffs-state-park-lake-erie-shore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Gfp-pennsylvania-eerie-bluffs-state-park-lake-erie-shore.jpg",
+        "c": "Photo: Yinan Chen, public domain",
+        "cap": "Lake Erie shore below the Erie Bluffs, Pennsylvania"
+      }
+    },
+    {
+      "n": "Hudson and Mohawk valleys",
+      "la": 42.8,
+      "lo": -74.5,
+      "r": 120,
+      "elev": "0–150 m",
+      "rain": "~1,000 mm",
+      "d": "The landing zone and the only low gap through the Appalachians to the Great Lakes (the later Erie Canal route). Fertile flats, long cold winters.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/2020_Mohawk_River_north_from_Mohawk_Valley_Gateway_Overlook.jpg/500px-2020_Mohawk_River_north_from_Mohawk_Valley_Gateway_Overlook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:2020_Mohawk_River_north_from_Mohawk_Valley_Gateway_Overlook.jpg",
+        "c": "Photo: Beyond My Ken, CC BY-SA 4.0",
+        "cap": "The Mohawk River valley at Amsterdam, New York"
+      }
+    },
+    {
+      "n": "Appalachian ridges",
+      "la": 40.4,
+      "lo": -78,
+      "r": 120,
+      "elev": "300–900 m",
+      "rain": "~1,000 mm",
+      "d": "Long parallel ridges and narrow valleys east of the core, with poor ridge soils but rich limestone valleys. A barrier to the Atlantic coast.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/2024-09-04_15_26_19_View_north_from_Jo_Hays_Vista_along_Pennsylvania_State_Route_26_on_Tussey_Mountain_in_Ferguson_Township%2C_Centre_County%2C_Pennsylvania.jpg/500px-2024-09-04_15_26_19_View_north_from_Jo_Hays_Vista_along_Pennsylvania_State_Route_26_on_Tussey_Mountain_in_Ferguson_Township%2C_Centre_County%2C_Pennsylvania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:2024-09-04_15_26_19_View_north_from_Jo_Hays_Vista_along_Pennsylvania_State_Route_26_on_Tussey_Mountain_in_Ferguson_Township,_Centre_County,_Pennsylvania.jpg",
+        "c": "Photo: Famartin, CC BY-SA 4.0",
+        "cap": "Ridge-and-valley country seen from Tussey Mountain, Pennsylvania"
+      }
+    },
+    {
+      "n": "American Bottom",
+      "la": 38.65,
+      "lo": -90.1,
+      "r": 60,
+      "elev": "~125 m",
+      "rain": "~1,000 mm",
+      "d": "The wide Mississippi floodplain opposite later St. Louis, home of Cahokia. Very fertile but flood-prone.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Monks_Mound_Cahokia_3963a.jpg/500px-Monks_Mound_Cahokia_3963a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Monks_Mound_Cahokia_3963a.jpg",
+        "c": "Photo: QuartierLatin1968, CC BY-SA 3.0",
+        "cap": "Monks Mound rising from the flat American Bottom"
+      }
+    },
+    {
+      "n": "Prairie Peninsula (Illinois)",
+      "la": 40.5,
+      "lo": -89,
+      "r": 200,
+      "elev": "150–250 m",
+      "rain": "~900 mm",
+      "d": "Tallgrass prairie with forest along the rivers and some of the deepest topsoil on Earth. Needs a steel plow to break the sod.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Nachusa_Grasslands_Spring_2016.jpg/500px-Nachusa_Grasslands_Spring_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Nachusa_Grasslands_Spring_2016.jpg",
+        "c": "Photo: cassi saari, CC BY-SA 4.0",
+        "cap": "Tallgrass prairie and oak woods at Nachusa Grasslands, Illinois"
+      }
+    },
+    {
+      "n": "Upper Great Lakes forest",
+      "la": 46.6,
+      "lo": -87.5,
+      "r": 280,
+      "elev": "180–600 m",
+      "rain": "~800 mm, heavy snow",
+      "d": "Pine and birch on the Canadian Shield, short summers (~110–140 frost-free days). Copper and iron country, too cold for reliable maize.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Lake_of_the_Clouds%2C_Porcupine_Mountains%2C_MI.jpg/500px-Lake_of_the_Clouds%2C_Porcupine_Mountains%2C_MI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Lake_of_the_Clouds,_Porcupine_Mountains,_MI.jpg",
+        "c": "Photo: Sharon Mollerus, CC BY 2.0",
+        "cap": "Northwoods forest in the Porcupine Mountains, Michigan"
+      }
+    }
   ],
   "peoples": [
-    {"n": "Cahokia (Mississippian paramount center)", "la": 38.66, "lo": -90.06, "pop": 8000, "popText": "~10,000–15,000 in the center at its peak ~1050–1100; by the 1240s probably ~5,000–8,000 and falling (guess)", "culture": "Maize farmers ruled by hereditary chiefs from mound-top temples; Monks Mound is ~30 m high. Possibly Siouan-speaking. A stockade was built in the 1100s.", "d": "The biggest town north of Mexico, already past its peak. Gifts, food storage and vaccine could make it the federation's western anchor."},
-    {"n": "Lower Illinois Valley Mississippians (Spoon River, Dickson Mounds)", "la": 40.35, "lo": -90.13, "pop": 5000, "popText": "~3,000–8,000 in scattered towns and farmsteads (guess)", "culture": "Mississippian farmers mixing with local Late Woodland people, mounds and palisaded towns.", "d": "Fertile river valley on the way to the lead district. Face Oneota raiding from ~1300."},
-    {"n": "Kincaid Mounds", "la": 37.08, "lo": -88.49, "pop": 2000, "popText": "~2,000 at the town plus ~1,000 on farmsteads at its maximum (site overview)", "culture": "Mississippian chiefdom with 19 mounds on the lower Ohio; maize, fish and river trade.", "d": "Controls the lower Ohio near its mouth; a natural ally on the river route to Cahokia."},
-    {"n": "Angel Mounds", "la": 37.94, "lo": -87.45, "pop": 500, "popText": "A ceremonial center with few residents in 1100–1300; ~1,000 by 1400 (IUPUI research)", "culture": "Mississippian chiefdom on the Ohio near later Evansville, with a large platform mound and stockade.", "d": "Small now but growing; it will be the main Mississippian town on the middle Ohio."},
-    {"n": "Wickliffe and the Ohio-Mississippi junction towns", "la": 36.97, "lo": -89.09, "pop": 2000, "popText": "~1,000–3,000 across several small mound towns (guess)", "culture": "Small Mississippian chiefdoms where the Ohio meets the Mississippi.", "d": "Gatekeepers of the river junction; the federation's boats pass right by them."},
-    {"n": "Middle Cumberland Mississippians", "la": 36.16, "lo": -86.78, "pop": 10000, "popText": "~5,000–15,000 in many towns around later Nashville (guess)", "culture": "Mississippian chiefdoms with stone-box graves and mound towns along the Cumberland.", "d": "Reachable by boat from the Ohio. Part of the southern Mississippian world, less tied to Cahokia."},
-    {"n": "Fort Ancient villages (Miami and Scioto valleys)", "la": 39.4, "lo": -83.8, "pop": 20000, "popText": "Villages of ~100–500 people; perhaps ~10,000–30,000 in all (guess)", "culture": "Maize-bean-squash farmers in circular villages around a plaza, each village moving every 20–30 years (SunWatch near Dayton is the best known). Village councils, no great chiefs.", "d": "The core's nearest big farming population. Egalitarian villages that would trade for iron and oxen readily."},
-    {"n": "Fort Ancient villages (Kanawha and Big Sandy)", "la": 38.4, "lo": -82.0, "pop": 5000, "popText": "~3,000–8,000 (guess)", "culture": "Fort Ancient farmers and hunters in river-valley villages, using the Kanawha salt licks.", "d": "They sit on the Kanawha salt springs, so salt is the first deal."},
-    {"n": "Monongahela people", "la": 39.9, "lo": -79.9, "pop": 10000, "popText": "Stockaded villages of 50–100 houses (~200–500 people); perhaps ~5,000–15,000 in all (guess)", "culture": "Maize farmers in circular stockaded villages on ridge tops above the rivers, moving uphill after ~1250 because of raiding. Language unknown.", "d": "The people living at the core itself. Their land and goodwill come first; raids between villages mean a peace-maker is welcome."},
-    {"n": "Whittlesey people (Cuyahoga and Lake Erie shore)", "la": 41.4, "lo": -81.6, "pop": 4000, "popText": "~2,000–6,000 (guess)", "culture": "Farmers in villages on bluffs and promontories above the Lake Erie rivers, ~1000–1600.", "d": "Control the Lake Erie outlet of the core's north routes and Cuyahoga Falls."},
-    {"n": "Owasco / early Haudenosaunee (Finger Lakes)", "la": 42.9, "lo": -76.6, "pop": 15000, "popText": "~10,000–25,000 in central New York (guess)", "culture": "Iroquoian-speaking maize farmers in longhouse villages, organized by matrilineal clans with strong clan mothers. Ancestors of the Cayuga, Onondaga, Seneca and Oneida.", "d": "Closest big farming people to the landing and the Onondaga salt. Clan mothers control the fields, so ox-plows win them."},
-    {"n": "Mohawk Valley villages", "la": 42.95, "lo": -74.4, "pop": 3000, "popText": "~2,000–5,000 (guess)", "culture": "Early Mohawk (Iroquoian) farming villages along the Mohawk River.", "d": "Right on the route west from the landing. The first neighbors, and the first test of the charter's 'no land taken' rule."},
-    {"n": "Ontario Iroquoians", "la": 43.4, "lo": -80.0, "pop": 20000, "popText": "~15,000–30,000 in southern Ontario (guess); ~750 village sites known from later centuries", "culture": "Iroquoian farmers shifting to settled longhouse villages (Early-to-Middle Iroquoian, ~1300 change). Ancestors of the Wendat and Neutral.", "d": "Across Lake Erie and Lake Ontario; reachable by lake boat once the federation has them."},
-    {"n": "Mahican and Munsee (Hudson Algonquians)", "la": 42.3, "lo": -73.8, "pop": 6000, "popText": "~3,000–10,000 along the Hudson (guess)", "culture": "Algonquian-speaking farmers, fishers and hunters in small villages under local sachems.", "d": "They live where the fleet lands. The first impression of the federation is made with them."},
-    {"n": "Lenape ancestors (lower Hudson and Delaware)", "la": 40.9, "lo": -74.6, "pop": 10000, "popText": "~5,000–15,000 (guess)", "culture": "Algonquian farmers and shellfish gatherers, matrilineal clans, small independent bands.", "d": "Own the river mouth and New York harbor that every return fleet passes."},
-    {"n": "Shenks Ferry and Clemson Island peoples (Susquehanna)", "la": 40.6, "lo": -76.6, "pop": 5000, "popText": "~3,000–8,000 (guess)", "culture": "Village farmers on the Susquehanna, language unknown.", "d": "Between the landing and the core on the overland route through Pennsylvania."},
-    {"n": "Late Woodland Michigan peoples (Odawa and Potawatomi ancestors)", "la": 43.0, "lo": -85.5, "pop": 10000, "popText": "~5,000–15,000 (guess)", "culture": "Algonquian speakers mixing maize gardens with fishing, hunting and wild rice; seasonal moves.", "d": "Middlemen on the lake route to the Lake Superior copper."},
-    {"n": "Lake Superior Algonquians (Ojibwe ancestors)", "la": 46.5, "lo": -88.0, "pop": 4000, "popText": "~2,000–6,000 hunter-fishers (guess)", "culture": "Mobile bands living by fishing, hunting and wild rice; they still dig a little copper from ancient pits.", "d": "They know where the copper lies. Need guides and fair trade, not settlers."},
-    {"n": "Oneota (Wisconsin and northern Illinois)", "la": 43.0, "lo": -89.0, "pop": 15000, "popText": "~10,000–20,000 (guess)", "culture": "Siouan-speaking farmers and bison hunters on the prairie edge, ancestors of the Ho-Chunk and Ioway. Rising raiders from ~1300.", "d": "Will push into Illinois as Cahokia fades. The federation's main frontier diplomacy problem in the west."},
-    {"n": "Aztalan (Mississippian outpost)", "la": 43.07, "lo": -88.86, "pop": 400, "popText": "~300–500, being abandoned around 1200–1250 (guess)", "culture": "A stockaded Mississippian colony among local Late Woodland people.", "d": "Shows how far Cahokia reached, and that its reach is shrinking."}
+    {
+      "n": "Cahokia (Mississippian paramount center)",
+      "la": 38.66,
+      "lo": -90.06,
+      "pop": 8000,
+      "popText": "~10,000–15,000 in the center at its peak ~1050–1100; by the 1240s probably ~5,000–8,000 and falling (guess)",
+      "culture": "Maize farmers ruled by hereditary chiefs from mound-top temples; Monks Mound is ~30 m high. Possibly Siouan-speaking. A stockade was built in the 1100s.",
+      "d": "The biggest town north of Mexico, already past its peak. Gifts, food storage and vaccine could make it the federation's western anchor.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Cahokia_monks_mound_HRoe_2008.jpg/500px-Cahokia_monks_mound_HRoe_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Cahokia_monks_mound_HRoe_2008.jpg",
+        "c": "Photo: Herb Roe, CC BY-SA 3.0",
+        "cap": "Monks Mound, heart of Cahokia"
+      }
+    },
+    {
+      "n": "Lower Illinois Valley Mississippians (Spoon River, Dickson Mounds)",
+      "la": 40.35,
+      "lo": -90.13,
+      "pop": 5000,
+      "popText": "~3,000–8,000 in scattered towns and farmsteads (guess)",
+      "culture": "Mississippian farmers mixing with local Late Woodland people, mounds and palisaded towns.",
+      "d": "Fertile river valley on the way to the lead district. Face Oneota raiding from ~1300."
+    },
+    {
+      "n": "Kincaid Mounds",
+      "la": 37.08,
+      "lo": -88.49,
+      "pop": 2000,
+      "popText": "~2,000 at the town plus ~1,000 on farmsteads at its maximum (site overview)",
+      "culture": "Mississippian chiefdom with 19 mounds on the lower Ohio; maize, fish and river trade.",
+      "d": "Controls the lower Ohio near its mouth; a natural ally on the river route to Cahokia."
+    },
+    {
+      "n": "Angel Mounds",
+      "la": 37.94,
+      "lo": -87.45,
+      "pop": 500,
+      "popText": "A ceremonial center with few residents in 1100–1300; ~1,000 by 1400 (IUPUI research)",
+      "culture": "Mississippian chiefdom on the Ohio near later Evansville, with a large platform mound and stockade.",
+      "d": "Small now but growing; it will be the main Mississippian town on the middle Ohio.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Angel_mound_with_turret_HRoe_2008.jpg/500px-Angel_mound_with_turret_HRoe_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Angel_mound_with_turret_HRoe_2008.jpg",
+        "c": "Photo: Herb Roe, CC BY-SA 3.0",
+        "cap": "Angel Mounds with a rebuilt palisade turret"
+      }
+    },
+    {
+      "n": "Wickliffe and the Ohio-Mississippi junction towns",
+      "la": 36.97,
+      "lo": -89.09,
+      "pop": 2000,
+      "popText": "~1,000–3,000 across several small mound towns (guess)",
+      "culture": "Small Mississippian chiefdoms where the Ohio meets the Mississippi.",
+      "d": "Gatekeepers of the river junction; the federation's boats pass right by them."
+    },
+    {
+      "n": "Middle Cumberland Mississippians",
+      "la": 36.16,
+      "lo": -86.78,
+      "pop": 10000,
+      "popText": "~5,000–15,000 in many towns around later Nashville (guess)",
+      "culture": "Mississippian chiefdoms with stone-box graves and mound towns along the Cumberland.",
+      "d": "Reachable by boat from the Ohio. Part of the southern Mississippian world, less tied to Cahokia."
+    },
+    {
+      "n": "Fort Ancient villages (Miami and Scioto valleys)",
+      "la": 39.4,
+      "lo": -83.8,
+      "pop": 20000,
+      "popText": "Villages of ~100–500 people; perhaps ~10,000–30,000 in all (guess)",
+      "culture": "Maize-bean-squash farmers in circular villages around a plaza, each village moving every 20–30 years (SunWatch near Dayton is the best known). Village councils, no great chiefs.",
+      "d": "The core's nearest big farming population. Egalitarian villages that would trade for iron and oxen readily."
+    },
+    {
+      "n": "Fort Ancient villages (Kanawha and Big Sandy)",
+      "la": 38.4,
+      "lo": -82,
+      "pop": 5000,
+      "popText": "~3,000–8,000 (guess)",
+      "culture": "Fort Ancient farmers and hunters in river-valley villages, using the Kanawha salt licks.",
+      "d": "They sit on the Kanawha salt springs, so salt is the first deal."
+    },
+    {
+      "n": "Monongahela people",
+      "la": 39.9,
+      "lo": -79.9,
+      "pop": 10000,
+      "popText": "Stockaded villages of 50–100 houses (~200–500 people); perhaps ~5,000–15,000 in all (guess)",
+      "culture": "Maize farmers in circular stockaded villages on ridge tops above the rivers, moving uphill after ~1250 because of raiding. Language unknown.",
+      "d": "The people living at the core itself. Their land and goodwill come first; raids between villages mean a peace-maker is welcome."
+    },
+    {
+      "n": "Whittlesey people (Cuyahoga and Lake Erie shore)",
+      "la": 41.4,
+      "lo": -81.6,
+      "pop": 4000,
+      "popText": "~2,000–6,000 (guess)",
+      "culture": "Farmers in villages on bluffs and promontories above the Lake Erie rivers, ~1000–1600.",
+      "d": "Control the Lake Erie outlet of the core's north routes and Cuyahoga Falls."
+    },
+    {
+      "n": "Owasco / early Haudenosaunee (Finger Lakes)",
+      "la": 42.9,
+      "lo": -76.6,
+      "pop": 15000,
+      "popText": "~10,000–25,000 in central New York (guess)",
+      "culture": "Iroquoian-speaking maize farmers in longhouse villages, organized by matrilineal clans with strong clan mothers. Ancestors of the Cayuga, Onondaga, Seneca and Oneida.",
+      "d": "Closest big farming people to the landing and the Onondaga salt. Clan mothers control the fields, so ox-plows win them."
+    },
+    {
+      "n": "Mohawk Valley villages",
+      "la": 42.95,
+      "lo": -74.4,
+      "pop": 3000,
+      "popText": "~2,000–5,000 (guess)",
+      "culture": "Early Mohawk (Iroquoian) farming villages along the Mohawk River.",
+      "d": "Right on the route west from the landing. The first neighbors, and the first test of the charter's 'no land taken' rule."
+    },
+    {
+      "n": "Ontario Iroquoians",
+      "la": 43.4,
+      "lo": -80,
+      "pop": 20000,
+      "popText": "~15,000–30,000 in southern Ontario (guess); ~750 village sites known from later centuries",
+      "culture": "Iroquoian farmers shifting to settled longhouse villages (Early-to-Middle Iroquoian, ~1300 change). Ancestors of the Wendat and Neutral.",
+      "d": "Across Lake Erie and Lake Ontario; reachable by lake boat once the federation has them."
+    },
+    {
+      "n": "Mahican and Munsee (Hudson Algonquians)",
+      "la": 42.3,
+      "lo": -73.8,
+      "pop": 6000,
+      "popText": "~3,000–10,000 along the Hudson (guess)",
+      "culture": "Algonquian-speaking farmers, fishers and hunters in small villages under local sachems.",
+      "d": "They live where the fleet lands. The first impression of the federation is made with them."
+    },
+    {
+      "n": "Lenape ancestors (lower Hudson and Delaware)",
+      "la": 40.9,
+      "lo": -74.6,
+      "pop": 10000,
+      "popText": "~5,000–15,000 (guess)",
+      "culture": "Algonquian farmers and shellfish gatherers, matrilineal clans, small independent bands.",
+      "d": "Own the river mouth and New York harbor that every return fleet passes."
+    },
+    {
+      "n": "Shenks Ferry and Clemson Island peoples (Susquehanna)",
+      "la": 40.6,
+      "lo": -76.6,
+      "pop": 5000,
+      "popText": "~3,000–8,000 (guess)",
+      "culture": "Village farmers on the Susquehanna, language unknown.",
+      "d": "Between the landing and the core on the overland route through Pennsylvania."
+    },
+    {
+      "n": "Late Woodland Michigan peoples (Odawa and Potawatomi ancestors)",
+      "la": 43,
+      "lo": -85.5,
+      "pop": 10000,
+      "popText": "~5,000–15,000 (guess)",
+      "culture": "Algonquian speakers mixing maize gardens with fishing, hunting and wild rice; seasonal moves.",
+      "d": "Middlemen on the lake route to the Lake Superior copper."
+    },
+    {
+      "n": "Lake Superior Algonquians (Ojibwe ancestors)",
+      "la": 46.5,
+      "lo": -88,
+      "pop": 4000,
+      "popText": "~2,000–6,000 hunter-fishers (guess)",
+      "culture": "Mobile bands living by fishing, hunting and wild rice; they still dig a little copper from ancient pits.",
+      "d": "They know where the copper lies. Need guides and fair trade, not settlers."
+    },
+    {
+      "n": "Oneota (Wisconsin and northern Illinois)",
+      "la": 43,
+      "lo": -89,
+      "pop": 15000,
+      "popText": "~10,000–20,000 (guess)",
+      "culture": "Siouan-speaking farmers and bison hunters on the prairie edge, ancestors of the Ho-Chunk and Ioway. Rising raiders from ~1300.",
+      "d": "Will push into Illinois as Cahokia fades. The federation's main frontier diplomacy problem in the west."
+    },
+    {
+      "n": "Aztalan (Mississippian outpost)",
+      "la": 43.07,
+      "lo": -88.86,
+      "pop": 400,
+      "popText": "~300–500, being abandoned around 1200–1250 (guess)",
+      "culture": "A stockaded Mississippian colony among local Late Woodland people.",
+      "d": "Shows how far Cahokia reached, and that its reach is shrinking."
+    }
   ],
   "resources": [
-    {"n": "Pittsburgh coal seam (Coal Hill)", "t": "Coal", "la": 40.43, "lo": -80.01, "qty": "modern: ~34 billion short tons originally in place (USGS), in a seam usually 1.5–2.5 m thick over ~15,000 km²", "reach": "1230: outcrops in the hillside across the Monongahela from the Forks, at river level; dig with picks and float it downriver. Mined here from the 1760s.", "km": 1, "d": "The best-placed coal on Earth for a starting industry. Fuel for smithing at first, then coke."},
-    {"n": "Connellsville coking coal", "t": "Coal", "la": 40.02, "lo": -79.59, "qty": "modern: the same Pittsburgh seam at ~2.5–3 m, the best coking coal in the US; tens of millions of tons a year were coked here in 1900", "reach": "1230: outcrops along the Youghiogheny valley; boats reach it on the Youghiogheny and Monongahela.", "km": 57, "d": "Makes the strong coke a blast furnace needs. Phase 5 of the plan."},
-    {"n": "Western Pennsylvania iron ores (Laurel Hill)", "t": "Iron", "la": 40.0, "lo": -79.4, "qty": "modern: thin carbonate (siderite) and limonite beds, ~30–40% iron; fed dozens of charcoal furnaces from the 1790s", "reach": "1230: ore nodules and beds exposed in stream banks and hillsides; pick it up or dig shallow pits.", "km": 70, "d": "Enough to start a bloomery and then a charcoal blast furnace near the core."},
-    {"n": "Bog iron ore", "t": "Iron", "la": 41.6, "lo": -80.3, "qty": "modern: small (a few cm to 1 m layers), ~20–50% iron, renews itself in decades", "reach": "1230: lifted with shovels from swamps and lake edges across the glaciated north; the easiest ore of all.", "km": 130, "d": "The first local iron, in years 3–5, before the hill ores are mined."},
-    {"n": "Hanging Rock iron region", "t": "Iron", "la": 38.55, "lo": -82.65, "qty": "modern: ~4,700 km² of limonite and siderite ore with limestone and forest; 65 furnaces, ~105,000 t of pig iron in 1856", "reach": "1230: ore in shallow beds on the hillsides above the Ohio; reached by boat downriver from the core.", "km": 310, "d": "The richest charcoal-iron district of the region, right on the Ohio."},
-    {"n": "Vanport limestone", "t": "Lime", "la": 40.85, "lo": -80.35, "qty": "modern: a widespread bed ~2–6 m thick, quarried for flux and lime", "reach": "1230: exposed in valley sides near the Beaver River; quarry with wedges and burn in a kiln.", "km": 55, "d": "Flux for iron furnaces, mortar, and lime for fields."},
-    {"n": "Fireclay and river clay", "t": "Clay", "la": 40.62, "lo": -80.58, "qty": "modern: thick fireclays under the coal seams; East Liverpool became 'Pottery Capital of the World'", "reach": "1230: exposed with the coal in hillsides and along the Ohio banks.", "km": 52, "d": "Bricks, firebrick for furnace linings, pottery and crucibles."},
-    {"n": "Kanawha salt springs", "t": "Salt", "la": 38.32, "lo": -81.55, "qty": "modern: brines from deep salt-bearing rock; ~3.2 million bushels (~80,000 t) in 1846", "reach": "1230: salt licks and springs at the riverside (the Great Buffalo Lick); boil brine in pans. Deeper wells come later.", "km": 250, "d": "The nearest big salt to the core, by boat down the Ohio and up the Kanawha."},
-    {"n": "Onondaga salt springs", "t": "Salt", "la": 43.05, "lo": -76.17, "qty": "modern: brine from Salina Group rock salt; ~3 million bushels a year by 1841, the largest US salt district in the mid-1800s", "reach": "1230: springs bubble up around Onondaga Lake's south shore; boil or sun-dry the brine.", "km": 470, "d": "The landing's first salt works (years 3–5), in Iroquoian land."},
-    {"n": "Big Bone Lick", "t": "Salt", "la": 38.89, "lo": -84.75, "qty": "modern: weak sulphur-salt springs; small, frontier salt works only", "reach": "1230: open springs and licks near the Ohio; ice-age mammoth bones lie in the mud.", "km": 440, "d": "A minor salt source on the Ohio, and a famous fossil site."},
-    {"n": "Oil Creek seeps", "t": "Oil", "la": 41.6, "lo": -79.67, "qty": "modern: the 1859 Drake well field; hundreds of millions of barrels from the Pennsylvania field", "reach": "1230: oil floats on the creek; skim it with blankets. Native people already used it as medicine.", "km": 130, "d": "Lamp oil, lubricants and pitch long before drilling."},
-    {"n": "Flint Ridge", "t": "Stone", "la": 40.0, "lo": -82.26, "qty": "modern: a ridge ~13 km long of high-grade Vanport flint, worked for 10,000 years", "reach": "1230: open quarry pits already in use by local peoples.", "km": 200, "d": "Gunflints, millstone dressing and trade goods; known to everyone in the region."},
-    {"n": "Berea sandstone", "t": "Stone", "la": 41.37, "lo": -81.85, "qty": "modern: a famous building stone and grindstone bed ~10–60 m thick", "reach": "1230: exposed in river gorges near Lake Erie.", "km": 180, "d": "Grindstones and millstones, needed for every mill and tool shop."},
-    {"n": "Cohoes Falls", "t": "Water", "la": 42.78, "lo": -73.71, "qty": "modern: a ~20–27 m drop, ~300 m wide; the Mohawk averages ~170 m³/s (my estimate from USGS records) and floods at 2,500 m³/s+", "reach": "1230: free to use; a mill race on the bank needs no dam.", "km": 595, "d": "The first sawmill and gristmill site, beside the landing."},
-    {"n": "Niagara Falls", "t": "Water", "la": 43.08, "lo": -79.07, "qty": "modern: ~51 m drop, ~2,400 m³/s average; ~4–5 GW of hydropower today", "reach": "1230: a portage is needed around the falls; small mills on the banks are easy, the giant power waits for dynamos.", "km": 300, "d": "One of the greatest power sites in the world, for the electric phase."},
-    {"n": "Genesee Falls (Rochester)", "t": "Water", "la": 43.16, "lo": -77.62, "qty": "modern: three falls with ~80 m total drop; made Rochester the 'Flour City' in the 1830s", "reach": "1230: open riverbank sites, deep in Iroquoian country.", "km": 360, "d": "A ready-made mill town on the lake route."},
-    {"n": "Cuyahoga Falls", "t": "Water", "la": 41.13, "lo": -81.49, "qty": "modern: a gorge dropping ~60 m over a few km", "reach": "1230: mill sites on open banks; a short portage from the Ohio basin to Lake Erie.", "km": 145, "d": "The north link of the core, and later the Ohio-Erie canal route."},
-    {"n": "Falls of the Ohio", "t": "Water", "la": 38.28, "lo": -85.77, "qty": "modern: rapids dropping ~8 m over ~3 km; the only obstacle on the whole Ohio", "reach": "1230: boats must unload and portage at low water; mills on the bank.", "km": 545, "d": "A canal around it unlocks the river to the Mississippi."},
-    {"n": "Allegheny white pine and hemlock forest", "t": "Timber", "la": 41.6, "lo": -78.8, "qty": "modern: old-growth white pine to ~50 m and 1.5 m thick; northern Pennsylvania supplied the world's largest lumber boom in the 1800s", "reach": "1230: untouched old growth; float logs down the Allegheny to the Forks.", "km": 165, "d": "Masts, planks and ship timber."},
-    {"n": "Oak-chestnut forest", "t": "Timber", "la": 39.8, "lo": -80.6, "qty": "modern: about a quarter of the eastern forest's trees were American chestnut before the 1900s blight", "reach": "1230: all around the core; endless charcoal and rot-proof chestnut and oak for building.", "km": 85, "d": "Charcoal for iron, tannin for leather, and chestnuts as food."},
-    {"n": "Deer, elk, turkey and passenger pigeons", "t": "Animals", "la": 40.0, "lo": -81.2, "qty": "modern: passenger pigeons numbered ~3–5 billion before extinction; deer and elk common (bison were rare east of the Mississippi in 1230)", "reach": "1230: hunted everywhere; pigeons can be netted by the thousand in migration.", "km": 110, "d": "Meat and hides until the carried herds grow. No local animal can be milked or yoked."},
-    {"n": "Lake Erie fishery", "t": "Fish", "la": 41.9, "lo": -81.5, "qty": "modern: the most productive of the Great Lakes; sturgeon, whitefish, walleye and perch", "reach": "1230: shore seines and weirs at river mouths.", "km": 205, "d": "Protein and fish oil a few days' walk north of the core."},
-    {"n": "Maple sugar bush", "t": "Food", "la": 41.3, "lo": -79.5, "qty": "modern: ~40 litres of sap make 1 litre of syrup", "reach": "1230: sugar maples in every northern forest; tap in March, boil in iron kettles.", "km": 105, "d": "Sugar for rehydration salts, preserving and trade."},
-    {"n": "Bluegrass pasture", "t": "Food", "la": 38.1, "lo": -84.5, "qty": "modern: ~4,000 km² of limestone grassland, later the world's horse-breeding capital", "reach": "1230: open woods and canebrakes reached by the Kentucky River.", "km": 480, "d": "Where the carried horses and cattle should breed fastest."},
-    {"n": "Kentucky saltpeter caves", "t": "Chemicals", "la": 37.19, "lo": -86.1, "qty": "modern: Mammoth Cave (~680 km of passages) and other caves supplied most US saltpeter in the War of 1812", "reach": "1230: leach the cave dirt with water and wood ash.", "km": 670, "d": "Saltpeter for gunpowder, fertilizer and nitric acid."}
+    {
+      "n": "Pittsburgh coal seam (Coal Hill)",
+      "t": "Coal",
+      "la": 40.43,
+      "lo": -80.01,
+      "qty": "modern: ~34 billion short tons originally in place (USGS), in a seam usually 1.5–2.5 m thick over ~15,000 km²",
+      "reach": "1230: outcrops in the hillside across the Monongahela from the Forks, at river level; dig with picks and float it downriver. Mined here from the 1760s.",
+      "km": 1,
+      "d": "The best-placed coal on Earth for a starting industry. Fuel for smithing at first, then coke."
+    },
+    {
+      "n": "Connellsville coking coal",
+      "t": "Coal",
+      "la": 40.02,
+      "lo": -79.59,
+      "qty": "modern: the same Pittsburgh seam at ~2.5–3 m, the best coking coal in the US; tens of millions of tons a year were coked here in 1900",
+      "reach": "1230: outcrops along the Youghiogheny valley; boats reach it on the Youghiogheny and Monongahela.",
+      "km": 57,
+      "d": "Makes the strong coke a blast furnace needs. Phase 5 of the plan."
+    },
+    {
+      "n": "Western Pennsylvania iron ores (Laurel Hill)",
+      "t": "Iron",
+      "la": 40,
+      "lo": -79.4,
+      "qty": "modern: thin carbonate (siderite) and limonite beds, ~30–40% iron; fed dozens of charcoal furnaces from the 1790s",
+      "reach": "1230: ore nodules and beds exposed in stream banks and hillsides; pick it up or dig shallow pits.",
+      "km": 70,
+      "d": "Enough to start a bloomery and then a charcoal blast furnace near the core."
+    },
+    {
+      "n": "Bog iron ore",
+      "t": "Iron",
+      "la": 41.6,
+      "lo": -80.3,
+      "qty": "modern: small (a few cm to 1 m layers), ~20–50% iron, renews itself in decades",
+      "reach": "1230: lifted with shovels from swamps and lake edges across the glaciated north; the easiest ore of all.",
+      "km": 130,
+      "d": "The first local iron, in years 3–5, before the hill ores are mined."
+    },
+    {
+      "n": "Hanging Rock iron region",
+      "t": "Iron",
+      "la": 38.55,
+      "lo": -82.65,
+      "qty": "modern: ~4,700 km² of limonite and siderite ore with limestone and forest; 65 furnaces, ~105,000 t of pig iron in 1856",
+      "reach": "1230: ore in shallow beds on the hillsides above the Ohio; reached by boat downriver from the core.",
+      "km": 310,
+      "d": "The richest charcoal-iron district of the region, right on the Ohio."
+    },
+    {
+      "n": "Vanport limestone",
+      "t": "Lime",
+      "la": 40.85,
+      "lo": -80.35,
+      "qty": "modern: a widespread bed ~2–6 m thick, quarried for flux and lime",
+      "reach": "1230: exposed in valley sides near the Beaver River; quarry with wedges and burn in a kiln.",
+      "km": 55,
+      "d": "Flux for iron furnaces, mortar, and lime for fields."
+    },
+    {
+      "n": "Fireclay and river clay",
+      "t": "Clay",
+      "la": 40.62,
+      "lo": -80.58,
+      "qty": "modern: thick fireclays under the coal seams; East Liverpool became 'Pottery Capital of the World'",
+      "reach": "1230: exposed with the coal in hillsides and along the Ohio banks.",
+      "km": 52,
+      "d": "Bricks, firebrick for furnace linings, pottery and crucibles."
+    },
+    {
+      "n": "Kanawha salt springs",
+      "t": "Salt",
+      "la": 38.32,
+      "lo": -81.55,
+      "qty": "modern: brines from deep salt-bearing rock; ~3.2 million bushels (~80,000 t) in 1846",
+      "reach": "1230: salt licks and springs at the riverside (the Great Buffalo Lick); boil brine in pans. Deeper wells come later.",
+      "km": 250,
+      "d": "The nearest big salt to the core, by boat down the Ohio and up the Kanawha."
+    },
+    {
+      "n": "Onondaga salt springs",
+      "t": "Salt",
+      "la": 43.05,
+      "lo": -76.17,
+      "qty": "modern: brine from Salina Group rock salt; ~3 million bushels a year by 1841, the largest US salt district in the mid-1800s",
+      "reach": "1230: springs bubble up around Onondaga Lake's south shore; boil or sun-dry the brine.",
+      "km": 470,
+      "d": "The landing's first salt works (years 3–5), in Iroquoian land."
+    },
+    {
+      "n": "Big Bone Lick",
+      "t": "Salt",
+      "la": 38.89,
+      "lo": -84.75,
+      "qty": "modern: weak sulphur-salt springs; small, frontier salt works only",
+      "reach": "1230: open springs and licks near the Ohio; ice-age mammoth bones lie in the mud.",
+      "km": 440,
+      "d": "A minor salt source on the Ohio, and a famous fossil site."
+    },
+    {
+      "n": "Oil Creek seeps",
+      "t": "Oil",
+      "la": 41.6,
+      "lo": -79.67,
+      "qty": "modern: the 1859 Drake well field; hundreds of millions of barrels from the Pennsylvania field",
+      "reach": "1230: oil floats on the creek; skim it with blankets. Native people already used it as medicine.",
+      "km": 130,
+      "d": "Lamp oil, lubricants and pitch long before drilling."
+    },
+    {
+      "n": "Flint Ridge",
+      "t": "Stone",
+      "la": 40,
+      "lo": -82.26,
+      "qty": "modern: a ridge ~13 km long of high-grade Vanport flint, worked for 10,000 years",
+      "reach": "1230: open quarry pits already in use by local peoples.",
+      "km": 200,
+      "d": "Gunflints, millstone dressing and trade goods; known to everyone in the region."
+    },
+    {
+      "n": "Berea sandstone",
+      "t": "Stone",
+      "la": 41.37,
+      "lo": -81.85,
+      "qty": "modern: a famous building stone and grindstone bed ~10–60 m thick",
+      "reach": "1230: exposed in river gorges near Lake Erie.",
+      "km": 180,
+      "d": "Grindstones and millstones, needed for every mill and tool shop."
+    },
+    {
+      "n": "Cohoes Falls",
+      "t": "Water",
+      "la": 42.78,
+      "lo": -73.71,
+      "qty": "modern: a ~20–27 m drop, ~300 m wide; the Mohawk averages ~170 m³/s (my estimate from USGS records) and floods at 2,500 m³/s+",
+      "reach": "1230: free to use; a mill race on the bank needs no dam.",
+      "km": 595,
+      "d": "The first sawmill and gristmill site, beside the landing."
+    },
+    {
+      "n": "Niagara Falls",
+      "t": "Water",
+      "la": 43.08,
+      "lo": -79.07,
+      "qty": "modern: ~51 m drop, ~2,400 m³/s average; ~4–5 GW of hydropower today",
+      "reach": "1230: a portage is needed around the falls; small mills on the banks are easy, the giant power waits for dynamos.",
+      "km": 300,
+      "d": "One of the greatest power sites in the world, for the electric phase."
+    },
+    {
+      "n": "Genesee Falls (Rochester)",
+      "t": "Water",
+      "la": 43.16,
+      "lo": -77.62,
+      "qty": "modern: three falls with ~80 m total drop; made Rochester the 'Flour City' in the 1830s",
+      "reach": "1230: open riverbank sites, deep in Iroquoian country.",
+      "km": 360,
+      "d": "A ready-made mill town on the lake route."
+    },
+    {
+      "n": "Cuyahoga Falls",
+      "t": "Water",
+      "la": 41.13,
+      "lo": -81.49,
+      "qty": "modern: a gorge dropping ~60 m over a few km",
+      "reach": "1230: mill sites on open banks; a short portage from the Ohio basin to Lake Erie.",
+      "km": 145,
+      "d": "The north link of the core, and later the Ohio-Erie canal route."
+    },
+    {
+      "n": "Falls of the Ohio",
+      "t": "Water",
+      "la": 38.28,
+      "lo": -85.77,
+      "qty": "modern: rapids dropping ~8 m over ~3 km; the only obstacle on the whole Ohio",
+      "reach": "1230: boats must unload and portage at low water; mills on the bank.",
+      "km": 545,
+      "d": "A canal around it unlocks the river to the Mississippi."
+    },
+    {
+      "n": "Allegheny white pine and hemlock forest",
+      "t": "Timber",
+      "la": 41.6,
+      "lo": -78.8,
+      "qty": "modern: old-growth white pine to ~50 m and 1.5 m thick; northern Pennsylvania supplied the world's largest lumber boom in the 1800s",
+      "reach": "1230: untouched old growth; float logs down the Allegheny to the Forks.",
+      "km": 165,
+      "d": "Masts, planks and ship timber."
+    },
+    {
+      "n": "Oak-chestnut forest",
+      "t": "Timber",
+      "la": 39.8,
+      "lo": -80.6,
+      "qty": "modern: about a quarter of the eastern forest's trees were American chestnut before the 1900s blight",
+      "reach": "1230: all around the core; endless charcoal and rot-proof chestnut and oak for building.",
+      "km": 85,
+      "d": "Charcoal for iron, tannin for leather, and chestnuts as food."
+    },
+    {
+      "n": "Deer, elk, turkey and passenger pigeons",
+      "t": "Animals",
+      "la": 40,
+      "lo": -81.2,
+      "qty": "modern: passenger pigeons numbered ~3–5 billion before extinction; deer and elk common (bison were rare east of the Mississippi in 1230)",
+      "reach": "1230: hunted everywhere; pigeons can be netted by the thousand in migration.",
+      "km": 110,
+      "d": "Meat and hides until the carried herds grow. No local animal can be milked or yoked."
+    },
+    {
+      "n": "Lake Erie fishery",
+      "t": "Fish",
+      "la": 41.9,
+      "lo": -81.5,
+      "qty": "modern: the most productive of the Great Lakes; sturgeon, whitefish, walleye and perch",
+      "reach": "1230: shore seines and weirs at river mouths.",
+      "km": 205,
+      "d": "Protein and fish oil a few days' walk north of the core."
+    },
+    {
+      "n": "Maple sugar bush",
+      "t": "Food",
+      "la": 41.3,
+      "lo": -79.5,
+      "qty": "modern: ~40 litres of sap make 1 litre of syrup",
+      "reach": "1230: sugar maples in every northern forest; tap in March, boil in iron kettles.",
+      "km": 105,
+      "d": "Sugar for rehydration salts, preserving and trade."
+    },
+    {
+      "n": "Bluegrass pasture",
+      "t": "Food",
+      "la": 38.1,
+      "lo": -84.5,
+      "qty": "modern: ~4,000 km² of limestone grassland, later the world's horse-breeding capital",
+      "reach": "1230: open woods and canebrakes reached by the Kentucky River.",
+      "km": 480,
+      "d": "Where the carried horses and cattle should breed fastest."
+    },
+    {
+      "n": "Kentucky saltpeter caves",
+      "t": "Chemicals",
+      "la": 37.19,
+      "lo": -86.1,
+      "qty": "modern: Mammoth Cave (~680 km of passages) and other caves supplied most US saltpeter in the War of 1812",
+      "reach": "1230: leach the cave dirt with water and wood ash.",
+      "km": 670,
+      "d": "Saltpeter for gunpowder, fertilizer and nitric acid."
+    }
   ],
   "nearby": [
-    {"n": "Keweenaw native copper", "t": "Copper", "la": 47.2, "lo": -88.5, "qty": "modern: ~5 million t (11 billion lb) mined 1840–1968; single masses up to tens of tons", "reach": "1230: pure metal lying in veins and boulders at the surface; ancient pits already dug by Native miners.", "km": 1020, "d": "Pure copper with no smelting needed. Wire for the telegraph comes from here."},
-    {"n": "Isle Royale copper", "t": "Copper", "la": 48.0, "lo": -88.9, "qty": "modern: small, never profitable for industry; thousands of ancient pits", "reach": "1230: shallow pits on the island; only by canoe or boat across Lake Superior.", "km": 1090, "d": "A summer mining camp, best for a story scene."},
-    {"n": "Marquette iron range", "t": "Iron", "la": 46.5, "lo": -87.7, "qty": "modern: hundreds of millions of tons of high-grade hematite and magnetite since 1844", "reach": "1230: rich ore cropping out in hills near Lake Superior; found in 1844 by a compass going wild.", "km": 920, "d": "The best iron ore in reach once lake ships carry it south."},
-    {"n": "Mesabi iron range", "t": "Iron", "la": 47.5, "lo": -92.5, "qty": "modern: billions of tons; the biggest iron range in the US, mined open-pit since 1890s", "reach": "1230: soft ore just under thin glacial gravel, but far beyond the lakes' end.", "km": 1180, "d": "A 1300s goal, not a 1240s one."},
-    {"n": "Upper Mississippi lead district (Galena)", "t": "Other", "la": 42.42, "lo": -90.43, "qty": "modern: ~860,000 t of lead and ~1.5 million t of zinc mined; ~27,000 t of lead ore in 1845", "reach": "1230: galena crystals in shallow crevices, dug with picks; known to local peoples.", "km": 900, "d": "Lead for type metal, pipes, glass glazes and shot."},
-    {"n": "Missouri lead and Iron Mountain", "t": "Iron", "la": 37.6, "lo": -90.64, "qty": "modern: the Old Lead Belt plus a hill of almost pure hematite (Iron Mountain, Pilot Knob)", "reach": "1230: iron ore boulders on the hill surface; a short walk from the Mississippi.", "km": 950, "d": "Iron near Cahokia for the western towns."},
-    {"n": "Northeastern Pennsylvania anthracite", "t": "Coal", "la": 41.25, "lo": -75.9, "qty": "modern: ~20 billion t originally; the world's largest anthracite field (~1,200 km²)", "reach": "1230: outcrops along the Susquehanna (Wyoming Valley).", "km": 360, "d": "Smokeless coal near the landing route."},
-    {"n": "Adirondack magnetite", "t": "Iron", "la": 44.05, "lo": -73.46, "qty": "modern: large magnetite bodies at Port Henry and Lyon Mountain, ~50–60% iron", "reach": "1230: outcrops near Lake Champlain, upriver from the landing by boat and portage.", "km": 680, "d": "Iron for the Hudson settlements before the Forks."},
-    {"n": "Salisbury iron (Connecticut)", "t": "Iron", "la": 41.98, "lo": -73.42, "qty": "modern: high-grade brown ore that armed the Continental Army", "reach": "1230: shallow ore beds near the surface, ~60 km east of the Hudson.", "km": 570, "d": "The closest good iron to the landing."},
-    {"n": "Grand Rapids gypsum", "t": "Fertilizer", "la": 42.96, "lo": -85.67, "qty": "modern: beds a few metres thick, mined since the 1840s", "reach": "1230: exposed in the Grand River banks.", "km": 520, "d": "Land plaster for clover and plaster for building."},
-    {"n": "New York harbor oyster beds", "t": "Fish", "la": 40.6, "lo": -74.05, "qty": "modern: ~900 km² of oyster reef, once half the world's oysters", "reach": "1230: wade out and pick them.", "km": 510, "d": "Food for the landing camp and lime from the shells."},
-    {"n": "Shield beaver country", "t": "Animals", "la": 45.5, "lo": -78.5, "qty": "modern: tens of millions of beavers in North America before the fur trade (guess)", "reach": "1230: beaver everywhere; trapped and traded by Algonquian bands.", "km": 600, "d": "Beaver fur is the main export through the gate."},
-    {"n": "Grand Banks cod", "t": "Fish", "la": 45.0, "lo": -51.5, "qty": "modern: once the richest cod ground on Earth (collapsed 1992)", "reach": "1230: by ocean ship off Newfoundland; on the way home along the westerlies.", "km": 2300, "d": "Salt cod for the return voyages."},
-    {"n": "Azores waystation (São Miguel)", "t": "Other", "la": 37.75, "lo": -25.6, "qty": "modern: ~750 km², volcanic soil, fresh water", "reach": "1230: uninhabited and unknown to Europe until the 1420s.", "km": 4700, "d": "The secret gate's waystation and quarantine island."},
-    {"n": "Cornish tin", "t": "Tin", "la": 50.25, "lo": -5.2, "qty": "modern: ~2–3 million t of tin produced over 4,000 years", "reach": "1230: Europe's main tin source, bought through Pisa or Bristol traders.", "km": 5600, "d": "Eastern North America has almost no tin, so bronze and solder rely on the gate."},
-    {"n": "Almadén mercury", "t": "Chemicals", "la": 38.78, "lo": -4.84, "qty": "modern: about a third of all mercury ever mined", "reach": "1230: in Castilian hands, sold through Mediterranean trade.", "km": 6200, "d": "Mercury for thermometers, barometers and gilding."},
-    {"n": "Pisa and its trade", "t": "Other", "la": 43.72, "lo": 10.4, "qty": "modern: n/a", "reach": "1230: the merchant house partner; source of glass, books, dyes, alum and craftsmen.", "km": 6900, "d": "The other end of the gate."}
+    {
+      "n": "Keweenaw native copper",
+      "t": "Copper",
+      "la": 47.2,
+      "lo": -88.5,
+      "qty": "modern: ~5 million t (11 billion lb) mined 1840–1968; single masses up to tens of tons",
+      "reach": "1230: pure metal lying in veins and boulders at the surface; ancient pits already dug by Native miners.",
+      "km": 1020,
+      "d": "Pure copper with no smelting needed. Wire for the telegraph comes from here."
+    },
+    {
+      "n": "Isle Royale copper",
+      "t": "Copper",
+      "la": 48,
+      "lo": -88.9,
+      "qty": "modern: small, never profitable for industry; thousands of ancient pits",
+      "reach": "1230: shallow pits on the island; only by canoe or boat across Lake Superior.",
+      "km": 1090,
+      "d": "A summer mining camp, best for a story scene."
+    },
+    {
+      "n": "Marquette iron range",
+      "t": "Iron",
+      "la": 46.5,
+      "lo": -87.7,
+      "qty": "modern: hundreds of millions of tons of high-grade hematite and magnetite since 1844",
+      "reach": "1230: rich ore cropping out in hills near Lake Superior; found in 1844 by a compass going wild.",
+      "km": 920,
+      "d": "The best iron ore in reach once lake ships carry it south."
+    },
+    {
+      "n": "Mesabi iron range",
+      "t": "Iron",
+      "la": 47.5,
+      "lo": -92.5,
+      "qty": "modern: billions of tons; the biggest iron range in the US, mined open-pit since 1890s",
+      "reach": "1230: soft ore just under thin glacial gravel, but far beyond the lakes' end.",
+      "km": 1180,
+      "d": "A 1300s goal, not a 1240s one."
+    },
+    {
+      "n": "Upper Mississippi lead district (Galena)",
+      "t": "Other",
+      "la": 42.42,
+      "lo": -90.43,
+      "qty": "modern: ~860,000 t of lead and ~1.5 million t of zinc mined; ~27,000 t of lead ore in 1845",
+      "reach": "1230: galena crystals in shallow crevices, dug with picks; known to local peoples.",
+      "km": 900,
+      "d": "Lead for type metal, pipes, glass glazes and shot."
+    },
+    {
+      "n": "Missouri lead and Iron Mountain",
+      "t": "Iron",
+      "la": 37.6,
+      "lo": -90.64,
+      "qty": "modern: the Old Lead Belt plus a hill of almost pure hematite (Iron Mountain, Pilot Knob)",
+      "reach": "1230: iron ore boulders on the hill surface; a short walk from the Mississippi.",
+      "km": 950,
+      "d": "Iron near Cahokia for the western towns."
+    },
+    {
+      "n": "Northeastern Pennsylvania anthracite",
+      "t": "Coal",
+      "la": 41.25,
+      "lo": -75.9,
+      "qty": "modern: ~20 billion t originally; the world's largest anthracite field (~1,200 km²)",
+      "reach": "1230: outcrops along the Susquehanna (Wyoming Valley).",
+      "km": 360,
+      "d": "Smokeless coal near the landing route."
+    },
+    {
+      "n": "Adirondack magnetite",
+      "t": "Iron",
+      "la": 44.05,
+      "lo": -73.46,
+      "qty": "modern: large magnetite bodies at Port Henry and Lyon Mountain, ~50–60% iron",
+      "reach": "1230: outcrops near Lake Champlain, upriver from the landing by boat and portage.",
+      "km": 680,
+      "d": "Iron for the Hudson settlements before the Forks."
+    },
+    {
+      "n": "Salisbury iron (Connecticut)",
+      "t": "Iron",
+      "la": 41.98,
+      "lo": -73.42,
+      "qty": "modern: high-grade brown ore that armed the Continental Army",
+      "reach": "1230: shallow ore beds near the surface, ~60 km east of the Hudson.",
+      "km": 570,
+      "d": "The closest good iron to the landing."
+    },
+    {
+      "n": "Grand Rapids gypsum",
+      "t": "Fertilizer",
+      "la": 42.96,
+      "lo": -85.67,
+      "qty": "modern: beds a few metres thick, mined since the 1840s",
+      "reach": "1230: exposed in the Grand River banks.",
+      "km": 520,
+      "d": "Land plaster for clover and plaster for building."
+    },
+    {
+      "n": "New York harbor oyster beds",
+      "t": "Fish",
+      "la": 40.6,
+      "lo": -74.05,
+      "qty": "modern: ~900 km² of oyster reef, once half the world's oysters",
+      "reach": "1230: wade out and pick them.",
+      "km": 510,
+      "d": "Food for the landing camp and lime from the shells."
+    },
+    {
+      "n": "Shield beaver country",
+      "t": "Animals",
+      "la": 45.5,
+      "lo": -78.5,
+      "qty": "modern: tens of millions of beavers in North America before the fur trade (guess)",
+      "reach": "1230: beaver everywhere; trapped and traded by Algonquian bands.",
+      "km": 600,
+      "d": "Beaver fur is the main export through the gate."
+    },
+    {
+      "n": "Grand Banks cod",
+      "t": "Fish",
+      "la": 45,
+      "lo": -51.5,
+      "qty": "modern: once the richest cod ground on Earth (collapsed 1992)",
+      "reach": "1230: by ocean ship off Newfoundland; on the way home along the westerlies.",
+      "km": 2300,
+      "d": "Salt cod for the return voyages."
+    },
+    {
+      "n": "Azores waystation (São Miguel)",
+      "t": "Other",
+      "la": 37.75,
+      "lo": -25.6,
+      "qty": "modern: ~750 km², volcanic soil, fresh water",
+      "reach": "1230: uninhabited and unknown to Europe until the 1420s.",
+      "km": 4700,
+      "d": "The secret gate's waystation and quarantine island."
+    },
+    {
+      "n": "Cornish tin",
+      "t": "Tin",
+      "la": 50.25,
+      "lo": -5.2,
+      "qty": "modern: ~2–3 million t of tin produced over 4,000 years",
+      "reach": "1230: Europe's main tin source, bought through Pisa or Bristol traders.",
+      "km": 5600,
+      "d": "Eastern North America has almost no tin, so bronze and solder rely on the gate."
+    },
+    {
+      "n": "Almadén mercury",
+      "t": "Chemicals",
+      "la": 38.78,
+      "lo": -4.84,
+      "qty": "modern: about a third of all mercury ever mined",
+      "reach": "1230: in Castilian hands, sold through Mediterranean trade.",
+      "km": 6200,
+      "d": "Mercury for thermometers, barometers and gilding."
+    },
+    {
+      "n": "Pisa and its trade",
+      "t": "Other",
+      "la": 43.72,
+      "lo": 10.4,
+      "qty": "modern: n/a",
+      "reach": "1230: the merchant house partner; source of glass, books, dyes, alum and craftsmen.",
+      "km": 6900,
+      "d": "The other end of the gate."
+    }
   ],
   "newcomers": [
-    {"n": "Hungarian farming families", "la": 47.0, "lo": 19.8, "num": "~1,500 in the first fleet; hundreds a year later (guess). Hungary lost ~15–50% of ~2 million people in 1241–42", "when": "1241–43, after Mohi", "fit": 6, "d": "Plow farmers and cattle people with nothing to go back to. They fit the settler core well and the Native towns slowly."},
-    {"n": "Cuman herders", "la": 46.6, "lo": 20.2, "num": "~40,000–80,000 came into Hungary with Köten in 1239; a few hundred families could join (guess)", "when": "1241–42, after Köten's murder", "fit": 6, "d": "Horse and sheep herders, enemies of the Hungarians since Köten was killed. Ideal for horse breeding and the prairie; need careful handling on the ships."},
-    {"n": "Rus' refugees", "la": 50.45, "lo": 30.52, "num": "Hundreds reaching the Adriatic (guess)", "when": "After Kiev falls, December 1240", "fit": 5, "d": "Forest farmers, carpenters and fur trappers, used to cold winters and river trade. Good woodsmen for the Ohio forests."},
-    {"n": "Polish and Moravian refugees", "la": 51.2, "lo": 16.2, "num": "Hundreds (guess)", "when": "After Legnica, April 1241", "fit": 5, "d": "Farmers and miners from Silesia, which has silver and lead mines; useful mining skills."},
-    {"n": "Pisan and Tuscan craftsmen", "la": 43.72, "lo": 10.4, "num": "~300–500 skilled workers in the first fleet (guess)", "when": "1239–42, then yearly", "fit": 4, "d": "Smiths, millwrights, masons, glassmakers, shipwrights and midwives. City people, so the forest and the Native towns are a shock."},
-    {"n": "Dalmatian sailors and shipwrights", "la": 43.52, "lo": 16.25, "num": "~200–400 sailors and carpenters (guess)", "when": "1242, from Trogir and Split", "fit": 5, "d": "Crews and builders for the fleet, from the coast where Béla IV hid. They become the federation's ocean pilots."},
-    {"n": "European famine refugees", "la": 51.5, "lo": -0.1, "num": "Thousands per wave (guess)", "when": "1258 and 1315–17", "fit": 5, "d": "Starving families from England, Flanders and Germany, recruited through the gate. Farmers who know wheat and cattle."},
-    {"n": "Iroquoian villages joining", "la": 42.9, "lo": -76.6, "num": "Village by village; tens of thousands over decades (guess)", "when": "From ~1245", "fit": 8, "d": "Farmers already; clan mothers adopt ox-plows and new seed. They keep their clans and send speakers to the council."},
-    {"n": "Monongahela and Fort Ancient villages joining", "la": 39.9, "lo": -80.4, "num": "~10,000–30,000 over decades (guess)", "when": "From ~1249, when the core moves to the Forks", "fit": 8, "d": "Village farmers right at the core who gain peace, iron and vaccines."},
-    {"n": "Mississippian towns joining", "la": 38.66, "lo": -90.06, "num": "~10,000–30,000 (guess)", "when": "From ~1252, as Cahokia declines", "fit": 7, "d": "Chiefdoms used to big public works and stored food. They join as equals under their own chiefs."}
+    {
+      "n": "Hungarian farming families",
+      "la": 47,
+      "lo": 19.8,
+      "num": "~1,500 in the first fleet; hundreds a year later (guess). Hungary lost ~15–50% of ~2 million people in 1241–42",
+      "when": "1241–43, after Mohi",
+      "fit": 6,
+      "d": "Plow farmers and cattle people with nothing to go back to. They fit the settler core well and the Native towns slowly."
+    },
+    {
+      "n": "Cuman herders",
+      "la": 46.6,
+      "lo": 20.2,
+      "num": "~40,000–80,000 came into Hungary with Köten in 1239; a few hundred families could join (guess)",
+      "when": "1241–42, after Köten's murder",
+      "fit": 6,
+      "d": "Horse and sheep herders, enemies of the Hungarians since Köten was killed. Ideal for horse breeding and the prairie; need careful handling on the ships."
+    },
+    {
+      "n": "Rus' refugees",
+      "la": 50.45,
+      "lo": 30.52,
+      "num": "Hundreds reaching the Adriatic (guess)",
+      "when": "After Kiev falls, December 1240",
+      "fit": 5,
+      "d": "Forest farmers, carpenters and fur trappers, used to cold winters and river trade. Good woodsmen for the Ohio forests."
+    },
+    {
+      "n": "Polish and Moravian refugees",
+      "la": 51.2,
+      "lo": 16.2,
+      "num": "Hundreds (guess)",
+      "when": "After Legnica, April 1241",
+      "fit": 5,
+      "d": "Farmers and miners from Silesia, which has silver and lead mines; useful mining skills."
+    },
+    {
+      "n": "Pisan and Tuscan craftsmen",
+      "la": 43.72,
+      "lo": 10.4,
+      "num": "~300–500 skilled workers in the first fleet (guess)",
+      "when": "1239–42, then yearly",
+      "fit": 4,
+      "d": "Smiths, millwrights, masons, glassmakers, shipwrights and midwives. City people, so the forest and the Native towns are a shock."
+    },
+    {
+      "n": "Dalmatian sailors and shipwrights",
+      "la": 43.52,
+      "lo": 16.25,
+      "num": "~200–400 sailors and carpenters (guess)",
+      "when": "1242, from Trogir and Split",
+      "fit": 5,
+      "d": "Crews and builders for the fleet, from the coast where Béla IV hid. They become the federation's ocean pilots."
+    },
+    {
+      "n": "European famine refugees",
+      "la": 51.5,
+      "lo": -0.1,
+      "num": "Thousands per wave (guess)",
+      "when": "1258 and 1315–17",
+      "fit": 5,
+      "d": "Starving families from England, Flanders and Germany, recruited through the gate. Farmers who know wheat and cattle."
+    },
+    {
+      "n": "Iroquoian villages joining",
+      "la": 42.9,
+      "lo": -76.6,
+      "num": "Village by village; tens of thousands over decades (guess)",
+      "when": "From ~1245",
+      "fit": 8,
+      "d": "Farmers already; clan mothers adopt ox-plows and new seed. They keep their clans and send speakers to the council."
+    },
+    {
+      "n": "Monongahela and Fort Ancient villages joining",
+      "la": 39.9,
+      "lo": -80.4,
+      "num": "~10,000–30,000 over decades (guess)",
+      "when": "From ~1249, when the core moves to the Forks",
+      "fit": 8,
+      "d": "Village farmers right at the core who gain peace, iron and vaccines."
+    },
+    {
+      "n": "Mississippian towns joining",
+      "la": 38.66,
+      "lo": -90.06,
+      "num": "~10,000–30,000 (guess)",
+      "when": "From ~1252, as Cahokia declines",
+      "fit": 7,
+      "d": "Chiefdoms used to big public works and stored food. They join as equals under their own chiefs."
+    }
   ],
   "neighbors": [
-    {"n": "Etowah and the Georgia Mississippians", "la": 34.13, "lo": -84.81, "pop": "~1,000–3,000 at Etowah (guess)", "d": "Powerful Mississippian chiefdom, rising as Cahokia falls. Rich in ritual copper and shell; trades with the Ohio Valley."},
-    {"n": "Moundville", "la": 33.0, "lo": -87.63, "pop": "~1,000 residents plus ~10,000 in the valley (guess)", "d": "The second-biggest Mississippian center, at its height ~1200–1300 on the Black Warrior River. Hierarchical and organized."},
-    {"n": "Spiro", "la": 35.31, "lo": -94.62, "pop": "~1,000–2,000 in the area (guess)", "d": "A rich ritual center on the Arkansas River, trading as far as the Gulf and the Plains."},
-    {"n": "Ancestral Puebloans (Mesa Verde)", "la": 37.18, "lo": -108.49, "pop": "~20,000–30,000 in the Mesa Verde region (guess)", "d": "Cliff-dwelling farmers far to the southwest. The Great Drought (1276–99) empties the region; no contact for decades."},
-    {"n": "Mesoamerica (post-Toltec)", "la": 19.69, "lo": -98.84, "pop": "Millions in central Mexico (guess)", "d": "Divided city-states after Tula fell (~1150). The Aztecs found Tenochtitlan ~1325. Writing, calendars and markets, but no iron or ships."},
-    {"n": "Taíno (Caribbean)", "la": 19.0, "lo": -70.7, "pop": "~0.5–1 million on Hispaniola alone (guess)", "d": "Farmers and canoe people on the islands the fleet passes. Contact means disease risk both ways, so the fleet should avoid them."},
-    {"n": "Norse Greenland", "la": 60.99, "lo": -45.42, "pop": "~2,000–3,000 (guess)", "d": "Farmers who still sail to Markland (Labrador) for timber. Weak and fading; the Western Settlement is gone by ~1350. A small risk of word reaching Norway."},
-    {"n": "Thule Inuit", "la": 64.2, "lo": -51.7, "pop": "~a few thousand spreading east (guess)", "d": "Arctic sea-mammal hunters moving from Alaska into Greenland in the 1200s. No threat, far north."},
-    {"n": "Pisa and the Pisan merchant house", "la": 43.72, "lo": 10.4, "pop": "~25,000–40,000 in the city (guess)", "d": "The partner city. Loses to Genoa at Meloria in 1284, so the gate needs a backup."},
-    {"n": "Frederick II (Holy Roman Empire and Sicily)", "la": 38.12, "lo": 13.36, "pop": "~1–2 million in the Kingdom of Sicily (guess)", "d": "The patron who knows the secret. Dies 1250; his dynasty falls by 1268."},
-    {"n": "Kingdom of Hungary (Béla IV)", "la": 47.79, "lo": 18.74, "pop": "~2 million before 1241, much fewer after (guess)", "d": "Ruined by the Mongols, then rebuilding with stone castles. Béla's gratitude can send refugees willingly."},
-    {"n": "Mongol Golden Horde", "la": 47.2, "lo": 47.4, "pop": "Tens of thousands of warriors (guess)", "d": "Batu's empire on the Volga, the cause of the refugee wave. It never reaches the Atlantic, but it reshapes eastern Europe for 200 years."}
+    {
+      "n": "Etowah and the Georgia Mississippians",
+      "la": 34.13,
+      "lo": -84.81,
+      "pop": "~1,000–3,000 at Etowah (guess)",
+      "d": "Powerful Mississippian chiefdom, rising as Cahokia falls. Rich in ritual copper and shell; trades with the Ohio Valley."
+    },
+    {
+      "n": "Moundville",
+      "la": 33,
+      "lo": -87.63,
+      "pop": "~1,000 residents plus ~10,000 in the valley (guess)",
+      "d": "The second-biggest Mississippian center, at its height ~1200–1300 on the Black Warrior River. Hierarchical and organized.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Moundville_Archaeological_Site_Alabama.jpg/500px-Moundville_Archaeological_Site_Alabama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Moundville_Archaeological_Site_Alabama.jpg",
+        "c": "Photo: Altairisfar, public domain",
+        "cap": "Platform mounds around the great plaza at Moundville"
+      }
+    },
+    {
+      "n": "Spiro",
+      "la": 35.31,
+      "lo": -94.62,
+      "pop": "~1,000–2,000 in the area (guess)",
+      "d": "A rich ritual center on the Arkansas River, trading as far as the Gulf and the Plains."
+    },
+    {
+      "n": "Ancestral Puebloans (Mesa Verde)",
+      "la": 37.18,
+      "lo": -108.49,
+      "pop": "~20,000–30,000 in the Mesa Verde region (guess)",
+      "d": "Cliff-dwelling farmers far to the southwest. The Great Drought (1276–99) empties the region; no contact for decades.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cliff_Palace%2C_Mesa_Verde_National_Park.jpg/500px-Cliff_Palace%2C_Mesa_Verde_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Cliff_Palace,_Mesa_Verde_National_Park.jpg",
+        "c": "Photo: Tyler Karaszewski, CC BY 2.0",
+        "cap": "Cliff Palace, Mesa Verde"
+      }
+    },
+    {
+      "n": "Mesoamerica (post-Toltec)",
+      "la": 19.69,
+      "lo": -98.84,
+      "pop": "Millions in central Mexico (guess)",
+      "d": "Divided city-states after Tula fell (~1150). The Aztecs found Tenochtitlan ~1325. Writing, calendars and markets, but no iron or ships."
+    },
+    {
+      "n": "Taíno (Caribbean)",
+      "la": 19,
+      "lo": -70.7,
+      "pop": "~0.5–1 million on Hispaniola alone (guess)",
+      "d": "Farmers and canoe people on the islands the fleet passes. Contact means disease risk both ways, so the fleet should avoid them."
+    },
+    {
+      "n": "Norse Greenland",
+      "la": 60.99,
+      "lo": -45.42,
+      "pop": "~2,000–3,000 (guess)",
+      "d": "Farmers who still sail to Markland (Labrador) for timber. Weak and fading; the Western Settlement is gone by ~1350. A small risk of word reaching Norway."
+    },
+    {
+      "n": "Thule Inuit",
+      "la": 64.2,
+      "lo": -51.7,
+      "pop": "~a few thousand spreading east (guess)",
+      "d": "Arctic sea-mammal hunters moving from Alaska into Greenland in the 1200s. No threat, far north."
+    },
+    {
+      "n": "Pisa and the Pisan merchant house",
+      "la": 43.72,
+      "lo": 10.4,
+      "pop": "~25,000–40,000 in the city (guess)",
+      "d": "The partner city. Loses to Genoa at Meloria in 1284, so the gate needs a backup."
+    },
+    {
+      "n": "Frederick II (Holy Roman Empire and Sicily)",
+      "la": 38.12,
+      "lo": 13.36,
+      "pop": "~1–2 million in the Kingdom of Sicily (guess)",
+      "d": "The patron who knows the secret. Dies 1250; his dynasty falls by 1268."
+    },
+    {
+      "n": "Kingdom of Hungary (Béla IV)",
+      "la": 47.79,
+      "lo": 18.74,
+      "pop": "~2 million before 1241, much fewer after (guess)",
+      "d": "Ruined by the Mongols, then rebuilding with stone castles. Béla's gratitude can send refugees willingly."
+    },
+    {
+      "n": "Mongol Golden Horde",
+      "la": 47.2,
+      "lo": 47.4,
+      "pop": "Tens of thousands of warriors (guess)",
+      "d": "Batu's empire on the Volga, the cause of the refugee wave. It never reaches the Atlantic, but it reshapes eastern Europe for 200 years."
+    }
   ],
   "sources": [
-    ["Cahokia population and decline (archaeology.org)", "https://www.archaeology.org/news/7434-190226-cahokia-population-climate"],
-    ["Cahokia rise and fall (history.com)", "https://www.history.com/articles/native-american-cahokia-chaco-canyon"],
-    ["USGS: Pittsburgh coal bed digital resource model", "https://www.usgs.gov/publications/a-digital-resource-model-upper-pennsylvanian-pittsburgh-coal-bed-monongahela-group"],
-    ["Keweenaw National Historical Park (Wikipedia)", "https://en.wikipedia.org/wiki/Keweenaw_National_Historical_Park"],
-    ["Michigan's copper deposits and mining (MSU)", "https://project.geo.msu.edu/geogmich/copper.html"],
-    ["Monongahela culture (Wikipedia)", "https://en.wikipedia.org/wiki/Monongahela_culture"],
-    ["Monongahela River Basin (Pennsylvania PHMC)", "https://www.phmc.state.pa.us/portal/communities/archaeology/native-american/monongahela.html"],
-    ["SunWatch Indian Village (Wikipedia)", "https://en.wikipedia.org/wiki/SunWatch_Indian_Village"],
-    ["Köten (Wikipedia)", "https://en.wikipedia.org/wiki/K%C3%B6ten"],
-    ["First Mongol invasion of Hungary (Wikipedia)", "https://en.wikipedia.org/wiki/First_Mongol_invasion_of_Hungary"],
-    ["Salt production in Syracuse (USGS fact sheet)", "https://pubs.usgs.gov/publication/fs13900"],
-    ["Salt production, central New York (Empire State Plaza)", "https://empirestateplaza.ny.gov/salt-production-central-new-york"],
-    ["Kanawha salt industry (e-WV Encyclopedia)", "https://www.wvencyclopedia.org/entries/149"],
-    ["Buckeye Furnace and the Hanging Rock Iron Region (Wikipedia)", "https://en.wikipedia.org/wiki/Buckeye_Furnace"],
-    ["Galena, Illinois lead mining (Wikipedia)", "https://en.wikipedia.org/wiki/Galena,_Illinois"],
-    ["Galena lead history (Mining History Association)", "https://mininghistoryassociation.org/GalenaHistory.htm"],
-    ["Angel Mounds demography (IUPUI ScholarWorks)", "https://scholarworks.indianapolis.iu.edu/items/98995731-5e93-4d1d-966d-46e97f2f492a"],
-    ["Overview of Kincaid Mounds", "https://www.kincaidmounds.com/wp-content/uploads/2026/03/Overview-of-Kincaid.pdf"],
-    ["Iroquoian chronology (Science Advances table)", "https://pmc.ncbi.nlm.nih.gov/articles/PMC6281431/table/T1"],
-    ["Cohoes Falls (Wikipedia)", "https://en.wikipedia.org/wiki/Cohoes_Falls"]
+    [
+      "Cahokia population and decline (archaeology.org)",
+      "https://www.archaeology.org/news/7434-190226-cahokia-population-climate"
+    ],
+    [
+      "Cahokia rise and fall (history.com)",
+      "https://www.history.com/articles/native-american-cahokia-chaco-canyon"
+    ],
+    [
+      "USGS: Pittsburgh coal bed digital resource model",
+      "https://www.usgs.gov/publications/a-digital-resource-model-upper-pennsylvanian-pittsburgh-coal-bed-monongahela-group"
+    ],
+    [
+      "Keweenaw National Historical Park (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Keweenaw_National_Historical_Park"
+    ],
+    [
+      "Michigan's copper deposits and mining (MSU)",
+      "https://project.geo.msu.edu/geogmich/copper.html"
+    ],
+    [
+      "Monongahela culture (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Monongahela_culture"
+    ],
+    [
+      "Monongahela River Basin (Pennsylvania PHMC)",
+      "https://www.phmc.state.pa.us/portal/communities/archaeology/native-american/monongahela.html"
+    ],
+    [
+      "SunWatch Indian Village (Wikipedia)",
+      "https://en.wikipedia.org/wiki/SunWatch_Indian_Village"
+    ],
+    [
+      "Köten (Wikipedia)",
+      "https://en.wikipedia.org/wiki/K%C3%B6ten"
+    ],
+    [
+      "First Mongol invasion of Hungary (Wikipedia)",
+      "https://en.wikipedia.org/wiki/First_Mongol_invasion_of_Hungary"
+    ],
+    [
+      "Salt production in Syracuse (USGS fact sheet)",
+      "https://pubs.usgs.gov/publication/fs13900"
+    ],
+    [
+      "Salt production, central New York (Empire State Plaza)",
+      "https://empirestateplaza.ny.gov/salt-production-central-new-york"
+    ],
+    [
+      "Kanawha salt industry (e-WV Encyclopedia)",
+      "https://www.wvencyclopedia.org/entries/149"
+    ],
+    [
+      "Buckeye Furnace and the Hanging Rock Iron Region (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Buckeye_Furnace"
+    ],
+    [
+      "Galena, Illinois lead mining (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Galena,_Illinois"
+    ],
+    [
+      "Galena lead history (Mining History Association)",
+      "https://mininghistoryassociation.org/GalenaHistory.htm"
+    ],
+    [
+      "Angel Mounds demography (IUPUI ScholarWorks)",
+      "https://scholarworks.indianapolis.iu.edu/items/98995731-5e93-4d1d-966d-46e97f2f492a"
+    ],
+    [
+      "Overview of Kincaid Mounds",
+      "https://www.kincaidmounds.com/wp-content/uploads/2026/03/Overview-of-Kincaid.pdf"
+    ],
+    [
+      "Iroquoian chronology (Science Advances table)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6281431/table/T1"
+    ],
+    [
+      "Cohoes Falls (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Cohoes_Falls"
+    ]
+  ],
+  "gallery": [
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/2/26/Cahokia_Aerial_HRoe_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "p": "https://commons.wikimedia.org/wiki/File:Cahokia_Aerial_HRoe_2015.jpg",
+      "c": "Painting: Herb Roe, CC BY-SA 4.0",
+      "cap": "Cahokia at its height: plazas, mounds and thousands of houses",
+      "kind": "then"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Kincaid_Mounds_1300_CE_HRoe_2017.jpg/500px-Kincaid_Mounds_1300_CE_HRoe_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Kincaid_Mounds_1300_CE_HRoe_2017.jpg",
+      "c": "Painting: Herb Roe, CC BY-SA 4.0",
+      "cap": "Kincaid town on the lower Ohio around 1300",
+      "kind": "then"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Monks_Mound_-_Summer_2024.jpg/500px-Monks_Mound_-_Summer_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Monks_Mound_-_Summer_2024.jpg",
+      "c": "Photo: Skubasteve834, CC BY 4.0",
+      "cap": "Monks Mound today, the largest earthwork in the Americas",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Woodhenge_Cahokia_3998.jpg/500px-Woodhenge_Cahokia_3998.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Woodhenge_Cahokia_3998.jpg",
+      "c": "Photo: QuartierLatin1968, CC BY-SA 3.0",
+      "cap": "Rebuilt Woodhenge sun-calendar posts at Cahokia",
+      "kind": "then"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Cahokia_reconstructed_palisade_HRoe_01.jpg/500px-Cahokia_reconstructed_palisade_HRoe_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Cahokia_reconstructed_palisade_HRoe_01.jpg",
+      "c": "Photo: Herb Roe, CC BY-SA 3.0",
+      "cap": "Reconstructed section of Cahokia's bastioned palisade",
+      "kind": "then"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Aztalan_State_Park_stockade.jpg/500px-Aztalan_State_Park_stockade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Aztalan_State_Park_stockade.jpg",
+      "c": "Photo: James Steakley, CC BY-SA 3.0",
+      "cap": "Rebuilt stockade at Aztalan, a Mississippian outpost",
+      "kind": "then"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mound_A_from_Mound_C_at_the_Angel_Mounds_State_Historic_Site.jpg/500px-Mound_A_from_Mound_C_at_the_Angel_Mounds_State_Historic_Site.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Mound_A_from_Mound_C_at_the_Angel_Mounds_State_Historic_Site.jpg",
+      "c": "Photo: Gaurav, CC BY 4.0",
+      "cap": "Mound A at Angel Mounds on the Ohio today",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Huron-Maison-Longue-Reconstitu%C3%A9e-Ext%C3%A9rieur_01.jpg/500px-Huron-Maison-Longue-Reconstitu%C3%A9e-Ext%C3%A9rieur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Huron-Maison-Longue-Reconstitu%C3%A9e-Ext%C3%A9rieur_01.jpg",
+      "c": "Photo: Pierre5018, CC BY-SA 4.0",
+      "cap": "Reconstructed Iroquoian longhouses inside a palisade",
+      "kind": "then"
+    }
   ]
 }

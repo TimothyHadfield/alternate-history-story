@@ -5,144 +5,1124 @@
   "pitch": "Unite a hundred quarrelling valleys by making them all richer together.",
   "score": 5.7,
   "year": 1230,
-  "view": {"center": [-16.4, -69.6], "zoom": 6},
-  "core": {"n": "Lupaca shore of Lake Titicaca (later Chucuito)", "la": -15.89, "lo": -69.89, "d": "The most crowded, richest highland basin of the time: the biggest herds, lake fish, reeds, potatoes and quinoa, with Tiwanaku's raised fields waiting to be revived. Copper and tin are within a few hundred km."},
-  "start": {"n": "Herding hut near Cutimbo", "la": -15.98, "lo": -70.04, "d": "He arrives in the hills above the west shore, near the Lupaca hilltop seat at Cutimbo (about 3,900 m), and quarantines alone for about 3 weeks before meeting anyone."},
+  "view": {
+    "center": [
+      -16.4,
+      -69.6
+    ],
+    "zoom": 6
+  },
+  "core": {
+    "n": "Lupaca shore of Lake Titicaca (later Chucuito)",
+    "la": -15.89,
+    "lo": -69.89,
+    "d": "The most crowded, richest highland basin of the time: the biggest herds, lake fish, reeds, potatoes and quinoa, with Tiwanaku's raised fields waiting to be revived. Copper and tin are within a few hundred km.",
+    "img": {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Lago_Titicaca_desde_las_alturas_de_Chucuito.jpg/500px-Lago_Titicaca_desde_las_alturas_de_Chucuito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Lago_Titicaca_desde_las_alturas_de_Chucuito.jpg",
+      "c": "Photo: Alfredobi, Public domain",
+      "cap": "Lake Titicaca from the hills above Chucuito"
+    }
+  },
+  "start": {
+    "n": "Herding hut near Cutimbo",
+    "la": -15.98,
+    "lo": -70.04,
+    "d": "He arrives in the hills above the west shore, near the Lupaca hilltop seat at Cutimbo (about 3,900 m), and quarantines alone for about 3 weeks before meeting anyone.",
+    "img": {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Chullpas_of_Cutimbo_in_Peru.jpg/500px-Chullpas_of_Cutimbo_in_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Chullpas_of_Cutimbo_in_Peru.jpg",
+      "c": "Photo: BrunoLocatelli, CC BY-SA 4.0",
+      "cap": "Lupaca burial towers on the Cutimbo hilltop"
+    }
+  },
   "facts": [
-    ["Population (Titicaca basin)", "~300,000–500,000 (guess)"],
-    ["Population (central Andes)", "~3–6 million (guess; estimates for 1500 run 6–15 million)"],
-    ["Altitude", "Lake surface 3,812 m; pastures 4,000–4,800 m"],
-    ["Climate", "Cold high plateau: sunny days, freezing nights most of the year; thin air"],
-    ["Rain", "~600–800 mm at the lake, nearly all Dec–Mar; drier to the south (~300 mm at Oruro)"],
-    ["Growing season", "~Oct–Apr; frost can strike any month, so one bad night can kill a crop"],
-    ["Languages", "Aymara at the lake, Puquina and Uruquilla in pockets; Quechua dialects to the north"],
-    ["Writing", "None. Quipu knotted cords record numbers in base 10"],
-    ["Animals", "Llama, alpaca, guinea pig, dog. No draft animals; a llama carries ~25–35 kg"],
-    ["Metals", "Copper, arsenical and tin bronze, gold, silver. No iron"]
+    [
+      "Population (Titicaca basin)",
+      "~300,000–500,000 (guess)"
+    ],
+    [
+      "Population (central Andes)",
+      "~3–6 million (guess; estimates for 1500 run 6–15 million)"
+    ],
+    [
+      "Altitude",
+      "Lake surface 3,812 m; pastures 4,000–4,800 m"
+    ],
+    [
+      "Climate",
+      "Cold high plateau: sunny days, freezing nights most of the year; thin air"
+    ],
+    [
+      "Rain",
+      "~600–800 mm at the lake, nearly all Dec–Mar; drier to the south (~300 mm at Oruro)"
+    ],
+    [
+      "Growing season",
+      "~Oct–Apr; frost can strike any month, so one bad night can kill a crop"
+    ],
+    [
+      "Languages",
+      "Aymara at the lake, Puquina and Uruquilla in pockets; Quechua dialects to the north"
+    ],
+    [
+      "Writing",
+      "None. Quipu knotted cords record numbers in base 10"
+    ],
+    [
+      "Animals",
+      "Llama, alpaca, guinea pig, dog. No draft animals; a llama carries ~25–35 kg"
+    ],
+    [
+      "Metals",
+      "Copper, arsenical and tin bronze, gold, silver. No iron"
+    ]
   ],
   "land": [
-    {"n": "Lake Titicaca", "la": -15.8, "lo": -69.4, "r": 80, "elev": "3,812 m, up to ~280 m deep", "rain": "~700 mm, Dec–Mar", "d": "8,300 km² of slightly salty fresh water that softens frost along its shores. Fish, reeds and waterbirds; reed boats are the only transport across it."},
-    {"n": "Lupaca lake-shore plain (Puno to Desaguadero)", "la": -16.1, "lo": -69.6, "r": 55, "elev": "3,810–3,900 m", "rain": "~700 mm, Dec–Mar", "d": "Flat, crowded farmland of potatoes, quinoa and cañihua, with relic raised fields along the shore. No malaria; the danger is frost and drought."},
-    {"n": "Colla northern pampas (Juliaca, Azángaro)", "la": -15.2, "lo": -70.1, "r": 70, "elev": "3,830–4,000 m", "rain": "~600–700 mm", "d": "Wide grassy plains and river flats north-west of the lake. Rich pasture and large raised-field zones; Colla country."},
-    {"n": "Western puna grasslands", "la": -16.4, "lo": -70.4, "r": 70, "elev": "4,100–4,800 m", "rain": "~500–700 mm", "d": "Treeless ichu-grass and wetland (bofedal) pasture, too cold for crops. Llama and alpaca herds; fuel is dung and yareta moss."},
-    {"n": "Cordillera Real (Eastern Cordillera)", "la": -16.1, "lo": -68.3, "r": 55, "elev": "4,500–6,400 m", "rain": "~600 mm, snow and glaciers", "d": "A glacier wall east of the lake (Illampu, Illimani). Glacier melt feeds streams for water wheels later; passes lead down to the Yungas."},
-    {"n": "Yungas (eastern slopes)", "la": -16.2, "lo": -67.7, "r": 60, "elev": "800–3,000 m", "rain": "~1,500–2,500 mm", "d": "Steep cloud forest with coca, fruit, timber and cinchona bark. Leishmaniasis and some malaria low down; landslides."},
-    {"n": "Southern altiplano (Desaguadero to Lake Poopó)", "la": -17.9, "lo": -67.7, "r": 150, "elev": "3,700–3,900 m", "rain": "~300–450 mm", "d": "A drier, harsher plain of herders. The Desaguadero river drains Titicaca into shallow, salty Lake Poopó. Tin and copper country."},
-    {"n": "Pacific desert slope (Moquegua, Sama, Tacna)", "la": -17.3, "lo": -70.7, "r": 80, "elev": "0–3,000 m", "rain": "<50 mm on the coast", "d": "Bare desert cut by green river oases where maize, cotton, peppers and fruit grow. The Lupaca kept farming colonies here; 2–4 days' walk from the lake."},
-    {"n": "Vilcanota valley to Cusco", "la": -14.0, "lo": -71.5, "r": 90, "elev": "3,000–4,300 m", "rain": "~700–800 mm", "d": "The La Raya pass (4,300 m) leads down a long Quechua farming valley to Cusco. Lower and warmer, so maize grows; the natural road north."},
-    {"n": "Salt flats of the far south (Coipasa, Uyuni)", "la": -19.9, "lo": -67.8, "r": 120, "elev": "~3,650 m", "rain": "~100–200 mm", "d": "The world's largest salt flats on a dry, windy plain. Unlimited salt, little else; very thin population."}
+    {
+      "n": "Lake Titicaca",
+      "la": -15.8,
+      "lo": -69.4,
+      "r": 80,
+      "elev": "3,812 m, up to ~280 m deep",
+      "rain": "~700 mm, Dec–Mar",
+      "d": "8,300 km² of slightly salty fresh water that softens frost along its shores. Fish, reeds and waterbirds; reed boats are the only transport across it.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/El_lago_Titicaca.jpg/500px-El_lago_Titicaca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:El_lago_Titicaca.jpg",
+        "c": "Photo: Karmelo777, CC BY-SA 4.0",
+        "cap": "Lake Titicaca: islands, bays and dry shore hills"
+      }
+    },
+    {
+      "n": "Lupaca lake-shore plain (Puno to Desaguadero)",
+      "la": -16.1,
+      "lo": -69.6,
+      "r": 55,
+      "elev": "3,810–3,900 m",
+      "rain": "~700 mm, Dec–Mar",
+      "d": "Flat, crowded farmland of potatoes, quinoa and cañihua, with relic raised fields along the shore. No malaria; the danger is frost and drought.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Drying_quinoa_near_Puno.JPG/500px-Drying_quinoa_near_Puno.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Drying_quinoa_near_Puno.JPG",
+        "c": "Photo: Michael Hermann, CC BY-SA 3.0",
+        "cap": "Quinoa drying in lakeside fields near Puno"
+      }
+    },
+    {
+      "n": "Colla northern pampas (Juliaca, Azángaro)",
+      "la": -15.2,
+      "lo": -70.1,
+      "r": 70,
+      "elev": "3,830–4,000 m",
+      "rain": "~600–700 mm",
+      "d": "Wide grassy plains and river flats north-west of the lake. Rich pasture and large raised-field zones; Colla country.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Sillustani%2C_Per%C3%BA%2C_2015-08-01%2C_DD_84.JPG/500px-Sillustani%2C_Per%C3%BA%2C_2015-08-01%2C_DD_84.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Sillustani,_Per%C3%BA,_2015-08-01,_DD_84.JPG",
+        "c": "Photo: Diego Delso, CC BY-SA 4.0",
+        "cap": "Grassy shores of Lake Umayo in Colla country"
+      }
+    },
+    {
+      "n": "Western puna grasslands",
+      "la": -16.4,
+      "lo": -70.4,
+      "r": 70,
+      "elev": "4,100–4,800 m",
+      "rain": "~500–700 mm",
+      "d": "Treeless ichu-grass and wetland (bofedal) pasture, too cold for crops. Llama and alpaca herds; fuel is dung and yareta moss.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Altura_en_Puno.jpg/500px-Altura_en_Puno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Altura_en_Puno.jpg",
+        "c": "Photo: Pedro Nolberto Flores Mamani, CC BY-SA 4.0",
+        "cap": "Llamas and alpacas on ichu-grass puna in Puno"
+      }
+    },
+    {
+      "n": "Cordillera Real (Eastern Cordillera)",
+      "la": -16.1,
+      "lo": -68.3,
+      "r": 55,
+      "elev": "4,500–6,400 m",
+      "rain": "~600 mm, snow and glaciers",
+      "d": "A glacier wall east of the lake (Illampu, Illimani). Glacier melt feeds streams for water wheels later; passes lead down to the Yungas.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Lago_Titicaca_con_el_macizo_del_Illampu_al_fondo_%28Bolivia%29.jpg/500px-Lago_Titicaca_con_el_macizo_del_Illampu_al_fondo_%28Bolivia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Lago_Titicaca_con_el_macizo_del_Illampu_al_fondo_(Bolivia).jpg",
+        "c": "Photo: Daniel Maciel, CC BY 2.0",
+        "cap": "The Illampu glaciers rising beyond Lake Titicaca"
+      }
+    },
+    {
+      "n": "Yungas (eastern slopes)",
+      "la": -16.2,
+      "lo": -67.7,
+      "r": 60,
+      "elev": "800–3,000 m",
+      "rain": "~1,500–2,500 mm",
+      "d": "Steep cloud forest with coca, fruit, timber and cinchona bark. Leishmaniasis and some malaria low down; landslides.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Krajina_kolem_Silnice_smrti_a_Coroico_-_panoramio.jpg/500px-Krajina_kolem_Silnice_smrti_a_Coroico_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Krajina_kolem_Silnice_smrti_a_Coroico_-_panoramio.jpg",
+        "c": "Photo: Pavel Špindler, CC BY 3.0",
+        "cap": "Steep cloud-forest valleys of the Yungas near Coroico"
+      }
+    },
+    {
+      "n": "Southern altiplano (Desaguadero to Lake Poopó)",
+      "la": -17.9,
+      "lo": -67.7,
+      "r": 150,
+      "elev": "3,700–3,900 m",
+      "rain": "~300–450 mm",
+      "d": "A drier, harsher plain of herders. The Desaguadero river drains Titicaca into shallow, salty Lake Poopó. Tin and copper country.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_Sajama_Mountain_and_the_bofedals.jpg/500px-The_Sajama_Mountain_and_the_bofedals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:The_Sajama_Mountain_and_the_bofedals.jpg",
+        "c": "Photo: Diego Calderón Acebey, CC BY-SA 4.0",
+        "cap": "Bofedal wetland pasture with herds below Sajama"
+      }
+    },
+    {
+      "n": "Pacific desert slope (Moquegua, Sama, Tacna)",
+      "la": -17.3,
+      "lo": -70.7,
+      "r": 80,
+      "elev": "0–3,000 m",
+      "rain": "<50 mm on the coast",
+      "d": "Bare desert cut by green river oases where maize, cotton, peppers and fruit grow. The Lupaca kept farming colonies here; 2–4 days' walk from the lake.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Cerro_Baul.jpg/500px-Cerro_Baul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Cerro_Baul.jpg",
+        "c": "Photo: simon_chara, CC0",
+        "cap": "Green Moquegua oasis below the bare desert of Cerro Baúl"
+      }
+    },
+    {
+      "n": "Vilcanota valley to Cusco",
+      "la": -14,
+      "lo": -71.5,
+      "r": 90,
+      "elev": "3,000–4,300 m",
+      "rain": "~700–800 mm",
+      "d": "The La Raya pass (4,300 m) leads down a long Quechua farming valley to Cusco. Lower and warmer, so maize grows; the natural road north.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pr%C5%AFsmyk_La_Raya_-_panoramio_%281%29.jpg/500px-Pr%C5%AFsmyk_La_Raya_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Pr%C5%AFsmyk_La_Raya_-_panoramio_(1).jpg",
+        "c": "Photo: Pavel Špindler, CC BY 3.0",
+        "cap": "Wide grassy valley at the La Raya pass"
+      }
+    },
+    {
+      "n": "Salt flats of the far south (Coipasa, Uyuni)",
+      "la": -19.9,
+      "lo": -67.8,
+      "r": 120,
+      "elev": "~3,650 m",
+      "rain": "~100–200 mm",
+      "d": "The world's largest salt flats on a dry, windy plain. Unlimited salt, little else; very thin population.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg/500px-Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg",
+        "c": "Photo: Luca Galuzzi (Lucag), edit by Trialsanderrors, CC BY-SA 2.5",
+        "cap": "Salt piles cut from the crust of the Salar de Uyuni"
+      }
+    }
   ],
   "peoples": [
-    {"n": "Lupaca", "la": -15.89, "lo": -69.89, "pop": 75000, "popText": "~60,000–100,000 (guess); the last Inca census counted ~20,000 households (~100,000 people) in 1532", "culture": "Aymara herding and farming lords, seat at Cutimbo; ayllu kin groups, two halves (upper and lower) each with its lord. Huge herds, colonies down on the coast", "d": "His hosts. Big, rich and organized, but at war with the Colla. A Lupaca lord is his route to power."},
-    {"n": "Colla", "la": -15.62, "lo": -70.15, "pop": 100000, "popText": "~60,000–150,000 (guess)", "culture": "Aymara lords centred on Hatuncolla, chullpa burial towers at Sillustani; herders and raised-field farmers", "d": "Bitter rivals of the Lupaca. The second big prize; he brings them in with membership, not war."},
-    {"n": "Uru lake people", "la": -15.82, "lo": -69.97, "pop": 15000, "popText": "~10,000–25,000 (guess; ~4,000 Uru households in the Inca count for Chucuito)", "culture": "Fishers, fowlers and reed-gatherers speaking Uruquilla/Puquina; live on the shore and on reed islands; low status, few herds", "d": "The lake's experts in boats, fish and reeds. Treated as poor outsiders by the Aymara, so fair treatment wins them fast."},
-    {"n": "Pacajes", "la": -17.02, "lo": -68.6, "pop": 60000, "popText": "~40,000–80,000 (guess)", "culture": "Aymara lordship south-east of the lake around Caquiaviri and the old Tiwanaku lands; herders and farmers", "d": "Hold the Tiwanaku ruins and the Corocoro copper. A natural early member of the network."},
-    {"n": "Omasuyo and east-shore lordships", "la": -15.98, "lo": -68.68, "pop": 40000, "popText": "~30,000–60,000 (guess)", "culture": "Aymara lordships around Achacachi on the north-east shore, under the Cordillera Real", "d": "Control the passes down to the Yungas (coca, timber, fruit)."},
-    {"n": "Canas and Canchis", "la": -14.27, "lo": -71.23, "pop": 40000, "popText": "~30,000–60,000 (guess)", "culture": "Herders and farmers of the upper Vilcanota, between the lake and Cusco; Quechua- and Aymara-speaking", "d": "The bridge to Cusco. Whoever has them controls the road north."},
-    {"n": "Collaguas (Colca valley)", "la": -15.62, "lo": -71.85, "pop": 40000, "popText": "~30,000–50,000 (guess)", "culture": "Aymara/Puquina-speaking terrace farmers and herders in the deep Colca canyon; famous terraces", "d": "Expert terrace builders, with the Chivay obsidian source next door."},
-    {"n": "Carangas, Killaka and Charcas", "la": -18.4, "lo": -67.6, "pop": 80000, "popText": "~50,000–120,000 together (guess)", "culture": "Aymara herding lordships of the dry southern altiplano down to Potosí and Sucre", "d": "Live on the tin belt and near the salt flats. Hit hardest by drought, so they need storehouse insurance most."},
-    {"n": "Cusco kingdom (Killke-period Inca)", "la": -13.52, "lo": -71.97, "pop": 30000, "popText": "~20,000–40,000 in the valley (guess); the capital covered ~50 ha", "culture": "Quechua-speaking farmers; a small, ambitious royal lineage (legendary kings Sinchi Roca or Lloque Yupanqui around now); maize, terraces", "d": "A minor kingdom in 1230, not yet an empire. A young Inca prince could become his student, or his future rival."},
-    {"n": "Chanka confederation", "la": -13.66, "lo": -73.38, "pop": 80000, "popText": "~50,000–120,000 (guess)", "culture": "Warlike Quechua-speaking confederation around Andahuaylas and Ayacucho; hilltop forts, ancestor mummies carried into battle", "d": "The strongest highland military power west of Cusco; in real history nearly took Cusco around 1438."},
-    {"n": "Wanka and Xauxa (Mantaro valley)", "la": -11.95, "lo": -75.25, "pop": 150000, "popText": "~100,000–200,000 (guess; the valley was densely packed with hilltop towns)", "culture": "Quechua-speaking farmers in the broad, fertile Mantaro valley; feuding fortified towns, no single ruler", "d": "One of the densest farming valleys in the Andes; near the Cerro de Pasco silver. A rich prize later."},
-    {"n": "Chimú (Chimor)", "la": -8.11, "lo": -79.07, "pop": 400000, "popText": "~30,000 in Chan Chan; ~300,000–500,000 in the kingdom (guess)", "culture": "The one true state: divine king, nobles, huge irrigation canals, master metalworkers and weavers; Muchik language; sea worship", "d": "The coast partner he most needs: they sit next to the only Andean coal and have sea transport."},
-    {"n": "Lambayeque (Sicán)", "la": -6.47, "lo": -79.77, "pop": 100000, "popText": "~60,000–150,000 (guess)", "culture": "North-coast lords of the Batán Grande area; the Andes' biggest arsenical-bronze industry; declining after a flood and fire around 1100", "d": "Bronze smelting know-how at scale. The Chimú will absorb them in the 1300s."},
-    {"n": "Cajamarca", "la": -7.16, "lo": -78.51, "pop": 60000, "popText": "~40,000–80,000 (guess)", "culture": "Highland farmers in a broad northern valley; fine kaolin pottery; trade with the Chimú coast", "d": "Gateway between the north highlands and Chimú. Close to the northern coalfield."},
-    {"n": "Chincha", "la": -13.45, "lo": -76.13, "pop": 80000, "popText": "~50,000–100,000 (guess); a Spanish report later counted 30,000 tribute-payers incl. 10,000 fishermen and 6,000 merchants", "culture": "Seafaring trader-lords of the south-central coast; balsa rafts, sea trade as far as Ecuador; guano-fertilized fields", "d": "The great traders and sailors. They control the guano islands offshore."},
-    {"n": "Ica valley lords", "la": -14.07, "lo": -75.73, "pop": 30000, "popText": "~20,000–40,000 (guess)", "culture": "Desert-oasis farmers and potters (Ica culture); cotton, maize, irrigation", "d": "Cotton and oasis food, a day or two from the Marcona iron coast."},
-    {"n": "Arica valley peoples", "la": -18.48, "lo": -70.3, "pop": 20000, "popText": "~10,000–30,000 (guess)", "culture": "Oasis farmers and fishers of the Azapa and Lluta valleys (Arica culture); trade with the altiplano", "d": "The lake's nearest sea outlet to the south-west; fish, seaweed, cotton and guano."},
-    {"n": "Atacama peoples (Lickan Antay)", "la": -22.91, "lo": -68.2, "pop": 15000, "popText": "~10,000–20,000 inland, plus ~2,000–5,000 Chango coast fishers (guess)", "culture": "Oasis farmers and llama caravan traders around San Pedro de Atacama; copper workers; Kunza language. On the coast, Chango fishers hunt sea lions from sealskin floats", "d": "Know the deserts, copper and salt routes south. Small, but key guides to the nitrates."},
-    {"n": "Mojos (Llanos de Moxos)", "la": -14.8, "lo": -64.9, "pop": 100000, "popText": "~50,000–500,000 (guess; scholars disagree widely)", "culture": "Lowland farmers who built raised fields, causeways, canals and fish weirs on seasonally flooded savanna; Arawak-speaking groups", "d": "Proof that lowland peoples build big earthworks. Rubber, cacao and fish; malaria country."},
-    {"n": "Amazon-edge peoples (Antis, Chunchos)", "la": -12.6, "lo": -69.2, "pop": 50000, "popText": "~20,000–80,000 in the near lowlands (guess)", "culture": "Small village groups of Arawak and Pano speakers along the Madre de Dios and Beni rivers; hunting, fishing, manioc", "d": "Trade feathers, wood and medicines up to the highlands. Independent and hard to reach."}
+    {
+      "n": "Lupaca",
+      "la": -15.89,
+      "lo": -69.89,
+      "pop": 75000,
+      "popText": "~60,000–100,000 (guess); the last Inca census counted ~20,000 households (~100,000 people) in 1532",
+      "culture": "Aymara herding and farming lords, seat at Cutimbo; ayllu kin groups, two halves (upper and lower) each with its lord. Huge herds, colonies down on the coast",
+      "d": "His hosts. Big, rich and organized, but at war with the Colla. A Lupaca lord is his route to power."
+    },
+    {
+      "n": "Colla",
+      "la": -15.62,
+      "lo": -70.15,
+      "pop": 100000,
+      "popText": "~60,000–150,000 (guess)",
+      "culture": "Aymara lords centred on Hatuncolla, chullpa burial towers at Sillustani; herders and raised-field farmers",
+      "d": "Bitter rivals of the Lupaca. The second big prize; he brings them in with membership, not war.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Urnas_funerarias%2C_Sillustani%2C_Per%C3%BA%2C_2015-08-01%2C_DD_113.JPG/500px-Urnas_funerarias%2C_Sillustani%2C_Per%C3%BA%2C_2015-08-01%2C_DD_113.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Urnas_funerarias,_Sillustani,_Per%C3%BA,_2015-08-01,_DD_113.JPG",
+        "c": "Photo: Diego Delso, CC BY-SA 4.0",
+        "cap": "Colla chullpa burial towers at Sillustani"
+      }
+    },
+    {
+      "n": "Uru lake people",
+      "la": -15.82,
+      "lo": -69.97,
+      "pop": 15000,
+      "popText": "~10,000–25,000 (guess; ~4,000 Uru households in the Inca count for Chucuito)",
+      "culture": "Fishers, fowlers and reed-gatherers speaking Uruquilla/Puquina; live on the shore and on reed islands; low status, few herds",
+      "d": "The lake's experts in boats, fish and reeds. Treated as poor outsiders by the Aymara, so fair treatment wins them fast.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/00_1635_Reed_Islands_of_Lake_Titicaca.jpg/500px-00_1635_Reed_Islands_of_Lake_Titicaca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:00_1635_Reed_Islands_of_Lake_Titicaca.jpg",
+        "c": "Photo: W. Bulach, CC BY-SA 4.0",
+        "cap": "Reed islands and totora boats of the Uru"
+      }
+    },
+    {
+      "n": "Pacajes",
+      "la": -17.02,
+      "lo": -68.6,
+      "pop": 60000,
+      "popText": "~40,000–80,000 (guess)",
+      "culture": "Aymara lordship south-east of the lake around Caquiaviri and the old Tiwanaku lands; herders and farmers",
+      "d": "Hold the Tiwanaku ruins and the Corocoro copper. A natural early member of the network."
+    },
+    {
+      "n": "Omasuyo and east-shore lordships",
+      "la": -15.98,
+      "lo": -68.68,
+      "pop": 40000,
+      "popText": "~30,000–60,000 (guess)",
+      "culture": "Aymara lordships around Achacachi on the north-east shore, under the Cordillera Real",
+      "d": "Control the passes down to the Yungas (coca, timber, fruit)."
+    },
+    {
+      "n": "Canas and Canchis",
+      "la": -14.27,
+      "lo": -71.23,
+      "pop": 40000,
+      "popText": "~30,000–60,000 (guess)",
+      "culture": "Herders and farmers of the upper Vilcanota, between the lake and Cusco; Quechua- and Aymara-speaking",
+      "d": "The bridge to Cusco. Whoever has them controls the road north."
+    },
+    {
+      "n": "Collaguas (Colca valley)",
+      "la": -15.62,
+      "lo": -71.85,
+      "pop": 40000,
+      "popText": "~30,000–50,000 (guess)",
+      "culture": "Aymara/Puquina-speaking terrace farmers and herders in the deep Colca canyon; famous terraces",
+      "d": "Expert terrace builders, with the Chivay obsidian source next door.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Colca-Tal.jpg/500px-Colca-Tal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Colca-Tal.jpg",
+        "c": "Photo: Dr. Eugen Lehle, CC BY-SA 3.0",
+        "cap": "Old farming terraces along the Colca valley"
+      }
+    },
+    {
+      "n": "Carangas, Killaka and Charcas",
+      "la": -18.4,
+      "lo": -67.6,
+      "pop": 80000,
+      "popText": "~50,000–120,000 together (guess)",
+      "culture": "Aymara herding lordships of the dry southern altiplano down to Potosí and Sucre",
+      "d": "Live on the tin belt and near the salt flats. Hit hardest by drought, so they need storehouse insurance most."
+    },
+    {
+      "n": "Cusco kingdom (Killke-period Inca)",
+      "la": -13.52,
+      "lo": -71.97,
+      "pop": 30000,
+      "popText": "~20,000–40,000 in the valley (guess); the capital covered ~50 ha",
+      "culture": "Quechua-speaking farmers; a small, ambitious royal lineage (legendary kings Sinchi Roca or Lloque Yupanqui around now); maize, terraces",
+      "d": "A minor kingdom in 1230, not yet an empire. A young Inca prince could become his student, or his future rival.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_05.JPG/500px-Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n,_Cusco,_Per%C3%BA,_2015-07-31,_DD_05.JPG",
+        "c": "Photo: Diego Delso, CC BY-SA 4.0",
+        "cap": "Sacsayhuamán walls above Cusco, finished by later Inca"
+      }
+    },
+    {
+      "n": "Chanka confederation",
+      "la": -13.66,
+      "lo": -73.38,
+      "pop": 80000,
+      "popText": "~50,000–120,000 (guess)",
+      "culture": "Warlike Quechua-speaking confederation around Andahuaylas and Ayacucho; hilltop forts, ancestor mummies carried into battle",
+      "d": "The strongest highland military power west of Cusco; in real history nearly took Cusco around 1438."
+    },
+    {
+      "n": "Wanka and Xauxa (Mantaro valley)",
+      "la": -11.95,
+      "lo": -75.25,
+      "pop": 150000,
+      "popText": "~100,000–200,000 (guess; the valley was densely packed with hilltop towns)",
+      "culture": "Quechua-speaking farmers in the broad, fertile Mantaro valley; feuding fortified towns, no single ruler",
+      "d": "One of the densest farming valleys in the Andes; near the Cerro de Pasco silver. A rich prize later."
+    },
+    {
+      "n": "Chimú (Chimor)",
+      "la": -8.11,
+      "lo": -79.07,
+      "pop": 400000,
+      "popText": "~30,000 in Chan Chan; ~300,000–500,000 in the kingdom (guess)",
+      "culture": "The one true state: divine king, nobles, huge irrigation canals, master metalworkers and weavers; Muchik language; sea worship",
+      "d": "The coast partner he most needs: they sit next to the only Andean coal and have sea transport.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Chan_Chan_-_reliefs.jpg/500px-Chan_Chan_-_reliefs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Chan_Chan_-_reliefs.jpg",
+        "c": "Photo: Bernard Gagnon, CC BY-SA 3.0",
+        "cap": "Seabird reliefs on Chan Chan's adobe walls"
+      }
+    },
+    {
+      "n": "Lambayeque (Sicán)",
+      "la": -6.47,
+      "lo": -79.77,
+      "pop": 100000,
+      "popText": "~60,000–150,000 (guess)",
+      "culture": "North-coast lords of the Batán Grande area; the Andes' biggest arsenical-bronze industry; declining after a flood and fire around 1100",
+      "d": "Bronze smelting know-how at scale. The Chimú will absorb them in the 1300s."
+    },
+    {
+      "n": "Cajamarca",
+      "la": -7.16,
+      "lo": -78.51,
+      "pop": 60000,
+      "popText": "~40,000–80,000 (guess)",
+      "culture": "Highland farmers in a broad northern valley; fine kaolin pottery; trade with the Chimú coast",
+      "d": "Gateway between the north highlands and Chimú. Close to the northern coalfield."
+    },
+    {
+      "n": "Chincha",
+      "la": -13.45,
+      "lo": -76.13,
+      "pop": 80000,
+      "popText": "~50,000–100,000 (guess); a Spanish report later counted 30,000 tribute-payers incl. 10,000 fishermen and 6,000 merchants",
+      "culture": "Seafaring trader-lords of the south-central coast; balsa rafts, sea trade as far as Ecuador; guano-fertilized fields",
+      "d": "The great traders and sailors. They control the guano islands offshore.",
+      "img": {
+        "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Huaca_La_Centinela-_Chincha_Baja.jpg/500px-Huaca_La_Centinela-_Chincha_Baja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "p": "https://commons.wikimedia.org/wiki/File:Huaca_La_Centinela-_Chincha_Baja.jpg",
+        "c": "Photo: Sandro Ruiz, CC BY-SA 4.0",
+        "cap": "Huaca La Centinela, the Chincha lords' seat"
+      }
+    },
+    {
+      "n": "Ica valley lords",
+      "la": -14.07,
+      "lo": -75.73,
+      "pop": 30000,
+      "popText": "~20,000–40,000 (guess)",
+      "culture": "Desert-oasis farmers and potters (Ica culture); cotton, maize, irrigation",
+      "d": "Cotton and oasis food, a day or two from the Marcona iron coast."
+    },
+    {
+      "n": "Arica valley peoples",
+      "la": -18.48,
+      "lo": -70.3,
+      "pop": 20000,
+      "popText": "~10,000–30,000 (guess)",
+      "culture": "Oasis farmers and fishers of the Azapa and Lluta valleys (Arica culture); trade with the altiplano",
+      "d": "The lake's nearest sea outlet to the south-west; fish, seaweed, cotton and guano."
+    },
+    {
+      "n": "Atacama peoples (Lickan Antay)",
+      "la": -22.91,
+      "lo": -68.2,
+      "pop": 15000,
+      "popText": "~10,000–20,000 inland, plus ~2,000–5,000 Chango coast fishers (guess)",
+      "culture": "Oasis farmers and llama caravan traders around San Pedro de Atacama; copper workers; Kunza language. On the coast, Chango fishers hunt sea lions from sealskin floats",
+      "d": "Know the deserts, copper and salt routes south. Small, but key guides to the nitrates."
+    },
+    {
+      "n": "Mojos (Llanos de Moxos)",
+      "la": -14.8,
+      "lo": -64.9,
+      "pop": 100000,
+      "popText": "~50,000–500,000 (guess; scholars disagree widely)",
+      "culture": "Lowland farmers who built raised fields, causeways, canals and fish weirs on seasonally flooded savanna; Arawak-speaking groups",
+      "d": "Proof that lowland peoples build big earthworks. Rubber, cacao and fish; malaria country."
+    },
+    {
+      "n": "Amazon-edge peoples (Antis, Chunchos)",
+      "la": -12.6,
+      "lo": -69.2,
+      "pop": 50000,
+      "popText": "~20,000–80,000 in the near lowlands (guess)",
+      "culture": "Small village groups of Arawak and Pano speakers along the Madre de Dios and Beni rivers; hunting, fishing, manioc",
+      "d": "Trade feathers, wood and medicines up to the highlands. Independent and hard to reach."
+    }
   ],
   "resources": [
-    {"n": "Llama and alpaca herds", "t": "Animals", "la": -16.3, "lo": -70.2, "qty": "modern: ~1.46 million alpacas in Puno region alone (2017), Peru ~3.7 million; Bolivia holds ~65% of the world's llamas", "reach": "1230: hundreds of thousands of animals in the basin (guess); great lords own thousands each. Wool, meat, dung fuel and pack transport", "km": 50, "d": "The region's real wealth. Llamas carry but cannot plough; alpacas give the best wool."},
-    {"n": "Raised-field lands (suka kollus)", "t": "Food", "la": -15.6, "lo": -69.9, "qty": "modern: ~80,000+ ha of old raised fields mapped around the lake (estimate, ~)", "reach": "1230: mostly abandoned since Tiwanaku fell; rebuildable with spades and mit'a labor. Trials in the 1980s gave several times normal potato yields in frost years", "km": 35, "d": "His first big proof. The water channels hold heat and protect crops from frost."},
-    {"n": "Potato, quinoa and cañihua fields", "t": "Food", "la": -16.1, "lo": -69.6, "qty": "modern: Puno is a top potato and quinoa region of Peru", "reach": "1230: hundreds of potato varieties already grown; freeze-dried chuño keeps for years", "km": 30, "d": "Staple food. Frost-tolerant bitter potatoes grow up to ~4,200 m."},
-    {"n": "Lake Titicaca fish", "t": "Fish", "la": -15.8, "lo": -69.6, "qty": "modern: native killifish (carachi) and catfish (suche, mauri); a few thousand t a year (guess)", "reach": "1230: Uru fishers with reed boats and nets; dried and salted fish", "km": 15, "d": "Steady protein. No trout yet (that was introduced in the 1940s)."},
-    {"n": "Totora reed beds", "t": "Fiber", "la": -15.82, "lo": -69.95, "qty": "modern: tens of thousands of ha of reed beds in the lake (guess)", "reach": "1230: cut by hand from shore and boats; boats, mats, roofing, floating islands, animal fodder", "km": 10, "d": "The lake's timber substitute. Edible shoots too."},
-    {"n": "Lake water", "t": "Water", "la": -15.9, "lo": -69.7, "qty": "modern: ~893 km³; salinity ~1 g/L (drinkable but brackish)", "reach": "1230: unlimited for herds and irrigation; streams from the hills are better for drinking", "km": 5, "d": "Steady water and a frost buffer. Boil before drinking near villages."},
-    {"n": "Corocoro native copper", "t": "Copper", "la": -17.17, "lo": -68.45, "qty": "modern: sandstone-hosted copper, much of it native metal; mined since pre-Inca times; large resource (exact size unknown)", "reach": "1230: native copper and green ore at the surface; pick it out and hammer or smelt in wind-blown furnaces (huayra)", "km": 205, "d": "The closest big copper to the lake, in Pacajes land. Bronze and, much later, wire."},
-    {"n": "Oruro tin and silver", "t": "Tin", "la": -17.97, "lo": -67.11, "qty": "modern: part of the Bolivian tin belt; Huanuni nearby made ~8,400 t of tin in 2017, Bolivia's largest mine", "reach": "1230: cassiterite (tin stone) in stream gravels and outcrops; wash it from gravel and smelt with copper for tin bronze", "km": 375, "d": "Tin makes bronze much harder than copper. The key metal for his tools."},
-    {"n": "Tiwanaku stone and ruins", "t": "Stone", "la": -16.55, "lo": -68.67, "qty": "modern: tens of thousands of cut andesite and sandstone blocks, some over 100 t", "reach": "1230: lying in the open; ready-cut stone and proof of a past great state", "km": 150, "d": "A source of prestige as much as stone. He frames his ideas as reviving Tiwanaku."},
-    {"n": "Copacabana and Kausani quarries", "t": "Stone", "la": -16.17, "lo": -69.08, "qty": "modern: large andesite and sandstone quarry zones that supplied Tiwanaku", "reach": "1230: open quarries; blocks move by reed boat across the lake", "km": 90, "d": "Good building stone close to water transport."},
-    {"n": "Pucará limestone", "t": "Lime", "la": -15.04, "lo": -70.37, "qty": "modern: limestone beds around Pucará and Juliaca (size not checked)", "reach": "1230: outcrops; burn in pit kilns for lime mortar and plaster (fuel is the problem)", "km": 105, "d": "Lime for mortar, plaster and later concrete."},
-    {"n": "Pottery clay", "t": "Clay", "la": -15.7, "lo": -70.1, "qty": "modern: widespread lake-bed and river clays", "reach": "1230: dug everywhere; Pucará and Tiwanaku potters were famous", "km": 25, "d": "Bricks, storage jars, kilns and molds for casting bronze."},
-    {"n": "Fuel: dung, yareta and bofedal peat", "t": "Other", "la": -16.4, "lo": -70.4, "qty": "modern: no woods; peat in high wetlands; yareta cushion plants grow ~1 cm a year", "reach": "1230: llama dung (taquia) is the main fuel; yareta and ichu grass too", "km": 60, "d": "Fuel is the basin's worst shortage. Smelting must go where fuel is, or use charcoal from the valleys."},
-    {"n": "Queñua (Polylepis) woodland", "t": "Timber", "la": -16.6, "lo": -69.9, "qty": "modern: small scattered groves; once much wider", "reach": "1230: patches on sheltered slopes; poles and fuel, easily overcut", "km": 80, "d": "The only highland trees. Must be protected and replanted."},
-    {"n": "Carabaya gold placers", "t": "Gold", "la": -14.3, "lo": -69.5, "qty": "modern: rich alluvial gold districts (Sandia, Carabaya); large but uncounted", "reach": "1230: river gravels washed by hand on the forest edge", "km": 180, "d": "Gold for gifts and status, not tools. A useful trade card."},
-    {"n": "Tacora volcano sulfur", "t": "Chemicals", "la": -17.72, "lo": -69.77, "qty": "modern: sulfur deposits mined in the 1900s", "reach": "1230: yellow sulfur crusts at the summit vents (~5,000 m)", "km": 205, "d": "Later for sulfuric acid, blasting powder and rubber vulcanizing."},
-    {"n": "Chivay obsidian", "t": "Stone", "la": -15.64, "lo": -71.6, "qty": "modern: the main obsidian source of the south-central Andes", "reach": "1230: quarried at the surface; sharp blades and scalpel-grade edges", "km": 185, "d": "Razor blades for surgery and craft until bronze and iron take over."},
-    {"n": "Moquegua and Sama oasis valleys", "t": "Food", "la": -17.19, "lo": -70.93, "qty": "modern: a few thousand ha of irrigated valley land", "reach": "1230: Lupaca colonies already farm maize, peppers, cotton and fruit here", "km": 180, "d": "The lake's lowland larder, a few days down the slope."},
-    {"n": "Yungas coca, fruit and timber", "t": "Other", "la": -16.19, "lo": -67.73, "qty": "modern: the main Bolivian coca and fruit zone", "reach": "1230: steep paths from the east shore; coca leaf, maize, fruit, hardwood, cinchona bark", "km": 240, "d": "Warm-valley goods and real timber. Coca eases altitude and hunger."},
-    {"n": "Toquepala and Cuajone copper", "t": "Copper", "la": -17.25, "lo": -70.6, "qty": "modern: two giant porphyry copper mines, billions of t of ore at ~0.5–0.7% Cu", "reach": "1230: green-stained outcrops only; too low-grade to use well without modern methods", "km": 170, "d": "Huge for the future, little use now. Mostly a 1300s-plus resource."}
+    {
+      "n": "Llama and alpaca herds",
+      "t": "Animals",
+      "la": -16.3,
+      "lo": -70.2,
+      "qty": "modern: ~1.46 million alpacas in Puno region alone (2017), Peru ~3.7 million; Bolivia holds ~65% of the world's llamas",
+      "reach": "1230: hundreds of thousands of animals in the basin (guess); great lords own thousands each. Wool, meat, dung fuel and pack transport",
+      "km": 50,
+      "d": "The region's real wealth. Llamas carry but cannot plough; alpacas give the best wool."
+    },
+    {
+      "n": "Raised-field lands (suka kollus)",
+      "t": "Food",
+      "la": -15.6,
+      "lo": -69.9,
+      "qty": "modern: ~80,000+ ha of old raised fields mapped around the lake (estimate, ~)",
+      "reach": "1230: mostly abandoned since Tiwanaku fell; rebuildable with spades and mit'a labor. Trials in the 1980s gave several times normal potato yields in frost years",
+      "km": 35,
+      "d": "His first big proof. The water channels hold heat and protect crops from frost."
+    },
+    {
+      "n": "Potato, quinoa and cañihua fields",
+      "t": "Food",
+      "la": -16.1,
+      "lo": -69.6,
+      "qty": "modern: Puno is a top potato and quinoa region of Peru",
+      "reach": "1230: hundreds of potato varieties already grown; freeze-dried chuño keeps for years",
+      "km": 30,
+      "d": "Staple food. Frost-tolerant bitter potatoes grow up to ~4,200 m."
+    },
+    {
+      "n": "Lake Titicaca fish",
+      "t": "Fish",
+      "la": -15.8,
+      "lo": -69.6,
+      "qty": "modern: native killifish (carachi) and catfish (suche, mauri); a few thousand t a year (guess)",
+      "reach": "1230: Uru fishers with reed boats and nets; dried and salted fish",
+      "km": 15,
+      "d": "Steady protein. No trout yet (that was introduced in the 1940s)."
+    },
+    {
+      "n": "Totora reed beds",
+      "t": "Fiber",
+      "la": -15.82,
+      "lo": -69.95,
+      "qty": "modern: tens of thousands of ha of reed beds in the lake (guess)",
+      "reach": "1230: cut by hand from shore and boats; boats, mats, roofing, floating islands, animal fodder",
+      "km": 10,
+      "d": "The lake's timber substitute. Edible shoots too."
+    },
+    {
+      "n": "Lake water",
+      "t": "Water",
+      "la": -15.9,
+      "lo": -69.7,
+      "qty": "modern: ~893 km³; salinity ~1 g/L (drinkable but brackish)",
+      "reach": "1230: unlimited for herds and irrigation; streams from the hills are better for drinking",
+      "km": 5,
+      "d": "Steady water and a frost buffer. Boil before drinking near villages."
+    },
+    {
+      "n": "Corocoro native copper",
+      "t": "Copper",
+      "la": -17.17,
+      "lo": -68.45,
+      "qty": "modern: sandstone-hosted copper, much of it native metal; mined since pre-Inca times; large resource (exact size unknown)",
+      "reach": "1230: native copper and green ore at the surface; pick it out and hammer or smelt in wind-blown furnaces (huayra)",
+      "km": 205,
+      "d": "The closest big copper to the lake, in Pacajes land. Bronze and, much later, wire."
+    },
+    {
+      "n": "Oruro tin and silver",
+      "t": "Tin",
+      "la": -17.97,
+      "lo": -67.11,
+      "qty": "modern: part of the Bolivian tin belt; Huanuni nearby made ~8,400 t of tin in 2017, Bolivia's largest mine",
+      "reach": "1230: cassiterite (tin stone) in stream gravels and outcrops; wash it from gravel and smelt with copper for tin bronze",
+      "km": 375,
+      "d": "Tin makes bronze much harder than copper. The key metal for his tools."
+    },
+    {
+      "n": "Tiwanaku stone and ruins",
+      "t": "Stone",
+      "la": -16.55,
+      "lo": -68.67,
+      "qty": "modern: tens of thousands of cut andesite and sandstone blocks, some over 100 t",
+      "reach": "1230: lying in the open; ready-cut stone and proof of a past great state",
+      "km": 150,
+      "d": "A source of prestige as much as stone. He frames his ideas as reviving Tiwanaku."
+    },
+    {
+      "n": "Copacabana and Kausani quarries",
+      "t": "Stone",
+      "la": -16.17,
+      "lo": -69.08,
+      "qty": "modern: large andesite and sandstone quarry zones that supplied Tiwanaku",
+      "reach": "1230: open quarries; blocks move by reed boat across the lake",
+      "km": 90,
+      "d": "Good building stone close to water transport."
+    },
+    {
+      "n": "Pucará limestone",
+      "t": "Lime",
+      "la": -15.04,
+      "lo": -70.37,
+      "qty": "modern: limestone beds around Pucará and Juliaca (size not checked)",
+      "reach": "1230: outcrops; burn in pit kilns for lime mortar and plaster (fuel is the problem)",
+      "km": 105,
+      "d": "Lime for mortar, plaster and later concrete."
+    },
+    {
+      "n": "Pottery clay",
+      "t": "Clay",
+      "la": -15.7,
+      "lo": -70.1,
+      "qty": "modern: widespread lake-bed and river clays",
+      "reach": "1230: dug everywhere; Pucará and Tiwanaku potters were famous",
+      "km": 25,
+      "d": "Bricks, storage jars, kilns and molds for casting bronze."
+    },
+    {
+      "n": "Fuel: dung, yareta and bofedal peat",
+      "t": "Other",
+      "la": -16.4,
+      "lo": -70.4,
+      "qty": "modern: no woods; peat in high wetlands; yareta cushion plants grow ~1 cm a year",
+      "reach": "1230: llama dung (taquia) is the main fuel; yareta and ichu grass too",
+      "km": 60,
+      "d": "Fuel is the basin's worst shortage. Smelting must go where fuel is, or use charcoal from the valleys."
+    },
+    {
+      "n": "Queñua (Polylepis) woodland",
+      "t": "Timber",
+      "la": -16.6,
+      "lo": -69.9,
+      "qty": "modern: small scattered groves; once much wider",
+      "reach": "1230: patches on sheltered slopes; poles and fuel, easily overcut",
+      "km": 80,
+      "d": "The only highland trees. Must be protected and replanted."
+    },
+    {
+      "n": "Carabaya gold placers",
+      "t": "Gold",
+      "la": -14.3,
+      "lo": -69.5,
+      "qty": "modern: rich alluvial gold districts (Sandia, Carabaya); large but uncounted",
+      "reach": "1230: river gravels washed by hand on the forest edge",
+      "km": 180,
+      "d": "Gold for gifts and status, not tools. A useful trade card."
+    },
+    {
+      "n": "Tacora volcano sulfur",
+      "t": "Chemicals",
+      "la": -17.72,
+      "lo": -69.77,
+      "qty": "modern: sulfur deposits mined in the 1900s",
+      "reach": "1230: yellow sulfur crusts at the summit vents (~5,000 m)",
+      "km": 205,
+      "d": "Later for sulfuric acid, blasting powder and rubber vulcanizing."
+    },
+    {
+      "n": "Chivay obsidian",
+      "t": "Stone",
+      "la": -15.64,
+      "lo": -71.6,
+      "qty": "modern: the main obsidian source of the south-central Andes",
+      "reach": "1230: quarried at the surface; sharp blades and scalpel-grade edges",
+      "km": 185,
+      "d": "Razor blades for surgery and craft until bronze and iron take over."
+    },
+    {
+      "n": "Moquegua and Sama oasis valleys",
+      "t": "Food",
+      "la": -17.19,
+      "lo": -70.93,
+      "qty": "modern: a few thousand ha of irrigated valley land",
+      "reach": "1230: Lupaca colonies already farm maize, peppers, cotton and fruit here",
+      "km": 180,
+      "d": "The lake's lowland larder, a few days down the slope."
+    },
+    {
+      "n": "Yungas coca, fruit and timber",
+      "t": "Other",
+      "la": -16.19,
+      "lo": -67.73,
+      "qty": "modern: the main Bolivian coca and fruit zone",
+      "reach": "1230: steep paths from the east shore; coca leaf, maize, fruit, hardwood, cinchona bark",
+      "km": 240,
+      "d": "Warm-valley goods and real timber. Coca eases altitude and hunger."
+    },
+    {
+      "n": "Toquepala and Cuajone copper",
+      "t": "Copper",
+      "la": -17.25,
+      "lo": -70.6,
+      "qty": "modern: two giant porphyry copper mines, billions of t of ore at ~0.5–0.7% Cu",
+      "reach": "1230: green-stained outcrops only; too low-grade to use well without modern methods",
+      "km": 170,
+      "d": "Huge for the future, little use now. Mostly a 1300s-plus resource."
+    }
   ],
   "nearby": [
-    {"n": "Potosí silver (Cerro Rico)", "t": "Silver", "la": -19.59, "lo": -65.75, "qty": "modern: the richest silver hill ever; ~30,000–60,000 t of silver mined since 1545; early ores 4% silver on average, some up to 40%", "reach": "1230: not yet worked (found by the Inca or Spanish later); rich oxidized ores at the surface", "km": 595, "d": "A trade fortune if he points people to it. Tim cares more about practical metals, so it is a later card."},
-    {"n": "Huanuni and Llallagua tin", "t": "Tin", "la": -18.42, "lo": -66.58, "qty": "modern: the heart of the Bolivian tin belt; Huanuni makes over half of Bolivia's tin", "reach": "1230: cassiterite in outcrops and stream gravels", "km": 430, "d": "The biggest tin supply for large-scale bronze."},
-    {"n": "Salar de Uyuni", "t": "Salt", "la": -20.13, "lo": -67.49, "qty": "modern: ~10,000 km², ~10 billion t of salt", "reach": "1230: cut as blocks from the crust and carried out by llama caravan", "km": 530, "d": "Unlimited salt for preserving food and for health. Iodine still has to come from the sea."},
-    {"n": "Salar de Coipasa", "t": "Salt", "la": -19.3, "lo": -68.1, "qty": "modern: ~2,200 km² salt flat", "reach": "1230: crust salt cut by hand, a little closer than Uyuni", "km": 420, "d": "The nearer salt flat."},
-    {"n": "Humboldt Current fisheries (Ilo coast)", "t": "Fish", "la": -17.7, "lo": -71.5, "qty": "modern: Peru's anchoveta catch 6–9 million t a year, up to ~12 million t (1970); the Humboldt system gives ~18–20% of the world's sea catch", "reach": "1230: reed boats and nets near shore; dry and salt the fish, carry it up by llama", "km": 260, "d": "The richest fishery on Earth, a few days from the lake. Collapses in El Niño years."},
-    {"n": "Coastal seaweed (iodine)", "t": "Food", "la": -17.65, "lo": -71.35, "qty": "modern: abundant kelp along the south coast", "reach": "1230: gathered on the shore and dried", "km": 245, "d": "The fix for goiter in the highlands."},
-    {"n": "Tarapacá nitrates (Atacama)", "t": "Fertilizer", "la": -20.2, "lo": -69.8, "qty": "modern: the world's only big natural nitrate beds; caliche holds ~5–30% nitrate; mined at ~1 million t a year for decades", "reach": "1230: caliche crust a few metres under the desert surface; dig and leach with hot water", "km": 480, "d": "Fertilizer and the oxidizer for blasting powder (roads and mines)."},
-    {"n": "Chuquicamata copper", "t": "Copper", "la": -22.3, "lo": -68.9, "qty": "modern: one of the largest copper deposits on Earth; billions of t of ore", "reach": "1230: worked on a small scale by Atacama peoples; rich green surface ores", "km": 715, "d": "The long-term copper giant of the south."},
-    {"n": "Marcona iron ore", "t": "Iron", "la": -15.35, "lo": -75.1, "qty": "modern: ~1.4 billion t of magnetite ore at ~54% Fe (2012 estimate); the best bodies average 57–58% Fe", "reach": "1230: black magnetite outcrops right on the desert coast; no fuel nearby", "km": 560, "d": "The Andes' best iron, but far from coal. Moves by raft to a smelter at the coal."},
-    {"n": "Chincha Islands guano", "t": "Fertilizer", "la": -13.64, "lo": -76.4, "qty": "modern: piles up to ~50 m (160–180 ft) deep in the 1840s; Peru shipped ~11–12 million t of guano in 1840–1880", "reach": "1230: dug with digging sticks, rafted to shore by the Chincha; it can double or triple yields", "km": 735, "d": "The best fertilizer on Earth. The Chincha already use it, so it comes through trade."},
-    {"n": "Santa valley and Alto Chicama coal", "t": "Coal", "la": -8.4, "lo": -78.0, "qty": "modern: Peru's largest coalfield (mostly anthracite), ~200 km long from the Chicama to the Santa river; Peru has ~1 billion t of coal reserves in all", "reach": "1230: seams outcrop in the canyon walls; the Chimú may have burned some (coal ash at Chan Chan, 2004 study)", "km": 1190, "d": "The only real coal in the Andes. Where the first iron smelter goes, with the Chimú as partners."},
-    {"n": "Cerro de Pasco silver, lead and zinc", "t": "Silver", "la": -10.68, "lo": -76.26, "qty": "modern: a giant silver-zinc-lead-copper district; tailings piles alone hold ~70+ million t at ~44 g/t silver", "reach": "1230: oxidized silver ores at the surface at ~4,300 m; small pre-Inca workings", "km": 890, "d": "Lead for pipes and type metal, zinc for brass and batteries, silver for trade."},
-    {"n": "Coastal cotton valleys (Ica, Nazca, Chincha)", "t": "Fiber", "la": -14.4, "lo": -75.5, "qty": "modern: Peru's long-staple cotton belt", "reach": "1230: native cotton grown in irrigated oases, including brown and white kinds", "km": 620, "d": "Cloth and rag paper. Comes by trade with the coast."},
-    {"n": "Cinchona bark and rubber (eastern lowlands)", "t": "Other", "la": -13.5, "lo": -69.5, "qty": "modern: wild cinchona trees on the eastern slopes; wild rubber trees in Madre de Dios", "reach": "1230: forest gathering by lowland peoples; quinine is not yet known as a medicine", "km": 280, "d": "Quinine against malaria, rubber for seals and belts."},
-    {"n": "Maras salt pans", "t": "Salt", "la": -13.3, "lo": -72.15, "qty": "modern: ~3,000–5,000 small evaporation pans fed by a salty spring", "reach": "1230: already worked by hand near Cusco", "km": 415, "d": "Salt on the road to Cusco."}
+    {
+      "n": "Potosí silver (Cerro Rico)",
+      "t": "Silver",
+      "la": -19.59,
+      "lo": -65.75,
+      "qty": "modern: the richest silver hill ever; ~30,000–60,000 t of silver mined since 1545; early ores 4% silver on average, some up to 40%",
+      "reach": "1230: not yet worked (found by the Inca or Spanish later); rich oxidized ores at the surface",
+      "km": 595,
+      "d": "A trade fortune if he points people to it. Tim cares more about practical metals, so it is a later card."
+    },
+    {
+      "n": "Huanuni and Llallagua tin",
+      "t": "Tin",
+      "la": -18.42,
+      "lo": -66.58,
+      "qty": "modern: the heart of the Bolivian tin belt; Huanuni makes over half of Bolivia's tin",
+      "reach": "1230: cassiterite in outcrops and stream gravels",
+      "km": 430,
+      "d": "The biggest tin supply for large-scale bronze."
+    },
+    {
+      "n": "Salar de Uyuni",
+      "t": "Salt",
+      "la": -20.13,
+      "lo": -67.49,
+      "qty": "modern: ~10,000 km², ~10 billion t of salt",
+      "reach": "1230: cut as blocks from the crust and carried out by llama caravan",
+      "km": 530,
+      "d": "Unlimited salt for preserving food and for health. Iodine still has to come from the sea."
+    },
+    {
+      "n": "Salar de Coipasa",
+      "t": "Salt",
+      "la": -19.3,
+      "lo": -68.1,
+      "qty": "modern: ~2,200 km² salt flat",
+      "reach": "1230: crust salt cut by hand, a little closer than Uyuni",
+      "km": 420,
+      "d": "The nearer salt flat."
+    },
+    {
+      "n": "Humboldt Current fisheries (Ilo coast)",
+      "t": "Fish",
+      "la": -17.7,
+      "lo": -71.5,
+      "qty": "modern: Peru's anchoveta catch 6–9 million t a year, up to ~12 million t (1970); the Humboldt system gives ~18–20% of the world's sea catch",
+      "reach": "1230: reed boats and nets near shore; dry and salt the fish, carry it up by llama",
+      "km": 260,
+      "d": "The richest fishery on Earth, a few days from the lake. Collapses in El Niño years."
+    },
+    {
+      "n": "Coastal seaweed (iodine)",
+      "t": "Food",
+      "la": -17.65,
+      "lo": -71.35,
+      "qty": "modern: abundant kelp along the south coast",
+      "reach": "1230: gathered on the shore and dried",
+      "km": 245,
+      "d": "The fix for goiter in the highlands."
+    },
+    {
+      "n": "Tarapacá nitrates (Atacama)",
+      "t": "Fertilizer",
+      "la": -20.2,
+      "lo": -69.8,
+      "qty": "modern: the world's only big natural nitrate beds; caliche holds ~5–30% nitrate; mined at ~1 million t a year for decades",
+      "reach": "1230: caliche crust a few metres under the desert surface; dig and leach with hot water",
+      "km": 480,
+      "d": "Fertilizer and the oxidizer for blasting powder (roads and mines)."
+    },
+    {
+      "n": "Chuquicamata copper",
+      "t": "Copper",
+      "la": -22.3,
+      "lo": -68.9,
+      "qty": "modern: one of the largest copper deposits on Earth; billions of t of ore",
+      "reach": "1230: worked on a small scale by Atacama peoples; rich green surface ores",
+      "km": 715,
+      "d": "The long-term copper giant of the south."
+    },
+    {
+      "n": "Marcona iron ore",
+      "t": "Iron",
+      "la": -15.35,
+      "lo": -75.1,
+      "qty": "modern: ~1.4 billion t of magnetite ore at ~54% Fe (2012 estimate); the best bodies average 57–58% Fe",
+      "reach": "1230: black magnetite outcrops right on the desert coast; no fuel nearby",
+      "km": 560,
+      "d": "The Andes' best iron, but far from coal. Moves by raft to a smelter at the coal."
+    },
+    {
+      "n": "Chincha Islands guano",
+      "t": "Fertilizer",
+      "la": -13.64,
+      "lo": -76.4,
+      "qty": "modern: piles up to ~50 m (160–180 ft) deep in the 1840s; Peru shipped ~11–12 million t of guano in 1840–1880",
+      "reach": "1230: dug with digging sticks, rafted to shore by the Chincha; it can double or triple yields",
+      "km": 735,
+      "d": "The best fertilizer on Earth. The Chincha already use it, so it comes through trade."
+    },
+    {
+      "n": "Santa valley and Alto Chicama coal",
+      "t": "Coal",
+      "la": -8.4,
+      "lo": -78,
+      "qty": "modern: Peru's largest coalfield (mostly anthracite), ~200 km long from the Chicama to the Santa river; Peru has ~1 billion t of coal reserves in all",
+      "reach": "1230: seams outcrop in the canyon walls; the Chimú may have burned some (coal ash at Chan Chan, 2004 study)",
+      "km": 1190,
+      "d": "The only real coal in the Andes. Where the first iron smelter goes, with the Chimú as partners."
+    },
+    {
+      "n": "Cerro de Pasco silver, lead and zinc",
+      "t": "Silver",
+      "la": -10.68,
+      "lo": -76.26,
+      "qty": "modern: a giant silver-zinc-lead-copper district; tailings piles alone hold ~70+ million t at ~44 g/t silver",
+      "reach": "1230: oxidized silver ores at the surface at ~4,300 m; small pre-Inca workings",
+      "km": 890,
+      "d": "Lead for pipes and type metal, zinc for brass and batteries, silver for trade."
+    },
+    {
+      "n": "Coastal cotton valleys (Ica, Nazca, Chincha)",
+      "t": "Fiber",
+      "la": -14.4,
+      "lo": -75.5,
+      "qty": "modern: Peru's long-staple cotton belt",
+      "reach": "1230: native cotton grown in irrigated oases, including brown and white kinds",
+      "km": 620,
+      "d": "Cloth and rag paper. Comes by trade with the coast."
+    },
+    {
+      "n": "Cinchona bark and rubber (eastern lowlands)",
+      "t": "Other",
+      "la": -13.5,
+      "lo": -69.5,
+      "qty": "modern: wild cinchona trees on the eastern slopes; wild rubber trees in Madre de Dios",
+      "reach": "1230: forest gathering by lowland peoples; quinine is not yet known as a medicine",
+      "km": 280,
+      "d": "Quinine against malaria, rubber for seals and belts."
+    },
+    {
+      "n": "Maras salt pans",
+      "t": "Salt",
+      "la": -13.3,
+      "lo": -72.15,
+      "qty": "modern: ~3,000–5,000 small evaporation pans fed by a salty spring",
+      "reach": "1230: already worked by hand near Cusco",
+      "km": 415,
+      "d": "Salt on the road to Cusco."
+    }
   ],
   "newcomers": [
-    {"n": "Neighboring Lupaca and Pacajes ayllus", "la": -16.6, "lo": -69.2, "num": "~50,000–150,000 joining by ~1245 (guess)", "when": "from ~1235", "fit": 9, "d": "Whole valleys sign up for storehouse insurance after a bad frost year. Same language, gods and ayllu ways, so they fit almost perfectly."},
-    {"n": "Colla lordships", "la": -15.4, "lo": -70.1, "num": "~60,000–150,000 (guess)", "when": "1240s", "fit": 8, "d": "Same culture but bitter rivals. They join as members with their own lords, and the old feud is the risk."},
-    {"n": "Drought refugees from the southern altiplano", "la": -18.6, "lo": -67.8, "num": "~5,000–30,000 in bad decades (guess)", "when": "c. 1250–1300 drought and cold spells", "fit": 9, "d": "Carangas, Killaka and Lipez herders whose pastures fail. Aymara herders like the Lupaca; settled spread through ayllus, not in camps."},
-    {"n": "El Niño coastal refugees", "la": -17.6, "lo": -71.3, "num": "~1,000–10,000 per strong El Niño (guess)", "when": "every few decades; strong events roughly 1–3 times a century", "fit": 5, "d": "Fishers and oasis farmers whose fish vanish and canals flood. Different life and altitude sickness, so they are best settled in the lowland colonies or as coast traders."},
-    {"n": "Uru lake people", "la": -15.82, "lo": -69.97, "num": "~10,000–25,000 already present (guess)", "when": "from 1230", "fit": 6, "d": "Already living around the lake as low-status fishers. Equal treatment makes them loyal boat crews and fishery experts."},
-    {"n": "Canas, Canchis and Quechua valleys", "la": -14.3, "lo": -71.2, "num": "~40,000–100,000 (guess)", "when": "1250s–1270s", "fit": 7, "d": "Quechua-speaking farmers on the road north. Similar ayllu life; a different language but long trade ties."},
-    {"n": "Collaguas and Colca valley people", "la": -15.6, "lo": -71.85, "num": "~30,000–50,000 (guess)", "when": "1250s", "fit": 8, "d": "Terrace farmers and herders with a similar way of life, joining for roads and storehouses."},
-    {"n": "Yungas and lowland-edge groups", "la": -16.0, "lo": -67.6, "num": "~2,000–10,000 (guess)", "when": "from ~1260, through trade", "fit": 3, "d": "Forest peoples drawn by bronze tools and trade. Different language, food and climate; they stay in their valleys as trading partners."},
-    {"n": "Quilotoa eruption refugees", "la": -0.85, "lo": -78.9, "num": "~1,000–5,000 reaching the south (guess)", "when": "c. 1280", "fit": 4, "d": "Ash from a huge eruption in Ecuador ruins northern fields. Far away; few would reach the lake, but northern partners could take them in."}
+    {
+      "n": "Neighboring Lupaca and Pacajes ayllus",
+      "la": -16.6,
+      "lo": -69.2,
+      "num": "~50,000–150,000 joining by ~1245 (guess)",
+      "when": "from ~1235",
+      "fit": 9,
+      "d": "Whole valleys sign up for storehouse insurance after a bad frost year. Same language, gods and ayllu ways, so they fit almost perfectly."
+    },
+    {
+      "n": "Colla lordships",
+      "la": -15.4,
+      "lo": -70.1,
+      "num": "~60,000–150,000 (guess)",
+      "when": "1240s",
+      "fit": 8,
+      "d": "Same culture but bitter rivals. They join as members with their own lords, and the old feud is the risk."
+    },
+    {
+      "n": "Drought refugees from the southern altiplano",
+      "la": -18.6,
+      "lo": -67.8,
+      "num": "~5,000–30,000 in bad decades (guess)",
+      "when": "c. 1250–1300 drought and cold spells",
+      "fit": 9,
+      "d": "Carangas, Killaka and Lipez herders whose pastures fail. Aymara herders like the Lupaca; settled spread through ayllus, not in camps."
+    },
+    {
+      "n": "El Niño coastal refugees",
+      "la": -17.6,
+      "lo": -71.3,
+      "num": "~1,000–10,000 per strong El Niño (guess)",
+      "when": "every few decades; strong events roughly 1–3 times a century",
+      "fit": 5,
+      "d": "Fishers and oasis farmers whose fish vanish and canals flood. Different life and altitude sickness, so they are best settled in the lowland colonies or as coast traders."
+    },
+    {
+      "n": "Uru lake people",
+      "la": -15.82,
+      "lo": -69.97,
+      "num": "~10,000–25,000 already present (guess)",
+      "when": "from 1230",
+      "fit": 6,
+      "d": "Already living around the lake as low-status fishers. Equal treatment makes them loyal boat crews and fishery experts."
+    },
+    {
+      "n": "Canas, Canchis and Quechua valleys",
+      "la": -14.3,
+      "lo": -71.2,
+      "num": "~40,000–100,000 (guess)",
+      "when": "1250s–1270s",
+      "fit": 7,
+      "d": "Quechua-speaking farmers on the road north. Similar ayllu life; a different language but long trade ties."
+    },
+    {
+      "n": "Collaguas and Colca valley people",
+      "la": -15.6,
+      "lo": -71.85,
+      "num": "~30,000–50,000 (guess)",
+      "when": "1250s",
+      "fit": 8,
+      "d": "Terrace farmers and herders with a similar way of life, joining for roads and storehouses."
+    },
+    {
+      "n": "Yungas and lowland-edge groups",
+      "la": -16,
+      "lo": -67.6,
+      "num": "~2,000–10,000 (guess)",
+      "when": "from ~1260, through trade",
+      "fit": 3,
+      "d": "Forest peoples drawn by bronze tools and trade. Different language, food and climate; they stay in their valleys as trading partners."
+    },
+    {
+      "n": "Quilotoa eruption refugees",
+      "la": -0.85,
+      "lo": -78.9,
+      "num": "~1,000–5,000 reaching the south (guess)",
+      "when": "c. 1280",
+      "fit": 4,
+      "d": "Ash from a huge eruption in Ecuador ruins northern fields. Far away; few would reach the lake, but northern partners could take them in."
+    }
   ],
   "neighbors": [
-    {"n": "Cusco kingdom (early Inca)", "la": -13.52, "lo": -71.97, "pop": "~20,000–40,000 in the valley (guess)", "d": "A small kingdom with big ambitions and a royal family that claims descent from the sun and from Lake Titicaca. Delegations could come to learn; in real history they conquer the lake in the 1400s."},
-    {"n": "Chanka confederation", "la": -13.66, "lo": -73.38, "pop": "~50,000–120,000 (guess)", "d": "Warlike and expanding. Best brought in early by roads, trade and council seats before they grow strong in the 1300s–1400s."},
-    {"n": "Wanka of the Mantaro valley", "la": -11.95, "lo": -75.25, "pop": "~100,000–200,000 (guess)", "d": "Dense, fertile, divided into feuding hilltop towns. Easy to win with storehouse insurance, but far away."},
-    {"n": "Chimú (Chimor), capital Chan Chan", "la": -8.11, "lo": -79.07, "pop": "~30,000 in Chan Chan; ~300,000–500,000 in the kingdom (guess)", "d": "The only real state in 1230: a king, nobles, canals and fine metalwork, expanding along the coast. Proud and rich; sits on the coal. The key partner, never an easy conquest."},
-    {"n": "Chincha traders", "la": -13.45, "lo": -76.13, "pop": "~50,000–100,000 (guess)", "d": "Sea traders on balsa rafts who run the guano islands and the trade north to Ecuador. They want wool, metal and dried food."},
-    {"n": "Lambayeque (Sicán)", "la": -6.47, "lo": -79.77, "pop": "~60,000–150,000 (guess)", "d": "Bronze-smelting lords of the far north coast, weakened after ~1100. The Chimú absorb them in the 1300s."},
-    {"n": "Cajamarca", "la": -7.16, "lo": -78.51, "pop": "~40,000–80,000 (guess)", "d": "A northern highland valley tied to the Chimú. Where the Spanish captured the last Inca in 1532."},
-    {"n": "Atacama oasis peoples", "la": -22.91, "lo": -68.2, "pop": "~10,000–20,000 (guess)", "d": "Caravan traders of the southern deserts, already linked to the altiplano since Tiwanaku. Guides to copper, salt and nitrates."},
-    {"n": "Mojos earthwork builders", "la": -14.8, "lo": -64.9, "pop": "~50,000–500,000 (guess; disputed)", "d": "Lowland raised-field and causeway builders on the flooded plains east of the Andes. Malaria and distance keep them apart."},
-    {"n": "Manteño seafarers (Ecuador coast)", "la": -1.0, "lo": -80.7, "pop": "~50,000–100,000 (guess)", "d": "Ocean raft traders who sail for Spondylus shell and may reach Mexico by sea. The way out to the wider Americas, and the likely route for any Polynesian contact."}
+    {
+      "n": "Cusco kingdom (early Inca)",
+      "la": -13.52,
+      "lo": -71.97,
+      "pop": "~20,000–40,000 in the valley (guess)",
+      "d": "A small kingdom with big ambitions and a royal family that claims descent from the sun and from Lake Titicaca. Delegations could come to learn; in real history they conquer the lake in the 1400s."
+    },
+    {
+      "n": "Chanka confederation",
+      "la": -13.66,
+      "lo": -73.38,
+      "pop": "~50,000–120,000 (guess)",
+      "d": "Warlike and expanding. Best brought in early by roads, trade and council seats before they grow strong in the 1300s–1400s."
+    },
+    {
+      "n": "Wanka of the Mantaro valley",
+      "la": -11.95,
+      "lo": -75.25,
+      "pop": "~100,000–200,000 (guess)",
+      "d": "Dense, fertile, divided into feuding hilltop towns. Easy to win with storehouse insurance, but far away."
+    },
+    {
+      "n": "Chimú (Chimor), capital Chan Chan",
+      "la": -8.11,
+      "lo": -79.07,
+      "pop": "~30,000 in Chan Chan; ~300,000–500,000 in the kingdom (guess)",
+      "d": "The only real state in 1230: a king, nobles, canals and fine metalwork, expanding along the coast. Proud and rich; sits on the coal. The key partner, never an easy conquest."
+    },
+    {
+      "n": "Chincha traders",
+      "la": -13.45,
+      "lo": -76.13,
+      "pop": "~50,000–100,000 (guess)",
+      "d": "Sea traders on balsa rafts who run the guano islands and the trade north to Ecuador. They want wool, metal and dried food."
+    },
+    {
+      "n": "Lambayeque (Sicán)",
+      "la": -6.47,
+      "lo": -79.77,
+      "pop": "~60,000–150,000 (guess)",
+      "d": "Bronze-smelting lords of the far north coast, weakened after ~1100. The Chimú absorb them in the 1300s."
+    },
+    {
+      "n": "Cajamarca",
+      "la": -7.16,
+      "lo": -78.51,
+      "pop": "~40,000–80,000 (guess)",
+      "d": "A northern highland valley tied to the Chimú. Where the Spanish captured the last Inca in 1532."
+    },
+    {
+      "n": "Atacama oasis peoples",
+      "la": -22.91,
+      "lo": -68.2,
+      "pop": "~10,000–20,000 (guess)",
+      "d": "Caravan traders of the southern deserts, already linked to the altiplano since Tiwanaku. Guides to copper, salt and nitrates."
+    },
+    {
+      "n": "Mojos earthwork builders",
+      "la": -14.8,
+      "lo": -64.9,
+      "pop": "~50,000–500,000 (guess; disputed)",
+      "d": "Lowland raised-field and causeway builders on the flooded plains east of the Andes. Malaria and distance keep them apart."
+    },
+    {
+      "n": "Manteño seafarers (Ecuador coast)",
+      "la": -1,
+      "lo": -80.7,
+      "pop": "~50,000–100,000 (guess)",
+      "d": "Ocean raft traders who sail for Spondylus shell and may reach Mexico by sea. The way out to the wider Americas, and the likely route for any Polynesian contact."
+    }
   ],
   "sources": [
-    ["Lupaca (Wikipedia)", "https://en.wikipedia.org/wiki/Lupaca"],
-    ["Lupaca dispossession and census figures (UPenn, Dispossessions in the Americas)", "https://dia.upenn.edu/en/content/BOL0025Y/"],
-    ["Chimor (Wikipedia)", "https://en.wikipedia.org/wiki/Chimor"],
-    ["Chincha culture (Wikipedia)", "https://en.wikipedia.org/wiki/Chincha_culture"],
-    ["Bird poop powered the rise of the Chincha Kingdom (University of Sydney, 2026)", "https://www.sydney.edu.au/news-opinion/news/2026/02/12/bird-poop-powered-the-rise-of-the-chincha-kingdom-archaeologists-find.html"],
-    ["Chincha Aviso tribute counts (PMC article)", "https://pmc.ncbi.nlm.nih.gov/articles/PMC26922"],
-    ["Killke culture (Wikipedia)", "https://en.wikipedia.org/wiki/Killke_culture"],
-    ["Seshat: Cusco-area polity", "https://seshat-db.com/core/polity/81"],
-    ["D'Altroy, Wanka society before the Inkas (eHRAF)", "https://ehrafarchaeology.yale.edu/traditions/se70/documents/016"],
-    ["Marcona mine (Wikipedia)", "https://en.wikipedia.org/wiki/Marcona_mine"],
-    ["Marcona technical report (SEC)", "https://www.sec.gov/Archives/edgar/data/1303936/000137829608000170/techrep.htm"],
-    ["USGS Open-File Report 2004-1023: coal of Peru (Alto Chicama)", "https://pubs.usgs.gov/of/2004/1023/1023.html"],
-    ["Mineral, energy and fertilizer resources of the north coast of Peru (USGS)", "https://www.usgs.gov/publications/mineral-energy-and-fertilizer-resources-north-coast-peru-perspective-santa-rita-b"],
-    ["Coal and cremation in ancient Peru (USGS)", "https://www.usgs.gov/publications/coal-and-cremation-ancient-peru"],
-    ["Cerro de Pasco tailings (Northern Miner)", "https://www.northernminer.com/news/site-visit-pasco-aims-to-green-the-andes-by-mining-silver-zinc-tailings/1003879428/"],
-    ["Cerro Rico, Potosí (Wikipedia)", "https://en.wikipedia.org/wiki/Cerro_Rico"],
-    ["Huanuni tin deposit (Minerals, MDPI)", "https://www.mdpi.com/2075-163X/9/12/753/htm"],
-    ["Llallagua tin tailings (Minerals, 2022)", "https://www.mdpi.com/2075-163X/12/2/214/xml"],
-    ["Guano (Wikipedia)", "https://en.wikipedia.org/wiki/Guano"],
-    ["Peruvian guano and western agriculture (BirdLife)", "https://datazone.birdlife.org/articles/seabird-guano-especially-from-peru-transformed-western-agriculture-in-the-nineteenth-century"],
-    ["Chincha Islands guano depth (GlobalSecurity)", "https://www.globalsecurity.org/military/world/war/chincha-islands.htm"],
-    ["Nitrate deposits review (Universidad de Chile)", "https://repositorio.uchile.cl/bitstream/handle/2250/169399/Nitrate_deposits.pdf?sequence=1"],
-    ["Nitrates and nitrogenous compounds (911 Metallurgist)", "https://www.911metallurgist.com/blog/nitrates-nitrogenous-compounds/"],
-    ["Largest salt flat (Guinness World Records)", "https://www.guinnessworldrecords.com/world-records/82679-largest-salt-flat"],
-    ["Peru has the world's largest population of alpacas (Andina)", "https://andina.pe/ingles/noticia-peru-has-the-worlds-largest-population-of-alpacas-517222.aspx"],
-    ["Anchoveta and the Humboldt Current (FAO)", "https://fao.org/4/i1140e/i1140e08.pdf"],
-    ["Quilotoa (Wikipedia)", "https://en.wikipedia.org/wiki/Quilotoa"]
+    [
+      "Lupaca (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Lupaca"
+    ],
+    [
+      "Lupaca dispossession and census figures (UPenn, Dispossessions in the Americas)",
+      "https://dia.upenn.edu/en/content/BOL0025Y/"
+    ],
+    [
+      "Chimor (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Chimor"
+    ],
+    [
+      "Chincha culture (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Chincha_culture"
+    ],
+    [
+      "Bird poop powered the rise of the Chincha Kingdom (University of Sydney, 2026)",
+      "https://www.sydney.edu.au/news-opinion/news/2026/02/12/bird-poop-powered-the-rise-of-the-chincha-kingdom-archaeologists-find.html"
+    ],
+    [
+      "Chincha Aviso tribute counts (PMC article)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC26922"
+    ],
+    [
+      "Killke culture (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Killke_culture"
+    ],
+    [
+      "Seshat: Cusco-area polity",
+      "https://seshat-db.com/core/polity/81"
+    ],
+    [
+      "D'Altroy, Wanka society before the Inkas (eHRAF)",
+      "https://ehrafarchaeology.yale.edu/traditions/se70/documents/016"
+    ],
+    [
+      "Marcona mine (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Marcona_mine"
+    ],
+    [
+      "Marcona technical report (SEC)",
+      "https://www.sec.gov/Archives/edgar/data/1303936/000137829608000170/techrep.htm"
+    ],
+    [
+      "USGS Open-File Report 2004-1023: coal of Peru (Alto Chicama)",
+      "https://pubs.usgs.gov/of/2004/1023/1023.html"
+    ],
+    [
+      "Mineral, energy and fertilizer resources of the north coast of Peru (USGS)",
+      "https://www.usgs.gov/publications/mineral-energy-and-fertilizer-resources-north-coast-peru-perspective-santa-rita-b"
+    ],
+    [
+      "Coal and cremation in ancient Peru (USGS)",
+      "https://www.usgs.gov/publications/coal-and-cremation-ancient-peru"
+    ],
+    [
+      "Cerro de Pasco tailings (Northern Miner)",
+      "https://www.northernminer.com/news/site-visit-pasco-aims-to-green-the-andes-by-mining-silver-zinc-tailings/1003879428/"
+    ],
+    [
+      "Cerro Rico, Potosí (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Cerro_Rico"
+    ],
+    [
+      "Huanuni tin deposit (Minerals, MDPI)",
+      "https://www.mdpi.com/2075-163X/9/12/753/htm"
+    ],
+    [
+      "Llallagua tin tailings (Minerals, 2022)",
+      "https://www.mdpi.com/2075-163X/12/2/214/xml"
+    ],
+    [
+      "Guano (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Guano"
+    ],
+    [
+      "Peruvian guano and western agriculture (BirdLife)",
+      "https://datazone.birdlife.org/articles/seabird-guano-especially-from-peru-transformed-western-agriculture-in-the-nineteenth-century"
+    ],
+    [
+      "Chincha Islands guano depth (GlobalSecurity)",
+      "https://www.globalsecurity.org/military/world/war/chincha-islands.htm"
+    ],
+    [
+      "Nitrate deposits review (Universidad de Chile)",
+      "https://repositorio.uchile.cl/bitstream/handle/2250/169399/Nitrate_deposits.pdf?sequence=1"
+    ],
+    [
+      "Nitrates and nitrogenous compounds (911 Metallurgist)",
+      "https://www.911metallurgist.com/blog/nitrates-nitrogenous-compounds/"
+    ],
+    [
+      "Largest salt flat (Guinness World Records)",
+      "https://www.guinnessworldrecords.com/world-records/82679-largest-salt-flat"
+    ],
+    [
+      "Peru has the world's largest population of alpacas (Andina)",
+      "https://andina.pe/ingles/noticia-peru-has-the-worlds-largest-population-of-alpacas-517222.aspx"
+    ],
+    [
+      "Anchoveta and the Humboldt Current (FAO)",
+      "https://fao.org/4/i1140e/i1140e08.pdf"
+    ],
+    [
+      "Quilotoa (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Quilotoa"
+    ]
+  ],
+  "gallery": [
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Urna_funeraria%2C_Sillustani%2C_Per%C3%BA%2C_2015-08-01%2C_DD_92.JPG/500px-Urna_funeraria%2C_Sillustani%2C_Per%C3%BA%2C_2015-08-01%2C_DD_92.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Urna_funeraria,_Sillustani,_Per%C3%BA,_2015-08-01,_DD_92.JPG",
+      "c": "Photo: Diego Delso, CC BY-SA 4.0",
+      "cap": "A Colla chullpa tower at Sillustani on Lake Umayo",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Waru_waru_en_la_zona_de_Ilave_-_Per%C3%BA.JPG/500px-Waru_waru_en_la_zona_de_Ilave_-_Per%C3%BA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Waru_waru_en_la_zona_de_Ilave_-_Per%C3%BA.JPG",
+      "c": "Photo: Alfredobi (assumed), Public domain",
+      "cap": "Rebuilt raised fields (suka kollus) near Ilave",
+      "kind": "then"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Qullqa_%28Inca_Warehouse%29_by_Guaman_Poma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "p": "https://commons.wikimedia.org/wiki/File:Qullqa_(Inca_Warehouse)_by_Guaman_Poma.jpg",
+      "c": "Drawing: Felipe Guaman Poma de Ayala, Public domain",
+      "cap": "Guaman Poma's drawing of Inca storehouses (qollqa), c. 1615",
+      "kind": "then"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Tiwanaku_-_Kalasasaya%2C_Templo_do_Sol.jpg/500px-Tiwanaku_-_Kalasasaya%2C_Templo_do_Sol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Tiwanaku_-_Kalasasaya,_Templo_do_Sol.jpg",
+      "c": "Photo: Pelegrin-RAM, CC BY-SA 4.0",
+      "cap": "Tiwanaku's Kalasasaya temple platform, abandoned by 1230",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bolivia_-_Inca_terraces%2C_on_the_shores_of_Lake_Titicaca.jpg/500px-Bolivia_-_Inca_terraces%2C_on_the_shores_of_Lake_Titicaca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Bolivia_-_Inca_terraces,_on_the_shores_of_Lake_Titicaca.jpg",
+      "c": "Photo: Indies1, CC BY 4.0",
+      "cap": "Old farming terraces on Lake Titicaca's Bolivian shore",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/El_Sajama_y_las_llamas.jpg/500px-El_Sajama_y_las_llamas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:El_Sajama_y_las_llamas.jpg",
+      "c": "Photo: Fernando Suárez Saavedra, CC BY-SA 4.0",
+      "cap": "Llama herd on the altiplano below Sajama",
+      "kind": "then"
+    },
+    {
+      "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Fishnet_walls_of_storerooms_at_Chan_Chan.JPG/500px-Fishnet_walls_of_storerooms_at_Chan_Chan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "p": "https://commons.wikimedia.org/wiki/File:Fishnet_walls_of_storerooms_at_Chan_Chan.JPG",
+      "c": "Photo: Kevstan, CC BY-SA 3.0",
+      "cap": "Fishnet-pattern storeroom walls at Chimú Chan Chan",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/2/23/Cieza-de-Leon-Titicaca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "p": "https://commons.wikimedia.org/wiki/File:Cieza-de-Leon-Titicaca.jpg",
+      "c": "Woodcut: Cieza de León, Crónica del Perú (1553), Public domain",
+      "cap": "Lake Titicaca in Cieza de León's chronicle, 1553",
+      "kind": "then"
+    }
   ]
 }

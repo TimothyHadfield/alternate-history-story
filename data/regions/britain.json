@@ -5,147 +5,1160 @@
   "pitch": "No crown: a company, a school and coal towns inside Henry III's England.",
   "score": 6.2,
   "year": 1233,
-  "view": {"center": [53.8, -3.8], "zoom": 6},
-  "core": {"n": "London: the Company's wharves at Southwark", "la": 51.505, "lo": -0.09, "d": "His base and the Company's gate. London is England's money, law and port; the south bank sits outside the City's guild rules but one bridge from its merchants. Later gates at Bristol (Severn, Forest of Dean) and Newcastle (coal)."},
-  "start": {"n": "Southwark, south end of London Bridge", "la": 51.504, "lo": -0.087, "d": "Arrives in spring 1233 with nothing. Southwark is a busy suburb of inns, wharves and foreigners, so a strange man with an odd accent passes as just another merchant."},
+  "view": {
+    "center": [
+      53.8,
+      -3.8
+    ],
+    "zoom": 6
+  },
+  "core": {
+    "n": "London: the Company's wharves at Southwark",
+    "la": 51.505,
+    "lo": -0.09,
+    "d": "His base and the Company's gate. London is England's money, law and port; the south bank sits outside the City's guild rules but one bridge from its merchants. Later gates at Bristol (Severn, Forest of Dean) and Newcastle (coal).",
+    "img": {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/London_%2C_Thames_Foreshore%2C_Bankside_-_geograph.org.uk_-_6595344.jpg/500px-London_%2C_Thames_Foreshore%2C_Bankside_-_geograph.org.uk_-_6595344.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:London_,_Thames_Foreshore,_Bankside_-_geograph.org.uk_-_6595344.jpg",
+      "c": "Photo: Jim Osley, CC BY-SA 2.0",
+      "cap": "The Thames at low tide from the Southwark bank"
+    }
+  },
+  "start": {
+    "n": "Southwark, south end of London Bridge",
+    "la": 51.504,
+    "lo": -0.087,
+    "d": "Arrives in spring 1233 with nothing. Southwark is a busy suburb of inns, wharves and foreigners, so a strange man with an odd accent passes as just another merchant.",
+    "img": {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/011_Southwark_Cathedral_south_choir_aisle.JPG/500px-011_Southwark_Cathedral_south_choir_aisle.JPG",
+      "p": "https://commons.wikimedia.org/wiki/File:011_Southwark_Cathedral_south_choir_aisle.JPG",
+      "c": "Photo: Amandajm, CC BY-SA 3.0",
+      "cap": "Southwark Cathedral choir aisle, rebuilt after 1212 fire"
+    }
+  },
   "facts": [
-    ["Population (British Isles)", "~5–6.5 million (guess)"],
-    ["England", "~3.5–4.5 million in 1230, rising to ~4.5–6 million by 1300 (historians disagree: Campbell ~4M c.1290, Broadberry et al ~4.75M c.1290)"],
-    ["Wales / Scotland / Ireland", "~0.2–0.3M / ~0.5–1M / ~0.5–1M (all guesses)"],
-    ["Climate", "Mild, wet, oceanic; the warm tail of the Medieval Warm Period. Cooler and wetter from ~1300 (Little Ice Age)"],
-    ["Rain", "~550–700 mm in the south-east; 1,500–3,000 mm in the Welsh, Lake and Highland mountains; rain in every month"],
-    ["Growing season", "~7–8 months in the south (frost Nov–Mar); ~5–6 months in upland Scotland"],
-    ["Language", "Middle English (people), Anglo-Norman French (court and law), Latin (Church and records); Welsh, Cornish, Gaelic and Norse at the edges"],
-    ["Writing", "Latin and French documents everywhere: charters, Exchequer pipe rolls, tally sticks, Roman numerals"],
-    ["Money", "Silver penny (sterling); 240 pence = £1. Credit from Jews and Italians"],
-    ["Ruler", "Henry III (b. 1207, king since 1216); personal rule from 1234"]
+    [
+      "Population (British Isles)",
+      "~5–6.5 million (guess)"
+    ],
+    [
+      "England",
+      "~3.5–4.5 million in 1230, rising to ~4.5–6 million by 1300 (historians disagree: Campbell ~4M c.1290, Broadberry et al ~4.75M c.1290)"
+    ],
+    [
+      "Wales / Scotland / Ireland",
+      "~0.2–0.3M / ~0.5–1M / ~0.5–1M (all guesses)"
+    ],
+    [
+      "Climate",
+      "Mild, wet, oceanic; the warm tail of the Medieval Warm Period. Cooler and wetter from ~1300 (Little Ice Age)"
+    ],
+    [
+      "Rain",
+      "~550–700 mm in the south-east; 1,500–3,000 mm in the Welsh, Lake and Highland mountains; rain in every month"
+    ],
+    [
+      "Growing season",
+      "~7–8 months in the south (frost Nov–Mar); ~5–6 months in upland Scotland"
+    ],
+    [
+      "Language",
+      "Middle English (people), Anglo-Norman French (court and law), Latin (Church and records); Welsh, Cornish, Gaelic and Norse at the edges"
+    ],
+    [
+      "Writing",
+      "Latin and French documents everywhere: charters, Exchequer pipe rolls, tally sticks, Roman numerals"
+    ],
+    [
+      "Money",
+      "Silver penny (sterling); 240 pence = £1. Credit from Jews and Italians"
+    ],
+    [
+      "Ruler",
+      "Henry III (b. 1207, king since 1216); personal rule from 1234"
+    ]
   ],
   "land": [
-    {"n": "Thames basin and London Clay", "la": 51.6, "lo": -0.4, "r": 70, "elev": "0–150 m", "rain": "~600 mm, all year", "d": "Heavy clay and river gravels around London, with marsh along the estuary. Good brick clay, poor drainage, malaria-like 'ague' (vivax) in the Thames and Essex marshes."},
-    {"n": "The Weald and the Downs", "la": 51.05, "lo": 0.1, "r": 70, "elev": "0–240 m", "rain": "~750–900 mm", "d": "Wooded clay and sandstone between the chalk ridges of the North and South Downs. Iron ore in the clays, charcoal from the woods and steep streams for mill ponds; the Downs give sheep and lime."},
-    {"n": "East Anglia and the Fens", "la": 52.55, "lo": 0.6, "r": 90, "elev": "0–100 m, much at sea level", "rain": "~550–650 mm, England's driest", "d": "Flat, fertile, crowded: Norfolk is the most populated county. The Fens are ~3,900 km² of peat and silt marsh, half wet in winter, rich in fish, fowl and reeds; marsh ague is common."},
-    {"n": "Midland plain", "la": 52.6, "lo": -1.5, "r": 120, "elev": "50–200 m", "rain": "~650–750 mm", "d": "Open-field villages on heavy clay, the heart of English grain farming. Coal outcrops on its edges (Warwickshire, Staffordshire, Nottinghamshire, Leicestershire)."},
-    {"n": "Pennines", "la": 54.2, "lo": -2.2, "r": 110, "elev": "200–890 m", "rain": "~1,000–1,800 mm", "d": "The moorland spine of the north: sheep, lead veins in the limestone, and fast streams. Coalfields lie on both flanks (Yorkshire east, Lancashire west, Durham north-east)."},
-    {"n": "Cotswolds and Severn vale", "la": 51.85, "lo": -2.1, "r": 70, "elev": "0–330 m", "rain": "~700–850 mm", "d": "Limestone hills with England's best short-wool sheep, above the fertile Severn valley. The Severn is navigable from Bristol up past Gloucester to Shrewsbury."},
-    {"n": "South-west moors (Dartmoor, Bodmin, West Penwith)", "la": 50.5, "lo": -4.4, "r": 100, "elev": "0–620 m", "rain": "~1,000–2,000 mm", "d": "Granite moors with tin in the valley gravels. Thin acid soils, small farms, mild winters by the sea."},
-    {"n": "Welsh mountains", "la": 52.6, "lo": -3.7, "r": 110, "elev": "0–1,085 m (Snowdon)", "rain": "~1,200–3,000 mm", "d": "Cattle and sheep country, few roads, hard to conquer. The south has a coastal plain and the great South Wales coalfield."},
-    {"n": "Scottish Lowlands and Highlands", "la": 56.6, "lo": -4.2, "r": 230, "elev": "0–1,345 m (Ben Nevis)", "rain": "~700 mm (east) to 3,000 mm (west)", "d": "Fertile eastern lowlands (Lothian, Fife, the Merse) with coal by the Forth; the Highlands are thin-soiled, wet and pastoral, run by clans."},
-    {"n": "Irish central lowland", "la": 53.3, "lo": -7.8, "r": 170, "elev": "0–200 m, mountain rim to 1,040 m", "rain": "~750–1,400 mm", "d": "Mild and wet: grass grows almost all year, so cattle are wealth. Vast bogs in the middle, good tillage in the east and south-east (Leinster, Meath) where the Anglo-Normans settled."}
+    {
+      "n": "Thames basin and London Clay",
+      "la": 51.6,
+      "lo": -0.4,
+      "r": 70,
+      "elev": "0–150 m",
+      "rain": "~600 mm, all year",
+      "d": "Heavy clay and river gravels around London, with marsh along the estuary. Good brick clay, poor drainage, malaria-like 'ague' (vivax) in the Thames and Essex marshes.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Stanford_Marshes%2C_Essex_-_geograph.org.uk_-_56751.jpg/500px-Stanford_Marshes%2C_Essex_-_geograph.org.uk_-_56751.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Stanford_Marshes,_Essex_-_geograph.org.uk_-_56751.jpg",
+        "c": "Photo: John Winfield, CC BY-SA 2.0",
+        "cap": "Thames estuary marsh at Stanford-le-Hope, Essex"
+      }
+    },
+    {
+      "n": "The Weald and the Downs",
+      "la": 51.05,
+      "lo": 0.1,
+      "r": 70,
+      "elev": "0–240 m",
+      "rain": "~750–900 mm",
+      "d": "Wooded clay and sandstone between the chalk ridges of the North and South Downs. Iron ore in the clays, charcoal from the woods and steep streams for mill ponds; the Downs give sheep and lime.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/WealdfromDowns.JPG/500px-WealdfromDowns.JPG",
+        "p": "https://commons.wikimedia.org/wiki/File:WealdfromDowns.JPG",
+        "c": "Photo: Rjgibb, public domain",
+        "cap": "The Weald seen from the Downs"
+      }
+    },
+    {
+      "n": "East Anglia and the Fens",
+      "la": 52.55,
+      "lo": 0.6,
+      "r": 90,
+      "elev": "0–100 m, much at sea level",
+      "rain": "~550–650 mm, England's driest",
+      "d": "Flat, fertile, crowded: Norfolk is the most populated county. The Fens are ~3,900 km² of peat and silt marsh, half wet in winter, rich in fish, fowl and reeds; marsh ague is common.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wicken_Lode_and_Wicken_Fen_-_geograph.org.uk_-_1731773.jpg/500px-Wicken_Lode_and_Wicken_Fen_-_geograph.org.uk_-_1731773.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Wicken_Lode_and_Wicken_Fen_-_geograph.org.uk_-_1731773.jpg",
+        "c": "Photo: Rob Noble, CC BY-SA 2.0",
+        "cap": "Wicken Fen: reeds and open water, the old fenland"
+      }
+    },
+    {
+      "n": "Midland plain",
+      "la": 52.6,
+      "lo": -1.5,
+      "r": 120,
+      "elev": "50–200 m",
+      "rain": "~650–750 mm",
+      "d": "Open-field villages on heavy clay, the heart of English grain farming. Coal outcrops on its edges (Warwickshire, Staffordshire, Nottinghamshire, Leicestershire).",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Ridge_and_furrow_near_Hose_-_geograph.org.uk_-_6654584.jpg/500px-Ridge_and_furrow_near_Hose_-_geograph.org.uk_-_6654584.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Ridge_and_furrow_near_Hose_-_geograph.org.uk_-_6654584.jpg",
+        "c": "Photo: Alan Murray-Rust, CC BY-SA 2.0",
+        "cap": "Medieval ridge-and-furrow fields near Hose, Leicestershire"
+      }
+    },
+    {
+      "n": "Pennines",
+      "la": 54.2,
+      "lo": -2.2,
+      "r": 110,
+      "elev": "200–890 m",
+      "rain": "~1,000–1,800 mm",
+      "d": "The moorland spine of the north: sheep, lead veins in the limestone, and fast streams. Coalfields lie on both flanks (Yorkshire east, Lancashire west, Durham north-east).",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pennine_Way_above_West_Stones_Dale_-_geograph.org.uk_-_6621382.jpg/500px-Pennine_Way_above_West_Stones_Dale_-_geograph.org.uk_-_6621382.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Pennine_Way_above_West_Stones_Dale_-_geograph.org.uk_-_6621382.jpg",
+        "c": "Photo: Trevor Littlewood, CC BY-SA 2.0",
+        "cap": "Pennine moorland above West Stones Dale"
+      }
+    },
+    {
+      "n": "Cotswolds and Severn vale",
+      "la": 51.85,
+      "lo": -2.1,
+      "r": 70,
+      "elev": "0–330 m",
+      "rain": "~700–850 mm",
+      "d": "Limestone hills with England's best short-wool sheep, above the fertile Severn valley. The Severn is navigable from Bristol up past Gloucester to Shrewsbury.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Rolling_Cotswolds_landscape_-_geograph.org.uk_-_8380559.jpg/500px-Rolling_Cotswolds_landscape_-_geograph.org.uk_-_8380559.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Rolling_Cotswolds_landscape_-_geograph.org.uk_-_8380559.jpg",
+        "c": "Photo: Philip Halling, CC BY-SA 2.0",
+        "cap": "Rolling Cotswold farmland"
+      }
+    },
+    {
+      "n": "South-west moors (Dartmoor, Bodmin, West Penwith)",
+      "la": 50.5,
+      "lo": -4.4,
+      "r": 100,
+      "elev": "0–620 m",
+      "rain": "~1,000–2,000 mm",
+      "d": "Granite moors with tin in the valley gravels. Thin acid soils, small farms, mild winters by the sea.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sharp_Tor_%28Tavy_Cleave%29%2C_from_the_south_landscape%2C_July_2020.jpg/500px-Sharp_Tor_%28Tavy_Cleave%29%2C_from_the_south_landscape%2C_July_2020.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Sharp_Tor_(Tavy_Cleave),_from_the_south_landscape,_July_2020.jpg",
+        "c": "Photo: Addshore, CC BY-SA 4.0",
+        "cap": "Sharp Tor and Tavy Cleave, Dartmoor"
+      }
+    },
+    {
+      "n": "Welsh mountains",
+      "la": 52.6,
+      "lo": -3.7,
+      "r": 110,
+      "elev": "0–1,085 m (Snowdon)",
+      "rain": "~1,200–3,000 mm",
+      "d": "Cattle and sheep country, few roads, hard to conquer. The south has a coastal plain and the great South Wales coalfield.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Dyffryn_Ogwen_and_Nant_Ffrancon%2C_Snowdonia_National_Park_%2849731015171%29_%28cropped%29.jpg/500px-Dyffryn_Ogwen_and_Nant_Ffrancon%2C_Snowdonia_National_Park_%2849731015171%29_%28cropped%29.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Dyffryn_Ogwen_and_Nant_Ffrancon,_Snowdonia_National_Park_(49731015171)_(cropped).jpg",
+        "c": "Photo: JackPeasePhotography, CC BY 2.0",
+        "cap": "Nant Ffrancon valley, Snowdonia"
+      }
+    },
+    {
+      "n": "Scottish Lowlands and Highlands",
+      "la": 56.6,
+      "lo": -4.2,
+      "r": 230,
+      "elev": "0–1,345 m (Ben Nevis)",
+      "rain": "~700 mm (east) to 3,000 mm (west)",
+      "d": "Fertile eastern lowlands (Lothian, Fife, the Merse) with coal by the Forth; the Highlands are thin-soiled, wet and pastoral, run by clans.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Glen_Coe_stone_bridge_20211022.jpg/500px-Glen_Coe_stone_bridge_20211022.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Glen_Coe_stone_bridge_20211022.jpg",
+        "c": "Photo: Daniel Kraft, CC BY-SA 3.0",
+        "cap": "Highland glen at Glen Coe"
+      }
+    },
+    {
+      "n": "Irish central lowland",
+      "la": 53.3,
+      "lo": -7.8,
+      "r": 170,
+      "elev": "0–200 m, mountain rim to 1,040 m",
+      "rain": "~750–1,400 mm",
+      "d": "Mild and wet: grass grows almost all year, so cattle are wealth. Vast bogs in the middle, good tillage in the east and south-east (Leinster, Meath) where the Anglo-Normans settled.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ireland_Clonmacnoise_BW_2025-09-09_16-30-50.jpg/500px-Ireland_Clonmacnoise_BW_2025-09-09_16-30-50.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Ireland_Clonmacnoise_BW_2025-09-09_16-30-50.jpg",
+        "c": "Photo: Berthold Werner, CC BY-SA 4.0",
+        "cap": "Shannon water meadows from Clonmacnoise"
+      }
+    }
   ],
   "peoples": [
-    {"n": "London (City, Southwark, Westminster)", "la": 51.513, "lo": -0.09, "pop": 50000, "popText": "~40,000–60,000 in 1230 (guess); ~80,000–100,000 by 1300 (Keene)", "culture": "England's biggest town by far: merchants, guilds, a mayor (Andrew Bukerel, 1231–37) and aldermen, the royal court at Westminster nearby. English and French spoken; foreigners everywhere.", "d": "His market, his partners and his first customers. London backs whoever protects its liberties, as it later backs Montfort."},
-    {"n": "South-east (Kent, Surrey, Sussex, Essex, Middlesex)", "la": 51.25, "lo": 0.3, "pop": 450000, "popText": "~350,000–550,000 (guess)", "culture": "Rich farm villages, Channel ports (the Cinque Ports), Canterbury's pilgrims. Freer than the Midlands: Kentish 'gavelkind' custom splits land between sons.", "d": "Close to London, holds the Weald iron and timber, and the ports to Flanders and France."},
-    {"n": "East Anglia and Norwich", "la": 52.63, "lo": 1.29, "pop": 500000, "popText": "~400,000–600,000 (guess); Norwich ~10,000 in 1230 (guess), ~17,000 by 1311", "culture": "The most crowded farmland in England, many free peasants, worsted cloth (named for Worstead), Yarmouth's herring fair, Flemish trade across the North Sea.", "d": "Grain, wool and weavers. Norwich has one of England's main Jewish communities."},
-    {"n": "Lincolnshire and the Fens", "la": 53.1, "lo": -0.3, "pop": 300000, "popText": "~250,000–350,000 (guess); Lincoln ~6,000–8,000 (guess)", "culture": "Sheep on the Wolds, fenland fishers and fowlers, rich abbeys (Crowland, Ramsey, Ely). Boston is a top wool port. Grosseteste becomes Bishop of Lincoln in 1235.", "d": "Fine long wool, the Fens to drain, and Grosseteste's seat."},
-    {"n": "Midlands (Warwick, Leicester, Northampton, Nottingham)", "la": 52.6, "lo": -1.4, "pop": 800000, "popText": "~650,000–950,000 (guess)", "culture": "Classic open-field villages under manor lords, many villeins (unfree tenants owing labor). Market towns every ~10–15 km.", "d": "The biggest pool of serfs who might run to chartered towns, and coal on the edges."},
-    {"n": "Thames valley and Oxford", "la": 51.75, "lo": -1.26, "pop": 300000, "popText": "~250,000–350,000 (guess); Oxford ~5,000 townsfolk plus ~1,500 scholars (guess)", "culture": "Rich valley farms; Oxford is a leading European university of Latin-speaking clerks, Franciscans (arrived 1224) and Dominicans (1221).", "d": "Where he finds Grosseteste and later Roger Bacon, and plants the Company's house of learning."},
-    {"n": "West Country and Bristol", "la": 51.45, "lo": -2.59, "pop": 700000, "popText": "~550,000–850,000 (guess); Bristol ~8,000–12,000 (guess)", "culture": "Gloucestershire, Somerset, Wiltshire, Dorset and Devon: wool, cloth, cattle, dairying. Bristol trades with Ireland, Gascony and Wales.", "d": "Bristol is the port for the Forest of Dean and the Severn, the natural second gate."},
-    {"n": "Cornwall", "la": 50.35, "lo": -4.9, "pop": 70000, "popText": "~50,000–100,000 (guess)", "culture": "Cornish-speaking in the west, English in the east. Tinners have their own stannary courts and freedoms (charter of 1201). Richard of Cornwall becomes earl in 1227 and owns the tin revenue.", "d": "Tin and tinners who know water and digging; first customer for steam pumps."},
-    {"n": "Yorkshire and York", "la": 53.96, "lo": -1.08, "pop": 350000, "popText": "~300,000–450,000 (guess); York ~8,000–10,000 (guess)", "culture": "England's largest shire: Cistercian sheep abbeys (Fountains, Rievaulx), York's archbishop and merchants, Danish-flavored dialect.", "d": "Wool, Pennine water power and the Yorkshire coalfield. York's Jews were massacred in 1190, and the community had returned by the 1230s."},
-    {"n": "The far north (Northumberland, Durham, Cumberland)", "la": 54.97, "lo": -1.61, "pop": 180000, "popText": "~150,000–220,000 (guess); Newcastle ~3,000–4,000 (guess)", "culture": "Border country under the Prince-Bishop of Durham and border lords; cattle raiding with Scotland. Newcastle ships sea-coal and wool.", "d": "The coal coast. Newcastle's burgesses got a royal licence to dig coal around 1239."},
-    {"n": "Jewish communities", "la": 51.515, "lo": -0.091, "pop": 4000, "popText": "~3,000–5,000 at the 1230s peak (guess); ~2,000–3,000 expelled in 1290", "culture": "Royal property under the law: taxed at will by the Exchequer of the Jews. Moneylenders, pawnbrokers, physicians. Communities in London (Old Jewry), Lincoln, York, Norwich, Oxford, Winchester and others. Forced to wear a badge from 1218.", "d": "Literate, numerate and connected abroad; natural partners for finance and medicine, and a group the Company could shelter when pressure rises."},
-    {"n": "Foreign merchants in London", "la": 51.509, "lo": -0.093, "pop": 500, "popText": "a few hundred (guess)", "culture": "Cologne Germans with their own Guildhall on the Thames, Flemings, Gascon wine men, Italian bankers and papal tax collectors.", "d": "His cover as a stranger, his rivals and his channels to Bruges, Lübeck and Italy. Also the people who will copy his products."},
-    {"n": "Gwynedd and native Wales", "la": 53.0, "lo": -3.9, "pop": 150000, "popText": "~100,000–200,000 (guess)", "culture": "Welsh-speaking cattle herders and farmers under Llywelyn the Great (d. 1240), Welsh law of Hywel Dda, bards, partible inheritance.", "d": "Independent until Edward I's conquest of 1277–83. A source of laborers and a war to stay out of."},
-    {"n": "Welsh Marches and 'Little England beyond Wales'", "la": 51.8, "lo": -4.97, "pop": 100000, "popText": "~70,000–130,000 (guess)", "culture": "Anglo-Norman marcher lords ruling mixed Welsh and English people; south Pembrokeshire was settled by Flemings in 1108 and still kept Flemish ways.", "d": "Covers the South Wales coalfield. Proof that Flemish settlers can be planted in Britain."},
-    {"n": "Scottish Lowlands", "la": 55.95, "lo": -3.2, "pop": 450000, "popText": "~300,000–600,000 (guess)", "culture": "Kingdom of Alexander II: burghs (Berwick is the richest), Scots English and French spoken, abbeys exporting wool, coal dug by monks near the Forth.", "d": "A peaceful neighbor in the 1230s (Treaty of York, 1237). War with England only from 1296."},
-    {"n": "Highlands and Isles", "la": 57.2, "lo": -5.0, "pop": 200000, "popText": "~150,000–300,000 (guess)", "culture": "Gaelic-speaking clans and kindreds, cattle herding, galleys; the Western Isles are still under Norway until 1266.", "d": "Remote, poor, tough; fishermen and soldiers, little else for a 13th-century company."},
-    {"n": "Orkney and Shetland Norse", "la": 58.98, "lo": -3.1, "pop": 15000, "popText": "~10,000–20,000 (guess)", "culture": "Norse-speaking earldom under the Norwegian crown; farmers, fishers and seafarers.", "d": "A stepping stone to Norway and the northern fisheries."},
-    {"n": "Kingdom of Mann and the Isles", "la": 54.23, "lo": -4.55, "pop": 8000, "popText": "~5,000–12,000 on Man (guess)", "culture": "Norse-Gaelic island kingdom under Norway; passes to Scotland in 1266.", "d": "A small sea power in the Irish Sea."},
-    {"n": "Anglo-Norman Ireland (Lordship of Ireland)", "la": 53.35, "lo": -6.26, "pop": 400000, "popText": "~300,000–500,000 (guess); Dublin ~5,000–10,000 (guess)", "culture": "Ruled for Henry III from Dublin since 1171: castles, manors, English-speaking towns (Dublin, Waterford, Cork, Drogheda), grain and wool for export.", "d": "Food, hides, timber and room to grow. Overflow land for the Company later."},
-    {"n": "Gaelic Ireland", "la": 54.5, "lo": -8.0, "pop": 400000, "popText": "~300,000–500,000 (guess)", "culture": "Irish kings (O'Neill, O'Connor, O'Brien and others), Brehon law, cattle wealth and cattle raids, bards and learned families.", "d": "Mostly closed to outsiders; trade in cattle and hides through the ports."}
+    {
+      "n": "London (City, Southwark, Westminster)",
+      "la": 51.513,
+      "lo": -0.09,
+      "pop": 50000,
+      "popText": "~40,000–60,000 in 1230 (guess); ~80,000–100,000 by 1300 (Keene)",
+      "culture": "England's biggest town by far: merchants, guilds, a mayor (Andrew Bukerel, 1231–37) and aldermen, the royal court at Westminster nearby. English and French spoken; foreigners everywhere.",
+      "d": "His market, his partners and his first customers. London backs whoever protects its liberties, as it later backs Montfort."
+    },
+    {
+      "n": "South-east (Kent, Surrey, Sussex, Essex, Middlesex)",
+      "la": 51.25,
+      "lo": 0.3,
+      "pop": 450000,
+      "popText": "~350,000–550,000 (guess)",
+      "culture": "Rich farm villages, Channel ports (the Cinque Ports), Canterbury's pilgrims. Freer than the Midlands: Kentish 'gavelkind' custom splits land between sons.",
+      "d": "Close to London, holds the Weald iron and timber, and the ports to Flanders and France."
+    },
+    {
+      "n": "East Anglia and Norwich",
+      "la": 52.63,
+      "lo": 1.29,
+      "pop": 500000,
+      "popText": "~400,000–600,000 (guess); Norwich ~10,000 in 1230 (guess), ~17,000 by 1311",
+      "culture": "The most crowded farmland in England, many free peasants, worsted cloth (named for Worstead), Yarmouth's herring fair, Flemish trade across the North Sea.",
+      "d": "Grain, wool and weavers. Norwich has one of England's main Jewish communities."
+    },
+    {
+      "n": "Lincolnshire and the Fens",
+      "la": 53.1,
+      "lo": -0.3,
+      "pop": 300000,
+      "popText": "~250,000–350,000 (guess); Lincoln ~6,000–8,000 (guess)",
+      "culture": "Sheep on the Wolds, fenland fishers and fowlers, rich abbeys (Crowland, Ramsey, Ely). Boston is a top wool port. Grosseteste becomes Bishop of Lincoln in 1235.",
+      "d": "Fine long wool, the Fens to drain, and Grosseteste's seat."
+    },
+    {
+      "n": "Midlands (Warwick, Leicester, Northampton, Nottingham)",
+      "la": 52.6,
+      "lo": -1.4,
+      "pop": 800000,
+      "popText": "~650,000–950,000 (guess)",
+      "culture": "Classic open-field villages under manor lords, many villeins (unfree tenants owing labor). Market towns every ~10–15 km.",
+      "d": "The biggest pool of serfs who might run to chartered towns, and coal on the edges."
+    },
+    {
+      "n": "Thames valley and Oxford",
+      "la": 51.75,
+      "lo": -1.26,
+      "pop": 300000,
+      "popText": "~250,000–350,000 (guess); Oxford ~5,000 townsfolk plus ~1,500 scholars (guess)",
+      "culture": "Rich valley farms; Oxford is a leading European university of Latin-speaking clerks, Franciscans (arrived 1224) and Dominicans (1221).",
+      "d": "Where he finds Grosseteste and later Roger Bacon, and plants the Company's house of learning."
+    },
+    {
+      "n": "West Country and Bristol",
+      "la": 51.45,
+      "lo": -2.59,
+      "pop": 700000,
+      "popText": "~550,000–850,000 (guess); Bristol ~8,000–12,000 (guess)",
+      "culture": "Gloucestershire, Somerset, Wiltshire, Dorset and Devon: wool, cloth, cattle, dairying. Bristol trades with Ireland, Gascony and Wales.",
+      "d": "Bristol is the port for the Forest of Dean and the Severn, the natural second gate."
+    },
+    {
+      "n": "Cornwall",
+      "la": 50.35,
+      "lo": -4.9,
+      "pop": 70000,
+      "popText": "~50,000–100,000 (guess)",
+      "culture": "Cornish-speaking in the west, English in the east. Tinners have their own stannary courts and freedoms (charter of 1201). Richard of Cornwall becomes earl in 1227 and owns the tin revenue.",
+      "d": "Tin and tinners who know water and digging; first customer for steam pumps."
+    },
+    {
+      "n": "Yorkshire and York",
+      "la": 53.96,
+      "lo": -1.08,
+      "pop": 350000,
+      "popText": "~300,000–450,000 (guess); York ~8,000–10,000 (guess)",
+      "culture": "England's largest shire: Cistercian sheep abbeys (Fountains, Rievaulx), York's archbishop and merchants, Danish-flavored dialect.",
+      "d": "Wool, Pennine water power and the Yorkshire coalfield. York's Jews were massacred in 1190, and the community had returned by the 1230s."
+    },
+    {
+      "n": "The far north (Northumberland, Durham, Cumberland)",
+      "la": 54.97,
+      "lo": -1.61,
+      "pop": 180000,
+      "popText": "~150,000–220,000 (guess); Newcastle ~3,000–4,000 (guess)",
+      "culture": "Border country under the Prince-Bishop of Durham and border lords; cattle raiding with Scotland. Newcastle ships sea-coal and wool.",
+      "d": "The coal coast. Newcastle's burgesses got a royal licence to dig coal around 1239."
+    },
+    {
+      "n": "Jewish communities",
+      "la": 51.515,
+      "lo": -0.091,
+      "pop": 4000,
+      "popText": "~3,000–5,000 at the 1230s peak (guess); ~2,000–3,000 expelled in 1290",
+      "culture": "Royal property under the law: taxed at will by the Exchequer of the Jews. Moneylenders, pawnbrokers, physicians. Communities in London (Old Jewry), Lincoln, York, Norwich, Oxford, Winchester and others. Forced to wear a badge from 1218.",
+      "d": "Literate, numerate and connected abroad; natural partners for finance and medicine, and a group the Company could shelter when pressure rises.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Jew%27s_House%2C_Lincoln_%28Grimm%29.png/500px-Jew%27s_House%2C_Lincoln_%28Grimm%29.png",
+        "p": "https://commons.wikimedia.org/wiki/File:Jew%27s_House,_Lincoln_(Grimm).png",
+        "c": "Samuel Hieronymus Grimm, public domain",
+        "cap": "Jew's House, Lincoln, a 12th-century stone house"
+      }
+    },
+    {
+      "n": "Foreign merchants in London",
+      "la": 51.509,
+      "lo": -0.093,
+      "pop": 500,
+      "popText": "a few hundred (guess)",
+      "culture": "Cologne Germans with their own Guildhall on the Thames, Flemings, Gascon wine men, Italian bankers and papal tax collectors.",
+      "d": "His cover as a stranger, his rivals and his channels to Bruges, Lübeck and Italy. Also the people who will copy his products."
+    },
+    {
+      "n": "Gwynedd and native Wales",
+      "la": 53,
+      "lo": -3.9,
+      "pop": 150000,
+      "popText": "~100,000–200,000 (guess)",
+      "culture": "Welsh-speaking cattle herders and farmers under Llywelyn the Great (d. 1240), Welsh law of Hywel Dda, bards, partible inheritance.",
+      "d": "Independent until Edward I's conquest of 1277–83. A source of laborers and a war to stay out of.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dolwyddelan_Castle_from_Blaenau_Dolwyddelan_path.jpg/500px-Dolwyddelan_Castle_from_Blaenau_Dolwyddelan_path.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Dolwyddelan_Castle_from_Blaenau_Dolwyddelan_path.jpg",
+        "c": "Photo: Andrew (ARG_Flickr), CC BY 2.0",
+        "cap": "Dolwyddelan Castle, built by Llywelyn the Great"
+      }
+    },
+    {
+      "n": "Welsh Marches and 'Little England beyond Wales'",
+      "la": 51.8,
+      "lo": -4.97,
+      "pop": 100000,
+      "popText": "~70,000–130,000 (guess)",
+      "culture": "Anglo-Norman marcher lords ruling mixed Welsh and English people; south Pembrokeshire was settled by Flemings in 1108 and still kept Flemish ways.",
+      "d": "Covers the South Wales coalfield. Proof that Flemish settlers can be planted in Britain."
+    },
+    {
+      "n": "Scottish Lowlands",
+      "la": 55.95,
+      "lo": -3.2,
+      "pop": 450000,
+      "popText": "~300,000–600,000 (guess)",
+      "culture": "Kingdom of Alexander II: burghs (Berwick is the richest), Scots English and French spoken, abbeys exporting wool, coal dug by monks near the Forth.",
+      "d": "A peaceful neighbor in the 1230s (Treaty of York, 1237). War with England only from 1296."
+    },
+    {
+      "n": "Highlands and Isles",
+      "la": 57.2,
+      "lo": -5,
+      "pop": 200000,
+      "popText": "~150,000–300,000 (guess)",
+      "culture": "Gaelic-speaking clans and kindreds, cattle herding, galleys; the Western Isles are still under Norway until 1266.",
+      "d": "Remote, poor, tough; fishermen and soldiers, little else for a 13th-century company."
+    },
+    {
+      "n": "Orkney and Shetland Norse",
+      "la": 58.98,
+      "lo": -3.1,
+      "pop": 15000,
+      "popText": "~10,000–20,000 (guess)",
+      "culture": "Norse-speaking earldom under the Norwegian crown; farmers, fishers and seafarers.",
+      "d": "A stepping stone to Norway and the northern fisheries.",
+      "img": {
+        "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Orkney_Islands_-_Kirkwall%2C_St_Magnus_Cathedral%2C_Graveyard_-_20210816163833.jpg/500px-Orkney_Islands_-_Kirkwall%2C_St_Magnus_Cathedral%2C_Graveyard_-_20210816163833.jpg",
+        "p": "https://commons.wikimedia.org/wiki/File:Orkney_Islands_-_Kirkwall,_St_Magnus_Cathedral,_Graveyard_-_20210816163833.jpg",
+        "c": "Photo: Virtual-Pano, CC BY-SA 4.0",
+        "cap": "St Magnus Cathedral, Kirkwall, begun 1137"
+      }
+    },
+    {
+      "n": "Kingdom of Mann and the Isles",
+      "la": 54.23,
+      "lo": -4.55,
+      "pop": 8000,
+      "popText": "~5,000–12,000 on Man (guess)",
+      "culture": "Norse-Gaelic island kingdom under Norway; passes to Scotland in 1266.",
+      "d": "A small sea power in the Irish Sea."
+    },
+    {
+      "n": "Anglo-Norman Ireland (Lordship of Ireland)",
+      "la": 53.35,
+      "lo": -6.26,
+      "pop": 400000,
+      "popText": "~300,000–500,000 (guess); Dublin ~5,000–10,000 (guess)",
+      "culture": "Ruled for Henry III from Dublin since 1171: castles, manors, English-speaking towns (Dublin, Waterford, Cork, Drogheda), grain and wool for export.",
+      "d": "Food, hides, timber and room to grow. Overflow land for the Company later."
+    },
+    {
+      "n": "Gaelic Ireland",
+      "la": 54.5,
+      "lo": -8,
+      "pop": 400000,
+      "popText": "~300,000–500,000 (guess)",
+      "culture": "Irish kings (O'Neill, O'Connor, O'Brien and others), Brehon law, cattle wealth and cattle raids, bards and learned families.",
+      "d": "Mostly closed to outsiders; trade in cattle and hides through the ports."
+    }
   ],
   "resources": [
-    {"n": "Northumberland and Durham coalfield (Tyne)", "t": "Coal", "la": 54.97, "lo": -1.6, "qty": "modern: ~2,000 km² of field, ~57 seams; a 1925 survey put ~10.8 billion t within 1,200 m. Main seams ~1–2 m thick", "reach": "1230: seams outcrop along the Tyne banks and the Durham coast; dug in shallow pits and drifts, carried a few km to river staithes and shipped to London as 'sea-coal'", "km": 400, "d": "The best coal for the job: right by navigable water and the sea. The obvious coal base and first wagonways."},
-    {"n": "Yorkshire coalfield (Barnsley seam)", "t": "Coal", "la": 53.55, "lo": -1.48, "qty": "modern: part of the Yorkshire–Notts–Derby field, Britain's largest; the Barnsley seam is ~2–3 m thick. Billions of t mined until 2015 (guess on total)", "reach": "1230: outcrops and shallow bell pits in the west of the field (Leeds, Wakefield, Barnsley); medieval digging recorded, mostly local use", "km": 245, "d": "Huge but inland; reaches the sea down the Aire, Calder and Ouse to the Humber."},
-    {"n": "East Midlands coal (Nottinghamshire, Derbyshire, Leicestershire)", "t": "Coal", "la": 52.97, "lo": -1.28, "qty": "modern: southern half of the same giant field, several billion t (guess)", "reach": "1230: outcrops west of Nottingham; Nottingham coal is mentioned in the 1200s, the earliest surviving English coal lease is Cossall, 1316", "km": 180, "d": "Coal near the Trent, which floats it to the Humber; also the Midland market."},
-    {"n": "South Staffordshire Thick Coal (Black Country)", "t": "Coal", "la": 52.53, "lo": -2.05, "qty": "modern: the 'Thick Coal' or Ten-Yard seam, up to ~9 m thick, the thickest in Britain; small field (~250 km²), long worked out", "reach": "1230: outcrops at the surface around Wednesbury and Dudley, next to clay ironstone and limestone", "km": 175, "d": "Coal, iron ore and lime in one spot, but no navigable river: needs canals, as it did in history."},
-    {"n": "South Wales coalfield", "t": "Coal", "la": 51.7, "lo": -3.4, "qty": "modern: ~2,600 km², Britain's largest continuous field; steam coal in the middle, anthracite in the west; billions of t mined (guess on total)", "reach": "1230: outcrops on the field's rim and along the coast near Swansea and Kidwelly; little dug, in marcher lords' land", "km": 230, "d": "Coal and iron ore side by side by the Bristol Channel. Out of reach politically until the Company has marcher friends."},
-    {"n": "Forest of Dean iron ore", "t": "Iron", "la": 51.79, "lo": -2.55, "qty": "modern: rich hematite and goethite pockets in the Crease Limestone; >2 million t of ore raised in the bloomery era alone (Bick); mined until the 1940s", "reach": "1230: worked now by the 'free miners' in open pits ('scowles'); St Briavels castle makes crossbow bolts for the crown", "km": 175, "d": "The best English iron ore, with coal, timber and limestone in the same forest and the Severn beside it. The variation's first Company town."},
-    {"n": "Forest of Dean coal", "t": "Coal", "la": 51.78, "lo": -2.52, "qty": "modern: small basin (~90 km²), thin seams; free mining still survives", "reach": "1230: shallow outcrops worked by the free miners under ancient custom", "km": 175, "d": "Small but right next to the iron ore; enough to start coking trials."},
-    {"n": "Weald iron (Wadhurst Clay ironstone)", "t": "Iron", "la": 51.05, "lo": 0.15, "qty": "modern: siderite nodules and bands in Cretaceous clays, ~25–35% iron (guess); ~680 bloomery sites and ~180 water-powered sites known", "reach": "1230: dug from minepits ~5 m wide and up to 12 m deep; smelted in small charcoal bloomeries", "km": 55, "d": "The nearest iron to London, with endless coppice for charcoal and mill ponds for water power. Leaner ore than Dean."},
-    {"n": "Devon (Dartmoor) tin", "t": "Tin", "la": 50.57, "lo": -3.92, "qty": "modern: largely streamed out by the 1500s; small lodes remain", "reach": "1230: alluvial tin streamed from valley gravels; in 1213 Devon's tin revenue was farmed for more than Cornwall's", "km": 285, "d": "Easier to reach from London by sea through Plymouth; declining as Cornwall rises."},
-    {"n": "Cornish tin", "t": "Tin", "la": 50.35, "lo": -4.85, "qty": "modern: one of the world's great tin districts, ~2.5 million t of tin over all history (guess); lodes go down >500 m", "reach": "1230: tin streamed from valley gravels; England's smelted tin was ~300–400 t a year in the 13th century (Exeter study)", "km": 355, "d": "Tin for pewter, bronze and solder. Deep lode mining needs pumps, which is why steam starts here."},
-    {"n": "Mendip lead and silver", "t": "Silver", "la": 51.3, "lo": -2.71, "qty": "modern: ~100,000 t of lead from the Mendips over all history (BGS); low silver", "reach": "1230: small rakes and pits in the limestone; the Bishop of Bath holds mining rights", "km": 185, "d": "Lead for roofs, pipes, glazes and lead pans, close to Bristol."},
-    {"n": "Peak District lead (Wirksworth, Castleton)", "t": "Silver", "la": 53.08, "lo": -1.57, "qty": "modern: one of Europe's main lead fields; hundreds of thousands of t mined (guess). Little silver", "reach": "1230: worked in the King's Field under miners' customs and barmote courts; veins dug from the surface", "km": 200, "d": "England's lead roofs and gutters; lead for chemistry and pewter."},
-    {"n": "Alston Moor lead-silver (North Pennines)", "t": "Silver", "la": 54.81, "lo": -2.44, "qty": "modern: big lead-zinc field; the richest silver in medieval England", "reach": "1230: the 'silver mines of Carlisle' boomed in the 1130s–70s and still run at a smaller scale", "km": 410, "d": "The one real English silver source; useful for the 1247 recoinage."},
-    {"n": "Cheshire brine (Nantwich, Middlewich, Northwich)", "t": "Salt", "la": 53.07, "lo": -2.52, "qty": "modern: a vast Triassic rock-salt bed, hundreds of m thick (found 1670); brine near saturation (~26% salt)", "reach": "1230: brine springs boiled in lead pans over wood fires in the 'wich' towns; Nantwich is the biggest", "km": 240, "d": "Salt for meat, fish, butter and hides; later the base of soda and bleach chemistry."},
-    {"n": "Droitwich brine", "t": "Salt", "la": 52.27, "lo": -2.15, "qty": "modern: brine roughly ten times saltier than sea water", "reach": "1230: salt houses boiling brine since before Domesday; salt roads radiate across the Midlands", "km": 165, "d": "The nearest strong brine to London by road; on the River Salwarpe near the Severn."},
-    {"n": "Cotswold wool", "t": "Fiber", "la": 51.85, "lo": -1.85, "qty": "modern: England had ~10–15 million sheep by 1300 (guess); wool exports peaked ~35,000–45,000 sacks a year (~1 sack ≈ 165 kg)", "reach": "1230: sheep on every down and wold; the best fine wool from the Cotswolds, Herefordshire and Shropshire", "km": 125, "d": "England's oil. Keeping the weaving at home turns raw wool into cloth worth several times more."},
-    {"n": "Lincolnshire long wool", "t": "Fiber", "la": 53.3, "lo": -0.1, "qty": "modern: the long-wool breeds of the Wolds and marsh", "reach": "1230: huge abbey flocks; Boston fair is one of the great wool markets", "km": 200, "d": "Long staple for worsted and spinning wheels."},
-    {"n": "Weald and southern forests (oak, coppice)", "t": "Timber", "la": 51.0, "lo": 0.4, "qty": "modern: England was ~15% wooded in 1086 (Rackham), less by 1300; the Weald is still England's most wooded region", "reach": "1230: managed coppice for charcoal and poles, oak for ships and houses; much is royal forest under forest law", "km": 70, "d": "Charcoal for iron and glass. Firewood around London is already getting dear, which pushes coal."},
-    {"n": "Sherwood and Midland forests", "t": "Timber", "la": 53.2, "lo": -1.07, "qty": "modern: small remnants", "reach": "1230: large royal forests (Sherwood, Rockingham, Needwood); timber by royal grant only", "km": 200, "d": "Big oak for mills, ships and roofs, but licenses come from the king."},
-    {"n": "The Fens (drainage)", "t": "Food", "la": 52.5, "lo": 0.1, "qty": "modern: ~3,900 km² drained in the 1600s, now England's richest farmland", "reach": "1230: silt fens near the Wash already banked; peat fens flood each winter; abbeys own most of it", "km": 110, "d": "The largest block of new farmland in England. Needs windmill or steam pumps and Dutch-style dykes."},
-    {"n": "Thames and the river network (water power)", "t": "Water", "la": 51.5, "lo": -0.6, "qty": "modern: Thames ~65 m³/s mean flow at London; England had ~5,600 water mills in Domesday (1086)", "reach": "1230: mills on every stream; fulling mills spreading; tide mills on estuaries", "km": 35, "d": "Power is everywhere; the faster Pennine and Welsh streams are best for big mills later."},
-    {"n": "East Anglian and Thames grain", "t": "Food", "la": 52.2, "lo": 0.9, "qty": "modern: England's grain belt", "reach": "1230: wheat, barley, oats, peas; yields ~4–5 times the seed (guess); barley for ale everywhere", "km": 105, "d": "Feeds London. Clover, turnips and iron ploughs can lift yields a lot."},
-    {"n": "Yarmouth and North Sea herring", "t": "Fish", "la": 52.61, "lo": 1.73, "qty": "modern: the North Sea herring stock (collapsed in the 1970s, recovered)", "reach": "1230: the great autumn herring fair at Yarmouth; salted and smoked", "km": 170, "d": "Cheap protein for Lent and winter; needs salt."},
-    {"n": "London Clay and chalk (brick, tile, lime)", "t": "Clay", "la": 51.55, "lo": 0.2, "qty": "modern: London Clay is the base of London's brick industry; chalk Downs are hundreds of m thick", "reach": "1230: tile kilns exist; brick is rare (Coggeshall Abbey brick, ~1220s, is among England's first since Rome); chalk burned for lime", "km": 20, "d": "Fire-safe brick and tile towns, lime mortar and later cement, all within a day of London."},
-    {"n": "Building stone (Kentish ragstone, Purbeck, Portland)", "t": "Stone", "la": 51.27, "lo": 0.52, "qty": "modern: vast quarries", "reach": "1230: ragstone barged down the Medway to London; Purbeck marble for church columns; Caen stone imported from Normandy", "km": 50, "d": "Stone for wharves, warehouses and furnaces."},
-    {"n": "Fuller's earth (Surrey)", "t": "Chemicals", "la": 51.24, "lo": -0.13, "qty": "modern: one of the world's main fuller's earth deposits (Nutfield, Redhill)", "reach": "1230: dug for cleaning and thickening cloth", "km": 30, "d": "A cloth-finishing advantage right beside London."},
-    {"n": "Parys Mountain copper (Anglesey)", "t": "Copper", "la": 53.39, "lo": -4.35, "qty": "modern: once the world's largest copper mine (1780s), ~3 Mt of ore with ~2–3% copper (guess)", "reach": "1230: Bronze Age and Roman workings, then forgotten; in Gwynedd's hands", "km": 345, "d": "England's real copper for brass and wire; only reachable after Wales opens up."},
-    {"n": "Fife and Lothian coal (Scotland)", "t": "Coal", "la": 56.1, "lo": -3.2, "qty": "modern: the Scottish Midland Valley coalfields, several billion t (guess)", "reach": "1230: monks of Newbattle and Dunfermline already dig outcrop coal by the Forth", "km": 545, "d": "Coal by the sea in a friendly neighbor kingdom."}
+    {
+      "n": "Northumberland and Durham coalfield (Tyne)",
+      "t": "Coal",
+      "la": 54.97,
+      "lo": -1.6,
+      "qty": "modern: ~2,000 km² of field, ~57 seams; a 1925 survey put ~10.8 billion t within 1,200 m. Main seams ~1–2 m thick",
+      "reach": "1230: seams outcrop along the Tyne banks and the Durham coast; dug in shallow pits and drifts, carried a few km to river staithes and shipped to London as 'sea-coal'",
+      "km": 400,
+      "d": "The best coal for the job: right by navigable water and the sea. The obvious coal base and first wagonways."
+    },
+    {
+      "n": "Yorkshire coalfield (Barnsley seam)",
+      "t": "Coal",
+      "la": 53.55,
+      "lo": -1.48,
+      "qty": "modern: part of the Yorkshire–Notts–Derby field, Britain's largest; the Barnsley seam is ~2–3 m thick. Billions of t mined until 2015 (guess on total)",
+      "reach": "1230: outcrops and shallow bell pits in the west of the field (Leeds, Wakefield, Barnsley); medieval digging recorded, mostly local use",
+      "km": 245,
+      "d": "Huge but inland; reaches the sea down the Aire, Calder and Ouse to the Humber."
+    },
+    {
+      "n": "East Midlands coal (Nottinghamshire, Derbyshire, Leicestershire)",
+      "t": "Coal",
+      "la": 52.97,
+      "lo": -1.28,
+      "qty": "modern: southern half of the same giant field, several billion t (guess)",
+      "reach": "1230: outcrops west of Nottingham; Nottingham coal is mentioned in the 1200s, the earliest surviving English coal lease is Cossall, 1316",
+      "km": 180,
+      "d": "Coal near the Trent, which floats it to the Humber; also the Midland market."
+    },
+    {
+      "n": "South Staffordshire Thick Coal (Black Country)",
+      "t": "Coal",
+      "la": 52.53,
+      "lo": -2.05,
+      "qty": "modern: the 'Thick Coal' or Ten-Yard seam, up to ~9 m thick, the thickest in Britain; small field (~250 km²), long worked out",
+      "reach": "1230: outcrops at the surface around Wednesbury and Dudley, next to clay ironstone and limestone",
+      "km": 175,
+      "d": "Coal, iron ore and lime in one spot, but no navigable river: needs canals, as it did in history."
+    },
+    {
+      "n": "South Wales coalfield",
+      "t": "Coal",
+      "la": 51.7,
+      "lo": -3.4,
+      "qty": "modern: ~2,600 km², Britain's largest continuous field; steam coal in the middle, anthracite in the west; billions of t mined (guess on total)",
+      "reach": "1230: outcrops on the field's rim and along the coast near Swansea and Kidwelly; little dug, in marcher lords' land",
+      "km": 230,
+      "d": "Coal and iron ore side by side by the Bristol Channel. Out of reach politically until the Company has marcher friends."
+    },
+    {
+      "n": "Forest of Dean iron ore",
+      "t": "Iron",
+      "la": 51.79,
+      "lo": -2.55,
+      "qty": "modern: rich hematite and goethite pockets in the Crease Limestone; >2 million t of ore raised in the bloomery era alone (Bick); mined until the 1940s",
+      "reach": "1230: worked now by the 'free miners' in open pits ('scowles'); St Briavels castle makes crossbow bolts for the crown",
+      "km": 175,
+      "d": "The best English iron ore, with coal, timber and limestone in the same forest and the Severn beside it. The variation's first Company town."
+    },
+    {
+      "n": "Forest of Dean coal",
+      "t": "Coal",
+      "la": 51.78,
+      "lo": -2.52,
+      "qty": "modern: small basin (~90 km²), thin seams; free mining still survives",
+      "reach": "1230: shallow outcrops worked by the free miners under ancient custom",
+      "km": 175,
+      "d": "Small but right next to the iron ore; enough to start coking trials."
+    },
+    {
+      "n": "Weald iron (Wadhurst Clay ironstone)",
+      "t": "Iron",
+      "la": 51.05,
+      "lo": 0.15,
+      "qty": "modern: siderite nodules and bands in Cretaceous clays, ~25–35% iron (guess); ~680 bloomery sites and ~180 water-powered sites known",
+      "reach": "1230: dug from minepits ~5 m wide and up to 12 m deep; smelted in small charcoal bloomeries",
+      "km": 55,
+      "d": "The nearest iron to London, with endless coppice for charcoal and mill ponds for water power. Leaner ore than Dean."
+    },
+    {
+      "n": "Devon (Dartmoor) tin",
+      "t": "Tin",
+      "la": 50.57,
+      "lo": -3.92,
+      "qty": "modern: largely streamed out by the 1500s; small lodes remain",
+      "reach": "1230: alluvial tin streamed from valley gravels; in 1213 Devon's tin revenue was farmed for more than Cornwall's",
+      "km": 285,
+      "d": "Easier to reach from London by sea through Plymouth; declining as Cornwall rises."
+    },
+    {
+      "n": "Cornish tin",
+      "t": "Tin",
+      "la": 50.35,
+      "lo": -4.85,
+      "qty": "modern: one of the world's great tin districts, ~2.5 million t of tin over all history (guess); lodes go down >500 m",
+      "reach": "1230: tin streamed from valley gravels; England's smelted tin was ~300–400 t a year in the 13th century (Exeter study)",
+      "km": 355,
+      "d": "Tin for pewter, bronze and solder. Deep lode mining needs pumps, which is why steam starts here."
+    },
+    {
+      "n": "Mendip lead and silver",
+      "t": "Silver",
+      "la": 51.3,
+      "lo": -2.71,
+      "qty": "modern: ~100,000 t of lead from the Mendips over all history (BGS); low silver",
+      "reach": "1230: small rakes and pits in the limestone; the Bishop of Bath holds mining rights",
+      "km": 185,
+      "d": "Lead for roofs, pipes, glazes and lead pans, close to Bristol."
+    },
+    {
+      "n": "Peak District lead (Wirksworth, Castleton)",
+      "t": "Silver",
+      "la": 53.08,
+      "lo": -1.57,
+      "qty": "modern: one of Europe's main lead fields; hundreds of thousands of t mined (guess). Little silver",
+      "reach": "1230: worked in the King's Field under miners' customs and barmote courts; veins dug from the surface",
+      "km": 200,
+      "d": "England's lead roofs and gutters; lead for chemistry and pewter."
+    },
+    {
+      "n": "Alston Moor lead-silver (North Pennines)",
+      "t": "Silver",
+      "la": 54.81,
+      "lo": -2.44,
+      "qty": "modern: big lead-zinc field; the richest silver in medieval England",
+      "reach": "1230: the 'silver mines of Carlisle' boomed in the 1130s–70s and still run at a smaller scale",
+      "km": 410,
+      "d": "The one real English silver source; useful for the 1247 recoinage."
+    },
+    {
+      "n": "Cheshire brine (Nantwich, Middlewich, Northwich)",
+      "t": "Salt",
+      "la": 53.07,
+      "lo": -2.52,
+      "qty": "modern: a vast Triassic rock-salt bed, hundreds of m thick (found 1670); brine near saturation (~26% salt)",
+      "reach": "1230: brine springs boiled in lead pans over wood fires in the 'wich' towns; Nantwich is the biggest",
+      "km": 240,
+      "d": "Salt for meat, fish, butter and hides; later the base of soda and bleach chemistry."
+    },
+    {
+      "n": "Droitwich brine",
+      "t": "Salt",
+      "la": 52.27,
+      "lo": -2.15,
+      "qty": "modern: brine roughly ten times saltier than sea water",
+      "reach": "1230: salt houses boiling brine since before Domesday; salt roads radiate across the Midlands",
+      "km": 165,
+      "d": "The nearest strong brine to London by road; on the River Salwarpe near the Severn."
+    },
+    {
+      "n": "Cotswold wool",
+      "t": "Fiber",
+      "la": 51.85,
+      "lo": -1.85,
+      "qty": "modern: England had ~10–15 million sheep by 1300 (guess); wool exports peaked ~35,000–45,000 sacks a year (~1 sack ≈ 165 kg)",
+      "reach": "1230: sheep on every down and wold; the best fine wool from the Cotswolds, Herefordshire and Shropshire",
+      "km": 125,
+      "d": "England's oil. Keeping the weaving at home turns raw wool into cloth worth several times more."
+    },
+    {
+      "n": "Lincolnshire long wool",
+      "t": "Fiber",
+      "la": 53.3,
+      "lo": -0.1,
+      "qty": "modern: the long-wool breeds of the Wolds and marsh",
+      "reach": "1230: huge abbey flocks; Boston fair is one of the great wool markets",
+      "km": 200,
+      "d": "Long staple for worsted and spinning wheels."
+    },
+    {
+      "n": "Weald and southern forests (oak, coppice)",
+      "t": "Timber",
+      "la": 51,
+      "lo": 0.4,
+      "qty": "modern: England was ~15% wooded in 1086 (Rackham), less by 1300; the Weald is still England's most wooded region",
+      "reach": "1230: managed coppice for charcoal and poles, oak for ships and houses; much is royal forest under forest law",
+      "km": 70,
+      "d": "Charcoal for iron and glass. Firewood around London is already getting dear, which pushes coal."
+    },
+    {
+      "n": "Sherwood and Midland forests",
+      "t": "Timber",
+      "la": 53.2,
+      "lo": -1.07,
+      "qty": "modern: small remnants",
+      "reach": "1230: large royal forests (Sherwood, Rockingham, Needwood); timber by royal grant only",
+      "km": 200,
+      "d": "Big oak for mills, ships and roofs, but licenses come from the king."
+    },
+    {
+      "n": "The Fens (drainage)",
+      "t": "Food",
+      "la": 52.5,
+      "lo": 0.1,
+      "qty": "modern: ~3,900 km² drained in the 1600s, now England's richest farmland",
+      "reach": "1230: silt fens near the Wash already banked; peat fens flood each winter; abbeys own most of it",
+      "km": 110,
+      "d": "The largest block of new farmland in England. Needs windmill or steam pumps and Dutch-style dykes."
+    },
+    {
+      "n": "Thames and the river network (water power)",
+      "t": "Water",
+      "la": 51.5,
+      "lo": -0.6,
+      "qty": "modern: Thames ~65 m³/s mean flow at London; England had ~5,600 water mills in Domesday (1086)",
+      "reach": "1230: mills on every stream; fulling mills spreading; tide mills on estuaries",
+      "km": 35,
+      "d": "Power is everywhere; the faster Pennine and Welsh streams are best for big mills later."
+    },
+    {
+      "n": "East Anglian and Thames grain",
+      "t": "Food",
+      "la": 52.2,
+      "lo": 0.9,
+      "qty": "modern: England's grain belt",
+      "reach": "1230: wheat, barley, oats, peas; yields ~4–5 times the seed (guess); barley for ale everywhere",
+      "km": 105,
+      "d": "Feeds London. Clover, turnips and iron ploughs can lift yields a lot."
+    },
+    {
+      "n": "Yarmouth and North Sea herring",
+      "t": "Fish",
+      "la": 52.61,
+      "lo": 1.73,
+      "qty": "modern: the North Sea herring stock (collapsed in the 1970s, recovered)",
+      "reach": "1230: the great autumn herring fair at Yarmouth; salted and smoked",
+      "km": 170,
+      "d": "Cheap protein for Lent and winter; needs salt."
+    },
+    {
+      "n": "London Clay and chalk (brick, tile, lime)",
+      "t": "Clay",
+      "la": 51.55,
+      "lo": 0.2,
+      "qty": "modern: London Clay is the base of London's brick industry; chalk Downs are hundreds of m thick",
+      "reach": "1230: tile kilns exist; brick is rare (Coggeshall Abbey brick, ~1220s, is among England's first since Rome); chalk burned for lime",
+      "km": 20,
+      "d": "Fire-safe brick and tile towns, lime mortar and later cement, all within a day of London."
+    },
+    {
+      "n": "Building stone (Kentish ragstone, Purbeck, Portland)",
+      "t": "Stone",
+      "la": 51.27,
+      "lo": 0.52,
+      "qty": "modern: vast quarries",
+      "reach": "1230: ragstone barged down the Medway to London; Purbeck marble for church columns; Caen stone imported from Normandy",
+      "km": 50,
+      "d": "Stone for wharves, warehouses and furnaces."
+    },
+    {
+      "n": "Fuller's earth (Surrey)",
+      "t": "Chemicals",
+      "la": 51.24,
+      "lo": -0.13,
+      "qty": "modern: one of the world's main fuller's earth deposits (Nutfield, Redhill)",
+      "reach": "1230: dug for cleaning and thickening cloth",
+      "km": 30,
+      "d": "A cloth-finishing advantage right beside London."
+    },
+    {
+      "n": "Parys Mountain copper (Anglesey)",
+      "t": "Copper",
+      "la": 53.39,
+      "lo": -4.35,
+      "qty": "modern: once the world's largest copper mine (1780s), ~3 Mt of ore with ~2–3% copper (guess)",
+      "reach": "1230: Bronze Age and Roman workings, then forgotten; in Gwynedd's hands",
+      "km": 345,
+      "d": "England's real copper for brass and wire; only reachable after Wales opens up."
+    },
+    {
+      "n": "Fife and Lothian coal (Scotland)",
+      "t": "Coal",
+      "la": 56.1,
+      "lo": -3.2,
+      "qty": "modern: the Scottish Midland Valley coalfields, several billion t (guess)",
+      "reach": "1230: monks of Newbattle and Dunfermline already dig outcrop coal by the Forth",
+      "km": 545,
+      "d": "Coal by the sea in a friendly neighbor kingdom."
+    }
   ],
   "nearby": [
-    {"n": "Flemish cloth towns (Bruges, Ghent, Ypres)", "t": "Fiber", "la": 51.21, "lo": 3.22, "qty": "modern: n/a; ~1300 Ghent ~50,000 and Bruges ~40,000+ people", "reach": "1230: a day or two by sea; the biggest buyers of English wool and the best weavers, dyers and finishers in Europe", "km": 250, "d": "Market, rival and the source of skilled weavers. Bruges is the trade hub of the north."},
-    {"n": "Liège coalfield", "t": "Coal", "la": 50.63, "lo": 5.57, "qty": "modern: the Meuse coal basin, mined until 1980", "reach": "1230: coal is just starting to be dug near Liège (from the late 1100s)", "km": 410, "d": "The main coal rival on the Continent, but inland on the Meuse."},
-    {"n": "Swedish iron (Bergslagen)", "t": "Iron", "la": 59.9, "lo": 15.0, "qty": "modern: rich magnetite and hematite, often >50% iron; mined for 1,000+ years", "reach": "1230: 'osmund' iron made in small furnaces, shipped by German traders from the Baltic", "km": 1150, "d": "Very pure iron, later the best for steel. An import until Company iron beats it."},
-    {"n": "Basque iron (Biscay)", "t": "Iron", "la": 43.3, "lo": -2.95, "qty": "modern: rich hematite (Somorrostro), ~50% iron; the base of Bilbao's steel industry", "reach": "1230: worked in small forges; shipped by Castilian and Basque ships to England and Flanders", "km": 1050, "d": "England's main imported iron in the Middle Ages."},
-    {"n": "Baltic grain (Prussia, Pomerania)", "t": "Food", "la": 54.35, "lo": 18.65, "qty": "modern: the Vistula grain lands", "reach": "1230: the Teutonic Knights arrive in Prussia in 1230; big grain exports come later in the century", "km": 1300, "d": "Famine insurance. Richard of Cornwall's German grain saved London in 1258."},
-    {"n": "Norwegian timber and stockfish (Bergen)", "t": "Fish", "la": 60.39, "lo": 5.32, "qty": "modern: Norway's coastal cod and forests", "reach": "1230: dried cod (stockfish), timber, tar and butter traded at Bergen; England–Norway treaty of 1217", "km": 1050, "d": "Masts, planks, tar and cheap fish; a friendly kingdom."},
-    {"n": "Baltic tar, pitch and furs (Riga, Novgorod route)", "t": "Timber", "la": 56.95, "lo": 24.1, "qty": "modern: vast boreal forest", "reach": "1230: Riga founded 1201; wax, furs, tar and timber flow west through Gotland and Lübeck", "km": 1700, "d": "Naval stores for a growing fleet."},
-    {"n": "Scania herring market (Denmark)", "t": "Fish", "la": 55.4, "lo": 12.85, "qty": "modern: n/a (the Øresund herring shoals faded in the 1500s)", "reach": "1230: the biggest fish market in Europe each autumn, salted with Lüneburg salt", "km": 1000, "d": "A competitor and a source of salted fish in famine years."},
-    {"n": "Bay of Bourgneuf sea salt (Poitou/Brittany)", "t": "Salt", "la": 47.0, "lo": -2.05, "qty": "modern: salt marshes still worked", "reach": "1230: cheap solar 'bay salt' shipped north; later the Hanse's main salt source", "km": 560, "d": "Cheaper than boiling brine with wood; a fallback for fish salting."},
-    {"n": "Gascon wine (Bordeaux)", "t": "Food", "la": 44.84, "lo": -0.58, "qty": "modern: n/a; ~1300 Bordeaux shipped ~80,000–100,000 tuns a year (guess)", "reach": "1230: Gascony is ruled by Henry III; wine ships sail to London and Bristol each autumn", "km": 740, "d": "England's main import and the reason for a big merchant fleet."},
-    {"n": "Picardy woad (Amiens)", "t": "Chemicals", "la": 49.9, "lo": 2.3, "qty": "modern: n/a", "reach": "1230: Amiens merchants sell woad (blue dye) in London under royal privilege", "km": 230, "d": "Dye for the Company's cloth; madder and kermes come via Italians."},
-    {"n": "Alum of Asia Minor (Phocaea)", "t": "Chemicals", "la": 38.67, "lo": 26.75, "qty": "modern: big alunite deposits", "reach": "1230: alum comes via Italian merchants; Genoese take over Phocaea from 1275", "km": 2600, "d": "Mordant needed to fix dyes. Expensive; a reason to learn to make it from local alum shales (Yorkshire coast, as in the 1600s)."},
-    {"n": "Rammelsberg silver and copper (Goslar)", "t": "Copper", "la": 51.89, "lo": 10.43, "qty": "modern: ~27 million t of ore mined over 1,000 years", "reach": "1230: Europe's great mine of the age, with skilled German miners", "km": 730, "d": "Copper for brass and wire, and a source of trained miners."}
+    {
+      "n": "Flemish cloth towns (Bruges, Ghent, Ypres)",
+      "t": "Fiber",
+      "la": 51.21,
+      "lo": 3.22,
+      "qty": "modern: n/a; ~1300 Ghent ~50,000 and Bruges ~40,000+ people",
+      "reach": "1230: a day or two by sea; the biggest buyers of English wool and the best weavers, dyers and finishers in Europe",
+      "km": 250,
+      "d": "Market, rival and the source of skilled weavers. Bruges is the trade hub of the north."
+    },
+    {
+      "n": "Liège coalfield",
+      "t": "Coal",
+      "la": 50.63,
+      "lo": 5.57,
+      "qty": "modern: the Meuse coal basin, mined until 1980",
+      "reach": "1230: coal is just starting to be dug near Liège (from the late 1100s)",
+      "km": 410,
+      "d": "The main coal rival on the Continent, but inland on the Meuse."
+    },
+    {
+      "n": "Swedish iron (Bergslagen)",
+      "t": "Iron",
+      "la": 59.9,
+      "lo": 15,
+      "qty": "modern: rich magnetite and hematite, often >50% iron; mined for 1,000+ years",
+      "reach": "1230: 'osmund' iron made in small furnaces, shipped by German traders from the Baltic",
+      "km": 1150,
+      "d": "Very pure iron, later the best for steel. An import until Company iron beats it."
+    },
+    {
+      "n": "Basque iron (Biscay)",
+      "t": "Iron",
+      "la": 43.3,
+      "lo": -2.95,
+      "qty": "modern: rich hematite (Somorrostro), ~50% iron; the base of Bilbao's steel industry",
+      "reach": "1230: worked in small forges; shipped by Castilian and Basque ships to England and Flanders",
+      "km": 1050,
+      "d": "England's main imported iron in the Middle Ages."
+    },
+    {
+      "n": "Baltic grain (Prussia, Pomerania)",
+      "t": "Food",
+      "la": 54.35,
+      "lo": 18.65,
+      "qty": "modern: the Vistula grain lands",
+      "reach": "1230: the Teutonic Knights arrive in Prussia in 1230; big grain exports come later in the century",
+      "km": 1300,
+      "d": "Famine insurance. Richard of Cornwall's German grain saved London in 1258."
+    },
+    {
+      "n": "Norwegian timber and stockfish (Bergen)",
+      "t": "Fish",
+      "la": 60.39,
+      "lo": 5.32,
+      "qty": "modern: Norway's coastal cod and forests",
+      "reach": "1230: dried cod (stockfish), timber, tar and butter traded at Bergen; England–Norway treaty of 1217",
+      "km": 1050,
+      "d": "Masts, planks, tar and cheap fish; a friendly kingdom."
+    },
+    {
+      "n": "Baltic tar, pitch and furs (Riga, Novgorod route)",
+      "t": "Timber",
+      "la": 56.95,
+      "lo": 24.1,
+      "qty": "modern: vast boreal forest",
+      "reach": "1230: Riga founded 1201; wax, furs, tar and timber flow west through Gotland and Lübeck",
+      "km": 1700,
+      "d": "Naval stores for a growing fleet."
+    },
+    {
+      "n": "Scania herring market (Denmark)",
+      "t": "Fish",
+      "la": 55.4,
+      "lo": 12.85,
+      "qty": "modern: n/a (the Øresund herring shoals faded in the 1500s)",
+      "reach": "1230: the biggest fish market in Europe each autumn, salted with Lüneburg salt",
+      "km": 1000,
+      "d": "A competitor and a source of salted fish in famine years."
+    },
+    {
+      "n": "Bay of Bourgneuf sea salt (Poitou/Brittany)",
+      "t": "Salt",
+      "la": 47,
+      "lo": -2.05,
+      "qty": "modern: salt marshes still worked",
+      "reach": "1230: cheap solar 'bay salt' shipped north; later the Hanse's main salt source",
+      "km": 560,
+      "d": "Cheaper than boiling brine with wood; a fallback for fish salting."
+    },
+    {
+      "n": "Gascon wine (Bordeaux)",
+      "t": "Food",
+      "la": 44.84,
+      "lo": -0.58,
+      "qty": "modern: n/a; ~1300 Bordeaux shipped ~80,000–100,000 tuns a year (guess)",
+      "reach": "1230: Gascony is ruled by Henry III; wine ships sail to London and Bristol each autumn",
+      "km": 740,
+      "d": "England's main import and the reason for a big merchant fleet."
+    },
+    {
+      "n": "Picardy woad (Amiens)",
+      "t": "Chemicals",
+      "la": 49.9,
+      "lo": 2.3,
+      "qty": "modern: n/a",
+      "reach": "1230: Amiens merchants sell woad (blue dye) in London under royal privilege",
+      "km": 230,
+      "d": "Dye for the Company's cloth; madder and kermes come via Italians."
+    },
+    {
+      "n": "Alum of Asia Minor (Phocaea)",
+      "t": "Chemicals",
+      "la": 38.67,
+      "lo": 26.75,
+      "qty": "modern: big alunite deposits",
+      "reach": "1230: alum comes via Italian merchants; Genoese take over Phocaea from 1275",
+      "km": 2600,
+      "d": "Mordant needed to fix dyes. Expensive; a reason to learn to make it from local alum shales (Yorkshire coast, as in the 1600s)."
+    },
+    {
+      "n": "Rammelsberg silver and copper (Goslar)",
+      "t": "Copper",
+      "la": 51.89,
+      "lo": 10.43,
+      "qty": "modern: ~27 million t of ore mined over 1,000 years",
+      "reach": "1230: Europe's great mine of the age, with skilled German miners",
+      "km": 730,
+      "d": "Copper for brass and wire, and a source of trained miners."
+    }
   ],
   "newcomers": [
-    {"n": "Runaway serfs to chartered towns", "la": 52.6, "lo": -1.4, "num": "thousands a year once Company towns exist (guess)", "when": "from ~1240 (first charters)", "fit": 9, "d": "English custom: a villein who lives a year and a day in a chartered borough is free. They already speak the language and know farm work; they need schooling and trades."},
-    {"n": "Flemish weavers and fullers", "la": 51.05, "lo": 3.73, "num": "hundreds of families, then thousands (guess)", "when": "from ~1240; waves after Flemish town revolts and the 1270–74 wool embargo", "fit": 8, "d": "England has wool but Flanders has the skill. Flemings already settled Pembrokeshire (1108) and trade in every east-coast port. Similar religion, food and farming."},
-    {"n": "Jewish families", "la": 51.515, "lo": -0.091, "num": "~3,000–5,000 in England in the 1230s; ~2,000–3,000 expelled in 1290", "when": "pressure throughout; the expulsion edict of 18 July 1290, departure by 1 November", "fit": 4, "d": "Under constant royal taxation, a 1218 badge rule, the 1275 Statute of the Jewry banning moneylending, and mass arrests and executions over coin-clipping in 1278–79. Most expelled went to France. The Company can employ them as financiers, doctors and clerks, mostly in its overseas offices, but English hostility is strong."},
-    {"n": "Refugees from the Mongol attack", "la": 47.2, "lo": 19.5, "num": "a few dozen to a few hundred at most (guess); almost none reached England in history", "when": "1241–42", "fit": 3, "d": "The Mongols wrecked Hungary and southern Poland and frightened the Baltic: in 1238 Gotland and Frisian fishermen skipped the Yarmouth herring fair. A few skilled Hungarian, Polish or German craftsmen or miners could be recruited via Cologne and Lübeck merchants."},
-    {"n": "German miners and metalworkers", "la": 51.89, "lo": 10.43, "num": "hundreds (guess)", "when": "from ~1245, as Tyne, Dean and Cornish works grow", "fit": 6, "d": "Harz and later Bohemian miners know shafts, drainage and smelting. Historically they came to England in the 1500s. Cologne's Guildhall is the contact."},
-    {"n": "Welsh, Scots and Irish laborers", "la": 53.0, "lo": -3.9, "num": "steady, thousands over decades (guess)", "when": "throughout; more after the conquest of Wales (1283)", "fit": 6, "d": "Come for wages; different languages and laws, but long used to English markets and lords."},
-    {"n": "Gascons and Poitevins", "la": 44.84, "lo": -0.58, "num": "hundreds (guess)", "when": "throughout; more after French gains in 1242 and 1259", "fit": 7, "d": "Subjects of the same king, sailors and wine traders; French speakers who fit the merchant class."},
-    {"n": "Famine refugees from northern Europe", "la": 51.5, "lo": 4.5, "num": "waves of thousands in bad years (guess)", "when": "1258 and especially 1315–17", "fit": 7, "d": "If Company grain stores hold when the Low Countries starve, skilled townspeople will cross. Easy cultural fit for Flemings and Frisians."},
-    {"n": "Italian merchants and craftsmen", "la": 43.84, "lo": 10.5, "num": "dozens to hundreds (guess)", "when": "throughout; Lucca and Florence firms in London from the 1220s", "fit": 5, "d": "Bankers, glassmakers and silk workers with the best accounting in Europe. Useful, but loyal to their own firms."}
+    {
+      "n": "Runaway serfs to chartered towns",
+      "la": 52.6,
+      "lo": -1.4,
+      "num": "thousands a year once Company towns exist (guess)",
+      "when": "from ~1240 (first charters)",
+      "fit": 9,
+      "d": "English custom: a villein who lives a year and a day in a chartered borough is free. They already speak the language and know farm work; they need schooling and trades."
+    },
+    {
+      "n": "Flemish weavers and fullers",
+      "la": 51.05,
+      "lo": 3.73,
+      "num": "hundreds of families, then thousands (guess)",
+      "when": "from ~1240; waves after Flemish town revolts and the 1270–74 wool embargo",
+      "fit": 8,
+      "d": "England has wool but Flanders has the skill. Flemings already settled Pembrokeshire (1108) and trade in every east-coast port. Similar religion, food and farming."
+    },
+    {
+      "n": "Jewish families",
+      "la": 51.515,
+      "lo": -0.091,
+      "num": "~3,000–5,000 in England in the 1230s; ~2,000–3,000 expelled in 1290",
+      "when": "pressure throughout; the expulsion edict of 18 July 1290, departure by 1 November",
+      "fit": 4,
+      "d": "Under constant royal taxation, a 1218 badge rule, the 1275 Statute of the Jewry banning moneylending, and mass arrests and executions over coin-clipping in 1278–79. Most expelled went to France. The Company can employ them as financiers, doctors and clerks, mostly in its overseas offices, but English hostility is strong."
+    },
+    {
+      "n": "Refugees from the Mongol attack",
+      "la": 47.2,
+      "lo": 19.5,
+      "num": "a few dozen to a few hundred at most (guess); almost none reached England in history",
+      "when": "1241–42",
+      "fit": 3,
+      "d": "The Mongols wrecked Hungary and southern Poland and frightened the Baltic: in 1238 Gotland and Frisian fishermen skipped the Yarmouth herring fair. A few skilled Hungarian, Polish or German craftsmen or miners could be recruited via Cologne and Lübeck merchants."
+    },
+    {
+      "n": "German miners and metalworkers",
+      "la": 51.89,
+      "lo": 10.43,
+      "num": "hundreds (guess)",
+      "when": "from ~1245, as Tyne, Dean and Cornish works grow",
+      "fit": 6,
+      "d": "Harz and later Bohemian miners know shafts, drainage and smelting. Historically they came to England in the 1500s. Cologne's Guildhall is the contact."
+    },
+    {
+      "n": "Welsh, Scots and Irish laborers",
+      "la": 53,
+      "lo": -3.9,
+      "num": "steady, thousands over decades (guess)",
+      "when": "throughout; more after the conquest of Wales (1283)",
+      "fit": 6,
+      "d": "Come for wages; different languages and laws, but long used to English markets and lords."
+    },
+    {
+      "n": "Gascons and Poitevins",
+      "la": 44.84,
+      "lo": -0.58,
+      "num": "hundreds (guess)",
+      "when": "throughout; more after French gains in 1242 and 1259",
+      "fit": 7,
+      "d": "Subjects of the same king, sailors and wine traders; French speakers who fit the merchant class."
+    },
+    {
+      "n": "Famine refugees from northern Europe",
+      "la": 51.5,
+      "lo": 4.5,
+      "num": "waves of thousands in bad years (guess)",
+      "when": "1258 and especially 1315–17",
+      "fit": 7,
+      "d": "If Company grain stores hold when the Low Countries starve, skilled townspeople will cross. Easy cultural fit for Flemings and Frisians."
+    },
+    {
+      "n": "Italian merchants and craftsmen",
+      "la": 43.84,
+      "lo": 10.5,
+      "num": "dozens to hundreds (guess)",
+      "when": "throughout; Lucca and Florence firms in London from the 1220s",
+      "fit": 5,
+      "d": "Bankers, glassmakers and silk workers with the best accounting in Europe. Useful, but loyal to their own firms."
+    }
   ],
   "neighbors": [
-    {"n": "County of Flanders (Countess Joan)", "la": 51.21, "lo": 3.22, "pop": "~0.6–1 million (guess); Ghent ~50,000 by 1300", "d": "Europe's industrial heart, living on English wool. Pulled between the French king (its overlord) and English trade. Its weavers will copy anything the Company makes within years; its town revolts send out refugees."},
-    {"n": "Kingdom of France (Louis IX)", "la": 48.86, "lo": 2.35, "pop": "~12–16 million in the realm (guess)", "d": "Europe's strongest kingdom, under a boy king and his mother Blanche of Castile until ~1234. Took Normandy from England in 1204 and wins again at Taillebourg (1242). Treaty of Paris (1259) brings peace; the Hundred Years' War starts in 1337."},
-    {"n": "Gascony (English-ruled, Bordeaux)", "la": 44.84, "lo": -0.58, "pop": "~0.5 million (guess); Bordeaux ~20,000–30,000 (guess)", "d": "Henry III's last big French land. Wine for wool and cloth; a ready Company office and a frequent cause of war with France."},
-    {"n": "Kingdom of Norway (Haakon IV)", "la": 60.39, "lo": 5.32, "pop": "~300,000–450,000 (guess)", "d": "At its peak under Haakon (r. 1217–63), holding Orkney, Shetland, the Hebrides and Man. Friendly trade treaty with England (1217). Loses the Hebrides and Man to Scotland in 1266. Increasingly dependent on German merchants for grain."},
-    {"n": "German towns: Lübeck, Cologne and the coming Hanse", "la": 53.87, "lo": 10.69, "pop": "Lübeck ~15,000–25,000 by 1300 (guess); Cologne ~40,000 (guess)", "d": "Lübeck became an imperial free city in 1226; Cologne merchants hold a Guildhall in London. They control Baltic grain, timber, fur and Swedish iron, and will later win tax privileges in London (the Steelyard). Tough competitors, essential suppliers."},
-    {"n": "Kingdom of Scotland (Alexander II)", "la": 56.4, "lo": -3.43, "pop": "~0.5–1 million (guess)", "d": "At peace with England: Alexander married Henry's sister Joan, and the Treaty of York (1237) fixed the border. Edward I's wars from 1296 make the north dangerous for 30 years."},
-    {"n": "Gwynedd (Llywelyn the Great)", "la": 53.14, "lo": -4.27, "pop": "~100,000–200,000 in native Wales (guess)", "d": "The strongest Welsh prince, married to King John's daughter. Llywelyn ap Gruffudd (Prince of Wales 1267) loses everything to Edward I in 1277–83."},
-    {"n": "Castile and León (Ferdinand III)", "la": 41.65, "lo": -4.72, "pop": "~3–4 million (guess)", "d": "Crowns united in 1230; Córdoba falls in 1236 and Seville in 1248. Source of Basque iron and merino wool (Castile guards its merinos). Edward I marries Eleanor of Castile in 1254."},
-    {"n": "Denmark (Valdemar II) and Sweden", "la": 55.68, "lo": 12.57, "pop": "Denmark ~1 million (guess); Sweden ~0.5–0.75 million (guess)", "d": "Denmark lost its Baltic empire at Bornhöved (1227) but holds the Øresund and the Scania herring fair. Sweden is a loose kingdom with iron and copper (Falun is first recorded in 1288)."},
-    {"n": "Holy Roman Empire (Frederick II)", "la": 50.94, "lo": 6.96, "pop": "~10–14 million north of the Alps (guess)", "d": "Frederick marries Henry III's sister Isabella in 1235; Richard of Cornwall is elected King of the Romans in 1257. Gives access to German miners and markets."},
-    {"n": "The Papacy (Gregory IX)", "la": 41.9, "lo": 12.45, "pop": "Rome ~20,000–35,000 (guess)", "d": "England has been a papal fief since 1213. Italian clerks hold English benefices, sparking riots in 1231–32. The Church can excommunicate; an unorthodox merchant must look pious and stay on Grosseteste's right side."},
-    {"n": "Mongol Empire (Batu's western campaign)", "la": 47.98, "lo": 20.97, "pop": "armies ~100,000+ in the 1241 invasion (guess)", "d": "Conquers the Rus' 1237–40 and crushes Poland and Hungary in 1241, then withdraws in 1242. No threat to England, but it scares Baltic traders and sends a few refugees west."}
+    {
+      "n": "County of Flanders (Countess Joan)",
+      "la": 51.21,
+      "lo": 3.22,
+      "pop": "~0.6–1 million (guess); Ghent ~50,000 by 1300",
+      "d": "Europe's industrial heart, living on English wool. Pulled between the French king (its overlord) and English trade. Its weavers will copy anything the Company makes within years; its town revolts send out refugees."
+    },
+    {
+      "n": "Kingdom of France (Louis IX)",
+      "la": 48.86,
+      "lo": 2.35,
+      "pop": "~12–16 million in the realm (guess)",
+      "d": "Europe's strongest kingdom, under a boy king and his mother Blanche of Castile until ~1234. Took Normandy from England in 1204 and wins again at Taillebourg (1242). Treaty of Paris (1259) brings peace; the Hundred Years' War starts in 1337."
+    },
+    {
+      "n": "Gascony (English-ruled, Bordeaux)",
+      "la": 44.84,
+      "lo": -0.58,
+      "pop": "~0.5 million (guess); Bordeaux ~20,000–30,000 (guess)",
+      "d": "Henry III's last big French land. Wine for wool and cloth; a ready Company office and a frequent cause of war with France."
+    },
+    {
+      "n": "Kingdom of Norway (Haakon IV)",
+      "la": 60.39,
+      "lo": 5.32,
+      "pop": "~300,000–450,000 (guess)",
+      "d": "At its peak under Haakon (r. 1217–63), holding Orkney, Shetland, the Hebrides and Man. Friendly trade treaty with England (1217). Loses the Hebrides and Man to Scotland in 1266. Increasingly dependent on German merchants for grain."
+    },
+    {
+      "n": "German towns: Lübeck, Cologne and the coming Hanse",
+      "la": 53.87,
+      "lo": 10.69,
+      "pop": "Lübeck ~15,000–25,000 by 1300 (guess); Cologne ~40,000 (guess)",
+      "d": "Lübeck became an imperial free city in 1226; Cologne merchants hold a Guildhall in London. They control Baltic grain, timber, fur and Swedish iron, and will later win tax privileges in London (the Steelyard). Tough competitors, essential suppliers."
+    },
+    {
+      "n": "Kingdom of Scotland (Alexander II)",
+      "la": 56.4,
+      "lo": -3.43,
+      "pop": "~0.5–1 million (guess)",
+      "d": "At peace with England: Alexander married Henry's sister Joan, and the Treaty of York (1237) fixed the border. Edward I's wars from 1296 make the north dangerous for 30 years."
+    },
+    {
+      "n": "Gwynedd (Llywelyn the Great)",
+      "la": 53.14,
+      "lo": -4.27,
+      "pop": "~100,000–200,000 in native Wales (guess)",
+      "d": "The strongest Welsh prince, married to King John's daughter. Llywelyn ap Gruffudd (Prince of Wales 1267) loses everything to Edward I in 1277–83."
+    },
+    {
+      "n": "Castile and León (Ferdinand III)",
+      "la": 41.65,
+      "lo": -4.72,
+      "pop": "~3–4 million (guess)",
+      "d": "Crowns united in 1230; Córdoba falls in 1236 and Seville in 1248. Source of Basque iron and merino wool (Castile guards its merinos). Edward I marries Eleanor of Castile in 1254."
+    },
+    {
+      "n": "Denmark (Valdemar II) and Sweden",
+      "la": 55.68,
+      "lo": 12.57,
+      "pop": "Denmark ~1 million (guess); Sweden ~0.5–0.75 million (guess)",
+      "d": "Denmark lost its Baltic empire at Bornhöved (1227) but holds the Øresund and the Scania herring fair. Sweden is a loose kingdom with iron and copper (Falun is first recorded in 1288)."
+    },
+    {
+      "n": "Holy Roman Empire (Frederick II)",
+      "la": 50.94,
+      "lo": 6.96,
+      "pop": "~10–14 million north of the Alps (guess)",
+      "d": "Frederick marries Henry III's sister Isabella in 1235; Richard of Cornwall is elected King of the Romans in 1257. Gives access to German miners and markets."
+    },
+    {
+      "n": "The Papacy (Gregory IX)",
+      "la": 41.9,
+      "lo": 12.45,
+      "pop": "Rome ~20,000–35,000 (guess)",
+      "d": "England has been a papal fief since 1213. Italian clerks hold English benefices, sparking riots in 1231–32. The Church can excommunicate; an unorthodox merchant must look pious and stay on Grosseteste's right side."
+    },
+    {
+      "n": "Mongol Empire (Batu's western campaign)",
+      "la": 47.98,
+      "lo": 20.97,
+      "pop": "armies ~100,000+ in the 1241 invasion (guess)",
+      "d": "Conquers the Rus' 1237–40 and crushes Poland and Hungary in 1241, then withdraws in 1242. No threat to England, but it scares Baltic traders and sends a few refugees west."
+    }
   ],
   "sources": [
-    ["Broadberry, Campbell, van Leeuwen: English medieval population (Warwick)", "https://warwick.ac.uk/fac/soc/economics/seminars/seminars/conferences/venice3/programme/english_medieval_population.pdf"],
-    ["Campbell: Benchmarking medieval economic development, England, Wales, Scotland and Ireland c.1290", "https://www.medievalists.net/2016/02/benchmarking-medieval-economic-development-england-wales-scotland-and-ireland-circa-1290/"],
-    ["Norman and medieval London (Wikipedia)", "https://en.wikipedia.org/wiki/Norman_and_medieval_London"],
-    ["Immigration and population growth in early 14th-century Norwich (Urban History)", "https://resolve.cambridge.org/core/journals/urban-history/article/abs/immigration-and-population-growth-in-early-fourteenthcentury-norwich-evidence-from-the-tithing-roll/9E9075ECC3B5C2AC55D77EE654A7E242"],
-    ["List of towns and cities in England by historical population (Wikipedia)", "https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_England_by_historical_population"],
-    ["Northumberland and Durham Coalfield (Wikipedia)", "https://en.wikipedia.org/wiki/Northumberland_and_Durham_Coalfield"],
-    ["Durham coalfield reserves (Nature, 1945)", "https://www.nature.com/articles/155612a0.pdf"],
-    ["South Wales Coalfield (Wikipedia)", "https://en.wikipedia.org/wiki/South_Wales_Coalfield"],
-    ["Nottinghamshire, Derbyshire and Yorkshire Coalfield character area (Derbyshire CC)", "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/conservation/landscapecharacter/part-1.4-nottinghamshire-derbyshire-and-yorkshire-coalfield.pdf"],
-    ["University of Nottingham: mining records (Cossall lease 1316)", "https://www.nottingham.ac.uk/manuscriptsandspecialcollections/collectionsindepth/businessrecords/mining.aspx"],
-    ["Wealden iron industry (Wikipedia)", "https://en.wikipedia.org/wiki/Wealden_iron_industry"],
-    ["Bick: Early iron ore production from the Forest of Dean (Historical Metallurgy)", "https://hmsjournal.org/index.php/home/article/view/582"],
-    ["Mining activity in the Fal Estuary catchment (Univ. of Exeter): 13th-century tin output", "https://projects.exeter.ac.uk/geomincentre/estuary/Main/minact.htm"],
-    ["Tin coinage (Wikipedia)", "https://en.wikipedia.org/wiki/Tin_coinage"],
-    ["BGS: Mendip minerals and mines", "https://www2.bgs.ac.uk/mendips/Minerals/Mins_Mines_2.htm"],
-    ["Salt in Cheshire (Wikipedia)", "https://en.wikipedia.org/wiki/Salt_in_Cheshire"],
-    ["Cheshire West and Chester: Salt heritage landscape", "https://www.cheshirewestandchester.gov.uk/documents/planning-and-building-consultancy/total-environment/landscape-assessment/LCT14-Salt-Heritage-Landscape.pdf"],
-    ["History of the Jews in England (Wikipedia)", "https://en.wikipedia.org/wiki/History_of_the_Jews_in_England"],
-    ["Why Edward I expelled his Jews (Medievalists.net)", "https://www.medievalists.net/2011/03/to-give-counsel-and-to-consent-why-the-king-edward-i-expelled-his-jews-in-1290/"],
-    ["Mongol incursions in the Holy Roman Empire (Wikipedia)", "https://en.wikipedia.org/wiki/Mongol_incursions_in_the_Holy_Roman_Empire"],
-    ["Ghent (Wikipedia)", "https://en.wikipedia.org/wiki/Ghent"],
-    ["Britain variation plan (project file)", "brainstorm/variations/britain.md"]
+    [
+      "Broadberry, Campbell, van Leeuwen: English medieval population (Warwick)",
+      "https://warwick.ac.uk/fac/soc/economics/seminars/seminars/conferences/venice3/programme/english_medieval_population.pdf"
+    ],
+    [
+      "Campbell: Benchmarking medieval economic development, England, Wales, Scotland and Ireland c.1290",
+      "https://www.medievalists.net/2016/02/benchmarking-medieval-economic-development-england-wales-scotland-and-ireland-circa-1290/"
+    ],
+    [
+      "Norman and medieval London (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Norman_and_medieval_London"
+    ],
+    [
+      "Immigration and population growth in early 14th-century Norwich (Urban History)",
+      "https://resolve.cambridge.org/core/journals/urban-history/article/abs/immigration-and-population-growth-in-early-fourteenthcentury-norwich-evidence-from-the-tithing-roll/9E9075ECC3B5C2AC55D77EE654A7E242"
+    ],
+    [
+      "List of towns and cities in England by historical population (Wikipedia)",
+      "https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_England_by_historical_population"
+    ],
+    [
+      "Northumberland and Durham Coalfield (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Northumberland_and_Durham_Coalfield"
+    ],
+    [
+      "Durham coalfield reserves (Nature, 1945)",
+      "https://www.nature.com/articles/155612a0.pdf"
+    ],
+    [
+      "South Wales Coalfield (Wikipedia)",
+      "https://en.wikipedia.org/wiki/South_Wales_Coalfield"
+    ],
+    [
+      "Nottinghamshire, Derbyshire and Yorkshire Coalfield character area (Derbyshire CC)",
+      "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/conservation/landscapecharacter/part-1.4-nottinghamshire-derbyshire-and-yorkshire-coalfield.pdf"
+    ],
+    [
+      "University of Nottingham: mining records (Cossall lease 1316)",
+      "https://www.nottingham.ac.uk/manuscriptsandspecialcollections/collectionsindepth/businessrecords/mining.aspx"
+    ],
+    [
+      "Wealden iron industry (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Wealden_iron_industry"
+    ],
+    [
+      "Bick: Early iron ore production from the Forest of Dean (Historical Metallurgy)",
+      "https://hmsjournal.org/index.php/home/article/view/582"
+    ],
+    [
+      "Mining activity in the Fal Estuary catchment (Univ. of Exeter): 13th-century tin output",
+      "https://projects.exeter.ac.uk/geomincentre/estuary/Main/minact.htm"
+    ],
+    [
+      "Tin coinage (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Tin_coinage"
+    ],
+    [
+      "BGS: Mendip minerals and mines",
+      "https://www2.bgs.ac.uk/mendips/Minerals/Mins_Mines_2.htm"
+    ],
+    [
+      "Salt in Cheshire (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Salt_in_Cheshire"
+    ],
+    [
+      "Cheshire West and Chester: Salt heritage landscape",
+      "https://www.cheshirewestandchester.gov.uk/documents/planning-and-building-consultancy/total-environment/landscape-assessment/LCT14-Salt-Heritage-Landscape.pdf"
+    ],
+    [
+      "History of the Jews in England (Wikipedia)",
+      "https://en.wikipedia.org/wiki/History_of_the_Jews_in_England"
+    ],
+    [
+      "Why Edward I expelled his Jews (Medievalists.net)",
+      "https://www.medievalists.net/2011/03/to-give-counsel-and-to-consent-why-the-king-edward-i-expelled-his-jews-in-1290/"
+    ],
+    [
+      "Mongol incursions in the Holy Roman Empire (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Mongol_incursions_in_the_Holy_Roman_Empire"
+    ],
+    [
+      "Ghent (Wikipedia)",
+      "https://en.wikipedia.org/wiki/Ghent"
+    ],
+    [
+      "Britain variation plan (project file)",
+      "brainstorm/variations/britain.md"
+    ]
+  ],
+  "gallery": [
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/London_Bridge_%281616%29_by_Claes_Van_Visscher.jpg/500px-London_Bridge_%281616%29_by_Claes_Van_Visscher.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:London_Bridge_(1616)_by_Claes_Van_Visscher.jpg",
+      "c": "Claes Van Visscher, 1616, public domain",
+      "cap": "Old London Bridge and Southwark, Visscher, 1616",
+      "kind": "then"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/BL_Charles_d%27Orleans_London.jpg/500px-BL_Charles_d%27Orleans_London.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:BL_Charles_d%27Orleans_London.jpg",
+      "c": "Unknown artist, British Library, public domain",
+      "cap": "London, Tower and Bridge in a 1480s manuscript",
+      "kind": "then"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Itinerary_by_Matthew_Paris_-_Historia_Anglorum_%281250-1259%29%2C_f.2_-_BL_Royal_MS_14_C_VII.jpg/500px-Itinerary_by_Matthew_Paris_-_Historia_Anglorum_%281250-1259%29%2C_f.2_-_BL_Royal_MS_14_C_VII.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Itinerary_by_Matthew_Paris_-_Historia_Anglorum_(1250-1259),_f.2_-_BL_Royal_MS_14_C_VII.jpg",
+      "c": "Matthew Paris, British Library, CC0",
+      "cap": "Matthew Paris draws London to Dover, c. 1250",
+      "kind": "then"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Winchester_Palace%2C_Southwark_06.jpg/500px-Winchester_Palace%2C_Southwark_06.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Winchester_Palace,_Southwark_06.jpg",
+      "c": "Photo: Simon Burchell, CC BY-SA 4.0",
+      "cap": "Winchester Palace, the bishop's Southwark hall, today",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Medieval_village_Cosmeston_-_geograph.org.uk_-_983513.jpg/500px-Medieval_village_Cosmeston_-_geograph.org.uk_-_983513.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Medieval_village_Cosmeston_-_geograph.org.uk_-_983513.jpg",
+      "c": "Photo: George Rogers, CC BY-SA 2.0",
+      "cap": "Rebuilt medieval village at Cosmeston, Wales",
+      "kind": "then"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hobro_-_Fyrkat_-_Vikingecenter_12_ies.jpg/500px-Hobro_-_Fyrkat_-_Vikingecenter_12_ies.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Hobro_-_Fyrkat_-_Vikingecenter_12_ies.jpg",
+      "c": "Photo: Frank Vincentz, CC BY-SA 3.0",
+      "cap": "Reconstructed clay bloomery furnace, Fyrkat, Denmark",
+      "kind": "then"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Clearing_in_Puzzlewood_-_geograph.org.uk_-_8342729.jpg/500px-Clearing_in_Puzzlewood_-_geograph.org.uk_-_8342729.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:Clearing_in_Puzzlewood_-_geograph.org.uk_-_8342729.jpg",
+      "c": "Photo: Gareth James, CC BY-SA 2.0",
+      "cap": "Puzzlewood: old iron-ore pits (scowles), Forest of Dean",
+      "kind": "ruins"
+    },
+    {
+      "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/A_collapsed_bell_pit_on_Clee_Burf_-_geograph.org.uk_-_867529.jpg/500px-A_collapsed_bell_pit_on_Clee_Burf_-_geograph.org.uk_-_867529.jpg",
+      "p": "https://commons.wikimedia.org/wiki/File:A_collapsed_bell_pit_on_Clee_Burf_-_geograph.org.uk_-_867529.jpg",
+      "c": "Photo: Bill Rowley, CC BY-SA 2.0",
+      "cap": "Collapsed coal bell pit on Clee Burf, Shropshire",
+      "kind": "ruins"
+    }
   ]
 }
