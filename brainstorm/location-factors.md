@@ -188,6 +188,21 @@ Writing and markets are large head starts for teaching and organizing.
 | Ethiopia | A new dynasty takes power (1270) |
 | Chile | The Inca push south ~1470s; Spain 1540s |
 
+### Is Britain too close to powerful neighbors? (Tim, 2026-10-28)
+"It seems like britain could be scary with it so close to so many powerful civilizations?"
+
+**Invasion from outside is a smaller worry than it looks. Being inside a crowded Europe is the real one.**
+- **The sea protects it.** England was last conquered in 1066. Since then, invasions that took over or toppled the government were rare: **Prince Louis of France held London in 1216–17** (invited in by rebel barons) and William of Orange arrived in 1688 (also invited). The Armada (1588), Napoleon and Hitler all failed.
+- **The Mongols never came close.** They stopped in Hungary and Poland in 1241–42. The only effect on England recorded at the time: **Baltic traders stayed home, so herring went unsold** (Matthew Paris).
+- **The real dangers are close by and political:**
+  - **The king and barons:** the hero isn't the ruler, and civil wars came in 1215–17 and 1264–65.
+  - **The Pope:** England had been a papal fief since 1213, and the Church could excommunicate people or put the country under interdict, as it did in 1208–14.
+  - **Copying:** France, Flanders and Italy are days away, so any new weapon, ship or method **spreads to rivals within years** and starts an arms race. In southern Africa or North America, an idea stays home for generations.
+  - **Wars of choice:** England's kings fight Wales (conquered 1282–83), Scotland (from 1296) and France (the Hundred Years' War, from 1337).
+- **The same closeness is also Britain's biggest strength:** scholars, books, trade, imports and skilled settlers are all nearby.
+
+**Neighbor danger:** about **5/10** for Britain (10 = safest). Compare southern Africa ~8 and North America ~9 (no rival with ships or steel until ~1500), and Japan ~6 (the Mongol fleets of 1274 and 1281).
+
 ## Sources
 - [Climate change and agropastoralist settlement in the Shashe-Limpopo basin (UCT)](https://open.uct.ac.za/items/46685949-18c4-47b2-aadc-b6ba7ef350d1)
 - [Archaeology, baobabs and drought: the Mapungubwe landscape (FAO AGRIS)](https://agris.fao.org/search/en/providers/122535/records/65dfcfeb0f3e94b9e5dc84df)
