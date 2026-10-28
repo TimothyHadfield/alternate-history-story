@@ -1,6 +1,6 @@
 # Famous people alive around 1200–1250
 
-*From memory, not checked against sources. Dates are approximate.*
+*From memory, not checked against sources. Dates are approximate.* All of these people are on the site's **Map → Places → People** filter.
 
 Tim (2026-10-27): "what are the most famous people alive during that time, both for our standards and for the world at the time's standards"
 
@@ -22,19 +22,19 @@ Tim (2026-10-27): "what are the most famous people alive during that time, both 
 | **Razia Sultana** | c.1205–1240 | Delhi | First woman to rule the Delhi Sultanate |
 
 ## Famous to the world *at the time* (many are forgotten now)
-| Person | Lived | Why everyone knew them then |
-|---|---|---|
-| **Pope Innocent III** | 1161–1216 | The most powerful pope ever: made and unmade kings |
-| **Muhammad II, Shah of Khwarazm** | d. 1220 | Ruled the biggest Islamic empire until the Mongols destroyed it |
-| **Caliph al-Nasir** | 1158–1225 | Abbasid caliph in Baghdad, the religious head of Sunni Islam |
-| **Sultan al-Kamil** | 1177–1238 | Ruled Egypt; gave Jerusalem back to Frederick II by treaty in 1229 |
-| **Philip II Augustus** | 1165–1223 | Made France the strongest kingdom in Europe |
-| **Jayavarman VII** | c.1122–1218 | Khmer king; built Angkor Thom and over 100 hospitals |
-| **Hōjō Masako** | 1157–1225 | The "nun shogun": real power behind Japan's government |
-| **The Song emperors** (Ningzong, Lizong) | — | Ruled the richest, most populous country on Earth (~60M+) |
-| **Iltutmish** | d. 1236 | Built the Delhi Sultanate into a major power |
-| **Lalibela** | d. c.1221 | Ethiopian king; carved churches out of solid rock |
-| **Subutai** | 1175–1248 | The Mongols' greatest general; feared from China to Hungary |
+| Person | Lived | Where | Why everyone knew them then |
+|---|---|---|---|
+| **Pope Innocent III** | 1161–1216 | Rome | The most powerful pope ever: made and unmade kings |
+| **Muhammad II, Shah of Khwarazm** | d. 1220 | Gurganj / Samarkand (Central Asia) | Ruled the biggest Islamic empire until the Mongols destroyed it |
+| **Caliph al-Nasir** | 1158–1225 | Baghdad | Abbasid caliph, the religious head of Sunni Islam |
+| **Sultan al-Kamil** | 1177–1238 | Cairo | Ruled Egypt; gave Jerusalem back to Frederick II by treaty in 1229 |
+| **Philip II Augustus** | 1165–1223 | Paris | Made France the strongest kingdom in Europe |
+| **Jayavarman VII** | c.1122–1218 | Angkor (Cambodia) | Khmer king; built Angkor Thom and over 100 hospitals |
+| **Hōjō Masako** | 1157–1225 | Kamakura (Japan) | The "nun shogun": real power behind Japan's government |
+| **The Song emperors** (Ningzong, Lizong) | — | Hangzhou (China) | Ruled the richest, most populous country on Earth (~60M+) |
+| **Iltutmish** | d. 1236 | Delhi | Built the Delhi Sultanate into a major power |
+| **Lalibela** | d. c.1221 | Lalibela (Ethiopia) | Ethiopian king; carved churches out of solid rock |
+| **Subutai** | 1175–1248 | Mongolia, then on campaign | The Mongols' greatest general; feared from China to Hungary |
 
 ## Thinkers and builders (most useful to a time traveler)
 People the hero could learn from, recruit, or work with:
