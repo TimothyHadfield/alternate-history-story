@@ -29,3 +29,15 @@
 - **2026-10-28, msg 35:** Tim asked for clearer maps (emoji resource icons, houses sized by population, clearer hover previews) and to consider fitting in (living as the locals before gaining influence) and conflicts from prejudice ("I don't want them killing native americans"). Built emoji icons, population-tier houses and a corner hover card; wrote brainstorm/fitting-in-and-conflict.md (fitting in /10 and peace /10 for each variation; 10 safeguards).
 - **2026-10-28, msg 36:** Tim asked for real photos of the land and of what the main sites might have looked like. Six agents added Wikimedia Commons images (each one viewed before use): an img on land, core and start entries, plus a 7–8 photo gallery per region. Verified headless (Chrome engine, laptop width): every gallery image loads, no failed requests.
 - **2026-10-28, msg 37–38:** Tim asked whether to start a time simulation (population by group and profession, resources, life expectancy, causes of death). Claude recommended starting small with one variation. Tim: "go ahead and do one variation now, maybe the america one ... estimate each month by optimal plan ... review the whole timeline (maybe 40 years) and then repeat until you feel like a full review doesn't really change anything." → the North America simulation (see docs/sim-plan.md).
+  - **Built:**
+    - `sim/north-america.mjs`: a monthly model with single-year ages, deaths by cause, labor by priority, emergent tech dates, and a whole-timeline review loop that converges at pass 4.
+    - 6 manual review rounds, logged in `REVIEWS`.
+    - Output in `data/sim/north-america.json`.
+    - A Simulation view in index.html (button in the region header, 8 sections, Chart.js).
+    - The write-up `brainstorm/sim-north-america.md`, added to Notes.
+  - **Result (1282):** 118k settlers, 195k allied, settler e0 50, all 47 techs finished (telegraph 1264, Watt engine 1273).
+  - **Verified:** phone-view (Chrome engine), 2026-10-28.
+    - At 393 px: all 8 sections; no page scroll, no overflow.
+    - At laptop width (1440×900): People, Techs, Goods and How it was made; the People section fits without scroll.
+    - Back from the sim returns to the map.
+  - **Open:** simulations for the other 5 variations.

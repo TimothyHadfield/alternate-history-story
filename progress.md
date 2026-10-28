@@ -34,6 +34,7 @@ Possibilities raised so far (none chosen): a hidden homeland; southern Africa, J
 | Location ratings | [brainstorm/location-shortlist.md](brainstorm/location-shortlist.md), [culture-acceptance.md](brainstorm/culture-acceptance.md), [location-factors.md](brainstorm/location-factors.md) | Top 10 rated /10 on resources, settlers, acceptance, safety, then land (water, climate, disasters, food, imports, health, energy, transport, building, room), then ease of rising to power. Latest overall: N. America with settlers 7.8, N. America 6.5, Britain 6.2, southern Africa 6.1, Java 6.1. NOT chosen |
 | Six variations | [brainstorm/variations.md](brainstorm/variations.md) + [brainstorm/variations/](brainstorm/variations/) | Claude picked 6 at Tim's request: North America, Southern Africa, Britain, Java, Andes, Sweden. Each is a full plan with its own route to power and way of growing. For comparison; none chosen |
 | Home tab (location maps) | [index.html](index.html) + [data/regions/](data/regions/) | Home = 6 cards → each opens a regional map with Overview · Land · People · Resources · Nearby · Newcomers · Neighbors (list beside the map; tap to fly there). URL hash `#<slug>` opens one directly |
+| North America simulation | [sim/north-america.mjs](sim/north-america.mjs) → [data/sim/north-america.json](data/sim/north-america.json); write-up [brainstorm/sim-north-america.md](brainstorm/sim-north-america.md); plan [docs/sim-plan.md](docs/sim-plan.md) | Done 2026-10-28. Monthly model 1243–1282, converges at pass 4 after 6 manual review rounds. Site: region header "Simulation" button → `#north-america/sim`, 8 chip sections (People, Work, Health, Food, Goods, Techs, How it was made, Table), Chart.js 4.4.1 loaded on demand. 1282: 118k settlers, 195k allied, e0 50, all 47 techs done. Other 5 variations: no simulation yet |
 | Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
 | Framing / plot / characters | — | Not started ("figure it out later") |
 
@@ -65,6 +66,7 @@ Possibilities raised so far (none chosen): a hidden homeland; southern Africa, J
 - The historical-basemaps borders have errors for 1200 (Fatimids, Buyids, Ghaznavids, Liao, Huari and Tiwanaku are shown although they were gone by then). [data/civs.json](data/civs.json) fixes the display names; the shapes are left as they are. Polities not listed in civs.json default to "Local / traditional, population unknown".
 - Map labels: shown at zoom 3 only for populations of 5M or more, and at zoom 4+ for 1M or more (to avoid overlap in Europe).
 - PowerShell 5.1 `Invoke-WebRequest` stalls on big downloads here; use `curl` in Bash.
+- Simulation: after changing `sim/north-america.mjs`, rerun `node sim/north-america.mjs` (it rewrites the JSON) and update the numbers in brainstorm/sim-north-america.md by hand. The Claude review log is the `REVIEWS` array in the .mjs. `routeHash()` must run after the `SIMS` consts in index.html (TDZ). Chart palette is the dataviz reference palette (validated on #fffdf8 and #221e19; 3 light colors under 3:1 contrast, so the Table section must stay).
 - phone-view's WebKit engine crashed at launch on 2026-10-27 ("browserContext.newPage: Target page ... closed"); Map/Trade checks that day used `--engine chrome`.
 
 ## Decisions
@@ -79,6 +81,7 @@ Possibilities raised so far (none chosen): a hidden homeland; southern Africa, J
 - Site not yet checked on Tim's real iPhone (Ideas/Notes checked in WebKit 393px; Map only in Chrome engine).
 - Place coordinates and "found" dates are approximate, from memory.
 - data/regions/*.json: researched by subagents with ~15 web searches each; almost all 1230 populations are marked "(guess)"; some tonnages are from memory. Coordinates spot-checked by script (valid ranges) and by eye, not each one against a map.
+- Simulation numbers are story estimates: rates (mortality multipliers, labor per ha, tech design times, joining speed) are reasoned, not researched. Native joining speed is the most optimistic part. Not checked on Tim's iPhone.
 - Civilization populations and religions in civs.json are from memory. "Resources" density counts only the ~110 sites in places.json, not a real survey.
 
 ## Rejected / parked

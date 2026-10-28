@@ -161,6 +161,46 @@ main{flex:1;min-width:0;min-height:0;display:flex;flex-direction:column}
 .rows > span:nth-child(odd){color:var(--muted);font-size:12px;white-space:nowrap}
 .leaflet-popup-content .rows > span:nth-child(odd){color:#7a6f62}
 
+/* Simulation (North America) */
+.sim{display:none;flex:1;min-height:0;overflow-y:auto;padding:12px 16px 24px}
+#simchips{display:none}
+#home.showsim .rbody,#home.showsim #rchips{display:none}
+#home.showsim .sim,#home.showsim #simchips{display:flex}
+.sim{flex-direction:column;gap:12px}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.tile{background:var(--panel);border-radius:12px;padding:10px 14px}
+.tile b{display:block;font:600 24px/1.15 Georgia,serif}
+.tile span{color:var(--muted);font-size:12px}
+.simg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.cbox{background:var(--panel);border-radius:12px;padding:10px 12px;min-width:0}
+.cbox.wide{grid-column:1/-1}
+.cbox h4{margin:0 0 6px;font:700 13px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.cbox h4 .chips{display:inline-flex;margin-left:8px;vertical-align:middle}
+.cbox .cv{position:relative;height:230px}
+.minis{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.minis .cbox{padding:8px 10px}
+.minis h4{font-size:12px;font-weight:600;color:var(--muted);display:flex;justify-content:space-between;gap:6px}
+.minis h4 b{color:var(--ink)}
+.minis .cv{height:70px}
+.stab{border-collapse:collapse;font-size:12.5px;width:100%}
+.stab th,.stab td{border-bottom:1px solid var(--line);padding:4px 8px;text-align:right;white-space:nowrap}
+.stab th:first-child,.stab td:first-child{text-align:left;position:sticky;left:0;background:var(--panel)}
+.stab th{color:var(--muted);font-weight:600}
+.tscroll{overflow:auto;max-height:100%}
+.gantt{display:grid;grid-template-columns:minmax(150px,240px) 1fr 54px;gap:3px 10px;align-items:center;font-size:12.5px}
+.gantt .bar{position:relative;height:12px;background:var(--chip);border-radius:3px}
+.gantt .bar i{position:absolute;top:0;bottom:0;border-radius:3px;min-width:4px}
+.gantt .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gantt .yr{color:var(--muted);text-align:right}
+.gantt .ax{display:flex;justify-content:space-between;color:var(--muted);font-size:11px}
+.evs{font-size:13px;max-height:420px;overflow-y:auto}
+.evs div{padding:3px 0;border-bottom:1px solid var(--line)}
+.evs span{color:var(--muted);margin-right:8px;font-variant-numeric:tabular-nums}
+.lg{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted);margin-bottom:6px}
+.lg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.snote{font-size:13px;color:var(--muted)}
+.snote b{color:var(--ink)}
+
 /* Phone */
 .tabbar{display:none}
 .sheetbg{display:none}
@@ -196,6 +236,14 @@ main{flex:1;min-width:0;min-height:0;display:flex;flex-direction:column}
   .rbody{flex-direction:column}
   #rmap{flex:0 0 50%}
   .rpanel{width:auto;flex:1;min-height:0;border-left:0;border-top:1px solid var(--line)}
+  .sim{padding:10px 12px 20px;gap:10px}
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .tile{padding:8px 12px}
+  .tile b{font-size:20px}
+  .simg{grid-template-columns:1fr;gap:10px}
+  .cbox .cv{height:200px}
+  .minis{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .gantt{grid-template-columns:minmax(110px,40%) 1fr 40px;font-size:12px}
 }
 .grab{display:none}
 </style>
@@ -214,10 +262,12 @@ main{flex:1;min-width:0;min-height:0;display:flex;flex-direction:column}
       <div class="cards" id="cards"></div>
       <div class="region">
         <div class="top">
-          <div class="rhead"><button class="bk" id="rback" aria-label="Back">‹</button><div class="t" id="rtitle"></div><button class="pl" id="rplan">Full plan</button></div>
+          <div class="rhead"><button class="bk" id="rback" aria-label="Back">‹</button><div class="t" id="rtitle"></div><button class="pl" id="rsim" hidden>Simulation</button><button class="pl" id="rplan">Full plan</button></div>
           <div class="chips" id="rchips"></div>
+          <div class="chips" id="simchips"></div>
         </div>
         <div class="rbody"><div id="rmap"></div><div class="rcard rpop" id="rcard"></div><div class="rpanel" id="rpanel"></div></div>
+        <div class="sim" id="sim"></div>
       </div>
     </section>
     <section class="view" id="ideas">
@@ -266,7 +316,7 @@ const CAT_COLORS = {Health:"#d0574f",Food:"#6aa84f",Math:"#4f7fc7",Society:"#9b6
   Military:"#7d6a5a",Chemistry:"#d08b2c",Tools:"#5e6f80",Industry:"#a0522d",Electricity:"#c9b02a",Exploration:"#2f8fd0",Knowledge:"#b0569a"};
 const NOTES = [
   ["direction.md","The idea"],["brainstorm/variations.md","Six variations"],
-  ["brainstorm/variations/north-america.md","① North America"],["brainstorm/variations/southern-africa.md","② Southern Africa"],
+  ["brainstorm/variations/north-america.md","① North America"],["brainstorm/sim-north-america.md","① Simulation 1243–1282"],["brainstorm/variations/southern-africa.md","② Southern Africa"],
   ["brainstorm/variations/britain.md","③ Britain"],["brainstorm/variations/java.md","④ Java"],
   ["brainstorm/variations/andes.md","⑤ Andes"],["brainstorm/variations/sweden.md","⑥ Sweden"],
   ["brainstorm/fitting-in-and-conflict.md","Fitting in & keeping peace"],
@@ -458,6 +508,7 @@ function iconOf(k, x){
 }
 function openRegion(s, push = true){
   cur = s; rlayer = "all";
+  closeSim(); $("#rsim").hidden = !SIMS.includes(s);
   $("#home").classList.add("showr");
   if (push){ history.pushState(null, "", "#" + s); rpushed = true; }
   if (!rleaf){
@@ -470,7 +521,7 @@ function openRegion(s, push = true){
   rleaf.invalidateSize();
   drawRegion();
 }
-function closeRegion(){ cur = null; $("#home").classList.remove("showr"); }
+function closeRegion(){ cur = null; closeSim(); $("#home").classList.remove("showr"); }
 function drawRegion(){
   const R = regions[cur], meta = REGION_LIST.find(r => r[0] === cur);
   $("#rtitle").innerHTML = `<b>${meta[1]}</b><span>${meta[2]}</span>`;
@@ -524,7 +575,7 @@ function renderRPanel(R){
     <h3>Note</h3><div class="meta">Populations of 1230 are mostly guesses. Resource sizes are modern surveys; "1230" lines say what could actually be reached then.</div></div>`;
 }
 $("#cards").onclick = ev => { const c = ev.target.closest(".card"); if (c) openRegion(c.dataset.s); };
-$("#rback").onclick = () => rpushed ? history.back() : closeRegion();
+$("#rback").onclick = () => simOn ? (simPushed ? history.back() : closeSim()) : rpushed ? history.back() : closeRegion();
 $("#rplan").onclick = () => { showTab("notes"); openNote(`brainstorm/variations/${cur}.md`); };
 $("#rchips").onclick = ev => { const c = ev.target.closest(".chip"); if (!c) return; rlayer = c.dataset.k; drawRegion(); };
 $("#rpanel").onclick = ev => {
@@ -535,11 +586,166 @@ $("#rpanel").onclick = ev => {
   rleaf.flyTo(ll, Math.max(rleaf.getZoom(), it.k === "land" ? 6 : 7), {duration:.6});
   rleaf.once("moveend", () => it.l.openPopup(ll));
 };
-addEventListener("popstate", () => {
-  const s = location.hash.slice(1);
-  if (REGION_LIST.some(r => r[0] === s)){ showTab("home"); openRegion(s, false); } else { rpushed = false; closeRegion(); }
-});
-{ const s = location.hash.slice(1); if (REGION_LIST.some(r => r[0] === s)) openRegion(s, false); }
+function routeHash(){
+  const [s, sub] = location.hash.slice(1).split("/");
+  if (!REGION_LIST.some(r => r[0] === s)) return false;
+  showTab("home"); if (cur !== s || !$("#home").classList.contains("showr")) openRegion(s, false);
+  if (sub === "sim" && SIMS.includes(s)) openSim(false); else closeSim();
+  return true;
+}
+addEventListener("popstate", () => { if (!routeHash()){ rpushed = false; closeRegion(); } else if (!simOn) simPushed = false; });
+
+// Simulation: month-by-month model output (sim/<slug>.mjs → data/sim/<slug>.json), drawn with Chart.js
+const SIMS = ["north-america"];
+const SIM_SECS = [["people","People"],["work","Work"],["health","Health"],["food","Food"],["goods","Goods"],["tech","Techs"],["review","How it was made"],["table","Table"]];
+let simOn = false, simPushed = false, simSec = "people", simData = null, simCharts = [], simCause = "set";
+const dark = matchMedia("(prefers-color-scheme: dark)");
+const PAL = () => dark.matches ? ["#3987e5","#d95926","#199e70","#c98500","#d55181","#008300","#9085e9","#e66767"]
+  : ["#2a78d6","#eb6834","#1baf7a","#eda100","#e87ba4","#008300","#6250d6","#e34948"];
+const cssv = k => getComputedStyle(document.documentElement).getPropertyValue(k).trim();
+const nf = v => v == null ? "–" : Math.abs(v) >= 1e6 ? (v / 1e6).toFixed(1) + "M" : Math.abs(v) >= 1e4 ? Math.round(v / 1e3) + "k" : Math.abs(v) >= 1000 ? (v / 1e3).toFixed(1) + "k" : Math.abs(v) >= 10 ? Math.round(v).toLocaleString("en-US") : +v.toFixed(1) + "";
+let chartJs = null;
+function loadChart(){
+  return chartJs ||= new Promise((ok, no) => { const s = document.createElement("script");
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"; s.onload = ok; s.onerror = no; document.head.append(s); });
+}
+function openSim(push = true){
+  simOn = true; $("#home").classList.add("showsim"); $("#rsim").textContent = "Map";
+  if (push){ history.pushState(null, "", "#" + cur + "/sim"); simPushed = true; }
+  $("#simchips").innerHTML = SIM_SECS.map(([k, t]) => `<button class="chip${simSec === k ? " on" : ""}" data-k="${k}">${t}</button>`).join("");
+  if (!simData) $("#sim").innerHTML = `<div class="empty">Loading the simulation…</div>`;
+  Promise.all([loadChart(), simData || fetch(`data/sim/${cur}.json`, {cache:"no-cache"}).then(r => r.json())])
+    .then(([, d]) => { simData = d; if (simOn) drawSim(); })
+    .catch(() => $("#sim").innerHTML = `<div class="empty">Couldn't load the simulation.</div>`);
+}
+function closeSim(){
+  if (!simOn) return; simOn = false; simPushed = false;
+  $("#home").classList.remove("showsim"); $("#rsim").textContent = "Simulation";
+  if (rleaf) setTimeout(() => rleaf.invalidateSize(), 0);
+}
+$("#rsim").onclick = () => simOn ? (simPushed ? history.back() : closeSim()) : openSim();
+$("#simchips").onclick = ev => { const c = ev.target.closest(".chip"); if (!c) return; simSec = c.dataset.k;
+  document.querySelectorAll("#simchips .chip").forEach(x => x.classList.toggle("on", x === c)); drawSim(); };
+$("#sim").onclick = ev => {
+  const q = ev.target.closest(".q"); if (q){ q.parentElement.parentElement.querySelector(".tip")?.classList.toggle("on"); return; }
+  const c = ev.target.closest("[data-cause]"); if (c){ simCause = c.dataset.cause; drawSim(); }
+};
+dark.addEventListener?.("change", () => { if (simOn && simData) drawSim(); });
+
+// one chart box: title, optional ? tip, canvas
+const box = (id, title, tip, cls = "", extra = "") => `<div class="cbox ${cls}"><h4>${title}${tip ? `<span class="q">?</span>` : ""}${extra}</h4>${tip ? `<div class="tip">${tip}</div>` : ""}<div class="cv"><canvas id="${id}"></canvas></div></div>`;
+// vertical crosshair at the hovered year
+const crosshair = {id:"xh", afterDatasetsDraw(c){ const a = c.tooltip?.getActiveElements?.(); if (!a?.length) return;
+  const x = a[0].element.x, g = c.ctx; g.save(); g.strokeStyle = cssv("--muted"); g.lineWidth = 1; g.setLineDash([3, 3]);
+  g.beginPath(); g.moveTo(x, c.chartArea.top); g.lineTo(x, c.chartArea.bottom); g.stroke(); g.restore(); }};
+function mkChart(id, type, labels, series, o = {}){
+  const el = document.getElementById(id); if (!el) return;
+  const P = PAL(), ink = cssv("--muted"), grid = cssv("--line"), surf = cssv("--panel");
+  const ds = series.map((s, i) => { const col = s.color || P[s.slot ?? i];
+    return {label:s.label, data:s.data, borderColor:o.stack && type === "line" ? surf : col, backgroundColor:col, fill:o.stack ? (i ? "-1" : "origin") : false,
+      borderWidth:o.stack ? 1 : 2, pointRadius:0, pointHoverRadius:o.stack ? 0 : 4, pointHoverBackgroundColor:col, pointHoverBorderColor:surf, pointHoverBorderWidth:2,
+      tension:0, spanGaps:true, borderRadius:type === "bar" ? 2 : 0, borderSkipped:false, stack:o.stack ? "s" : undefined, ...(s.dash ? {borderDash:[5, 4]} : {})}; });
+  const ch = new Chart(el, {type, data:{labels, datasets:ds}, plugins:[crosshair],
+    options:{responsive:true, maintainAspectRatio:false, animation:false, interaction:{mode:"index", intersect:false},
+      layout:{padding:{top:2}},
+      scales:{x:{stacked:!!o.stack, grid:{display:false}, border:{color:grid}, ticks:{color:ink, maxRotation:0, autoSkip:true, maxTicksLimit:o.mini ? 3 : 8, font:{size:11},
+          callback(v){ const l = this.getLabelForValue(v); return String(l).slice(0, 4); }}, display:o.mini ? false : true},
+        y:{stacked:!!o.stack, min:o.min ?? 0, max:o.max, grid:{color:grid, lineWidth:0.6}, border:{display:false}, ticks:{color:ink, font:{size:11}, maxTicksLimit:o.mini ? 3 : 6, callback:v => nf(v) + (o.unit || "")}}},
+      plugins:{legend:{display:!o.mini && series.length > 1, position:"top", align:"start", labels:{color:ink, boxWidth:10, boxHeight:10, font:{size:11}, padding:8, useBorderRadius:true, borderRadius:2,
+          generateLabels:c => c.data.datasets.map((d, i) => ({text:d.label, fillStyle:d.backgroundColor, strokeStyle:d.backgroundColor, lineWidth:0, hidden:!c.isDatasetVisible(i), datasetIndex:i, fontColor:ink}))}},
+        tooltip:{backgroundColor:surf, titleColor:cssv("--ink"), bodyColor:cssv("--ink"), borderColor:grid, borderWidth:1, padding:8, boxWidth:8, boxHeight:8, usePointStyle:true,
+          itemSort:o.stack ? (a, b) => b.datasetIndex - a.datasetIndex : undefined,
+          callbacks:{title:a => o.monthly ? a[0].label : String(a[0].label), label:c => ` ${c.dataset.label}: ${nf(c.parsed.y)}${o.unit || ""}`,
+            labelColor:c => ({borderColor:c.dataset.backgroundColor, backgroundColor:c.dataset.backgroundColor})}}}}});
+  simCharts.push(ch);
+}
+function drawSim(){
+  simCharts.forEach(c => c.destroy()); simCharts = [];
+  const d = simData, Y = d.y, yrs = d.years, L = d.labels, last = k => Y[k][Y[k].length - 1], el = $("#sim");
+  const sum = (...ks) => yrs.map((_, i) => ks.reduce((t, k) => t + (Y[k][i] || 0), 0));
+  const S = simSec;
+  const note = `<div class="snote">Story estimates from a month-by-month model, ${d.meta.start}–${d.meta.end}. Not research results.</div>`;
+  if (S === "people"){
+    const done = d.techs.filter(t => t.done).length;
+    el.innerHTML = `<div class="tiles">
+      <div class="tile"><b>${nf(last("settlers"))}</b><span>settlers in ${d.meta.end}</span></div>
+      <div class="tile"><b>${nf(last("allied"))}</b><span>in allied Native nations</span></div>
+      <div class="tile"><b>${last("e0_set")} yr</b><span>settler life expectancy (Europe then: ~${Math.round(d.meta.calibration.europeBaselineE0)})</span></div>
+      <div class="tile"><b>${done} / ${d.techs.length}</b><span>tech projects finished</span></div></div>
+      <div class="simg">${box("c1", "Federation population", "Settlers plus Native nations that joined by agreement. Joining needs contact, trust, translators and a gift of vaccine, iron tools and seed.")}
+      ${box("c2", "Settlers by origin", "The 1243 fleet, children born here, later immigrants (each June), and Native people who moved into settler towns.")}
+      ${box("c3", "Each year", "", "")}
+      <div class="cbox"><h4>Native peoples<span class="q">?</span></h4><div class="tip">First contact and first town to join. "Outside" are people who never joined by ${d.meta.end}.</div>
+        <div class="tscroll" style="max-height:230px"><table class="stab"><tr><th>People</th><th>Contact</th><th>Joined</th><th>${d.meta.end}</th><th>Outside</th></tr>
+        ${d.peoples.slice().sort((a, b) => a.contact < b.contact ? -1 : 1).map(p => `<tr><td>${e(p.n)}</td><td>${p.contact?.slice(0, 4) || "–"}</td><td>${p.first?.slice(0, 4) || "–"}</td><td>${nf(p.joined)}</td><td>${nf(p.outside)}</td></tr>`).join("")}</table></div></div>
+      </div>${note}`;
+    mkChart("c1", "line", yrs, [{label:"Settlers", data:Y.settlers}, ...L.families.map((f, i) => ({label:f, data:Y["fam_" + f], slot:i + 1}))], {stack:true});
+    mkChart("c2", "line", yrs, [["Fleet of 1243","g_fleet"],["Born here","g_born"],["Immigrants","g_immig"],["Native, in towns","g_ntown"]].map(([l, k]) => ({label:l, data:Y[k]})), {stack:true});
+    mkChart("c3", "line", yrs, [["Settler births","births"],["Settler deaths","deaths"],["Immigrants","immigrants"],["Native people joining","joined"]].map(([l, k]) => ({label:l, data:Y[k]})));
+  } else if (S === "work"){
+    const G = [["Iron & mines", ["smith","ironworker","miner"]], ["Building", ["carpenter","mason"]], ["Machines", ["millwright","machinist"]],
+      ["Ships", ["shipwright","sailor"]], ["Healers & teachers", ["healer","teacher"]], ["Craftsmen", ["crafts"]]];
+    el.innerHTML = `<div class="simg">${box("c1", "Share of settler work time", "Every working hour of everyone 13 and over, after Sundays and feast days. \"Free time & extra goods\" is time the plan doesn't need: it goes to better food, clothes, furniture, trade goods and rest. It grows as mills and machines take over work.", "wide")}
+      ${box("c2", "Skilled people", "Trained by apprenticeship. From pass 2 on, the plan trains people ahead of when the previous run showed they'd be needed.")}
+      ${box("c3", "Engineers and translators", "Engineers come out of the school and the hero's classes. Translators: one per ~800 allied people, from exchanges and marriages.")}</div>${note}`;
+    mkChart("c1", "line", yrs, L.work.map(([k, t]) => ({label:t, data:Y["work_" + k]})), {stack:true, max:100, unit:"%"});
+    mkChart("c2", "line", yrs, G.map(([l, ks]) => ({label:l, data:sum(...ks.map(k => "sk_" + k))})));
+    mkChart("c3", "line", yrs, [{label:"Engineers", data:Y.engineers}, {label:"Translators", data:Y.translators}]);
+  } else if (S === "health"){
+    const G = [["set","Settlers"],["all","Allied nations"],["out","Not yet joined"]];
+    el.innerHTML = `<div class="simg">${box("c1", "Life expectancy at birth", "Settlers start from a medieval European baseline (~25 years) and gain from clean water, soap, cowpox vaccine, germ rules, midwifery and food. Allied towns get the same help as coverage spreads (max 75–90%).", "", "")}
+      ${box("c2", "Infant deaths per 1,000 births", "")}
+      ${box("c3", "Deaths per 1,000 people, by cause", "Smallpox is gone once the vaccine reaches people. After contact, Native towns face one wave of childhood diseases; the vaccine, quarantine and nursing keep it far below what happened after 1492.", "wide",
+        `<span class="chips">${G.map(([k, t]) => `<button class="chip${simCause === k ? " on" : ""}" data-cause="${k}">${t}</button>`).join("")}</span>`)}</div>${note}`;
+    mkChart("c1", "line", yrs, G.map(([k, t]) => ({label:t, data:Y["e0_" + k]})), {unit:" yr"});
+    mkChart("c2", "line", yrs, G.map(([k, t]) => ({label:t, data:Y["imr_" + k]})));
+    mkChart("c3", "bar", yrs, L.causes.map((c, i) => ({label:c, data:Y[`cdr_${simCause}_${i}`]})), {stack:true});
+  } else if (S === "food"){
+    const ml = d.m.grainMonths.map((_, i) => `${d.meta.start + Math.floor(i / 12)}-${String(i % 12 + 1).padStart(2, "0")}`);
+    el.innerHTML = `<div class="simg">${box("c1", "Grain, tonnes a year", "Needed = food for settlers (less fish, game and milk), horse and pig feed, plus relief and gifts for allied towns. The plan keeps two years in store.")}
+      ${box("c2", "Months of grain in store", "")}</div>
+      <div class="minis">${[["Cattle","cattle"],["Horses","horses"],["Pigs","pigs"],["Sheep & goats","sheep"],["Cleared land (ha)","cleared"]].map(([t, k], i) => `<div class="cbox"><h4>${t}<b>${nf(last(k))}</b></h4><div class="cv"><canvas id="m${i}"></canvas></div></div>`).join("")}</div>${note}`;
+    mkChart("c1", "line", yrs, [{label:"Produced", data:Y.grainProd}, {label:"Needed", data:Y.grainNeed}], {unit:" t"});
+    mkChart("c2", "line", ml, [{label:"Months in store", data:d.m.grainMonths}], {monthly:true});
+    ["cattle","horses","pigs","sheep","cleared"].forEach((k, i) => mkChart("m" + i, "line", yrs, [{label:k, data:Y[k]}], {mini:true}));
+  } else if (S === "goods"){
+    const M = [["Salt (t)","salt"],["Lumber (t)","lumber"],["Coal (t)","coal"],["Charcoal (t)","charcoal"],["Copper (t)","copper"],["Lead (t)","lead"],["Paper (t)","paper"],
+      ["Books","books"],["Water power (kW)","kwWater"],["Steam power (kW)","kwSteam"],["Houses","houses"],["People per house","perHouse"],["Literacy (%)","literacy"],
+      ["Ships","ships"],["Telegraph (km)","telegraphKm"],["Furs traded","furs"]];
+    el.innerHTML = `<div class="simg">${box("c1", "Iron and steel made, tonnes a year", "Bog-ore bloomeries first, then water-powered blast furnaces, then coke furnaces at the Forks of the Ohio.")}
+      ${box("c2", "Iron per person, kg a year", "Colonial America in the 1700s used roughly 10–15 kg per person a year.")}</div>
+      <div class="minis">${M.map(([t, k], i) => `<div class="cbox"><h4>${t}<b>${nf(last(k))}</b></h4><div class="cv"><canvas id="m${i}"></canvas></div></div>`).join("")}</div>${note}`;
+    mkChart("c1", "line", yrs, [{label:"Iron", data:Y.ironMade}, {label:"Steel", data:Y.steelMade}], {unit:" t"});
+    mkChart("c2", "line", yrs, [{label:"kg per person", data:Y.ironPerCap}], {unit:" kg"});
+    M.forEach(([, k], i) => mkChart("m" + i, "line", yrs, [{label:k, data:Y[k]}], {mini:true}));
+  } else if (S === "tech"){
+    const CAT = Object.fromEntries(L.work.map(([k, t], i) => [k, [t, i]])), P = PAL(), y0 = d.meta.start, span = (d.meta.end + 1 - y0) * 12;
+    const mo = s => s ? (+s.slice(0, 4) - y0) * 12 + +s.slice(5) - 1 : null;
+    const cats = [...new Set(d.techs.map(t => t.cat))];
+    el.innerHTML = `<div class="simg"><div class="cbox"><h4>When each project finished<span class="q">?</span></h4><div class="tip">Dates aren't typed in: each project waits for the ones before it, the hero's or engineers' design time, a trained crew, labor, materials, a market big enough and time for trials.</div>
+      <div class="lg">${cats.map(c => `<span><i style="background:${P[CAT[c][1]]}"></i>${CAT[c][0]}</span>`).join("")}</div>
+      <div class="gantt"><span></span><div class="ax">${[0, 10, 20, 30, 39].map(k => `<span>${y0 + k}</span>`).join("")}</div><span></span>
+      ${d.techs.slice().sort((a, b) => (a.done || "9") < (b.done || "9") ? -1 : 1).map(t => { const a = mo(t.start), b = mo(t.done);
+        return `<span class="nm" title="${e(t.name)}">${e(t.name)}</span><div class="bar">${a != null ? `<i style="left:${a / span * 100}%;width:${((b ?? span) - a) / span * 100}%;background:${P[CAT[t.cat][1]]}"></i>` : ""}</div><span class="yr">${t.done ? t.done.slice(0, 4) : "–"}</span>`; }).join("")}</div></div>
+      <div class="cbox"><h4>Events</h4><div class="evs">${d.events.map(v => `<div><span>${v.t}</span>${e(v.text)}</div>`).join("")}</div></div></div>${note}`;
+  } else if (S === "review"){
+    el.innerHTML = `<div class="simg"><div class="cbox wide"><h4>How it was made</h4><div class="snote" style="font-size:14px">
+      Every month for 40 years the model ages every person by year and sex, applies deaths by cause and births, splits everyone's work time by the plan's priorities, then grows, mines, builds and stores.
+      <b>Then the whole 40 years is reviewed and run again</b>: each pass trains people ahead of when the last pass needed them. It stops when a pass changes key numbers by under 1% and no tech date by more than 2 months.
+      On top of that, Claude read each full run against real history and fixed what was wrong (below).</div></div>
+      <div class="cbox"><h4>Model passes</h4><div class="tscroll"><table class="stab"><tr><th>Pass</th><th>Settlers ${d.meta.end}</th><th>Allied</th><th>Life exp.</th><th>Change</th></tr>
+        ${d.passes.map(p => `<tr><td>${p.pass}. ${e(p.plan)}</td><td>${nf(p.settlers1282)}</td><td>${nf(p.allied1282)}</td><td>${p.e0_1282}</td><td style="text-align:left">${e(p.change)}</td></tr>`).join("")}</table></div></div>
+      <div class="cbox"><h4>Claude's reviews</h4><div class="evs" style="max-height:none">${(d.reviews || []).map(r => `<div><b>${e(r.found)}</b><br><span>Fix:</span>${e(r.fix)}</div>`).join("")}</div></div></div>${note}`;
+  } else {
+    const C = [["Settlers","settlers"],["Allied","allied"],["Outside","outside"],["Births","births"],["Deaths","deaths"],["Immigrants","immigrants"],["Life exp. settlers","e0_set"],["Life exp. allied","e0_all"],
+      ["Infant deaths /1000","imr_set"],["Grain made (t)","grainProd"],["Grain needed (t)","grainNeed"],["Grain stored (t)","grainStock"],["Cattle","cattle"],["Iron (t)","ironMade"],["Steel (t)","steelMade"],
+      ["Literacy %","literacy"],["Engineers","engineers"],["Houses","houses"],["Ships","ships"],...L.work.map(([k, t]) => [t + " %", "work_" + k])];
+    el.innerHTML = `<div class="cbox" style="flex:1;min-height:0;display:flex;flex-direction:column"><div class="tscroll"><table class="stab"><tr><th>Year</th>${C.map(c => `<th>${e(c[0])}</th>`).join("")}</tr>
+      ${yrs.map((y, i) => `<tr><td>${y}</td>${C.map(c => `<td>${nf(Y[c[1]][i])}</td>`).join("")}</tr>`).join("")}</table></div></div>`;
+  }
+  el.scrollTop = 0;
+}
+routeHash();
 
 // Map
 const PLACE_COLORS = {Homeland:"#8a4b16",Gold:"#e0b000",Silver:"#8e9aa6",Iron:"#9c3d2e",Coal:"#2b2b2b",Copper:"#d07a3a",
