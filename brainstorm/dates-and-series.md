@@ -4,6 +4,15 @@
 
 Tim (2026-10-27): "The date clash is extreamly close together. do you think we should pick a different date? I also had an idea where maybe we could make a series of stories where people go back in time but to different time periods and whatnot."
 
+## Update: no enemy to beat
+Tim (2026-10-27): "I don't necessarily think we should be looking for something to 'fight' or beat or anything like that. The goal is just do develope a group of people as much as you possibly can."
+
+What this changes:
+- **The clash mostly goes away.** Frankowski's book is about beating the Mongols; a story about pure development is a different book, even in the same decade.
+- **Invasions and plagues become hazards**, not plots: things to avoid, hide from, or quietly protect people against.
+- **Pick the era by development potential:** a good starting base (crafts, farming, animals, literacy), resources, room to grow, and safety from the big hazards. The "deadline" columns below are only the hazards each era has.
+- The Black Death suggestion below was framed as a fight. It's still an interesting setting (health knowledge matters most there), but not because there's something to beat.
+
 ## The clash
 *The Cross-Time Engineer* (1986): an engineer arrives in **1231 Poland** and prepares for the **1241 Mongol invasion**. Our ~1220–1241 window with a Mongol deadline is nearly the same.
 

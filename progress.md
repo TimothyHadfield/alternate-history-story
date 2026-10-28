@@ -38,6 +38,7 @@ Possibilities raised so far (none chosen): a hidden homeland; southern Africa, J
 - 2026-10-27: keep brainstorming and organizing with Tim; keep the site updated with the notes. No story prose until he asks.
 
 ## Standing instructions (Tim's words)
+- "I don't necessarily think we should be looking for something to 'fight' or beat ... The goal is just do develope a group of people as much as you possibly can." (2026-10-27) → Don't frame eras or plots around an enemy or a deadline to beat. Judge options by how far a group can be developed.
 - "your notes on what we have right now are really wrong. It seems like we brought up some ideas and now are assuming that they are what we're doing. We don't really have specifics about a plan, just looking through possibilities." (2026-10-27) → Everything is an option until Tim says he's chosen it. Don't write "our plan", "plan A", "the hero will", or "settled".
 - "Right now just help me brainstorm and write down my thoughts and organize them with me."
 - "the best improvements are simple things that nobody thought about but have massive implications."

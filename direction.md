@@ -19,6 +19,10 @@ Calculus, fundamentals of electricity, astrophysics, medicine, powerful technolo
 ## The framing idea (low priority — "let's figure it out later")
 "maybe have the story start in a dystopian future and then the person is sent back in time to save the world from being destroyed but they have to develop our technology as fast as they can so they don't get destroyed."
 
+## The goal (Tim, 2026-10-27)
+"I don't necessarily think we should be looking for something to 'fight' or beat or anything like that. The goal is just do develope a group of people as much as you possibly can."
+→ The story is about **development**, not defeating an enemy. Invasions and plagues are hazards to plan around, not the point.
+
 ## Nothing is decided yet
 "We don't really have specifics about a plan, just looking through possibilities." (2026-10-27)
 
