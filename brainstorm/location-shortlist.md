@@ -4,9 +4,60 @@
 
 Tim (2026-10-27): "let's commit on where we want the location to be. Could you cite the top 10 options for this plan and also maybe consider having another location as a secondary cite or something like that (Australia with New Zealand or Indonesia, Peru with Central America, etc.). This might not be necessary or even good but if it does offer a benefite, It should be considered."
 
-**Judged against Tim's goal:** develop a group of people as far as possible. So the criteria are resources (especially **coal and iron together**), a starting population with skills, food and draft animals, safety from the big powers, how easy it is to rise to the top, and access to trade.
+**Judged against Tim's goal:** develop a group of people as far as possible.
 
-## The top 10 (start around the 1220s)
+## Re-rated (2026-10-28): practical, reachable resources and settlers
+Tim: "just because there are resources doesn't mean they are specifically useful or even accessable ... weight more practical resources over purely valuable ones. Cattle, Iron, Coal, etc over maybe gold/silver? ... Also consider the refugee/settler potential for each area and how easily it would be to grow a population with so many new people ... if these refugees would fit into the current people's culture and lfiestyle. Areas with higher populatoin might rely less on immigration."
+
+**How "practical" is scored:** what a 1230s society can actually use: **draft animals and livestock, iron ore it can smelt, coal near the surface, timber, farmland and water, copper and tin, and transport (rivers, coast)**. Deep or remote deposits count for little. **Gold, silver and spices are scored separately** and weighted low: they only buy things from outsiders (horses, seeds, books, skilled people), which matters early but can't build industry.
+
+**Overall weighting:** practical resources ×3, population and settlers ×2, acceptance ×2 (from [culture-acceptance.md](culture-acceptance.md)), safety ×2, trade valuables ×1.
+
+| Place | Practical resources | Valuables (trade) | Population & settlers | Acceptance | Safety | **Overall /10** |
+|---|---|---|---|---|---|---|
+| **Southern Africa highveld** | 7 | 8 | 6 | 6 | 8 | **6.9** |
+| **Britain** | **10** | 8 | 7 | 4 | 4 | **6.8** |
+| **North America**, alone | 7 | 3 | 5 | 6 | **10** | **6.6** |
+| ↳ *with settlers bringing animals and crops* | 9 | 3 | 7 | 7 | **10** | ***7.8*** |
+| **Japan** | 7 | 6 | 7 | 5 | 6 | **6.3** |
+| **Java + Australia** | 6 | **10** | 8 | 6 | 3 | **6.2** |
+| **Sweden** | 7 | 7 | 6 | 5 | 6 | **6.2** |
+| **Andes** | 5 | 6 | 6 | 5 | 9 | **6.1** |
+| **Central Chile** | 6 | 3 | 3 | 3 | **10** | **5.3** |
+| **Ethiopia** | 5 | 5 | 5 | 4 | 7 | **5.2** |
+| **Southeast Australia** | 6 | 2 | 2 | 2 | **10** | **4.8** |
+
+**What changed:** valuing *usable* resources lifts **Britain** and **North America** and lowers **Java** (whose best assets are spices and trade). **Southern Africa stays on top, but only just**, because its most famous riches (deep Witwatersrand gold, diamonds, platinum) were out of reach in 1230.
+
+### Practical resources, place by place
+- **Southern Africa (7):** **cattle** in large numbers (oxen for ploughs and carts, and cowpox); **iron** ore everywhere and already smelted; **copper** at Musina (~70 km from Mapungubwe) and Phalaborwa, worked for centuries; **tin** at Rooiberg; **coal** in the Limpopo and Waterberg fields, roughly 50–250 km away, some near the surface. *Weak:* **no horses** (horse sickness and tsetse), droughts, little big timber on the plateau, **no navigable rivers**. *Not useful in 1230:* most Witwatersrand gold (deep, low-grade, needs 1880s chemistry), diamonds, platinum.
+- **Britain (10):** **coal already being dug** where it outcrops (Newcastle "sea coal" in the 1200s), iron ore near it, horses, oxen, sheep, timber, rivers and coast everywhere, tin in Cornwall. Everything practical, close together.
+- **North America (7 alone, 9 with brought animals):** the most accessible minerals anywhere: **coal in riverbanks** at Pittsburgh, iron ore, **pure copper lying at the surface** around Lake Superior, endless timber, the best farmland, and **navigable rivers everywhere**. But **no horses, oxen, cattle or wheat**, and no iron-smelting tradition.
+- **Japan (7):** horses and cattle, excellent timber, **iron sand** (workable but labor-hungry), copper, **coal in Kyushu** near the surface and coast. Limited flat farmland.
+- **Java + Australia (6):** Java has superb rice land, water, buffalo and **teak** (great ship timber). Nearby Bangka has easy alluvial **tin**. But little iron or coal. **Australia's surface iron (Pilbara) is enormous but 1,500+ km away in desert.**
+- **Sweden (7):** Bergslagen **iron** (rich, already mined), **Falun copper** (open pit), huge timber, water power on every river, horses and cattle. **No coal**, but charcoal made Swedish iron the world's best for centuries. Poor farmland.
+- **Andes (5):** **copper and tin** easy to reach, **guano**, the best fertilizer on Earth, on the coast, terraces and potatoes. But **llamas only** (no ploughing animals), little coal, iron ore in the coastal desert, brutal transport.
+- **Central Chile (6):** **coal on the coast** (Lota), surface copper, good Mediterranean farmland, southern timber. Llamas only; remote.
+- **Ethiopia (5):** **oxen and ploughs already in use**, horses, mules, highland wheat and barley. Little iron, no coal, no timber to speak of, cut off from the sea.
+- **Southeast Australia (6):** **coal lying on the beach** at Newcastle (found that way in 1791), hardwood timber, harbors. No farm animals and no native crops to farm; droughts.
+
+### Settler and refugee potential
+| Place | Need for newcomers | Who could come | Do they fit the locals? | Rating |
+|---|---|---|---|---|
+| **Southern Africa** | **High** (~9,000 in the kingdom) | Neighboring Bantu-speaking farmers; Khoisan herders; traders and craftsmen from Sofala and Kilwa; Malagasy | **Good** for the neighbors (similar languages, cattle culture). Mapungubwe's own people later moved north to Great Zimbabwe, which shows people follow opportunity. Medium for the coastal traders | 6 |
+| **Britain** | Low (~3–4M) | Flemish weavers, Jewish financiers, German miners: all came historically | Good | 7 |
+| **North America** | **High** (thinly peopled) | Neighboring Native peoples; settlers by ship (the two-stage idea) | **Mixed:** many separate peoples and languages; European settlers and Native peoples live very differently, a real culture clash | 5 (7 with planned settlers) |
+| **Japan** | Low (~6–7M) | Korean and Chinese craftsmen; **Song Chinese fleeing the Mongols (1270s)** | Medium: small numbers were welcomed historically | 7 |
+| **Java** | Low (millions) | Chinese, Indian and Malay traders and craftsmen | **Very good**: already a mixed trading society | 8 |
+| **Sweden** | Medium (~0.5–1M) | **German miners and merchants** (came historically), Finns, Balts | Good | 6 |
+| **Andes** | Medium (millions across the Andes) | Neighboring Andean peoples | Good: shared farming ways | 6 |
+| **Central Chile** | High | Few within reach | Poor: the Mapuche are fiercely independent | 3 |
+| **Ethiopia** | Medium (~2–3M) | **Christians from Nubia** (as Nubia declines) | Good: same faith | 5 |
+| **Southeast Australia** | **Total**: every farmer must be brought in | Only by long sea voyages | **Very poor**: hunter-gatherer and farming lives clash | 2 |
+
+**Absorbing many newcomers at once** works best when they share a language family, a religion or a way of making a living with the locals. It also needs **food surpluses first**, since newcomers who arrive to famine cause conflict. And they should be **spread through existing villages** rather than packed into their own enclaves. See [population.md](population.md).
+
+## The first pass (2026-10-27)
 Scores 1–5, higher is better.
 
 | # | Primary site | Resources | People & skills | Food & animals | Safety | Rise to power | Trade access | Best second site |
@@ -22,7 +73,7 @@ Scores 1–5, higher is better.
 | **9** | **Southeast Australia** | **5** | 0 | 1 | **5** | 4 | 1 | **New Zealand** |
 | **10** | **Central Chile** | 4 | 1 | 2 | **5** | 3 | 1 | **Peru** |
 
-### Overall rating out of 10
+### First-pass rating out of 10 (replaced by the re-rating above)
 | # | Site (with its best second site) | /10 |
 |---|---|---|
 | 1 | Southern Africa highveld (+ Cape, later Australia) | **9** |
