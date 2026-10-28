@@ -2,6 +2,10 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (later)
+- The ~1230 / Mongol 1241 window is almost the same as *The Cross-Time Engineer*. Should we pick a different date? → [dates-and-series.md](dates-and-series.md)
+- **Series idea:** several stories where people go back to different time periods. → [dates-and-series.md](dates-and-series.md)
+
 ## 2026-10-27 (eighth and ninth messages)
 - Where were Frederick II and Fibonacci? (Frederick: Palermo, Foggia, Naples; Fibonacci: Pisa, raised partly in Béjaïa; they met around 1225.)
 - Location choice should include **difficulty of rising to power**.
