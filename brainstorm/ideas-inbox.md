@@ -2,6 +2,9 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (ships)
+- Doesn't know ship capabilities; ships seem important for trade and distant resources. Who had ships and how many? Would a southern Africa start need or be able to get them? Population there? → [ships-1200s.md](ships-1200s.md)
+
 ## 2026-10-27 (after looking at the map)
 - Natural resources look like a big limiting factor, especially if trade stays small. Still worried trade invites invasion. → recap in [homeland.md](homeland.md) "Does trade pay for the risk of war?"
 
