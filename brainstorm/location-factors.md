@@ -203,6 +203,44 @@ Writing and markets are large head starts for teaching and organizing.
 
 **Neighbor danger:** about **5/10** for Britain (10 = safest). Compare southern Africa ~8 and North America ~9 (no rival with ships or steel until ~1500), and Japan ~6 (the Mongol fleets of 1274 and 1281).
 
+## How easy is it to rise to power there? (Tim, 2026-10-28)
+"what about the location's ease for me to become in a position of power?"
+
+Building on the table in [two-stage-start.md](two-stage-start.md) and the routes in [rise-to-power.md](rise-to-power.md). Higher scores are easier. "Real power" means the top seat, or ruling through the top seat.
+
+| Place | Adviser, alone | Real power, alone | Real power, with followers | **Used** | Why |
+|---|---|---|---|---|---|
+| **North America with settlers** | — | — | **8** | **8** | He **founds his own state**, so there's no one to climb past. Local chiefdoms are small and the tech gap is the largest |
+| **North America**, alone | 5 | 4 | 8 | **5** | Small chiefdoms and a huge tech gap, so becoming a chief through prestige or marriage is realistic. But **no one ruler controls the region**, so uniting it is slow |
+| **Java** | 6 | 4 | 5 | **5** | Foreigners are normal at court. **Ken Arok, a commoner and outlaw, made himself king and founded Singhasari in 1222**, just before the story starts. Rivals plot constantly |
+| **Andes** | 4 | 4 | 6 | **5** | **No empire yet in 1230**: small kingdoms (Cusco is a minor one) plus the Chimú state on the coast. Fragmented, so there's room to rise. No writing, and it's a long way from everything |
+| **Southern Africa** | 4 | 3 | 6 | **4** | **A small elite around one sacred king**, so the right route (water, healing, cattle, marriage) can win it all. But the language barrier is total, and a stranger can threaten the king's rainmaking role |
+| **Britain** | 5 | 1 | 1 | **3** | Power comes from birth and land. **Henry III promoted foreigners**: Simon de Montfort, a Frenchman, married the king's sister in 1238 and **effectively ruled England in 1264–65**. So adviser or in-law is possible, but holding power is dangerous, and Montfort was killed at Evesham |
+| **Sweden** | 4 | 2 | 3 | **3** | The magnates pick the king. **Birger Jarl ruled as regent from 1248 to 1266**, so a strong man behind the throne is a known pattern, but a foreigner is an outsider |
+| **Ethiopia** | 4 | 2 | 2 | **3** | A strong king (the Zagwe dynasty) who funds big building projects, but **the Church and the nobility guard power**, and a new dynasty takes over in 1270 |
+| **Central Chile** | 3 | 2 | 4 | **3** | The Mapuche have **no central ruler to win**; war leaders are chosen only for a war. Respect is easy to earn, but it can't become state power |
+| **Japan** | 2 | 1 | 1 | **2** | **Hōjō regents rule through the shogun, who rules in the emperor's name.** Status is by birth and loyalty is to one's lord. A foreigner can at most be a valued retainer |
+| **SE Australia** | 1 | 1 | **7** | **2** | No states or rulers to join. With his own settlers, he'd be a founder on nearly empty land (7) |
+
+**Pattern:** **arriving with followers beats arriving alone almost everywhere**, because he founds something instead of climbing someone else's ladder. Old crowded kingdoms (Britain, Japan, Ethiopia) are the hardest to rule even with followers, because his people would be outsiders inside someone else's realm.
+
+### Overall, with power added (weight ×3)
+| Place | Before | Power | **New /10** |
+|---|---|---|---|
+| **North America with settlers** | 7.8 | 8 | **7.8** |
+| **North America**, alone | 6.9 | 5 | **6.5** |
+| **Britain** | 6.9 | 3 | **6.2** |
+| **Southern Africa** | 6.6 | 4 | **6.1** |
+| **Java + Australia** | 6.3 | 5 | **6.1** |
+| **Sweden** | 6.3 | 3 | **5.7** |
+| **Andes** | 5.8 | 5 | **5.7** |
+| **Japan** | 6.3 | 2 | **5.5** |
+| **Central Chile** | 5.4 | 3 | **5.0** |
+| **Ethiopia** | 5.2 | 3 | **4.8** |
+| **SE Australia** | 5.1 | 2 | **4.5** |
+
+Weights now: practical resources ×3, land ×3, power ×3, population and settlers ×2, acceptance ×2, safety ×2, valuables ×1.
+
 ## Sources
 - [Climate change and agropastoralist settlement in the Shashe-Limpopo basin (UCT)](https://open.uct.ac.za/items/46685949-18c4-47b2-aadc-b6ba7ef350d1)
 - [Archaeology, baobabs and drought: the Mapungubwe landscape (FAO AGRIS)](https://agris.fao.org/search/en/providers/122535/records/65dfcfeb0f3e94b9e5dc84df)

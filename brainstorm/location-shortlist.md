@@ -6,7 +6,7 @@ Tim (2026-10-27): "let's commit on where we want the location to be. Could you c
 
 **Judged against Tim's goal:** develop a group of people as far as possible.
 
-**Latest overall ratings** (with water, weather, disasters, food, imports and health added) are in [location-factors.md](location-factors.md): North America with settlers 7.8, Britain 6.9, North America alone 6.9, southern Africa 6.6, Japan, Java and Sweden 6.3, Andes 5.8, Chile 5.4, Ethiopia 5.2, SE Australia 5.1.
+**Latest overall ratings** (with land factors and ease of rising to power added) are in [location-factors.md](location-factors.md): North America with settlers 7.8, North America alone 6.5, Britain 6.2, southern Africa 6.1, Java 6.1, Sweden 5.7, Andes 5.7, Japan 5.5, Chile 5.0, Ethiopia 4.8, SE Australia 4.5.
 
 ## Re-rated (2026-10-28): practical, reachable resources and settlers
 Tim: "just because there are resources doesn't mean they are specifically useful or even accessable ... weight more practical resources over purely valuable ones. Cattle, Iron, Coal, etc over maybe gold/silver? ... Also consider the refugee/settler potential for each area and how easily it would be to grow a population with so many new people ... if these refugees would fit into the current people's culture and lfiestyle. Areas with higher populatoin might rely less on immigration."
