@@ -1,88 +1,115 @@
-# progress.md — Alternate History Story
+# progress.md — Alternate History Story (handoff for Claude)
 
 ## START HERE
-Last updated: 2026-10-28
-Read order: [direction.md](direction.md) → this file → [chat.md](chat.md) → [brainstorm/](brainstorm/).
-A **writing project** with one small static website (GitHub Pages) that shows the notes. Tim directs; Claude helps brainstorm, organize, research and later draft.
-Live site: https://timothyhadfield.github.io/alternate-history-story/
+_Last updated 2026-10-28. For Claude only; Tim doesn't read this. Catch-up authorizes nothing: only "Authorized next steps" below is approved work._
+1. Read this file.
+2. Read [direction.md](direction.md) (Tim's intent; it overrules everything).
+3. Skim the last 3 entries of [chat.md](chat.md). The notes themselves are in [brainstorm/](brainstorm/).
+
+A **writing project** (a time-travel "uplift" story) plus a small static website on GitHub Pages that shows the notes. Tim directs; Claude brainstorms, organizes, researches and, later, drafts.
 
 ## Goal right now
 **Exploring possibilities. NOTHING about the story is decided**: not the location, time period, hero, government, route to power or plot. Tim, 2026-10-27: "We don't really have specifics about a plan, just looking through possibilities."
-Possibilities raised so far (none chosen): a hidden homeland; southern Africa, Japan or North America; a two-stage start (rise at a court, then move); Mongol refugees; Fibonacci and Frederick II; a founder-led government with feedback systems. Talk about these as options ("one possibility"), never as "our plan" or "the hero does X".
+
+Possibilities raised so far (none chosen):
+- a hidden homeland, or a two-stage start (rise at a court, then move)
+- Mongol refugees; Fibonacci and Frederick II
+- a founder-led government with feedback systems
+- six full variations (see Status)
+
+Talk about these as options ("one possibility"), never "our plan" or "the hero does X".
+
+**Latest work:** a month-by-month simulation of the North America variation, 1243–1282, shown on the site. Simulations for the other five variations would be the natural next step, but Tim hasn't asked for them.
 
 ## Status
-| Piece | File | State |
+| Area | File | State |
 |---|---|---|
 | Tim's intent | [direction.md](direction.md) | Written from his first message |
 | Raw ideas | [brainstorm/ideas-inbox.md](brainstorm/ideas-inbox.md) | Kept current, newest first |
-| Ideas catalog (111 items, time to build, prereqs, impact, "In 1230") | [data/ideas.json](data/ideas.json) | First draft; source of truth for the site's Ideas tab |
+| Ideas catalog | [data/ideas.json](data/ideas.json) | 141 items: time to build, prereqs, impact, "In 1230", trade value `t`. Source for the site's Ideas tab |
 | How times were estimated | [brainstorm/timeline.md](brainstorm/timeline.md) | First draft |
-| The world in 1230 | [brainstorm/world-1200s.md](brainstorm/world-1200s.md) | First draft (whole world, not one location) |
-| Tech tree, chemistry, tools, pure knowledge | [brainstorm/](brainstorm/) | First drafts |
-| Time periods | [brainstorm/time-periods.md](brainstorm/time-periods.md) | Claude recommended ~1200–1230; NOT chosen by Tim |
-| Prior art | [brainstorm/prior-art.md](brainstorm/prior-art.md) | From memory, not web-checked |
-| Website | [index.html](index.html) | Ideas tab (time strip filter, category chips, ⭐ simple wins, detail with prereqs/unlocks/"from zero") + Notes tab (renders brainstorm md files) |
-| Where to build (hidden homeland) | [brainstorm/homeland.md](brainstorm/homeland.md) | First draft, scored table of 9 places |
-| Resources + who got rich | [brainstorm/resources.md](brainstorm/resources.md) + [data/places.json](data/places.json) | First draft; ~110 places on the site's Map tab |
-| Trade & wealth | [brainstorm/trade-and-wealth.md](brainstorm/trade-and-wealth.md) | First draft; `t` field in ideas.json = trade value (💰 filter) |
-| Long-term tech (10–100 yrs) | [brainstorm/long-term-tech.md](brainstorm/long-term-tech.md) | First draft; 30 long-term items added to ideas.json (141 total) |
-| Government | [brainstorm/government.md](brainstorm/government.md) | Options explored, including Tim's idea of total power plus feedback systems and a successor. Not decided |
-| Population | [brainstorm/population.md](brainstorm/population.md) | Max births + max immigration, never letting food/housing per person fall |
-| Rising to power | [brainstorm/rise-to-power.md](brainstorm/rise-to-power.md) | 10 routes, proofs, by-society table. Prophecy only as one secret proof to one patron |
-| Map modes | [index.html](index.html), [data/civs.json](data/civs.json), data/borders-1200.json, data/borders-1279.json | Map tab: Places · Civilizations · Religion · Population · Resources, year 1200/1279. Borders from aourednik/historical-basemaps (GPL-3.0), simplified with mapshaper to 30%. Religion = state religion of the rulers; populations are rough guesses from memory |
-| Two-stage start | [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md) | Rise-difficulty table, 4 example combinations (possibilities, not a plan) |
-| Location ratings | [brainstorm/location-shortlist.md](brainstorm/location-shortlist.md), [culture-acceptance.md](brainstorm/culture-acceptance.md), [location-factors.md](brainstorm/location-factors.md) | Top 10 rated /10 on resources, settlers, acceptance, safety, then land (water, climate, disasters, food, imports, health, energy, transport, building, room), then ease of rising to power. Latest overall: N. America with settlers 7.8, N. America 6.5, Britain 6.2, southern Africa 6.1, Java 6.1. NOT chosen |
-| Six variations | [brainstorm/variations.md](brainstorm/variations.md) + [brainstorm/variations/](brainstorm/variations/) | Claude picked 6 at Tim's request: North America, Southern Africa, Britain, Java, Andes, Sweden. Each is a full plan with its own route to power and way of growing. For comparison; none chosen |
-| Home tab (location maps) | [index.html](index.html) + [data/regions/](data/regions/) | Home = 6 cards → each opens a regional map with Overview · Land · People · Resources · Nearby · Newcomers · Neighbors (list beside the map; tap to fly there). URL hash `#<slug>` opens one directly |
-| North America simulation | [sim/north-america.mjs](sim/north-america.mjs) → [data/sim/north-america.json](data/sim/north-america.json); write-up [brainstorm/sim-north-america.md](brainstorm/sim-north-america.md); plan [docs/sim-plan.md](docs/sim-plan.md) | Done 2026-10-28. Monthly model 1243–1282, converges at pass 4 after 6 manual review rounds. Site: region header "Simulation" button → `#north-america/sim`, 8 chip sections (People, Work, Health, Food, Goods, Techs, How it was made, Table), Chart.js 4.4.1 loaded on demand. 1282: 118k settlers, 195k allied, e0 50, all 47 techs done. Other 5 variations: no simulation yet |
-| Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
-| Framing / plot / characters | — | Not started ("figure it out later") |
+| The world in 1230 | [brainstorm/world-1200s.md](brainstorm/world-1200s.md) | First draft (whole world) |
+| Tech tree, chemistry, tools, pure knowledge, long-term tech | [brainstorm/](brainstorm/) | First drafts |
+| Time periods; dates and series | [time-periods.md](brainstorm/time-periods.md), [dates-and-series.md](brainstorm/dates-and-series.md) | ~1200–1230 recommended by Claude; NOT chosen |
+| Prior art | [brainstorm/prior-art.md](brainstorm/prior-art.md) | From memory |
+| Homeland, resources, trade, ships | [homeland.md](brainstorm/homeland.md), [resources.md](brainstorm/resources.md), [trade-and-wealth.md](brainstorm/trade-and-wealth.md), [ships-1200s.md](brainstorm/ships-1200s.md) | First drafts |
+| Government, population, rising to power, two-stage start | [government.md](brainstorm/government.md), [population.md](brainstorm/population.md), [rise-to-power.md](brainstorm/rise-to-power.md), [two-stage-start.md](brainstorm/two-stage-start.md) | Options only. Includes Tim's ideas (total power plus feedback systems and a successor; maximum births plus maximum immigration) |
+| People and events | [people-1200s.md](brainstorm/people-1200s.md), [events-1200s.md](brainstorm/events-1200s.md) | From memory |
+| Location ratings | [location-shortlist.md](brainstorm/location-shortlist.md), [culture-acceptance.md](brainstorm/culture-acceptance.md), [location-factors.md](brainstorm/location-factors.md) | Top 10 rated /10. Latest overall: N. America with settlers 7.8, N. America 6.5, Britain 6.2, southern Africa 6.1, Java 6.1. NOT chosen |
+| Six variations | [brainstorm/variations.md](brainstorm/variations.md) + [brainstorm/variations/](brainstorm/variations/) | North America, Southern Africa, Britain, Java, Andes, Sweden: a full plan for each. For comparison; none chosen |
+| Fitting in and conflict | [brainstorm/fitting-in-and-conflict.md](brainstorm/fitting-in-and-conflict.md) | Fitting in /10 and peace /10 for each variation; 10 safeguards |
+| Home tab (location maps) | [index.html](index.html) + [data/regions/](data/regions/) | 6 cards, each opening a regional map with 7 layers, emoji icons, a hover card and Wikimedia photos. `#<slug>` opens one directly |
+| Map tab | index.html, [data/civs.json](data/civs.json), data/borders-1200.json, data/borders-1279.json | Places · Civilizations · Religion · Population · Resources, for 1200 and 1279 |
+| **North America simulation** | [sim/north-america.mjs](sim/north-america.mjs) → [data/sim/north-america.json](data/sim/north-america.json); write-up [brainstorm/sim-north-america.md](brainstorm/sim-north-america.md); plan [docs/sim-plan.md](docs/sim-plan.md) | Done and live 2026-10-28. Monthly model, 1243–1282; converges at pass 4 after 6 manual review rounds. Site: "Simulation" button in the region header → `#north-america/sim`, with 8 chip sections. 1282: 118k settlers, 195k allied, settler e0 50, all 47 techs done |
+| Simulations for the other 5 variations | — | Not started; not asked for |
+| Framing, plot, characters | — | Not started ("figure it out later") |
 
 ## Authorized next steps
-- 2026-10-27: keep brainstorming and organizing with Tim; keep the site updated with the notes. No story prose until he asks.
+- 2026-10-27 · Keep brainstorming and organizing with Tim, and keep the site updated with the notes. No story prose until he asks.
 
 ## Standing instructions (Tim's words)
-- "A 2026 american will need to learn to live like a native american if they're going to start there before they're able to gain influence ... consider conflicts that might happen due to predjudices, irrational beliefs ... if europeans think they have a god-right to the land or something I don't want them killing native americans." (2026-10-28) → Every variation: fitting in comes before influence (language, kin, daily life), and moving groups must have safeguards against prejudice and violence. See [brainstorm/fitting-in-and-conflict.md](brainstorm/fitting-in-and-conflict.md).
-- "don't ask me a question to commit to, give me info on each one like I asked. Rate each one out of 10" (2026-10-28) → When Tim is choosing, give info on every option with a /10 rating. No question box asking him to pick; he'll say when he's chosen.
-- "I don't necessarily think we should be looking for something to 'fight' or beat ... The goal is just do develope a group of people as much as you possibly can." (2026-10-27) → Don't frame eras or plots around an enemy or a deadline to beat. Judge options by how far a group can be developed.
-- "your notes on what we have right now are really wrong. It seems like we brought up some ideas and now are assuming that they are what we're doing. We don't really have specifics about a plan, just looking through possibilities." (2026-10-27) → Everything is an option until Tim says he's chosen it. Don't write "our plan", "plan A", "the hero will", or "settled".
+- "A 2026 american will need to learn to live like a native american if they're going to start there before they're able to gain influence ... consider conflicts that might happen due to predjudices, irrational beliefs ... if europeans think they have a god-right to the land or something I don't want them killing native americans." (2026-10-28) → In every variation, fitting in comes before influence, and any group that moves needs safeguards. See fitting-in-and-conflict.md.
+- "don't ask me a question to commit to, give me info on each one like I asked. Rate each one out of 10" (2026-10-28) → When Tim is choosing, give info on every option with a /10 rating. No question box asking him to pick.
+- "I don't necessarily think we should be looking for something to 'fight' or beat ... The goal is just do develope a group of people as much as you possibly can." (2026-10-27) → Don't frame anything around an enemy.
+- "your notes on what we have right now are really wrong. It seems like we brought up some ideas and now are assuming that they are what we're doing. We don't really have specifics about a plan, just looking through possibilities." (2026-10-27) → Never write "our plan", "plan A", "the hero will" or "settled".
+- On the simulation: "I don't really care about your meathod though. Just take each step carefully and output me something that is your best." (2026-10-28)
 - "Right now just help me brainstorm and write down my thoughts and organize them with me."
 - "the best improvements are simple things that nobody thought about but have massive implications."
 - How he got sent back: "this part doesn't really matter much so let's figure it out later."
-- On heresy/Church talk: "That's getting ahead of ourselves. We don't even know for sure what location we're being dropped off in ... Let's focus on the inventions and procedures first." → No religion/politics/plot risks for now.
+- On heresy and Church talk: "That's getting ahead of ourselves ... Let's focus on the inventions and procedures first."
 - If the hero leads: "the leader isn't going to die for a long time, but the leader will still be considering it as a possibility in their plan." (an idea, not a decision)
 - Population idea: "maximum population growth as well as maximum immigration while maintaining positive growth." (an idea, not a decision)
-- Predicting events: "I don't love the predicting events thing; it's kind of a cliche ... not repeatable." OK only as one proof to a single powerful person he reveals the truth to.
+- Predicting events: "I don't love the predicting events thing; it's kind of a cliche ... not repeatable." It's OK only as one proof to a single powerful person he reveals the truth to.
 
-## Traps
-- `Alternate_history.html` in the root is an empty 0-byte file Tim created. Left untouched (not the site; the site is `index.html`).
-- Repo was made **public** on 2026-10-27 because GitHub Pages is free only for public repos ($0 rule). Tim asked for the site on his GitHub.
-- `.nojekyll` is required: without it Pages turns .md files into .html and the Notes tab can't fetch them.
-- The site fetches files, so test it through a local server (`python -m http.server <port>`), not file://. Port 8765 is used by another project on this laptop.
-- New brainstorm files need adding to the `NOTES` list in index.html to show on the site.
-- `main` needs `min-height:0`, or on phones a tall view grows past the screen (found when the region panel pushed the page to 1,739 px).
-- Region map point labels show only at zoom ≥ 7 (`#rmap.z-lbl`); below that they pile up.
-- Map tiles: CARTO now shows "API KEY REQUIRED"; using Esri World_Physical_Map (no key, no modern borders, native max zoom 8).
-- The historical-basemaps borders have errors for 1200 (Fatimids, Buyids, Ghaznavids, Liao, Huari and Tiwanaku are shown although they were gone by then). [data/civs.json](data/civs.json) fixes the display names; the shapes are left as they are. Polities not listed in civs.json default to "Local / traditional, population unknown".
-- Map labels: shown at zoom 3 only for populations of 5M or more, and at zoom 4+ for 1M or more (to avoid overlap in Europe).
-- PowerShell 5.1 `Invoke-WebRequest` stalls on big downloads here; use `curl` in Bash.
-- Simulation: after changing `sim/north-america.mjs`, rerun `node sim/north-america.mjs` (it rewrites the JSON) and update the numbers in brainstorm/sim-north-america.md by hand. The Claude review log is the `REVIEWS` array in the .mjs. `routeHash()` must run after the `SIMS` consts in index.html (TDZ). Chart palette is the dataviz reference palette (validated on #fffdf8 and #221e19; 3 light colors under 3:1 contrast, so the Table section must stay).
-- phone-view's WebKit engine crashed at launch on 2026-10-27 ("browserContext.newPage: Target page ... closed"); Map/Trade checks that day used `--engine chrome`.
+## Traps / rules that bite
+- `Alternate_history.html` in the root is an empty 0-byte file Tim created → leave it untracked and untouched.
+- `.nojekyll` is required, or Pages turns .md files into .html and the Notes tab can't fetch them.
+- The site fetches files → test it through a local server (`python -m http.server <port>`), not file://. Port 8765 is taken by another project.
+- New brainstorm files must be added to the `NOTES` list in index.html, or they won't show on the site.
+- `main` needs `min-height:0`, or on phones a tall view grows past the screen.
+- Region map point labels show only at zoom ≥ 7 (`#rmap.z-lbl`). Map tiles are Esri World_Physical_Map, because CARTO now needs a key (native max zoom 8).
+- The historical-basemaps borders for 1200 have errors (they show the Fatimids, Buyids, Ghaznavids, Liao, Huari and Tiwanaku). civs.json fixes the names only. Polities not in civs.json default to "Local / traditional".
+- Map tab labels show at zoom 3 only for populations of 5M or more, and at zoom 4+ for 1M or more (to avoid overlap in Europe).
+- PowerShell 5.1 `Invoke-WebRequest` stalls on big downloads → use `curl` in Bash.
+- phone-view's WebKit engine crashed at launch on 2026-10-27 → use `--engine chrome`.
+- Simulation:
+  - After changing `sim/north-america.mjs`, run `node sim/north-america.mjs`. It rewrites the JSON, but the numbers in brainstorm/sim-north-america.md must be updated by hand.
+  - The log of Claude's reviews is the `REVIEWS` array in the .mjs.
+  - `routeHash()` must run after the `SIMS` and `simOn` declarations in index.html (temporal dead zone).
+  - Chart.js 4.4.1 is loaded on demand from cdnjs.
+  - The palette is the dataviz reference palette, validated on #fffdf8 and #221e19. Three light-mode colors are under 3:1 contrast, so the Table section must stay.
+  - Work category "spare" is labeled "Free time & extra goods".
 
 ## Decisions
-- Folder layout: direction/progress/chat at root, notes in `brainstorm/`, catalog in `data/`, later `story/` for drafts.
-- Time estimates = from the day he starts to working at useful scale, assuming power + workshop, ~1230s Europe, prerequisites done. "From zero" on the site adds the longest prerequisite chain.
-- Time buckets: <2 mo, 3–11 mo, 1–2 yr, 3–5 yr, 6–10 yr, 11–20 yr, 21–50 yr, 50+ yr, colored green → red.
-- Site tabs: Ideas · Map · Notes.
+- D1 · 2026-10-27 · Folder layout: direction, progress and chat at the root; notes in `brainstorm/`; the catalog in `data/`; drafts later go in `story/`.
+- D2 · 2026-10-27 · Time estimates run from the day he starts to working at a useful scale, assuming power and a workshop, ~1230s Europe, and prerequisites done. "From zero" adds the longest prerequisite chain.
+- D3 · 2026-10-27 · Time buckets: <2 mo, 3–11 mo, 1–2 yr, 3–5 yr, 6–10 yr, 11–20 yr, 21–50 yr, 50+ yr, colored green → red.
+- D4 · 2026-10-27 · Repo made **public** because GitHub Pages is free only for public repos ($0 rule).
+- D5 · 2026-10-28 · Site tabs: Home (default) · Ideas · Map · Notes.
+- D6 · 2026-10-28 · Claude picked 6 variations at Tim's request (reasons for leaving out Japan, Chile, Ethiopia and SE Australia are in variations.md).
+- D7 · 2026-10-28 · The simulation lives inside the region view (button → `#<slug>/sim`), not as a new tab, because it's the plainest fit. Tim hasn't reviewed the look.
+- D8 · 2026-10-28 · Simulation method: monthly model + a whole-timeline foresight loop (stops when key numbers move under 1% and no tech date moves over 2 months) + Claude's review rounds against history. Tech dates come out of the model; they're never typed in.
 
 ## NOT verified
 - Prior-art details and 1230s-world facts are from memory, not web-checked.
 - All time estimates are story estimates, not research numbers.
-- Site not yet checked on Tim's real iPhone (Ideas/Notes checked in WebKit 393px; Map only in Chrome engine).
+- The site hasn't been checked on Tim's real iPhone. Ideas and Notes were checked in WebKit at 393 px; Map, Home and Simulation only in the Chrome engine.
 - Place coordinates and "found" dates are approximate, from memory.
-- data/regions/*.json: researched by subagents with ~15 web searches each; almost all 1230 populations are marked "(guess)"; some tonnages are from memory. Coordinates spot-checked by script (valid ranges) and by eye, not each one against a map.
-- Simulation numbers are story estimates: rates (mortality multipliers, labor per ha, tech design times, joining speed) are reasoned, not researched. Native joining speed is the most optimistic part. Not checked on Tim's iPhone.
-- Civilization populations and religions in civs.json are from memory. "Resources" density counts only the ~110 sites in places.json, not a real survey.
+- data/regions/*.json was researched by subagents with ~15 web searches each. Almost all 1230 populations are marked "(guess)", some tonnages are from memory, and coordinates were only spot-checked.
+- Civilization populations and religions in civs.json are from memory. "Resources" density counts only the ~110 sites in places.json.
+- The simulation's rates are reasoned, not researched: mortality multipliers, labor per ha, design times and joining speed. Native joining speed is the most optimistic part.
 
 ## Rejected / parked
-- ~~Heresy/Church risk markers in pure-knowledge.md~~: removed 2026-10-27, Tim said it's getting ahead of ourselves.
+- ~~Heresy and Church risk markers in pure-knowledge.md~~ · 2026-10-27 · Tim said it's getting ahead of ourselves.
+- ~~Question box asking Tim to pick a location~~ · 2026-10-28 · He wants info and /10 ratings instead.
+- ~~Japan, Central Chile, Ethiopia, SE Australia as variations~~ · 2026-10-28 · Lower scores or overlap with others (see variations.md).
+
+## Map
+- `index.html` · the whole site (tabs, Leaflet maps, Notes renderer, Simulation view)
+- `brainstorm/*.md` · the notes (listed in `NOTES` in index.html)
+- `data/` · ideas.json, places.json, civs.json, borders, regions/*.json (one per variation), sim/north-america.json
+- `sim/north-america.mjs` · the simulation model (node ESM, no dependencies)
+- `docs/sim-plan.md` · the simulation plan, with a BUILT section
+- Tests: no test suite. Last checks 2026-10-28: `node --check sim/north-america.mjs` OK; phone-view (Chrome engine) at 393 px on all 8 sim sections and at laptop width on 4; live-check served 9f2c34d.
+- Live: https://timothyhadfield.github.io/alternate-history-story/ · GitHub Pages from `main` of TimothyHadfield/alternate-history-story (public). Every push redeploys.
+- Project path: `C:\Users\timha\OneDrive\Documents\Projects & Hobbies\Alternate History Story`

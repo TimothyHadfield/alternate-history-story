@@ -41,3 +41,4 @@
     - At laptop width (1440×900): People, Techs, Goods and How it was made; the People section fits without scroll.
     - Back from the sim returns to the map.
   - **Open:** simulations for the other 5 variations.
+  - **Checkpoint for a chat reset (Tim: "prapare md files for chat reset"):** progress.md was rewritten into the template sections (Decisions D1–D8, a Map section) and a BUILT section was added to docs/sim-plan.md.

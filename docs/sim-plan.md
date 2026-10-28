@@ -84,3 +84,26 @@ In the North America region view, a **"Simulation"** button opens the charts in 
   - food per person reported
   - the life table sums correctly
 - Site: phone-view at 393 px and at laptop width, with no console errors, no page scroll, and charts visible.
+
+## BUILT 2026-10-28 (commit 9f2c34d)
+- **Shipped as planned:**
+  - model, output, write-up, and the Simulation view (button in the region header, `#north-america/sim`)
+  - 8 chip sections: People, Work, Health, Food, Goods, Techs, How it was made, Table
+  - Chart.js loaded on demand
+- **Where the plan was wrong:**
+  - **Work categories:** 8 (7 jobs plus "Free time & extra goods"), not 7.
+  - **Self-checks:** the model doesn't run explicit checks (stocks ≥ 0, labor never over-spent, life table). These are enforced in the code paths, not asserted.
+  - **The six review rounds found real flaws:**
+    - growth and techs too fast
+    - no machinist teachers
+    - runaway clearing
+    - joining blocked by the cattle gift
+    - scarce cattle
+    - work too light
+
+  They're logged in `REVIEWS`, and on the site under "How it was made".
+- **Converged:** pass 4 (95k → 116k → 118k → 118k settlers in 1282).
+- **Verified:** phone-view (Chrome engine), 2026-10-28.
+  - At 393 px: all 8 sections; no page scroll, no overflow.
+  - At 1440×900: 4 sections.
+  - Back from the sim returns to the map. Live at 9f2c34d.
