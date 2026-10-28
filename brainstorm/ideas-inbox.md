@@ -2,6 +2,9 @@
 
 Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts these into the other files over time.
 
+## 2026-10-27 (after looking at the map)
+- Natural resources look like a big limiting factor, especially if trade stays small. Still worried trade invites invasion. → recap in [homeland.md](homeland.md) "Does trade pay for the risk of war?"
+
 ## 2026-10-27 (later)
 - The ~1230 / Mongol 1241 window is almost the same as *The Cross-Time Engineer*. Should we pick a different date? → [dates-and-series.md](dates-and-series.md)
 - **Series idea:** several stories where people go back to different time periods. → [dates-and-series.md](dates-and-series.md)
