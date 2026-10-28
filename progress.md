@@ -1,7 +1,7 @@
 # progress.md — Alternate History Story
 
 ## START HERE
-Last updated: 2026-10-27
+Last updated: 2026-10-28
 Read order: [direction.md](direction.md) → this file → [chat.md](chat.md) → [brainstorm/](brainstorm/).
 A **writing project** with one small static website (GitHub Pages) that shows the notes. Tim directs; Claude helps brainstorm, organize, research and later draft.
 Live site: https://timothyhadfield.github.io/alternate-history-story/
@@ -31,6 +31,7 @@ Possibilities raised so far (none chosen): a hidden homeland; southern Africa, J
 | Rising to power | [brainstorm/rise-to-power.md](brainstorm/rise-to-power.md) | 10 routes, proofs, by-society table. Prophecy only as one secret proof to one patron |
 | Map modes | [index.html](index.html), [data/civs.json](data/civs.json), data/borders-1200.json, data/borders-1279.json | Map tab: Places · Civilizations · Religion · Population · Resources, year 1200/1279. Borders from aourednik/historical-basemaps (GPL-3.0), simplified with mapshaper to 30%. Religion = state religion of the rulers; populations are rough guesses from memory |
 | Two-stage start | [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md) | Rise-difficulty table, 4 example combinations (possibilities, not a plan) |
+| Location ratings | [brainstorm/location-shortlist.md](brainstorm/location-shortlist.md), [culture-acceptance.md](brainstorm/culture-acceptance.md), [location-factors.md](brainstorm/location-factors.md) | Top 10 rated /10 on resources, settlers, acceptance, safety, then land (water, climate, disasters, food, imports, health, energy, transport, building, room). Latest overall: N. America with settlers 7.8, Britain 6.9, N. America 6.9, southern Africa 6.6. NOT chosen |
 | Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
 | Framing / plot / characters | — | Not started ("figure it out later") |
 
