@@ -136,8 +136,30 @@ main{flex:1;min-width:0;min-height:0;display:flex;flex-direction:column}
 .rov h3{font:700 12px/1 -apple-system,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin:16px 0 6px}
 .rov a{color:var(--accent)}
 .rov ul{margin:0;padding-left:18px;font-size:13px}
-.pin{font-size:20px;line-height:20px;text-align:center;color:#8a1f0f;text-shadow:0 0 3px #fff,0 0 3px #fff}
-.pin.st{font-size:14px;color:#1f4fa0}
+.ricon{display:flex;align-items:center;justify-content:center;line-height:1}
+.ricon .badge{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:#fffdf8;border:2px solid;font-size:14px;box-shadow:0 1px 3px rgba(0,0,0,.35)}
+.ricon .badge.near{border-style:dashed;opacity:.9}
+.ricon.ppl,.ricon.pin{filter:drop-shadow(0 0 2px #fff) drop-shadow(0 1px 2px rgba(0,0,0,.4))}
+.ricon.pin{font-size:22px}
+.rpop{max-width:300px}
+.rbody{position:relative}
+.rcard{display:none;position:absolute;top:10px;width:320px;max-width:none;max-height:calc(100% - 20px);overflow:hidden;z-index:1000;pointer-events:none;
+  background:var(--panel);color:var(--ink);border-radius:12px;padding:10px 12px;box-shadow:0 4px 18px rgba(0,0,0,.3);font-size:14px}
+.rcard b{font:600 16px Georgia,serif}
+.rcard .f{display:block;color:var(--muted);font-size:12px}
+.rimg{margin:0 0 8px}
+.rimg img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:8px;background:var(--chip)}
+.rimg figcaption{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.3}
+.rimg figcaption a{color:var(--muted)}
+.leaflet-popup-content .rimg img{width:280px}
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gal .rimg{margin:0}
+.ph{display:flex;gap:8px;align-items:flex-start}
+.ph .pe{font-size:22px;line-height:1.1}
+.ph b{display:block}
+.rows{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;margin-top:6px;font-size:13px}
+.rows > span:nth-child(odd){color:var(--muted);font-size:12px;white-space:nowrap}
+.leaflet-popup-content .rows > span:nth-child(odd){color:#7a6f62}
 
 /* Phone */
 .tabbar{display:none}
@@ -195,7 +217,7 @@ main{flex:1;min-width:0;min-height:0;display:flex;flex-direction:column}
           <div class="rhead"><button class="bk" id="rback" aria-label="Back">‹</button><div class="t" id="rtitle"></div><button class="pl" id="rplan">Full plan</button></div>
           <div class="chips" id="rchips"></div>
         </div>
-        <div class="rbody"><div id="rmap"></div><div class="rpanel" id="rpanel"></div></div>
+        <div class="rbody"><div id="rmap"></div><div class="rcard rpop" id="rcard"></div><div class="rpanel" id="rpanel"></div></div>
       </div>
     </section>
     <section class="view" id="ideas">
@@ -247,6 +269,7 @@ const NOTES = [
   ["brainstorm/variations/north-america.md","① North America"],["brainstorm/variations/southern-africa.md","② Southern Africa"],
   ["brainstorm/variations/britain.md","③ Britain"],["brainstorm/variations/java.md","④ Java"],
   ["brainstorm/variations/andes.md","⑤ Andes"],["brainstorm/variations/sweden.md","⑥ Sweden"],
+  ["brainstorm/fitting-in-and-conflict.md","Fitting in & keeping peace"],
   ["brainstorm/ideas-inbox.md","Ideas inbox"],["brainstorm/timeline.md","How long things take"],
   ["brainstorm/tech-tree.md","Tech tree"],["brainstorm/chemistry.md","Chemistry"],["brainstorm/tools-that-make-tools.md","Tools that make tools"],
   ["brainstorm/pure-knowledge.md","Pure knowledge"],["brainstorm/long-term-tech.md","Long-term tech"],
@@ -390,14 +413,48 @@ REGION_LIST.forEach(([s]) => fetch(`data/regions/${s}.json`, {cache:"no-cache"})
   .then(d => { if (d){ regions[s] = d; renderCards(); if (cur === s) drawRegion(); } }).catch(() => {}));
 renderCards();
 
+const RT_EMOJI = {Iron:"⚒️",Coal:"🔥",Copper:"🥉",Tin:"🥫",Gold:"🥇",Silver:"🥈",Salt:"🧂",Timber:"🌲",Water:"💧",Stone:"🪨",
+  Clay:"🏺",Lime:"🧱",Fertilizer:"🌱",Food:"🌾",Animals:"🐄",Fish:"🐟",Fiber:"🧶",Chemicals:"⚗️",Oil:"🛢️",Spice:"🌶️",Other:"✳️"};
+// Settlement icon grows with population: hut, house, village, kingdom
+const POP_TIERS = [[5000,"🛖","under 5,000"],[30000,"🏠","5,000–30,000"],[150000,"🏘️","30,000–150,000"],[Infinity,"🏰","150,000+"]];
+const popTier = p => POP_TIERS.find(t => (p || 0) < t[0]);
+const KIND_LABEL = {land:"Land zone",peoples:"People",resources:"Resource",nearby:"Nearby resource",newcomers:"Possible newcomers",neighbors:"Neighbor"};
+function emojiOf(k, x){
+  return k === "peoples" ? popTier(x.pop)[1] : k === "resources" || k === "nearby" ? RT_EMOJI[x.t] || "✳️"
+    : k === "newcomers" ? "🚶" : k === "neighbors" ? "👑" : "⛰️";
+}
 function popHtml(k, x){
-  const head = `<b>${e(x.n)}</b>`;
-  if (k === "land") return head + `<span class="f">${[x.elev, x.rain].filter(Boolean).map(e).join(" · ")}</span><div>${e(x.d)}</div>`;
-  if (k === "peoples") return head + `<span class="f">${e(x.popText)}</span><div><em>${e(x.culture)}</em></div><div>${e(x.d)}</div>`;
-  if (k === "resources" || k === "nearby") return head + `<span class="f">${e(x.t)}${x.km != null ? " · ~" + e(x.km) + " km from the core" : ""}</span>` +
-    `<div>${e(x.qty)}</div><div><em>${e(x.reach)}</em></div><div>${e(x.d)}</div>`;
-  if (k === "newcomers") return head + `<span class="f">${[x.num, x.when, x.fit != null ? "fit " + x.fit + "/10" : ""].filter(Boolean).map(e).join(" · ")}</span><div>${e(x.d)}</div>`;
-  return head + `<span class="f">${e(x.pop)}</span><div>${e(x.d)}</div>`;
+  const rows = k === "land" ? [["Height", x.elev], ["Rain", x.rain], ["What it's like", x.d]]
+    : k === "peoples" ? [["People", x.popText], ["Way of life", x.culture], ["What it means for him", x.d]]
+    : k === "resources" || k === "nearby" ? [["Distance", x.km != null ? `~${x.km} km from the core` : ""], ["How much", x.qty], ["Reachable in 1230?", x.reach], ["Why it matters", x.d]]
+    : k === "newcomers" ? [["How many", x.num], ["When", x.when], ["Fit with locals", x.fit != null ? `${x.fit}/10` : ""], ["Why they'd come", x.d]]
+    : [["Size", x.pop], ["What to know", x.d]];
+  const sub = k === "resources" || k === "nearby" ? `${KIND_LABEL[k]} · ${x.t}` : KIND_LABEL[k];
+  return imgHtml(x.img) + `<div class="ph"><span class="pe">${emojiOf(k, x)}</span><div><b>${e(x.n)}</b><span class="f">${e(sub)}</span></div></div>
+    <div class="rows">${rows.filter(r => r[1] != null && r[1] !== "").map(([a, b]) => `<span>${a}</span><span>${e(b)}</span>`).join("")}</div>`;
+}
+// Photos come from Wikimedia Commons; the credit links to the file page (author + license)
+function imgHtml(m){
+  if (!m || !m.u) return "";
+  return `<figure class="rimg"><img src="${e(m.u)}" alt="${e(m.cap)}" loading="lazy"><figcaption>${e(m.cap)}${m.p ? ` · <a href="${e(m.p)}" target="_blank" rel="noopener">${e(m.c || "credit")}</a>` : ""}</figcaption></figure>`;
+}
+// Region map: hover shows a preview card in the map's far corner (never clipped); tap/click opens the popup
+function rpop(l, html){
+  l.bindPopup(html, {maxWidth:320, autoPanPadding:[10, 10]});
+  if (canHover) l.on("mouseover", ev => {
+    const c = $("#rcard"), w = $("#rmap").clientWidth;
+    c.innerHTML = html; c.style.display = "block";
+    c.style.left = (ev.containerPoint.x < w / 2 ? w - c.offsetWidth - 10 : 10) + "px";
+  }).on("mouseout", () => $("#rcard").style.display = "none").on("click", () => $("#rcard").style.display = "none");
+  return l;
+}
+function iconOf(k, x){
+  if (k === "peoples"){
+    const s = Math.round(16 + 4 * Math.log10(Math.max(x.pop || 0, 100) / 100));
+    return L.divIcon({className:"ricon ppl", html:`<span style="font-size:${s}px">${popTier(x.pop)[1]}</span>`, iconSize:[s + 4, s + 4]});
+  }
+  const ring = k === "resources" || k === "nearby" ? RT_COLORS[x.t] || "#777" : KIND_COLORS[k];
+  return L.divIcon({className:"ricon", html:`<span class="badge${k === "nearby" ? " near" : ""}" style="border-color:${ring}">${emojiOf(k, x)}</span>`, iconSize:[26, 26]});
 }
 function openRegion(s, push = true){
   cur = s; rlayer = "all";
@@ -427,21 +484,19 @@ function drawRegion(){
     if (k === "land"){
       l = L.circle([x.la, x.lo], {radius:(x.r || 50) * 1000, color:KIND_COLORS.land, weight:1, fillColor:"#d6b47a", fillOpacity:.18});
       if (rlayer === "land") l.bindTooltip(e(x.n), {permanent:true, direction:"center", className:"civlbl"});
-    } else if (k === "peoples") l = L.circleMarker([x.la, x.lo], {radius:Math.max(5, Math.min(26, Math.sqrt(x.pop || 0) / 10)), color:"#fff", weight:1, fillColor:KIND_COLORS.peoples, fillOpacity:.65});
-    else if (k === "resources" || k === "nearby") l = L.circleMarker([x.la, x.lo], {radius:k === "nearby" ? 6 : 7, color:k === "nearby" ? "#333" : "#fff", weight:k === "nearby" ? 2 : 1, dashArray:k === "nearby" ? "2 2" : null, fillColor:RT_COLORS[x.t] || "#777", fillOpacity:.95});
-    else if (k === "newcomers"){
-      L.polyline([[x.la, x.lo], [R.core.la, R.core.lo]], {color:KIND_COLORS.newcomers, weight:1 + (x.fit || 5) / 3, opacity:.6, dashArray:"6 5", interactive:false}).addTo(rgroup);
-      l = L.circleMarker([x.la, x.lo], {radius:7, color:"#fff", weight:1, fillColor:KIND_COLORS.newcomers, fillOpacity:.9});
-    } else l = L.circleMarker([x.la, x.lo], {radius:8, color:"#fff", weight:1.5, fillColor:KIND_COLORS.neighbors, fillOpacity:.9});
+    } else {
+      if (k === "newcomers") L.polyline([[x.la, x.lo], [R.core.la, R.core.lo]], {color:KIND_COLORS.newcomers, weight:1 + (x.fit || 5) / 3, opacity:.6, dashArray:"6 5", interactive:false}).addTo(rgroup);
+      l = L.marker([x.la, x.lo], {icon:iconOf(k, x), riseOnHover:true});
+    }
     // Point labels show only once zoomed in (they pile up when zoomed out)
-    if (rlayer !== "land" && (k === "peoples" || k === "neighbors" || (rlayer === k))) l.bindTooltip(e(x.n), {permanent:rlayer !== "all", direction:"right", offset:[6, 0], className:"civlbl rl"});
-    pop(l, `<div class="rpop">${popHtml(k, x)}</div>`).addTo(rgroup);
+    if (rlayer !== "land" && rlayer !== "all") l.bindTooltip(e(x.n), {permanent:true, direction:"right", offset:[10, 0], className:"civlbl rl"});
+    rpop(l, `<div class="rpop">${popHtml(k, x)}</div>`).addTo(rgroup);
     rlist.push({k, x, l});
   }));
-  [["core", "★", ""], ["start", "●", " st"]].forEach(([key, ch, cls]) => {
+  [["core", "⭐", "The core: where the society is built"], ["start", "📍", "Where he arrives"]].forEach(([key, ch, lab]) => {
     const p = R[key]; if (!p || (key === "start" && p.la === R.core.la && p.lo === R.core.lo)) return;
-    pop(L.marker([p.la, p.lo], {icon:L.divIcon({className:"pin" + cls, html:ch, iconSize:[20, 20]})}),
-      `<div class="rpop"><b>${e(p.n)}</b><span class="f">${key === "core" ? "Core" : "Where he arrives"}</span><div>${e(p.d)}</div></div>`).addTo(rgroup);
+    rpop(L.marker([p.la, p.lo], {icon:L.divIcon({className:"ricon pin", html:ch, iconSize:[26, 26]}), zIndexOffset:1000}),
+      `<div class="rpop">${imgHtml(p.img)}<div class="ph"><span class="pe">${ch}</span><div><b>${e(p.n)}</b><span class="f">${lab}</span></div></div><div class="rows"><span>Why here</span><span>${e(p.d)}</span></div></div>`).addTo(rgroup);
   });
   if (rlayer === "all") rleaf.setView(R.view.center, R.view.zoom);
   else { const b = rgroup.getBounds(); if (b.isValid()) rleaf.fitBounds(b, {padding:[30, 30], maxZoom:8}); }
@@ -450,13 +505,18 @@ function drawRegion(){
 function renderRPanel(R){
   const p = $("#rpanel"); p.scrollTop = 0;
   if (rlayer !== "all"){
-    p.innerHTML = rlist.map((it, i) => `<button class="ritem" data-i="${i}">${it.k === "resources" || it.k === "nearby" ? `<i class="d" style="background:${RT_COLORS[it.x.t] || "#777"}"></i>` : `<i class="d" style="background:${KIND_COLORS[it.k]}"></i>`}${popHtml(it.k, it.x)}</button>`).join("")
+    p.innerHTML = rlist.map((it, i) => `<button class="ritem" data-i="${i}">${popHtml(it.k, it.x)}</button>`).join("")
       || `<div class="empty">Nothing listed yet.</div>`;
     return;
   }
-  const key = [["★ core", "#8a1f0f", 1], ["People", KIND_COLORS.peoples], ["Neighbors", KIND_COLORS.neighbors], ["Land zones", "#d6b47a"], ["Resources (by type)", "#cc6f22"]];
+  const types = [...new Set([...(R.resources || []), ...(R.nearby || [])].map(x => x.t))];
+  const key = [["⭐", "Core"], ["📍", "Arrives"], ...POP_TIERS.map(t => [t[1], t[2] + " people"]), ["👑", "Neighbor"], ["🚶", "Newcomers"],
+    ...types.map(t => [RT_EMOJI[t] || "✳️", t])];
+  const gal = R.gallery || [];
   p.innerHTML = `<div class="rov"><p>${e(R.pitch)}</p>
-    <div class="chips" style="flex-wrap:wrap">${key.map(([t, c, star]) => `<span class="chip">${star ? "" : `<i style="background:${c}"></i>`}${t}</span>`).join("")}</div>
+    ${gal.length ? `<h3>What the main sites might have looked like</h3><div class="gal">${gal.map(g => imgHtml(g)).join("")}</div>` : ""}
+    <h3>Map key</h3>
+    <div class="chips" style="flex-wrap:wrap">${key.map(([i, t]) => `<span class="chip">${i} ${e(t)}</span>`).join("")}</div>
     <div class="facts">${(R.facts || []).map(([a, b]) => `<span>${e(a)}</span><span>${e(b)}</span>`).join("")}</div>
     <h3>★ Core</h3><div><b>${e(R.core.n)}</b> · ${e(R.core.d)}</div>
     ${R.start ? `<h3>● Arrives</h3><div><b>${e(R.start.n)}</b> · ${e(R.start.d)}</div>` : ""}

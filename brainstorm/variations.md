@@ -16,6 +16,8 @@ Six of the top 10 were picked, chosen for score **and** for being different from
 | ⑤ | [**Andes: the Organizer**](variations/andes.md) | 5.7 | **Unifier**, through storehouses and organized labor, 200 years before the Inca | **A planned command economy** built from scratch with no outside help |
 | ⑥ | [**Sweden: the Man Behind the Jarl**](variations/sweden.md) | 5.7 | **Secret partner** to Birger Jarl, who rules Sweden from 1248 | **A small, hardy, cold-land state**: iron, timber and immigration |
 
+**See also:** [Fitting in and keeping the peace](fitting-in-and-conflict.md). It covers learning to live as the locals before gaining influence, and the conflict risks when groups move, for each variation.
+
 ## Why these six
 - **They span every way of rising:** founding, marrying in or advising a king, getting rich, serving at court, unifying, and the secret-partner route.
 - **Each has a different main constraint:**
