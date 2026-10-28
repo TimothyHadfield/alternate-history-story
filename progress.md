@@ -32,6 +32,8 @@ Possibilities raised so far (none chosen): a hidden homeland; southern Africa, J
 | Map modes | [index.html](index.html), [data/civs.json](data/civs.json), data/borders-1200.json, data/borders-1279.json | Map tab: Places · Civilizations · Religion · Population · Resources, year 1200/1279. Borders from aourednik/historical-basemaps (GPL-3.0), simplified with mapshaper to 30%. Religion = state religion of the rulers; populations are rough guesses from memory |
 | Two-stage start | [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md) | Rise-difficulty table, 4 example combinations (possibilities, not a plan) |
 | Location ratings | [brainstorm/location-shortlist.md](brainstorm/location-shortlist.md), [culture-acceptance.md](brainstorm/culture-acceptance.md), [location-factors.md](brainstorm/location-factors.md) | Top 10 rated /10 on resources, settlers, acceptance, safety, then land (water, climate, disasters, food, imports, health, energy, transport, building, room), then ease of rising to power. Latest overall: N. America with settlers 7.8, N. America 6.5, Britain 6.2, southern Africa 6.1, Java 6.1. NOT chosen |
+| Six variations | [brainstorm/variations.md](brainstorm/variations.md) + [brainstorm/variations/](brainstorm/variations/) | Claude picked 6 at Tim's request: North America, Southern Africa, Britain, Java, Andes, Sweden. Each is a full plan with its own route to power and way of growing. For comparison; none chosen |
+| Home tab (location maps) | [index.html](index.html) + [data/regions/](data/regions/) | Home = 6 cards → each opens a regional map with Overview · Land · People · Resources · Nearby · Newcomers · Neighbors (list beside the map; tap to fly there). URL hash `#<slug>` opens one directly |
 | Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
 | Framing / plot / characters | — | Not started ("figure it out later") |
 
@@ -56,6 +58,8 @@ Possibilities raised so far (none chosen): a hidden homeland; southern Africa, J
 - `.nojekyll` is required: without it Pages turns .md files into .html and the Notes tab can't fetch them.
 - The site fetches files, so test it through a local server (`python -m http.server <port>`), not file://. Port 8765 is used by another project on this laptop.
 - New brainstorm files need adding to the `NOTES` list in index.html to show on the site.
+- `main` needs `min-height:0`, or on phones a tall view grows past the screen (found when the region panel pushed the page to 1,739 px).
+- Region map point labels show only at zoom ≥ 7 (`#rmap.z-lbl`); below that they pile up.
 - Map tiles: CARTO now shows "API KEY REQUIRED"; using Esri World_Physical_Map (no key, no modern borders, native max zoom 8).
 - The historical-basemaps borders have errors for 1200 (Fatimids, Buyids, Ghaznavids, Liao, Huari and Tiwanaku are shown although they were gone by then). [data/civs.json](data/civs.json) fixes the display names; the shapes are left as they are. Polities not listed in civs.json default to "Local / traditional, population unknown".
 - Map labels: shown at zoom 3 only for populations of 5M or more, and at zoom 4+ for 1M or more (to avoid overlap in Europe).
@@ -73,6 +77,7 @@ Possibilities raised so far (none chosen): a hidden homeland; southern Africa, J
 - All time estimates are story estimates, not research numbers.
 - Site not yet checked on Tim's real iPhone (Ideas/Notes checked in WebKit 393px; Map only in Chrome engine).
 - Place coordinates and "found" dates are approximate, from memory.
+- data/regions/*.json: researched by subagents with ~15 web searches each; almost all 1230 populations are marked "(guess)"; some tonnages are from memory. Coordinates spot-checked by script (valid ranges) and by eye, not each one against a map.
 - Civilization populations and religions in civs.json are from memory. "Resources" density counts only the ~110 sites in places.json, not a real survey.
 
 ## Rejected / parked

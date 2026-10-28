@@ -28,7 +28,7 @@ nav.side{width:190px;flex:none;border-right:1px solid var(--line);padding:18px 1
 nav.side h1{font-size:19px;line-height:1.2;margin:0 0 16px;color:var(--accent)}
 .tabbtn{text-align:left;padding:8px 10px;border-radius:8px;font-weight:600;color:var(--muted)}
 .tabbtn.on{background:var(--sel);color:var(--ink)}
-main{flex:1;min-width:0;display:flex;flex-direction:column}
+main{flex:1;min-width:0;min-height:0;display:flex;flex-direction:column}
 .view{display:none;flex:1;min-height:0}
 .view.on{display:flex}
 
@@ -98,6 +98,46 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
 .civlbl{background:none;border:0;box-shadow:none;padding:0;font-size:11px;font-weight:600;color:#3a2f25;text-shadow:0 0 3px #fff,0 0 3px #fff}
 .civlbl:before{display:none}
 #leaf.z-lo .civlbl,#leaf.z-mid .civlbl:not(.big){display:none}
+#rmap:not(.z-lbl) .civlbl.rl{display:none}
+
+/* Home: one section per location */
+#home{flex-direction:column}
+.cards{flex:1;min-height:0;overflow-y:auto;padding:16px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-content:start}
+.cardh{grid-column:1/-1;margin:0;font-size:22px;color:var(--accent)}
+.card{text-align:left;background:var(--panel);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:3px;transition:transform .12s}
+.card:hover{background:var(--sel)}
+.card:active{transform:scale(.98)}
+.card .nm{display:flex;align-items:baseline;gap:8px;font:600 19px/1.2 Georgia,serif}
+.card .sc{margin-left:auto;font:700 13px/1 -apple-system,sans-serif;padding:3px 7px;border-radius:99px;color:#1d1a16}
+.card .ttl{color:var(--accent);font-style:italic;font-size:14px}
+.card .pt{color:var(--muted);font-size:14px}
+#home.showr .cards{display:none}
+.region{display:none;flex:1;min-height:0;flex-direction:column}
+#home.showr .region{display:flex}
+.rhead{display:flex;align-items:center;gap:10px}
+.rhead .bk{font-size:22px;line-height:1;padding:2px 8px 4px;border-radius:8px;background:var(--chip)}
+.rhead .t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rhead .t b{font:600 18px Georgia,serif}
+.rhead .t span{color:var(--accent);font-style:italic;margin-left:6px}
+.rhead .pl{padding:4px 10px;border-radius:99px;background:var(--chip);font-size:13px;flex:none}
+.rbody{flex:1;min-height:0;display:flex}
+#rmap{flex:1;min-width:0;background:var(--bg)}
+.rpanel{width:390px;flex:none;border-left:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:8px 0 24px}
+.ritem{display:block;width:100%;text-align:left;padding:9px 16px;border-bottom:1px solid var(--line);font-size:14px}
+.ritem:hover,.ritem.on{background:var(--sel)}
+.ritem b,.rpop b{font:600 15px Georgia,serif}
+.ritem .f,.rpop .f{display:block;color:var(--muted);font-size:12px}
+.ritem i.d{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:0}
+.ritem div,.rpop div{margin-top:3px}
+.ritem em,.rpop em{color:var(--muted)}
+.rov{padding:4px 16px}
+.rov p{margin:6px 0 10px}
+.rov .facts{margin:8px 0}
+.rov h3{font:700 12px/1 -apple-system,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin:16px 0 6px}
+.rov a{color:var(--accent)}
+.rov ul{margin:0;padding-left:18px;font-size:13px}
+.pin{font-size:20px;line-height:20px;text-align:center;color:#8a1f0f;text-shadow:0 0 3px #fff,0 0 3px #fff}
+.pin.st{font-size:14px;color:#1f4fa0}
 
 /* Phone */
 .tabbar{display:none}
@@ -125,6 +165,15 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
   .notesel{display:block;margin:10px 12px 0;padding:8px 10px;font:inherit;font-size:15px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
   .doc{padding:8px 16px 30px}
   .doc h1{font-size:23px}
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr));padding:10px 12px;gap:8px}
+  .cardh{font-size:19px}
+  .card{padding:10px 12px}
+  .card .nm{font-size:16px}
+  .card .ttl{font-size:13px}
+  .card .pt{font-size:12.5px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .rbody{flex-direction:column}
+  #rmap{flex:0 0 50%}
+  .rpanel{width:auto;flex:1;min-height:0;border-left:0;border-top:1px solid var(--line)}
 }
 .grab{display:none}
 </style>
@@ -133,12 +182,23 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
 <div class="app">
   <nav class="side">
     <h1>Alternate History Story</h1>
-    <button class="tabbtn on" data-tab="ideas">Ideas</button>
+    <button class="tabbtn on" data-tab="home">Home</button>
+    <button class="tabbtn" data-tab="ideas">Ideas</button>
     <button class="tabbtn" data-tab="map">Map</button>
     <button class="tabbtn" data-tab="notes">Notes</button>
   </nav>
   <main>
-    <section class="view on" id="ideas">
+    <section class="view on" id="home">
+      <div class="cards" id="cards"></div>
+      <div class="region">
+        <div class="top">
+          <div class="rhead"><button class="bk" id="rback" aria-label="Back">‹</button><div class="t" id="rtitle"></div><button class="pl" id="rplan">Full plan</button></div>
+          <div class="chips" id="rchips"></div>
+        </div>
+        <div class="rbody"><div id="rmap"></div><div class="rpanel" id="rpanel"></div></div>
+      </div>
+    </section>
+    <section class="view" id="ideas">
       <div class="top">
         <div class="strip" id="strip"></div>
         <div class="chips" id="chips"></div>
@@ -159,7 +219,8 @@ main{flex:1;min-width:0;display:flex;flex-direction:column}
     </section>
   </main>
   <div class="tabbar">
-    <button class="tabbtn on" data-tab="ideas">Ideas</button>
+    <button class="tabbtn on" data-tab="home">Home</button>
+    <button class="tabbtn" data-tab="ideas">Ideas</button>
     <button class="tabbtn" data-tab="map">Map</button>
     <button class="tabbtn" data-tab="notes">Notes</button>
   </div>
@@ -296,13 +357,129 @@ $("#detail").onclick = e => {
 $("#sheetbg").onclick = closeSheet;
 
 // Tabs
-document.querySelectorAll(".tabbtn").forEach(b => b.onclick = () => {
-  document.querySelectorAll(".tabbtn").forEach(x => x.classList.toggle("on", x.dataset.tab === b.dataset.tab));
-  document.querySelectorAll(".view").forEach(v => v.classList.toggle("on", v.id === b.dataset.tab));
+function showTab(t){
+  document.querySelectorAll(".tabbtn").forEach(x => x.classList.toggle("on", x.dataset.tab === t));
+  document.querySelectorAll(".view").forEach(v => v.classList.toggle("on", v.id === t));
   closeSheet();
-  if (b.dataset.tab === "notes" && !$("#doc").innerHTML) openNote(NOTES[0][0]);
-  if (b.dataset.tab === "map") showMap();
+  if (t === "notes" && !$("#doc").innerHTML) openNote(NOTES[0][0]);
+  if (t === "map") showMap();
+  if (t === "home" && rleaf) rleaf.invalidateSize();
+}
+document.querySelectorAll(".tabbtn").forEach(b => b.onclick = () => showTab(b.dataset.tab));
+
+// Home: one section per location, each with its own detailed map (data/regions/<slug>.json)
+const REGION_LIST = [["north-america","① North America","The Atlantic Exodus",7.8],["southern-africa","② Southern Africa","The Rainmaker's Kingdom",6.1],
+  ["britain","③ Britain","The Merchant Inside",6.2],["java","④ Java","The Spice-Sea Empire",6.1],
+  ["andes","⑤ Andes","The Organizer",5.7],["sweden","⑥ Sweden","The Man Behind the Jarl",5.7]];
+const RLAYERS = [["all","Overview"],["land","Land"],["peoples","People"],["resources","Resources"],["nearby","Nearby"],["newcomers","Newcomers"],["neighbors","Neighbors"]];
+const RT_COLORS = {Iron:"#9c3d2e",Coal:"#2b2b2b",Copper:"#d07a3a",Tin:"#6b8fa3",Gold:"#e0b000",Silver:"#8e9aa6",Salt:"#b9c4cc",
+  Timber:"#3f7d3a",Water:"#2f8fd0",Stone:"#8d8273",Clay:"#b5651d",Lime:"#cfc4a0",Fertilizer:"#9bbf3a",Food:"#6aa84f",Animals:"#a0522d",
+  Fish:"#1f6fd1",Fiber:"#c9a0b8",Chemicals:"#7aa83a",Oil:"#5a3f8c",Spice:"#c2185b",Other:"#777"};
+const KIND_COLORS = {land:"#a07a3c",peoples:"#00a7b5",newcomers:"#9b6bc4",neighbors:"#c0504f"};
+const regions = {};
+let cur = null, rlayer = "all", rleaf = null, rgroup = null, rlist = [], rpushed = false;
+const e = v => esc(String(v ?? ""));
+const scoreColor = s => BUCKET_COLORS[Math.max(0, Math.min(7, Math.round((7.8 - s) * 2.2)))];
+
+function renderCards(){
+  $("#cards").innerHTML = `<h2 class="cardh">Six variations</h2>` + REGION_LIST.map(([s, n, t, sc]) => `<button class="card" data-s="${s}">
+    <span class="nm">${n}<span class="sc" style="background:${scoreColor(sc)}">${sc}</span></span>
+    <span class="ttl">${t}</span><span class="pt">${e(regions[s]?.pitch)}</span></button>`).join("");
+}
+REGION_LIST.forEach(([s]) => fetch(`data/regions/${s}.json`, {cache:"no-cache"}).then(r => r.ok ? r.json() : null)
+  .then(d => { if (d){ regions[s] = d; renderCards(); if (cur === s) drawRegion(); } }).catch(() => {}));
+renderCards();
+
+function popHtml(k, x){
+  const head = `<b>${e(x.n)}</b>`;
+  if (k === "land") return head + `<span class="f">${[x.elev, x.rain].filter(Boolean).map(e).join(" · ")}</span><div>${e(x.d)}</div>`;
+  if (k === "peoples") return head + `<span class="f">${e(x.popText)}</span><div><em>${e(x.culture)}</em></div><div>${e(x.d)}</div>`;
+  if (k === "resources" || k === "nearby") return head + `<span class="f">${e(x.t)}${x.km != null ? " · ~" + e(x.km) + " km from the core" : ""}</span>` +
+    `<div>${e(x.qty)}</div><div><em>${e(x.reach)}</em></div><div>${e(x.d)}</div>`;
+  if (k === "newcomers") return head + `<span class="f">${[x.num, x.when, x.fit != null ? "fit " + x.fit + "/10" : ""].filter(Boolean).map(e).join(" · ")}</span><div>${e(x.d)}</div>`;
+  return head + `<span class="f">${e(x.pop)}</span><div>${e(x.d)}</div>`;
+}
+function openRegion(s, push = true){
+  cur = s; rlayer = "all";
+  $("#home").classList.add("showr");
+  if (push){ history.pushState(null, "", "#" + s); rpushed = true; }
+  if (!rleaf){
+    rleaf = L.map("rmap", {zoomControl:!matchMedia("(max-width:860px)").matches, zoomSnap:0.5});
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 10, maxNativeZoom: 8, attribution: "Tiles &copy; Esri &mdash; US National Park Service"}).addTo(rleaf);
+    const zl = () => $("#rmap").classList.toggle("z-lbl", rleaf.getZoom() >= 7);
+    rleaf.on("zoomend", zl); rleaf.whenReady(zl);
+  }
+  rleaf.invalidateSize();
+  drawRegion();
+}
+function closeRegion(){ cur = null; $("#home").classList.remove("showr"); }
+function drawRegion(){
+  const R = regions[cur], meta = REGION_LIST.find(r => r[0] === cur);
+  $("#rtitle").innerHTML = `<b>${meta[1]}</b><span>${meta[2]}</span>`;
+  $("#rchips").innerHTML = RLAYERS.map(([k, t]) => `<button class="chip${rlayer === k ? " on" : ""}" data-k="${k}">${t}${k !== "all" && R?.[k] ? " · " + R[k].length : ""}</button>`).join("");
+  if (rgroup){ rgroup.remove(); rgroup = null; }
+  if (!R){ $("#rpanel").innerHTML = `<div class="empty">Map data for this location is still being researched.</div>`; rleaf.setView([20, 0], 2); return; }
+  rgroup = L.featureGroup().addTo(rleaf); rlist = [];
+  const kinds = rlayer === "all" ? ["land","peoples","resources","neighbors"] : [rlayer];
+  kinds.forEach(k => (R[k] || []).forEach(x => {
+    let l;
+    if (k === "land"){
+      l = L.circle([x.la, x.lo], {radius:(x.r || 50) * 1000, color:KIND_COLORS.land, weight:1, fillColor:"#d6b47a", fillOpacity:.18});
+      if (rlayer === "land") l.bindTooltip(e(x.n), {permanent:true, direction:"center", className:"civlbl"});
+    } else if (k === "peoples") l = L.circleMarker([x.la, x.lo], {radius:Math.max(5, Math.min(26, Math.sqrt(x.pop || 0) / 10)), color:"#fff", weight:1, fillColor:KIND_COLORS.peoples, fillOpacity:.65});
+    else if (k === "resources" || k === "nearby") l = L.circleMarker([x.la, x.lo], {radius:k === "nearby" ? 6 : 7, color:k === "nearby" ? "#333" : "#fff", weight:k === "nearby" ? 2 : 1, dashArray:k === "nearby" ? "2 2" : null, fillColor:RT_COLORS[x.t] || "#777", fillOpacity:.95});
+    else if (k === "newcomers"){
+      L.polyline([[x.la, x.lo], [R.core.la, R.core.lo]], {color:KIND_COLORS.newcomers, weight:1 + (x.fit || 5) / 3, opacity:.6, dashArray:"6 5", interactive:false}).addTo(rgroup);
+      l = L.circleMarker([x.la, x.lo], {radius:7, color:"#fff", weight:1, fillColor:KIND_COLORS.newcomers, fillOpacity:.9});
+    } else l = L.circleMarker([x.la, x.lo], {radius:8, color:"#fff", weight:1.5, fillColor:KIND_COLORS.neighbors, fillOpacity:.9});
+    // Point labels show only once zoomed in (they pile up when zoomed out)
+    if (rlayer !== "land" && (k === "peoples" || k === "neighbors" || (rlayer === k))) l.bindTooltip(e(x.n), {permanent:rlayer !== "all", direction:"right", offset:[6, 0], className:"civlbl rl"});
+    pop(l, `<div class="rpop">${popHtml(k, x)}</div>`).addTo(rgroup);
+    rlist.push({k, x, l});
+  }));
+  [["core", "★", ""], ["start", "●", " st"]].forEach(([key, ch, cls]) => {
+    const p = R[key]; if (!p || (key === "start" && p.la === R.core.la && p.lo === R.core.lo)) return;
+    pop(L.marker([p.la, p.lo], {icon:L.divIcon({className:"pin" + cls, html:ch, iconSize:[20, 20]})}),
+      `<div class="rpop"><b>${e(p.n)}</b><span class="f">${key === "core" ? "Core" : "Where he arrives"}</span><div>${e(p.d)}</div></div>`).addTo(rgroup);
+  });
+  if (rlayer === "all") rleaf.setView(R.view.center, R.view.zoom);
+  else { const b = rgroup.getBounds(); if (b.isValid()) rleaf.fitBounds(b, {padding:[30, 30], maxZoom:8}); }
+  renderRPanel(R);
+}
+function renderRPanel(R){
+  const p = $("#rpanel"); p.scrollTop = 0;
+  if (rlayer !== "all"){
+    p.innerHTML = rlist.map((it, i) => `<button class="ritem" data-i="${i}">${it.k === "resources" || it.k === "nearby" ? `<i class="d" style="background:${RT_COLORS[it.x.t] || "#777"}"></i>` : `<i class="d" style="background:${KIND_COLORS[it.k]}"></i>`}${popHtml(it.k, it.x)}</button>`).join("")
+      || `<div class="empty">Nothing listed yet.</div>`;
+    return;
+  }
+  const key = [["★ core", "#8a1f0f", 1], ["People", KIND_COLORS.peoples], ["Neighbors", KIND_COLORS.neighbors], ["Land zones", "#d6b47a"], ["Resources (by type)", "#cc6f22"]];
+  p.innerHTML = `<div class="rov"><p>${e(R.pitch)}</p>
+    <div class="chips" style="flex-wrap:wrap">${key.map(([t, c, star]) => `<span class="chip">${star ? "" : `<i style="background:${c}"></i>`}${t}</span>`).join("")}</div>
+    <div class="facts">${(R.facts || []).map(([a, b]) => `<span>${e(a)}</span><span>${e(b)}</span>`).join("")}</div>
+    <h3>★ Core</h3><div><b>${e(R.core.n)}</b> · ${e(R.core.d)}</div>
+    ${R.start ? `<h3>● Arrives</h3><div><b>${e(R.start.n)}</b> · ${e(R.start.d)}</div>` : ""}
+    ${(R.sources || []).length ? `<h3>Sources</h3><ul>${R.sources.map(([t, u]) => /^https?:/.test(u) ? `<li><a href="${e(u)}" target="_blank" rel="noopener">${e(t)}</a></li>` : `<li>${e(t)}</li>`).join("")}</ul>` : ""}
+    <h3>Note</h3><div class="meta">Populations of 1230 are mostly guesses. Resource sizes are modern surveys; "1230" lines say what could actually be reached then.</div></div>`;
+}
+$("#cards").onclick = ev => { const c = ev.target.closest(".card"); if (c) openRegion(c.dataset.s); };
+$("#rback").onclick = () => rpushed ? history.back() : closeRegion();
+$("#rplan").onclick = () => { showTab("notes"); openNote(`brainstorm/variations/${cur}.md`); };
+$("#rchips").onclick = ev => { const c = ev.target.closest(".chip"); if (!c) return; rlayer = c.dataset.k; drawRegion(); };
+$("#rpanel").onclick = ev => {
+  const b = ev.target.closest(".ritem"); if (!b) return;
+  const it = rlist[+b.dataset.i];
+  document.querySelectorAll(".ritem").forEach(x => x.classList.toggle("on", x === b));
+  const ll = it.l.getLatLng();
+  rleaf.flyTo(ll, Math.max(rleaf.getZoom(), it.k === "land" ? 6 : 7), {duration:.6});
+  rleaf.once("moveend", () => it.l.openPopup(ll));
+};
+addEventListener("popstate", () => {
+  const s = location.hash.slice(1);
+  if (REGION_LIST.some(r => r[0] === s)){ showTab("home"); openRegion(s, false); } else { rpushed = false; closeRegion(); }
 });
+{ const s = location.hash.slice(1); if (REGION_LIST.some(r => r[0] === s)) openRegion(s, false); }
 
 // Map
 const PLACE_COLORS = {Homeland:"#8a4b16",Gold:"#e0b000",Silver:"#8e9aa6",Iron:"#9c3d2e",Coal:"#2b2b2b",Copper:"#d07a3a",
