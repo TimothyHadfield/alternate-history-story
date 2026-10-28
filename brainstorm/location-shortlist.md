@@ -22,6 +22,20 @@ Scores 1–5, higher is better.
 | **9** | **Southeast Australia** | **5** | 0 | 1 | **5** | 4 | 1 | **New Zealand** |
 | **10** | **Central Chile** | 4 | 1 | 2 | **5** | 3 | 1 | **Peru** |
 
+### Overall rating out of 10
+| # | Site (with its best second site) | /10 |
+|---|---|---|
+| 1 | Southern Africa highveld (+ Cape, later Australia) | **9** |
+| 2 | Java + Australia | **8** |
+| 3 | Japan (+ Hokkaido) | **7** |
+| 4 | Britain | **7** |
+| 5 | Andes (+ Mexico / Central America) | **6** |
+| 6 | North America (alone; **8** if people and animals are brought in) | **6** |
+| 7 | Ethiopian highlands | **5** |
+| 8 | Sweden | **5** |
+| 9 | Southeast Australia (+ New Zealand) | **4** |
+| 10 | Central Chile | **4** |
+
 *Left out on purpose:* **Song China** has the most people and the most advanced craft industry on Earth, but a foreigner can't rise there, and it is the Mongols' next target.
 
 ### One line on each
