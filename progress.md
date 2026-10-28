@@ -7,7 +7,8 @@ A **writing project** with one small static website (GitHub Pages) that shows th
 Live site: https://timothyhadfield.github.io/alternate-history-story/
 
 ## Goal right now
-Brainstorm and organize **inventions and procedures**, plus resources, trade and where to build. Location and time period not chosen yet. Tim floated a **hidden, protected homeland** (Americas, Indonesia, Africa, Australia); Claude recommended **southern Africa highveld (Mapungubwe, ~1220s)** with a "walled garden with one gate" trade strategy, runners-up Japan and North America. NOT chosen by Tim. Tim then proposed a **two-stage start** (rise somewhere, then move); he likes Mongol refugees and Fibonacci. Claude now leans toward **plan A: Frederick II's court and Pisa (~1220–1241) → lead the Mongol refugees (Cumans, Hungarians) by fleet → North America**, with plan B (around Africa to the highveld) as the alternative. See [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md). NOT chosen.
+**Exploring possibilities. NOTHING about the story is decided**: not the location, time period, hero, government, route to power or plot. Tim, 2026-10-27: "We don't really have specifics about a plan, just looking through possibilities."
+Possibilities raised so far (none chosen): a hidden homeland; southern Africa, Japan or North America; a two-stage start (rise at a court, then move); Mongol refugees; Fibonacci and Frederick II; a founder-led government with feedback systems. Talk about these as options ("one possibility"), never as "our plan" or "the hero does X".
 
 ## Status
 | Piece | File | State |
@@ -25,11 +26,11 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 | Resources + who got rich | [brainstorm/resources.md](brainstorm/resources.md) + [data/places.json](data/places.json) | First draft; ~110 places on the site's Map tab |
 | Trade & wealth | [brainstorm/trade-and-wealth.md](brainstorm/trade-and-wealth.md) | First draft; `t` field in ideas.json = trade value (💰 filter) |
 | Long-term tech (10–100 yrs) | [brainstorm/long-term-tech.md](brainstorm/long-term-tech.md) | First draft; 30 long-term items added to ideas.json (141 total) |
-| Government | [brainstorm/government.md](brainstorm/government.md) | Tim's model: total founder authority + built-in local feedback, bad-news reporting, trained successor / power-sharing fallback. Claude agreed. |
+| Government | [brainstorm/government.md](brainstorm/government.md) | Options explored, including Tim's idea of total power plus feedback systems and a successor. Not decided |
 | Population | [brainstorm/population.md](brainstorm/population.md) | Max births + max immigration, never letting food/housing per person fall |
 | Rising to power | [brainstorm/rise-to-power.md](brainstorm/rise-to-power.md) | 10 routes, proofs, by-society table. Prophecy only as one secret proof to one patron |
 | Map modes | [index.html](index.html), [data/civs.json](data/civs.json), data/borders-1200.json, data/borders-1279.json | Map tab: Places · Civilizations · Religion · Population · Resources, year 1200/1279. Borders from aourednik/historical-basemaps (GPL-3.0), simplified with mapshaper to 30%. Religion = state religion of the rulers; populations are rough guesses from memory |
-| Two-stage start | [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md) | Rise-difficulty table, 4 combined plans, plan A timeline |
+| Two-stage start | [brainstorm/two-stage-start.md](brainstorm/two-stage-start.md) | Rise-difficulty table, 4 example combinations (possibilities, not a plan) |
 | Events 1200–1350 | [brainstorm/events-1200s.md](brainstorm/events-1200s.md) | First draft |
 | Framing / plot / characters | — | Not started ("figure it out later") |
 
@@ -37,12 +38,13 @@ Brainstorm and organize **inventions and procedures**, plus resources, trade and
 - 2026-10-27: keep brainstorming and organizing with Tim; keep the site updated with the notes. No story prose until he asks.
 
 ## Standing instructions (Tim's words)
+- "your notes on what we have right now are really wrong. It seems like we brought up some ideas and now are assuming that they are what we're doing. We don't really have specifics about a plan, just looking through possibilities." (2026-10-27) → Everything is an option until Tim says he's chosen it. Don't write "our plan", "plan A", "the hero will", or "settled".
 - "Right now just help me brainstorm and write down my thoughts and organize them with me."
 - "the best improvements are simple things that nobody thought about but have massive implications."
 - How he got sent back: "this part doesn't really matter much so let's figure it out later."
 - On heresy/Church talk: "That's getting ahead of ourselves. We don't even know for sure what location we're being dropped off in ... Let's focus on the inventions and procedures first." → No religion/politics/plot risks for now.
-- The leader "isn't going to die for a long time, but the leader will still be considering it as a possibility in their plan."
-- Population: "maximum population growth as well as maximum immigration while maintaining positive growth."
+- If the hero leads: "the leader isn't going to die for a long time, but the leader will still be considering it as a possibility in their plan." (an idea, not a decision)
+- Population idea: "maximum population growth as well as maximum immigration while maintaining positive growth." (an idea, not a decision)
 - Predicting events: "I don't love the predicting events thing; it's kind of a cliche ... not repeatable." OK only as one proof to a single powerful person he reveals the truth to.
 
 ## Traps

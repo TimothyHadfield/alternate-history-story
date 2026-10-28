@@ -9,7 +9,7 @@ Raw ideas from Tim, newest at the top. Nothing here is decided. Claude sorts the
 - Likes **people escaping the Mongols** and **interacting with Fibonacci**, but other location factors may outweigh them. → [two-stage-start.md](two-stage-start.md)
 
 ## 2026-10-27 (seventh message)
-- Problems with total power are mostly poor leadership: fix with a system connected to local needs, encouraged bad-news reporting, a trained successor or power distributed after death. Leader lives long but plans for death. → [government.md](government.md) "Tim's model"
+- Problems with total power are mostly poor leadership: fix with a system connected to local needs, encouraged bad-news reporting, a trained successor or power distributed after death. Leader lives long but plans for death. → [government.md](government.md) "Tim's idea"
 - Maximum population growth + maximum immigration while keeping growth positive. → [population.md](population.md)
 - How a modern person rises to power in different 1200s societies: math proofs, technology, influence. Dislikes prediction (cliché, god-like, not repeatable) except as a single proof to one powerful person. → [rise-to-power.md](rise-to-power.md)
 

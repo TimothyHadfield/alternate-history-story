@@ -2,10 +2,10 @@
 
 Tim (2026-10-27): "explore types of governments that would be best to speedrun growth and development both in population and technology and every other metric while I'm in charge. I'd say complete power to me would be best because I know best ... I also suspect some sort of maybe socialism could be good to provide people with food, healthcare, education, etc. ... I imagine essentially everyone would work for the government and because the things we're producing are so significant we could spend the excess money on research and exploration."
 
-## Tim's model (2026-10-27, his follow-up)
+## Tim's idea (2026-10-27, his follow-up; one option, not decided)
 "it seems like a lot of the problems with total power related to poor leadership. ... If I set up a system that was very good at connecting to local's needs and details, I encouraged bad news reporting, and I trained a successor ... or I set up a system where the power is distributed when I die ... maybe the whole system would work well." Also: **the leader won't die for a long time, but he plans for it anyway.**
 
-**Claude's take: agreed. Most failures of total power are design and leadership failures, and the hero can design around them.** His model = **a founder with total final authority, plus built-in systems that do what markets and democracy normally do:**
+**Claude's take: it's workable. Most failures of total power are design and leadership failures, and a leader could design around them.** The idea is **a founder with total final authority, plus built-in systems that do what markets and democracy normally do:**
 | Problem | His fix |
 |---|---|
 | Can't see local detail | Local governors with real freedom + statistics offices + petitions that reach him |
@@ -68,7 +68,7 @@ These pay for themselves many times over:
 - **State-owned "model factories"** that private copycats then spread (Japan did this in the 1870s: build it, prove it, sell it off).
 - **Competition between teams** (two rival steel works, two rival schools) to keep the speed up.
 
-**Fun fit:** the **Inca Empire** was nearly Tim's model: no money, a labor tax instead of a money tax, state storehouses full of food and cloth, everyone fed. It worked well for a while. It also collapsed instantly when its leader was captured. (Relevant if the story ends up in the Andes.)
+**Fun fit:** the **Inca Empire** was close to Tim's idea: no money, a labor tax instead of a money tax, state storehouses full of food and cloth, everyone fed. It worked well for a while. It also collapsed instantly when its leader was captured. (Relevant if the story ends up in the Andes.)
 
 ## How fast can population grow?
 - Medieval Europe grew ~0.1–0.5% a year. With food, health and peace, **2–3% a year** is possible (Kenya and others reached 3–4% in the 1900s).

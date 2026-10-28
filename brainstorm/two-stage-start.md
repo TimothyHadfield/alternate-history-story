@@ -2,6 +2,8 @@
 
 Tim (2026-10-27): "I'm thinking about the location more and taking into account difficulty to rise to power should also be known. Also maybe we should explore the idea of starting in one place and then travelling to the long-term place to grow influence. I like the idea of the people escaping the mongols or interacting with fibinacci but that might not be the best idea due to other locatoinal factors."
 
+*Exploring possibilities. Nothing here is decided.*
+
 ## Short answer
 **Two stages solve the biggest problem with the hidden homeland.** The places that are good to *build* in (hidden and rich) are hard places for a lone stranger to *rise* in. The places that are easy to rise in (rich courts that hire foreign experts) are bad places to build, because they are crowded with powerful rivals.
 
@@ -58,7 +60,7 @@ The Mongols are a perfect *deadline* for stage 1 and a perfect *recruiting event
 | **C. Persian exodus** | Persia (Khwarazm) 1219, fleeing the Mongols | Hormuz → the **monsoon winds** to Kilwa / Sofala on an *existing* trade route | **Southern Africa highveld** | Realistic, but no Fibonacci and an earlier start |
 | **D. One stage** | Arrive straight at Mapungubwe | — | Southern Africa | Hardest climb, alone and with nothing |
 
-### Why plan A changes my earlier pick
+### How plan A would change the homeland comparison
 Before, I ranked North America third because of its **slow start**: no iron, no horses or oxen, no wheat, few people. **Stage 1 fixes all of these.** The refugee fleet *brings* the horses, cattle, wheat, iron-workers and people. What's left is the land with the best resources on Earth: Pittsburgh coal and iron, Lake Superior copper, oil, the Mississippi river network and the best farmland in the world. It stays hidden for 250+ years, and the interior stays safe even longer.
 
 New problems it creates:
@@ -75,7 +77,7 @@ Plan B or C still works well. Mapungubwe *already* has iron, cattle (cowpox) and
 - Frederick could be **the one person told the truth** (Tim's single-prediction exception). He is curious, sceptical and loves experiments, so he'd want proof.
 - Frederick's court is the **climb**, not the home: Europe is too crowded with rival powers to build the hidden state there.
 
-## Suggested timeline for plan A
+## Example timeline, if plan A were picked
 | Year | Stage |
 |---|---|
 | ~1220 | Arrives in southern Italy or Pisa. Survives and learns the language. First small, repeatable proofs |
