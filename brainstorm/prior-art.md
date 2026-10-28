@@ -21,6 +21,11 @@ The genre goes by "**time-travel uplift**", "**Connecticut Yankee**" stories, or
 - **How to Invent Everything** — Ryan North, 2018. Written as a guide for a stranded time traveler. Literally our research book.
 - **The Knowledge: How to Rebuild Civilization in the Aftermath of a Cataclysm** — Lewis Dartnell, 2014.
 
+## The Cross-Time Engineer vs. our story (2026-10-27, plot from memory)
+- **Same:** the year 1231, the Mongols arriving in 1241 as the deadline, an engineer industrializing fast, rising through a local lord as patron.
+- **Different:** Conrad stays in crowded Poland and fights the Mongols head-on with weapons. Ours climbs at a court, then leaves for a hidden homeland with refugees (plan A in [two-stage-start.md](two-stage-start.md)), and favors simple ideas, government design and population over weapons.
+- **Lessons:** readers liked the clever, realistic engineering. They disliked the hero's treatment of women and the "lone genius" feel. Our hero builds systems and people, not just machines.
+
 ## What's been done to death vs. open space
 - Done a lot: guns and cannons win wars; the hero is a lone genius; the Church as villain.
 - **Less explored (possible angles for us):**
